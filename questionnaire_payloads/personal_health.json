@@ -1,1 +1,655 @@
-{"resourceType":"Questionnaire","id":"217","version":"5","status":"published","date":"2016-10-17T16:51:35-04:00","publisher":"admin","group":{"linkId":"root","title":"personal health habits","required":true,"repeats":false,"group":[{"linkId":"1","group":[{"linkId":"1.1","question":[{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"¿Ha fumado al menos 100 cigarrillos en su vida?"}]}],"linkId":"1.1.1","text":"have you smoked at least 100 cigarettes in your entire life?","type":"choice","option":[{"code":"yes","display":"yes"},{"code":"no","display":"no"},{"code":"don't know/prefer to not answer","display":"don't know/prefer to not answer"}]}]},{"linkId":"1.2","question":[{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"¿Actualmente fuma cigarrillos todos los días, algunos días, nunca?"}]}],"linkId":"1.2.1","text":"do you now smoke cigarettes every day, some days, or not at all?","type":"choice","option":[{"code":"every day","display":"every day"},{"code":"some days","display":"some days"},{"code":"not at all","display":"not at all"},{"code":"don't know/prefer to not answer","display":"don't know/prefer to not answer"}]}]},{"linkId":"1.3","question":[{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"¿Ha habido algún periodo en su vida en el que usted haya fumado cigarrillos TODOS los días por 6 meses o más?"}]}],"linkId":"1.3.1","text":"have your EVER smoked cigarettes EVERY DAY for at least 6 months?","type":"choice","option":[{"code":"yes","display":"yes"},{"code":"no","display":"no"},{"code":"don't know/prefer to not answer","display":"don't know/prefer to not answer"}]}]},{"linkId":"1.4","question":[{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Ingrese un número de 1 a 99"}]}],"linkId":"1.4.1","text":"number of cigarettes per day","type":"integer"}]},{"linkId":"1.5","question":[{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"¿De los pasados 30 días, qué cantidad de días ha fumado?"}]}],"linkId":"1.5.1","text":"On how many of the past 30 days did you smoke cigarettes?","type":"integer"}]},{"linkId":"1.6","question":[{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"¿Como promedio, durante esos días, cuántos cigarrillos fumó por día?"}]}],"linkId":"1.6.1","text":"On the average, on those days, how many cigarettes did you usually smoke each day?","type":"integer"},{"linkId":"1.6.2","text":"Pick your answer from the following choices","type":"choice","option":[{"code":"don't know","display":"don't know"},{"code":"prefer not to answer","display":"prefer not to answer"}]}]},{"linkId":"1.7","question":[{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Ingrese un número de 1 al 99"}]}],"linkId":"1.7.1","text":"number of cigarettes per day","type":"integer"},{"linkId":"1.7.2","text":"Pick your answer from the following choices","type":"choice","option":[{"code":"don't know","display":"don't know"},{"code":"prefer to not answer","display":"prefer to not answer"}]}]},{"linkId":"1.8","question":[{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"ingrese un número de 1 al 99"}]}],"linkId":"1.8.1","text":"age","type":"integer"},{"linkId":"1.8.2","text":"Pick your answer from the following choices","type":"choice","option":[{"code":"don't know","display":"don't know"},{"code":"prefer to not answer","display":"prefer to not answer"}]}]},{"linkId":"1.9","question":[{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"¿Está considerando dejar de fumar en los próximimos 6 meses?"}]}],"linkId":"1.9.1","text":"Are you considering quitting smoking during the next 6 months?","type":"choice","option":[{"code":"yes, plan to stop within the next 30 days","display":"yes, plan to stop within the next 30 days"},{"code":"yes, plan to stop within the next 6 months, but not within the next 30 days","display":"yes, plan to stop within the next 6 months, but not within the next 30 days"},{"code":"no, but thinking of quitting in the next 6 months","display":"no, but thinking of quitting in the next 6 months"}]}]},{"linkId":"1.10","question":[{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"¿En el pasado, ha hecho un serio intento de dejar de fumar? (¿O sea, se ha abstenido de fumar por un día o más intentando dejar el hábito?)"}]}],"linkId":"1.10.1","text":"In the past, have you ever made a serious attempt to quit smoking? That is, have you stopped smoking for at least one day or longer because you were trying to quit?","type":"choice","option":[{"code":"yes","display":"yes"},{"code":"no","display":"no"}]}]},{"linkId":"1.11","question":[{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"¿Cuál ha sido el periodo de tiempo más largo que se ha abstenido de fumar intentando dejar el hábito?"}]}],"linkId":"1.11.1","text":"What was the longest length of time you stopped smoking because you were trying to quit?","type":"choice","option":[{"code":"less than 1 week","display":"less than 1 week"},{"code":"1 to 3 weeks","display":"1 to 3 weeks"},{"code":"1 to 2 months","display":"1 to 2 months"},{"code":"3 to 11 months","display":"3 to 11 months"},{"code":"1 to 4 years","display":"1 to 4 years"},{"code":"5 to 9 years","display":"5 to 9 years"},{"code":"10 years or more","display":"10 years or more"}]}]},{"linkId":"1.12","question":[{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Ingrese un número de 1 al 99"}]}],"linkId":"1.12.1","text":"age stopped smoking","type":"integer"}]},{"linkId":"1.13","question":[{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"¿La última vez que dejó de fumar, utilizó alguno de los siguientes productos? Marque cada uno de los que utilizó."}]}],"linkId":"1.13.1","text":"Thinking of the most recent time you quit smoking, did you use any of the following products?","type":"choice","option":[{"code":"nicotine gum","display":"nicotine gum"},{"code":"nicotine patch","display":"nicotine patch"},{"code":"nicotine nasal spray, inhaler, lozenge, or tablet","display":"nicotine nasal spray, inhaler, lozenge, or tablet"},{"code":"prescription pill such as Buproprion (Zyban, Wellbutrin, or Varenicline (Chantix)","display":"prescription pill such as Buproprion (Zyban, Wellbutrin, or Varenicline (Chantix)"},{"code":"none of these","display":"none of these"}]}]},{"linkId":"1.14"},{"linkId":"1.15","question":[{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"¿Alguna vez durante su vida ha consumido una bebida alcohólica de cualquier tipo, no incluyendo un sorbo o pequeña prueba?"}]}],"linkId":"1.15.1","text":"In your entire life, have you had at least 1 drink of any kind of alcohol, not counting small tastes or sips?","type":"choice","option":[{"code":"yes","display":"yes"},{"code":"no","display":"no"}]}]},{"linkId":"1.16","question":[{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Ingrese número de 1 a 30"}]}],"linkId":"1.16.1","text":"number of days","type":"integer"},{"linkId":"1.16.2","type":"choice","option":[{"code":"don't know","display":"don't know"},{"code":"prefer not to answer","display":"prefer not to answer"}]}]},{"linkId":"1.17","question":[{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Ingrese un número de 1 a 90"}]}],"linkId":"1.17.1","text":"number of days","type":"integer"},{"linkId":"1.17.2","text":"Pick your answer from the following choices","type":"choice","option":[{"code":"don't know","display":"don't know"},{"code":"prefer not to answer","display":"prefer not to answer"}]}]},{"linkId":"1.18","question":[{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Ingrese un número de 1 a 99"}]}],"linkId":"1.18.1","text":"age","type":"integer"}]}]}]}}
+{  
+   "resourceType":"Questionnaire",
+   "id":"217",
+   "version":"5",
+   "status":"published",
+   "date":"2016-10-17T16:51:35-04:00",
+   "publisher":"admin",
+   "group":{  
+      "linkId":"root",
+      "title":"personal health habits",
+      "required":true,
+      "repeats":false,
+      "group":[  
+         {  
+            "linkId":"1",
+            "group":[  
+               {  
+                  "linkId":"1.1",
+                  "question":[  
+                     {  
+                        "extension":[  
+                           {  
+                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
+                              "extension":[  
+                                 {  
+                                    "url":"lang",
+                                    "valueCode":"es"
+                                 },
+                                 {  
+                                    "url":"content",
+                                    "valueString":"¿Ha fumado al menos 100 cigarrillos en su vida?"
+                                 }
+                              ]
+                           }
+                        ],
+                        "linkId":"1.1.1",
+                        "text":"have you smoked at least 100 cigarettes in your entire life?",
+                        "type":"choice",
+                        "option":[  
+                           {  
+                              "code":"yes",
+                              "display":"yes"
+                           },
+                           {  
+                              "code":"no",
+                              "display":"no"
+                           },
+                           {  
+                              "code":"don't know/prefer to not answer",
+                              "display":"don't know/prefer to not answer"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "linkId":"1.2",
+                  "question":[  
+                     {  
+                        "extension":[  
+                           {  
+                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
+                              "extension":[  
+                                 {  
+                                    "url":"lang",
+                                    "valueCode":"es"
+                                 },
+                                 {  
+                                    "url":"content",
+                                    "valueString":"¿Actualmente fuma cigarrillos todos los días, algunos días, nunca?"
+                                 }
+                              ]
+                           }
+                        ],
+                        "linkId":"1.2.1",
+                        "text":"do you now smoke cigarettes every day, some days, or not at all?",
+                        "type":"choice",
+                        "option":[  
+                           {  
+                              "code":"every day",
+                              "display":"every day"
+                           },
+                           {  
+                              "code":"some days",
+                              "display":"some days"
+                           },
+                           {  
+                              "code":"not at all",
+                              "display":"not at all"
+                           },
+                           {  
+                              "code":"don't know/prefer to not answer",
+                              "display":"don't know/prefer to not answer"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "linkId":"1.3",
+                  "question":[  
+                     {  
+                        "extension":[  
+                           {  
+                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
+                              "extension":[  
+                                 {  
+                                    "url":"lang",
+                                    "valueCode":"es"
+                                 },
+                                 {  
+                                    "url":"content",
+                                    "valueString":"¿Ha habido algún periodo en su vida en el que usted haya fumado cigarrillos TODOS los días por 6 meses o más?"
+                                 }
+                              ]
+                           }
+                        ],
+                        "linkId":"1.3.1",
+                        "text":"have your EVER smoked cigarettes EVERY DAY for at least 6 months?",
+                        "type":"choice",
+                        "option":[  
+                           {  
+                              "code":"yes",
+                              "display":"yes"
+                           },
+                           {  
+                              "code":"no",
+                              "display":"no"
+                           },
+                           {  
+                              "code":"don't know/prefer to not answer",
+                              "display":"don't know/prefer to not answer"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "linkId":"1.4",
+                  "question":[  
+                     {  
+                        "extension":[  
+                           {  
+                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
+                              "extension":[  
+                                 {  
+                                    "url":"lang",
+                                    "valueCode":"es"
+                                 },
+                                 {  
+                                    "url":"content",
+                                    "valueString":"Ingrese un número de 1 a 99"
+                                 }
+                              ]
+                           }
+                        ],
+                        "linkId":"1.4.1",
+                        "text":"number of cigarettes per day",
+                        "type":"integer"
+                     }
+                  ]
+               },
+               {  
+                  "linkId":"1.5",
+                  "question":[  
+                     {  
+                        "extension":[  
+                           {  
+                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
+                              "extension":[  
+                                 {  
+                                    "url":"lang",
+                                    "valueCode":"es"
+                                 },
+                                 {  
+                                    "url":"content",
+                                    "valueString":"¿De los pasados 30 días, qué cantidad de días ha fumado?"
+                                 }
+                              ]
+                           }
+                        ],
+                        "linkId":"1.5.1",
+                        "text":"On how many of the past 30 days did you smoke cigarettes?",
+                        "type":"integer"
+                     }
+                  ]
+               },
+               {  
+                  "linkId":"1.6",
+                  "question":[  
+                     {  
+                        "extension":[  
+                           {  
+                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
+                              "extension":[  
+                                 {  
+                                    "url":"lang",
+                                    "valueCode":"es"
+                                 },
+                                 {  
+                                    "url":"content",
+                                    "valueString":"¿Como promedio, durante esos días, cuántos cigarrillos fumó por día?"
+                                 }
+                              ]
+                           }
+                        ],
+                        "linkId":"1.6.1",
+                        "text":"On the average, on those days, how many cigarettes did you usually smoke each day?",
+                        "type":"integer"
+                     },
+                     {  
+                        "linkId":"1.6.2",
+                        "text":"Pick your answer from the following choices",
+                        "type":"choice",
+                        "option":[  
+                           {  
+                              "code":"don't know",
+                              "display":"don't know"
+                           },
+                           {  
+                              "code":"prefer not to answer",
+                              "display":"prefer not to answer"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "linkId":"1.7",
+                  "question":[  
+                     {  
+                        "extension":[  
+                           {  
+                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
+                              "extension":[  
+                                 {  
+                                    "url":"lang",
+                                    "valueCode":"es"
+                                 },
+                                 {  
+                                    "url":"content",
+                                    "valueString":"Ingrese un número de 1 al 99"
+                                 }
+                              ]
+                           }
+                        ],
+                        "linkId":"1.7.1",
+                        "text":"number of cigarettes per day",
+                        "type":"integer"
+                     },
+                     {  
+                        "linkId":"1.7.2",
+                        "text":"Pick your answer from the following choices",
+                        "type":"choice",
+                        "option":[  
+                           {  
+                              "code":"don't know",
+                              "display":"don't know"
+                           },
+                           {  
+                              "code":"prefer to not answer",
+                              "display":"prefer to not answer"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "linkId":"1.8",
+                  "question":[  
+                     {  
+                        "extension":[  
+                           {  
+                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
+                              "extension":[  
+                                 {  
+                                    "url":"lang",
+                                    "valueCode":"es"
+                                 },
+                                 {  
+                                    "url":"content",
+                                    "valueString":"ingrese un número de 1 al 99"
+                                 }
+                              ]
+                           }
+                        ],
+                        "linkId":"1.8.1",
+                        "text":"age",
+                        "type":"integer"
+                     },
+                     {  
+                        "linkId":"1.8.2",
+                        "text":"Pick your answer from the following choices",
+                        "type":"choice",
+                        "option":[  
+                           {  
+                              "code":"don't know",
+                              "display":"don't know"
+                           },
+                           {  
+                              "code":"prefer to not answer",
+                              "display":"prefer to not answer"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "linkId":"1.9",
+                  "question":[  
+                     {  
+                        "extension":[  
+                           {  
+                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
+                              "extension":[  
+                                 {  
+                                    "url":"lang",
+                                    "valueCode":"es"
+                                 },
+                                 {  
+                                    "url":"content",
+                                    "valueString":"¿Está considerando dejar de fumar en los próximimos 6 meses?"
+                                 }
+                              ]
+                           }
+                        ],
+                        "linkId":"1.9.1",
+                        "text":"Are you considering quitting smoking during the next 6 months?",
+                        "type":"choice",
+                        "option":[  
+                           {  
+                              "code":"yes, plan to stop within the next 30 days",
+                              "display":"yes, plan to stop within the next 30 days"
+                           },
+                           {  
+                              "code":"yes, plan to stop within the next 6 months, but not within the next 30 days",
+                              "display":"yes, plan to stop within the next 6 months, but not within the next 30 days"
+                           },
+                           {  
+                              "code":"no, but thinking of quitting in the next 6 months",
+                              "display":"no, but thinking of quitting in the next 6 months"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "linkId":"1.10",
+                  "question":[  
+                     {  
+                        "extension":[  
+                           {  
+                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
+                              "extension":[  
+                                 {  
+                                    "url":"lang",
+                                    "valueCode":"es"
+                                 },
+                                 {  
+                                    "url":"content",
+                                    "valueString":"¿En el pasado, ha hecho un serio intento de dejar de fumar? (¿O sea, se ha abstenido de fumar por un día o más intentando dejar el hábito?)"
+                                 }
+                              ]
+                           }
+                        ],
+                        "linkId":"1.10.1",
+                        "text":"In the past, have you ever made a serious attempt to quit smoking? That is, have you stopped smoking for at least one day or longer because you were trying to quit?",
+                        "type":"choice",
+                        "option":[  
+                           {  
+                              "code":"yes",
+                              "display":"yes"
+                           },
+                           {  
+                              "code":"no",
+                              "display":"no"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "linkId":"1.11",
+                  "question":[  
+                     {  
+                        "extension":[  
+                           {  
+                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
+                              "extension":[  
+                                 {  
+                                    "url":"lang",
+                                    "valueCode":"es"
+                                 },
+                                 {  
+                                    "url":"content",
+                                    "valueString":"¿Cuál ha sido el periodo de tiempo más largo que se ha abstenido de fumar intentando dejar el hábito?"
+                                 }
+                              ]
+                           }
+                        ],
+                        "linkId":"1.11.1",
+                        "text":"What was the longest length of time you stopped smoking because you were trying to quit?",
+                        "type":"choice",
+                        "option":[  
+                           {  
+                              "code":"less than 1 week",
+                              "display":"less than 1 week"
+                           },
+                           {  
+                              "code":"1 to 3 weeks",
+                              "display":"1 to 3 weeks"
+                           },
+                           {  
+                              "code":"1 to 2 months",
+                              "display":"1 to 2 months"
+                           },
+                           {  
+                              "code":"3 to 11 months",
+                              "display":"3 to 11 months"
+                           },
+                           {  
+                              "code":"1 to 4 years",
+                              "display":"1 to 4 years"
+                           },
+                           {  
+                              "code":"5 to 9 years",
+                              "display":"5 to 9 years"
+                           },
+                           {  
+                              "code":"10 years or more",
+                              "display":"10 years or more"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "linkId":"1.12",
+                  "question":[  
+                     {  
+                        "extension":[  
+                           {  
+                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
+                              "extension":[  
+                                 {  
+                                    "url":"lang",
+                                    "valueCode":"es"
+                                 },
+                                 {  
+                                    "url":"content",
+                                    "valueString":"Ingrese un número de 1 al 99"
+                                 }
+                              ]
+                           }
+                        ],
+                        "linkId":"1.12.1",
+                        "text":"age stopped smoking",
+                        "type":"integer"
+                     }
+                  ]
+               },
+               {  
+                  "linkId":"1.13",
+                  "question":[  
+                     {  
+                        "extension":[  
+                           {  
+                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
+                              "extension":[  
+                                 {  
+                                    "url":"lang",
+                                    "valueCode":"es"
+                                 },
+                                 {  
+                                    "url":"content",
+                                    "valueString":"¿La última vez que dejó de fumar, utilizó alguno de los siguientes productos? Marque cada uno de los que utilizó."
+                                 }
+                              ]
+                           }
+                        ],
+                        "linkId":"1.13.1",
+                        "text":"Thinking of the most recent time you quit smoking, did you use any of the following products?",
+                        "type":"choice",
+                        "option":[  
+                           {  
+                              "code":"nicotine gum",
+                              "display":"nicotine gum"
+                           },
+                           {  
+                              "code":"nicotine patch",
+                              "display":"nicotine patch"
+                           },
+                           {  
+                              "code":"nicotine nasal spray, inhaler, lozenge, or tablet",
+                              "display":"nicotine nasal spray, inhaler, lozenge, or tablet"
+                           },
+                           {  
+                              "code":"prescription pill such as Buproprion (Zyban, Wellbutrin, or Varenicline (Chantix)",
+                              "display":"prescription pill such as Buproprion (Zyban, Wellbutrin, or Varenicline (Chantix)"
+                           },
+                           {  
+                              "code":"none of these",
+                              "display":"none of these"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "linkId":"1.14"
+               },
+               {  
+                  "linkId":"1.15",
+                  "question":[  
+                     {  
+                        "extension":[  
+                           {  
+                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
+                              "extension":[  
+                                 {  
+                                    "url":"lang",
+                                    "valueCode":"es"
+                                 },
+                                 {  
+                                    "url":"content",
+                                    "valueString":"¿Alguna vez durante su vida ha consumido una bebida alcohólica de cualquier tipo, no incluyendo un sorbo o pequeña prueba?"
+                                 }
+                              ]
+                           }
+                        ],
+                        "linkId":"1.15.1",
+                        "text":"In your entire life, have you had at least 1 drink of any kind of alcohol, not counting small tastes or sips?",
+                        "type":"choice",
+                        "option":[  
+                           {  
+                              "code":"yes",
+                              "display":"yes"
+                           },
+                           {  
+                              "code":"no",
+                              "display":"no"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "linkId":"1.16",
+                  "question":[  
+                     {  
+                        "extension":[  
+                           {  
+                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
+                              "extension":[  
+                                 {  
+                                    "url":"lang",
+                                    "valueCode":"es"
+                                 },
+                                 {  
+                                    "url":"content",
+                                    "valueString":"Ingrese número de 1 a 30"
+                                 }
+                              ]
+                           }
+                        ],
+                        "linkId":"1.16.1",
+                        "text":"number of days",
+                        "type":"integer"
+                     },
+                     {  
+                        "linkId":"1.16.2",
+                        "type":"choice",
+                        "option":[  
+                           {  
+                              "code":"don't know",
+                              "display":"don't know"
+                           },
+                           {  
+                              "code":"prefer not to answer",
+                              "display":"prefer not to answer"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "linkId":"1.17",
+                  "question":[  
+                     {  
+                        "extension":[  
+                           {  
+                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
+                              "extension":[  
+                                 {  
+                                    "url":"lang",
+                                    "valueCode":"es"
+                                 },
+                                 {  
+                                    "url":"content",
+                                    "valueString":"Ingrese un número de 1 a 90"
+                                 }
+                              ]
+                           }
+                        ],
+                        "linkId":"1.17.1",
+                        "text":"number of days",
+                        "type":"integer"
+                     },
+                     {  
+                        "linkId":"1.17.2",
+                        "text":"Pick your answer from the following choices",
+                        "type":"choice",
+                        "option":[  
+                           {  
+                              "code":"don't know",
+                              "display":"don't know"
+                           },
+                           {  
+                              "code":"prefer not to answer",
+                              "display":"prefer not to answer"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {  
+                  "linkId":"1.18",
+                  "question":[  
+                     {  
+                        "extension":[  
+                           {  
+                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
+                              "extension":[  
+                                 {  
+                                    "url":"lang",
+                                    "valueCode":"es"
+                                 },
+                                 {  
+                                    "url":"content",
+                                    "valueString":"Ingrese un número de 1 a 99"
+                                 }
+                              ]
+                           }
+                        ],
+                        "linkId":"1.18.1",
+                        "text":"age",
+                        "type":"integer"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}
