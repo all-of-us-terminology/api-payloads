@@ -1,173 +1,200 @@
-{  
-   "resourceType":"Questionnaire",
-   "id":"206",
-   "version":"12",
-   "status":"published",
-   "date":"2016-10-17T16:12:30-04:00",
-   "publisher":"admin",
-   "group":{  
-      "linkId":"root",
-      "title":"demographics",
-      "required":true,
-      "repeats":false,
-      "group":[  
-         {  
-            "linkId":"1",
-            "group":[  
-               {  
-                  "linkId":"1.1",
-                  "question":[  
-                     {  
-                        "linkId":"1.1.1",
-                        "text":"Birth Date",
-                        "type":"date"
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.2",
-                  "question":[  
-                     {  
-                        "linkId":"1.2.1",
-                        "text":"Please provide whatever you feel comfortable providing. These are optional - Race",
-                        "type":"choice",
-                        "option":[  
-                           {  
-                              "code":"American Indian or Alaskan Native",
-                              "display":"American Indian or Alaskan Native"
-                           },
-                           {  
-                              "code":"Asian",
-                              "display":"Asian"
-                           },
-                           {  
-                              "code":"Black or African American",
-                              "display":"Black or African American"
-                           },
-                           {  
-                              "code":"Native Hawaiian or Pacific Islander",
-                              "display":"Native Hawaiian or Pacific Islander"
-                           },
-                           {  
-                              "code":"White",
-                              "display":"White"
-                           },
-                           {  
-                              "code":"Other",
-                              "display":"Other"
-                           },
-                           {  
-                              "code":"Prefer not to answer",
-                              "display":"Prefer not to answer"
-                           }
-                        ]
-                     },
-                     {  
-                        "linkId":"1.2.2",
-                        "text":"Please provide whatever you feel comfortable providing. These are optional - Ethnicity",
-                        "type":"choice",
-                        "option":[  
-                           {  
-                              "code":"1",
-                              "display":"Answer Choice 1"
-                           },
-                           {  
-                              "code":"2",
-                              "display":"Option 2"
-                           },
-                           {  
-                              "code":"3",
-                              "display":"Option 3"
-                           }
-                        ]
-                     },
-                     {  
-                        "linkId":"1.2.3",
-                        "text":"Please provide whatever you feel comfortable providing. These are optional- Gender",
-                        "type":"choice",
-                        "option":[  
-                           {  
-                              "code":"Female",
-                              "display":"Female"
-                           },
-                           {  
-                              "code":"Female to Male Transgender",
-                              "display":"Female to Male Transgender   "
-                           },
-                           {  
-                              "code":"Male",
-                              "display":"Male"
-                           },
-                           {  
-                              "code":"Male to Female Transgender",
-                              "display":"Male to Female Transgender"
-                           },
-                           {  
-                              "code":"Intersex",
-                              "display":"Intersex"
-                           },
-                           {  
-                              "code":"Other",
-                              "display":"Other"
-                           },
-                           {  
-                              "code":"Prefer not to answer",
-                              "display":"Prefer not to answer"
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.3",
-                  "question":[  
-                     {  
-                        "extension":[  
-                           {  
-                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
-                              "extension":[  
-                                 {  
-                                    "url":"lang",
-                                    "valueCode":"es"
-                                 },
-                                 {  
-                                    "url":"content",
-                                    "valueString":"Favor ingresar su código postal"
-                                 }
-                              ]
-                           }
+{
+    "date": "2016-10-17T16:12:30-04:00",
+    "group": {
+        "group": [
+            {
+                "linkId": "1.1",
+                "question": [
+                    {
+                        "_text": {
+                            "extension": [
+                                {
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "linkId": "1.1.1",
+                        "text": "Birth Date",
+                        "type": "date"
+                    }
+                ]
+            },
+            {
+                "linkId": "1.2",
+                "question": [
+                    {
+                        "_text": {
+                            "extension": [
+                                {
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "linkId": "1.2.1",
+                        "option": [
+                            {
+                                "code": "American Indian or Alaskan Native",
+                                "display": "American Indian or Alaskan Native"
+                            },
+                            {
+                                "code": "Asian",
+                                "display": "Asian"
+                            },
+                            {
+                                "code": "Black or African American",
+                                "display": "Black or African American"
+                            },
+                            {
+                                "code": "Native Hawaiian or Pacific Islander",
+                                "display": "Native Hawaiian or Pacific Islander"
+                            },
+                            {
+                                "code": "White",
+                                "display": "White"
+                            },
+                            {
+                                "code": "Other",
+                                "display": "Other"
+                            },
+                            {
+                                "code": "Prefer not to answer",
+                                "display": "Prefer not to answer"
+                            }
                         ],
-                        "linkId":"1.3.1",
-                        "text":"Please provide your zip code.",
-                        "type":"text"
-                     },
-                     {  
-                        "extension":[  
-                           {  
-                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
-                              "extension":[  
-                                 {  
-                                    "url":"lang",
-                                    "valueCode":"es"
-                                 },
-                                 {  
-                                    "url":"content",
-                                    "valueString":"código postal"
-                                 }
-                              ]
-                           }
+                        "text": "Please provide whatever you feel comfortable providing. These are optional - Race",
+                        "type": "choice"
+                    },
+                    {
+                        "_text": {
+                            "extension": [
+                                {
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "linkId": "1.2.2",
+                        "option": [
+                            {
+                                "code": "1",
+                                "display": "Answer Choice 1"
+                            },
+                            {
+                                "code": "2",
+                                "display": "Option 2"
+                            },
+                            {
+                                "code": "3",
+                                "display": "Option 3"
+                            }
                         ],
-                        "linkId":"1.3.2",
-                        "text":"zip code",
-                        "type":"integer"
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.4"
-               }
-            ]
-         }
-      ]
-   }
+                        "text": "Please provide whatever you feel comfortable providing. These are optional - Ethnicity",
+                        "type": "choice"
+                    },
+                    {
+                        "_text": {
+                            "extension": [
+                                {
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "linkId": "1.2.3",
+                        "option": [
+                            {
+                                "code": "Female",
+                                "display": "Female"
+                            },
+                            {
+                                "code": "Female to Male Transgender",
+                                "display": "Female to Male Transgender   "
+                            },
+                            {
+                                "code": "Male",
+                                "display": "Male"
+                            },
+                            {
+                                "code": "Male to Female Transgender",
+                                "display": "Male to Female Transgender"
+                            },
+                            {
+                                "code": "Intersex",
+                                "display": "Intersex"
+                            },
+                            {
+                                "code": "Other",
+                                "display": "Other"
+                            },
+                            {
+                                "code": "Prefer not to answer",
+                                "display": "Prefer not to answer"
+                            }
+                        ],
+                        "text": "Please provide whatever you feel comfortable providing. These are optional- Gender",
+                        "type": "choice"
+                    }
+                ]
+            },
+            {
+                "linkId": "1.3",
+                "question": [
+                    {
+                        "_text": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                                            "valueString": "Favor ingresar su c\u00f3digo postal"
+                                        }
+                                    ],
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "linkId": "1.3.1",
+                        "text": "Please provide your zip code.",
+                        "type": "text"
+                    },
+                    {
+                        "_text": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                                            "valueString": "c\u00f3digo postal"
+                                        }
+                                    ],
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "linkId": "1.3.2",
+                        "text": "zip code",
+                        "type": "integer"
+                    }
+                ]
+            },
+            {
+                "linkId": "1.4"
+            }
+        ],
+        "linkId": "1",
+        "repeats": false,
+        "required": true,
+        "title": "demographics"
+    },
+    "id": "206",
+    "publisher": "admin",
+    "resourceType": "Questionnaire",
+    "status": "published",
+    "version": "12"
 }

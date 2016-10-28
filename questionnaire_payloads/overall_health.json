@@ -1,702 +1,725 @@
-{  
-   "resourceType":"Questionnaire",
-   "id":"215",
-   "version":"3",
-   "status":"published",
-   "date":"2016-10-12T13:42:01-04:00",
-   "publisher":"admin",
-   "group":{  
-      "linkId":"root",
-      "title":"overall health",
-      "required":true,
-      "repeats":false,
-      "group":[  
-         {  
-            "linkId":"1",
-            "group":[  
-               {  
-                  "linkId":"1.1",
-                  "question":[  
-                     {  
-                        "extension":[  
-                           {  
-                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
-                              "extension":[  
-                                 {  
-                                    "url":"lang",
-                                    "valueCode":"es"
-                                 },
-                                 {  
-                                    "url":"content",
-                                    "valueString":"¿En general, diría usted que su estado de salud es...?"
-                                 }
-                              ]
-                           }
+{
+    "date": "2016-10-12T13:42:01-04:00",
+    "group": {
+        "group": [
+            {
+                "linkId": "1.1",
+                "question": [
+                    {
+                        "_text": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                                            "valueString": "\u00bfEn general, dir\u00eda usted que su estado de salud es...?"
+                                        }
+                                    ],
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "linkId": "1.1.1",
+                        "option": [
+                            {
+                                "code": "excellent",
+                                "display": "excellent"
+                            },
+                            {
+                                "code": "very good",
+                                "display": "very good"
+                            },
+                            {
+                                "code": "good",
+                                "display": "good"
+                            },
+                            {
+                                "code": "fair",
+                                "display": "fair"
+                            },
+                            {
+                                "code": "poor",
+                                "display": "poor"
+                            }
                         ],
-                        "linkId":"1.1.1",
-                        "text":"In general, would you say your health is:",
-                        "type":"choice",
-                        "option":[  
-                           {  
-                              "code":"excellent",
-                              "display":"excellent"
-                           },
-                           {  
-                              "code":"very good",
-                              "display":"very good"
-                           },
-                           {  
-                              "code":"good",
-                              "display":"good"
-                           },
-                           {  
-                              "code":"fair",
-                              "display":"fair"
-                           },
-                           {  
-                              "code":"poor",
-                              "display":"poor"
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.2"
-               },
-               {  
-                  "linkId":"1.3",
-                  "question":[  
-                     {  
-                        "extension":[  
-                           {  
-                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
-                              "extension":[  
-                                 {  
-                                    "url":"lang",
-                                    "valueCode":"es"
-                                 },
-                                 {  
-                                    "url":"content",
-                                    "valueString":"¿En general, diría usted que su calidad de vida es...?"
-                                 }
-                              ]
-                           }
+                        "text": "In general, would you say your health is:",
+                        "type": "choice"
+                    }
+                ]
+            },
+            {
+                "linkId": "1.2"
+            },
+            {
+                "linkId": "1.3",
+                "question": [
+                    {
+                        "_text": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                                            "valueString": "\u00bfEn general, dir\u00eda usted que su calidad de vida es...?"
+                                        }
+                                    ],
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "linkId": "1.3.1",
+                        "option": [
+                            {
+                                "code": "excellent",
+                                "display": "excellent"
+                            },
+                            {
+                                "code": "very good",
+                                "display": "very good"
+                            },
+                            {
+                                "code": "good",
+                                "display": "good"
+                            },
+                            {
+                                "code": "fair",
+                                "display": "fair"
+                            },
+                            {
+                                "code": "poor",
+                                "display": "poor"
+                            }
                         ],
-                        "linkId":"1.3.1",
-                        "text":"In general, would you say your quality of life is:",
-                        "type":"choice",
-                        "option":[  
-                           {  
-                              "code":"excellent",
-                              "display":"excellent"
-                           },
-                           {  
-                              "code":"very good",
-                              "display":"very good"
-                           },
-                           {  
-                              "code":"good",
-                              "display":"good"
-                           },
-                           {  
-                              "code":"fair",
-                              "display":"fair"
-                           },
-                           {  
-                              "code":"poor",
-                              "display":"poor"
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.4",
-                  "question":[  
-                     {  
-                        "extension":[  
-                           {  
-                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
-                              "extension":[  
-                                 {  
-                                    "url":"lang",
-                                    "valueCode":"es"
-                                 },
-                                 {  
-                                    "url":"content",
-                                    "valueString":"¿En general, cómo calificaría su salud física?"
-                                 }
-                              ]
-                           }
+                        "text": "In general, would you say your quality of life is:",
+                        "type": "choice"
+                    }
+                ]
+            },
+            {
+                "linkId": "1.4",
+                "question": [
+                    {
+                        "_text": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                                            "valueString": "\u00bfEn general, c\u00f3mo calificar\u00eda su salud f\u00edsica?"
+                                        }
+                                    ],
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "linkId": "1.4.1",
+                        "option": [
+                            {
+                                "code": "excellent",
+                                "display": "excellent"
+                            },
+                            {
+                                "code": "very good",
+                                "display": "very good"
+                            },
+                            {
+                                "code": "good",
+                                "display": "good"
+                            },
+                            {
+                                "code": "fair",
+                                "display": "fair"
+                            },
+                            {
+                                "code": "poor",
+                                "display": "poor"
+                            }
                         ],
-                        "linkId":"1.4.1",
-                        "text":"In general, how would you rate your physical health?",
-                        "type":"choice",
-                        "option":[  
-                           {  
-                              "code":"excellent",
-                              "display":"excellent"
-                           },
-                           {  
-                              "code":"very good",
-                              "display":"very good"
-                           },
-                           {  
-                              "code":"good",
-                              "display":"good"
-                           },
-                           {  
-                              "code":"fair",
-                              "display":"fair"
-                           },
-                           {  
-                              "code":"poor",
-                              "display":"poor"
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.5",
-                  "question":[  
-                     {  
-                        "extension":[  
-                           {  
-                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
-                              "extension":[  
-                                 {  
-                                    "url":"lang",
-                                    "valueCode":"es"
-                                 },
-                                 {  
-                                    "url":"content",
-                                    "valueString":"¿En general, cómo calificaría su salud mental, incluyendo su estado de ánimo y su capacidad de pensamiento?"
-                                 }
-                              ]
-                           }
+                        "text": "In general, how would you rate your physical health?",
+                        "type": "choice"
+                    }
+                ]
+            },
+            {
+                "linkId": "1.5",
+                "question": [
+                    {
+                        "_text": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                                            "valueString": "\u00bfEn general, c\u00f3mo calificar\u00eda su salud mental, incluyendo su estado de \u00e1nimo y su capacidad de pensamiento?"
+                                        }
+                                    ],
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "linkId": "1.5.1",
+                        "option": [
+                            {
+                                "code": "excellent",
+                                "display": "excellent"
+                            },
+                            {
+                                "code": "very good",
+                                "display": "very good"
+                            },
+                            {
+                                "code": "good",
+                                "display": "good"
+                            },
+                            {
+                                "code": "fair",
+                                "display": "fair"
+                            },
+                            {
+                                "code": "poor",
+                                "display": "poor"
+                            }
                         ],
-                        "linkId":"1.5.1",
-                        "text":"In general how would you rate your mental health, including your mood and ability to think?",
-                        "type":"choice",
-                        "option":[  
-                           {  
-                              "code":"excellent",
-                              "display":"excellent"
-                           },
-                           {  
-                              "code":"very good",
-                              "display":"very good"
-                           },
-                           {  
-                              "code":"good",
-                              "display":"good"
-                           },
-                           {  
-                              "code":"fair",
-                              "display":"fair"
-                           },
-                           {  
-                              "code":"poor",
-                              "display":"poor"
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.6",
-                  "question":[  
-                     {  
-                        "extension":[  
-                           {  
-                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
-                              "extension":[  
-                                 {  
-                                    "url":"lang",
-                                    "valueCode":"es"
-                                 },
-                                 {  
-                                    "url":"content",
-                                    "valueString":"¿En general, cómo calificaría su satisfacción con su vida social y sus relaciones?"
-                                 }
-                              ]
-                           }
+                        "text": "In general how would you rate your mental health, including your mood and ability to think?",
+                        "type": "choice"
+                    }
+                ]
+            },
+            {
+                "linkId": "1.6",
+                "question": [
+                    {
+                        "_text": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                                            "valueString": "\u00bfEn general, c\u00f3mo calificar\u00eda su satisfacci\u00f3n con su vida social y sus relaciones?"
+                                        }
+                                    ],
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "linkId": "1.6.1",
+                        "option": [
+                            {
+                                "code": "excellent",
+                                "display": "excellent"
+                            },
+                            {
+                                "code": "very good",
+                                "display": "very good"
+                            },
+                            {
+                                "code": "good",
+                                "display": "good"
+                            },
+                            {
+                                "code": "fair",
+                                "display": "fair"
+                            },
+                            {
+                                "code": "poor",
+                                "display": "poor"
+                            }
                         ],
-                        "linkId":"1.6.1",
-                        "text":"In general, how would you rate your satisfaction with your social activities and relationships?",
-                        "type":"choice",
-                        "option":[  
-                           {  
-                              "code":"excellent",
-                              "display":"excellent"
-                           },
-                           {  
-                              "code":"very good",
-                              "display":"very good"
-                           },
-                           {  
-                              "code":"good",
-                              "display":"good"
-                           },
-                           {  
-                              "code":"fair",
-                              "display":"fair"
-                           },
-                           {  
-                              "code":"poor",
-                              "display":"poor"
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.7",
-                  "question":[  
-                     {  
-                        "extension":[  
-                           {  
-                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
-                              "extension":[  
-                                 {  
-                                    "url":"lang",
-                                    "valueCode":"es"
-                                 },
-                                 {  
-                                    "url":"content",
-                                    "valueString":"¿En qué medida puede llevar a cabo actividades físicas diarias tales como caminar, subir escaleras, cargar la compra, o mover una silla?"
-                                 }
-                              ]
-                           }
+                        "text": "In general, how would you rate your satisfaction with your social activities and relationships?",
+                        "type": "choice"
+                    }
+                ]
+            },
+            {
+                "linkId": "1.7",
+                "question": [
+                    {
+                        "_text": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                                            "valueString": "\u00bfEn qu\u00e9 medida puede llevar a cabo actividades f\u00edsicas diarias tales como caminar, subir escaleras, cargar la compra, o mover una silla?"
+                                        }
+                                    ],
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "linkId": "1.7.1",
+                        "option": [
+                            {
+                                "code": "completely",
+                                "display": "completely"
+                            },
+                            {
+                                "code": "mostly",
+                                "display": "mostly"
+                            },
+                            {
+                                "code": "moderately",
+                                "display": "moderately"
+                            },
+                            {
+                                "code": "a little",
+                                "display": "a little"
+                            },
+                            {
+                                "code": "not at all",
+                                "display": "not at all"
+                            }
                         ],
-                        "linkId":"1.7.1",
-                        "text":"To what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?",
-                        "type":"choice",
-                        "option":[  
-                           {  
-                              "code":"completely",
-                              "display":"completely"
-                           },
-                           {  
-                              "code":"mostly",
-                              "display":"mostly"
-                           },
-                           {  
-                              "code":"moderately",
-                              "display":"moderately"
-                           },
-                           {  
-                              "code":"a little",
-                              "display":"a little"
-                           },
-                           {  
-                              "code":"not at all",
-                              "display":"not at all"
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.8",
-                  "question":[  
-                     {  
-                        "extension":[  
-                           {  
-                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
-                              "extension":[  
-                                 {  
-                                    "url":"lang",
-                                    "valueCode":"es"
-                                 },
-                                 {  
-                                    "url":"content",
-                                    "valueString":"¿En promedio, durante los pasados 7 días cómo calificaría su dolor? (0 siendo ningun dolor a 10 siendo el peor dolor imaginable.)"
-                                 }
-                              ]
-                           }
+                        "text": "To what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?",
+                        "type": "choice"
+                    }
+                ]
+            },
+            {
+                "linkId": "1.8",
+                "question": [
+                    {
+                        "_text": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                                            "valueString": "\u00bfEn promedio, durante los pasados 7 d\u00edas c\u00f3mo calificar\u00eda su dolor? (0 siendo ningun dolor a 10 siendo el peor dolor imaginable.)"
+                                        }
+                                    ],
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "linkId": "1.8.1",
+                        "option": [
+                            {
+                                "code": "0",
+                                "display": "0"
+                            },
+                            {
+                                "code": "1",
+                                "display": "1"
+                            },
+                            {
+                                "code": "2",
+                                "display": "2"
+                            },
+                            {
+                                "code": "3",
+                                "display": "3"
+                            },
+                            {
+                                "code": "4",
+                                "display": "4"
+                            },
+                            {
+                                "code": "5",
+                                "display": "5"
+                            },
+                            {
+                                "code": "6",
+                                "display": "6"
+                            },
+                            {
+                                "code": "7",
+                                "display": "7"
+                            },
+                            {
+                                "code": "8",
+                                "display": "8"
+                            },
+                            {
+                                "code": "9",
+                                "display": "9"
+                            },
+                            {
+                                "code": "10",
+                                "display": "10"
+                            }
                         ],
-                        "linkId":"1.8.1",
-                        "text":"In the past 7 days, how would you rate your pain on average? ",
-                        "type":"choice",
-                        "option":[  
-                           {  
-                              "code":"0",
-                              "display":"0"
-                           },
-                           {  
-                              "code":"1",
-                              "display":"1"
-                           },
-                           {  
-                              "code":"2",
-                              "display":"2"
-                           },
-                           {  
-                              "code":"3",
-                              "display":"3"
-                           },
-                           {  
-                              "code":"4",
-                              "display":"4"
-                           },
-                           {  
-                              "code":"5",
-                              "display":"5"
-                           },
-                           {  
-                              "code":"6",
-                              "display":"6"
-                           },
-                           {  
-                              "code":"7",
-                              "display":"7"
-                           },
-                           {  
-                              "code":"8",
-                              "display":"8"
-                           },
-                           {  
-                              "code":"9",
-                              "display":"9"
-                           },
-                           {  
-                              "code":"10",
-                              "display":"10"
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.9",
-                  "question":[  
-                     {  
-                        "extension":[  
-                           {  
-                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
-                              "extension":[  
-                                 {  
-                                    "url":"lang",
-                                    "valueCode":"es"
-                                 },
-                                 {  
-                                    "url":"content",
-                                    "valueString":"¿En promedio durante los pasados 7 días, cómo calificaría su fatiga (cansancio)?"
-                                 }
-                              ]
-                           }
+                        "text": "In the past 7 days, how would you rate your pain on average? ",
+                        "type": "choice"
+                    }
+                ]
+            },
+            {
+                "linkId": "1.9",
+                "question": [
+                    {
+                        "_text": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                                            "valueString": "\u00bfEn promedio durante los pasados 7 d\u00edas, c\u00f3mo calificar\u00eda su fatiga (cansancio)?"
+                                        }
+                                    ],
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "linkId": "1.9.1",
+                        "option": [
+                            {
+                                "code": "none",
+                                "display": "none"
+                            },
+                            {
+                                "code": "mild",
+                                "display": "mild"
+                            },
+                            {
+                                "code": "moderate",
+                                "display": "moderate"
+                            },
+                            {
+                                "code": "severe",
+                                "display": "severe"
+                            },
+                            {
+                                "code": "very severe",
+                                "display": "very severe"
+                            }
                         ],
-                        "linkId":"1.9.1",
-                        "text":"In the past 7 days, how would you rate your fatigue on average?",
-                        "type":"choice",
-                        "option":[  
-                           {  
-                              "code":"none",
-                              "display":"none"
-                           },
-                           {  
-                              "code":"mild",
-                              "display":"mild"
-                           },
-                           {  
-                              "code":"moderate",
-                              "display":"moderate"
-                           },
-                           {  
-                              "code":"severe",
-                              "display":"severe"
-                           },
-                           {  
-                              "code":"very severe",
-                              "display":"very severe"
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.10",
-                  "question":[  
-                     {  
-                        "extension":[  
-                           {  
-                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
-                              "extension":[  
-                                 {  
-                                    "url":"lang",
-                                    "valueCode":"es"
-                                 },
-                                 {  
-                                    "url":"content",
-                                    "valueString":"De manera general, califique su desempeño en actividades y roles sociales. (Esto incluye sus actividades en el hogar, en el trabajo, y en la comunidad, sus responsabilidades como madre o padre, como hijo(a), como cónyuge, como empleado(a), como amigo(a), etc.)"
-                                 }
-                              ]
-                           }
+                        "text": "In the past 7 days, how would you rate your fatigue on average?",
+                        "type": "choice"
+                    }
+                ]
+            },
+            {
+                "linkId": "1.10",
+                "question": [
+                    {
+                        "_text": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                                            "valueString": "De manera general, califique su desempe\u00f1o en actividades y roles sociales. (Esto incluye sus actividades en el hogar, en el trabajo, y en la comunidad, sus responsabilidades como madre o padre, como hijo(a), como c\u00f3nyuge, como empleado(a), como amigo(a), etc.)"
+                                        }
+                                    ],
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "linkId": "1.10.1",
+                        "option": [
+                            {
+                                "code": "excellent",
+                                "display": "excellent "
+                            },
+                            {
+                                "code": "very good",
+                                "display": "very good"
+                            },
+                            {
+                                "code": "good",
+                                "display": "good"
+                            },
+                            {
+                                "code": "fair",
+                                "display": "fair"
+                            },
+                            {
+                                "code": "poor",
+                                "display": "poor"
+                            }
                         ],
-                        "linkId":"1.10.1",
-                        "text":"In general, please rate how well you carry out your usual social activities and roles. (This includes activities at home, at work, and in your community, and responsibilities as a parent, child, spouse, employee, friend, etc.)",
-                        "type":"choice",
-                        "option":[  
-                           {  
-                              "code":"excellent",
-                              "display":"excellent "
-                           },
-                           {  
-                              "code":"very good",
-                              "display":"very good"
-                           },
-                           {  
-                              "code":"good",
-                              "display":"good"
-                           },
-                           {  
-                              "code":"fair",
-                              "display":"fair"
-                           },
-                           {  
-                              "code":"poor",
-                              "display":"poor"
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.11",
-                  "question":[  
-                     {  
-                        "extension":[  
-                           {  
-                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
-                              "extension":[  
-                                 {  
-                                    "url":"lang",
-                                    "valueCode":"es"
-                                 },
-                                 {  
-                                    "url":"content",
-                                    "valueString":"¿En general, en los pasados 7 días con qué frecuencia ha tenido problemas emocionales, tales como sentimientos de ansiedad, de depresión, o de irritabilidad?"
-                                 }
-                              ]
-                           }
+                        "text": "In general, please rate how well you carry out your usual social activities and roles. (This includes activities at home, at work, and in your community, and responsibilities as a parent, child, spouse, employee, friend, etc.)",
+                        "type": "choice"
+                    }
+                ]
+            },
+            {
+                "linkId": "1.11",
+                "question": [
+                    {
+                        "_text": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                                            "valueString": "\u00bfEn general, en los pasados 7 d\u00edas con qu\u00e9 frecuencia ha tenido problemas emocionales, tales como sentimientos de ansiedad, de depresi\u00f3n, o de irritabilidad?"
+                                        }
+                                    ],
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "linkId": "1.11.1",
+                        "option": [
+                            {
+                                "code": "never",
+                                "display": "never"
+                            },
+                            {
+                                "code": "rarely",
+                                "display": "rarely"
+                            },
+                            {
+                                "code": "sometimes",
+                                "display": "sometimes"
+                            },
+                            {
+                                "code": "often",
+                                "display": "often "
+                            },
+                            {
+                                "code": "always",
+                                "display": "always"
+                            }
                         ],
-                        "linkId":"1.11.1",
-                        "text":"In the past 7 days, how often have you been bothered by emotional problems such as feelings anxious, depressed, or irritable?",
-                        "type":"choice",
-                        "option":[  
-                           {  
-                              "code":"never",
-                              "display":"never"
-                           },
-                           {  
-                              "code":"rarely",
-                              "display":"rarely"
-                           },
-                           {  
-                              "code":"sometimes",
-                              "display":"sometimes"
-                           },
-                           {  
-                              "code":"often",
-                              "display":"often "
-                           },
-                           {  
-                              "code":"always",
-                              "display":"always"
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.12",
-                  "question":[  
-                     {  
-                        "extension":[  
-                           {  
-                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
-                              "extension":[  
-                                 {  
-                                    "url":"lang",
-                                    "valueCode":"es"
-                                 },
-                                 {  
-                                    "url":"content",
-                                    "valueString":"¿Se siente capacitado(a) y seguro(a) de poder llenar sus formularios médicos por sí solo(a)?"
-                                 }
-                              ]
-                           }
+                        "text": "In the past 7 days, how often have you been bothered by emotional problems such as feelings anxious, depressed, or irritable?",
+                        "type": "choice"
+                    }
+                ]
+            },
+            {
+                "linkId": "1.12",
+                "question": [
+                    {
+                        "_text": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                                            "valueString": "\u00bfSe siente capacitado(a) y seguro(a) de poder llenar sus formularios m\u00e9dicos por s\u00ed solo(a)?"
+                                        }
+                                    ],
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "linkId": "1.12.1",
+                        "option": [
+                            {
+                                "code": "extremely",
+                                "display": "extremely"
+                            },
+                            {
+                                "code": "quite a bit",
+                                "display": "quite a bit"
+                            },
+                            {
+                                "code": "somewhat",
+                                "display": "somewhat"
+                            },
+                            {
+                                "code": "a little bit",
+                                "display": "a little bit "
+                            }
                         ],
-                        "linkId":"1.12.1",
-                        "text":"How confident are you filling out medical forms by yourself?",
-                        "type":"choice",
-                        "option":[  
-                           {  
-                              "code":"extremely",
-                              "display":"extremely"
-                           },
-                           {  
-                              "code":"quite a bit",
-                              "display":"quite a bit"
-                           },
-                           {  
-                              "code":"somewhat",
-                              "display":"somewhat"
-                           },
-                           {  
-                              "code":"a little bit",
-                              "display":"a little bit "
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.13",
-                  "question":[  
-                     {  
-                        "extension":[  
-                           {  
-                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
-                              "extension":[  
-                                 {  
-                                    "url":"lang",
-                                    "valueCode":"es"
-                                 },
-                                 {  
-                                    "url":"content",
-                                    "valueString":"¿Con qué frecuencia otra persona le asiste en la lectura de sus documentos relacionados a la salud?"
-                                 }
-                              ]
-                           }
+                        "text": "How confident are you filling out medical forms by yourself?",
+                        "type": "choice"
+                    }
+                ]
+            },
+            {
+                "linkId": "1.13",
+                "question": [
+                    {
+                        "_text": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                                            "valueString": "\u00bfCon qu\u00e9 frecuencia otra persona le asiste en la lectura de sus documentos relacionados a la salud?"
+                                        }
+                                    ],
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "linkId": "1.13.1",
+                        "option": [
+                            {
+                                "code": "always",
+                                "display": "always"
+                            },
+                            {
+                                "code": "often",
+                                "display": "often"
+                            },
+                            {
+                                "code": "sometimes",
+                                "display": "sometimes "
+                            },
+                            {
+                                "code": "occasionally",
+                                "display": "occasionally "
+                            },
+                            {
+                                "code": "never",
+                                "display": "never"
+                            }
                         ],
-                        "linkId":"1.13.1",
-                        "text":"How often do you have someone help you read health-related materials?",
-                        "type":"choice",
-                        "option":[  
-                           {  
-                              "code":"always",
-                              "display":"always"
-                           },
-                           {  
-                              "code":"often",
-                              "display":"often"
-                           },
-                           {  
-                              "code":"sometimes",
-                              "display":"sometimes "
-                           },
-                           {  
-                              "code":"occasionally",
-                              "display":"occasionally "
-                           },
-                           {  
-                              "code":"never",
-                              "display":"never"
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.14",
-                  "question":[  
-                     {  
-                        "extension":[  
-                           {  
-                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
-                              "extension":[  
-                                 {  
-                                    "url":"lang",
-                                    "valueCode":"es"
-                                 },
-                                 {  
-                                    "url":"content",
-                                    "valueString":"¿Con qué frecuencia le resulta problemático educarse sobre su condición médica debido a la dificultad que enfrenta en entender la información escrita sobre esta?"
-                                 }
-                              ]
-                           }
+                        "text": "How often do you have someone help you read health-related materials?",
+                        "type": "choice"
+                    }
+                ]
+            },
+            {
+                "linkId": "1.14",
+                "question": [
+                    {
+                        "_text": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                                            "valueString": "\u00bfCon qu\u00e9 frecuencia le resulta problem\u00e1tico educarse sobre su condici\u00f3n m\u00e9dica debido a la dificultad que enfrenta en entender la informaci\u00f3n escrita sobre esta?"
+                                        }
+                                    ],
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "linkId": "1.14.1",
+                        "option": [
+                            {
+                                "code": "always",
+                                "display": "always"
+                            },
+                            {
+                                "code": "often",
+                                "display": "often"
+                            },
+                            {
+                                "code": "sometimes",
+                                "display": "sometimes"
+                            },
+                            {
+                                "code": "occasionally",
+                                "display": "occasionally"
+                            },
+                            {
+                                "code": "never",
+                                "display": "never"
+                            }
                         ],
-                        "linkId":"1.14.1",
-                        "text":"How often do you have problems learning about your medical condition because of difficulty understanding written information?",
-                        "type":"choice",
-                        "option":[  
-                           {  
-                              "code":"always",
-                              "display":"always"
-                           },
-                           {  
-                              "code":"often",
-                              "display":"often"
-                           },
-                           {  
-                              "code":"sometimes",
-                              "display":"sometimes"
-                           },
-                           {  
-                              "code":"occasionally",
-                              "display":"occasionally"
-                           },
-                           {  
-                              "code":"never",
-                              "display":"never"
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.15",
-                  "question":[  
-                     {  
-                        "extension":[  
-                           {  
-                              "url":"http://hl7.org/fhir/StructureDefinition/translation",
-                              "extension":[  
-                                 {  
-                                    "url":"lang",
-                                    "valueCode":"es"
-                                 },
-                                 {  
-                                    "url":"content",
-                                    "valueString":"Tengo la misma capacidad de actuar en pro de mi salud que la mayoría de las personas."
-                                 }
-                              ]
-                           }
+                        "text": "How often do you have problems learning about your medical condition because of difficulty understanding written information?",
+                        "type": "choice"
+                    }
+                ]
+            },
+            {
+                "linkId": "1.15",
+                "question": [
+                    {
+                        "_text": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                                            "valueString": "Tengo la misma capacidad de actuar en pro de mi salud que la mayor\u00eda de las personas."
+                                        }
+                                    ],
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "linkId": "1.15.1",
+                        "option": [
+                            {
+                                "code": "strongly agree",
+                                "display": "strongly agree"
+                            },
+                            {
+                                "code": "agree",
+                                "display": "agree"
+                            },
+                            {
+                                "code": "neither agree nor disagree",
+                                "display": "neither agree nor disagree"
+                            },
+                            {
+                                "code": "disagree",
+                                "display": "disagree"
+                            },
+                            {
+                                "code": "strongly disagree",
+                                "display": "strongly disagree"
+                            }
                         ],
-                        "linkId":"1.15.1",
-                        "text":"I am able to do things for my health as well as most other people",
-                        "type":"choice",
-                        "option":[  
-                           {  
-                              "code":"strongly agree",
-                              "display":"strongly agree"
-                           },
-                           {  
-                              "code":"agree",
-                              "display":"agree"
-                           },
-                           {  
-                              "code":"neither agree nor disagree",
-                              "display":"neither agree nor disagree"
-                           },
-                           {  
-                              "code":"disagree",
-                              "display":"disagree"
-                           },
-                           {  
-                              "code":"strongly disagree",
-                              "display":"strongly disagree"
-                           }
-                        ]
-                     }
-                  ]
-               }
-            ]
-         }
-      ]
-   }
+                        "text": "I am able to do things for my health as well as most other people",
+                        "type": "choice"
+                    }
+                ]
+            }
+        ],
+        "linkId": "1",
+        "repeats": false,
+        "required": true,
+        "title": "overall health"
+    },
+    "id": "215",
+    "publisher": "admin",
+    "resourceType": "Questionnaire",
+    "status": "published",
+    "version": "3"
 }
