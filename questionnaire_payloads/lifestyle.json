@@ -1,0 +1,1995 @@
+{
+  "resourceType": "Questionnaire",
+  "identifier": [
+    {
+      "value": "Vibrent_FORM_ID_279"
+    }
+  ],
+  "version": "66",
+  "status": "published",
+  "date": "2017-03-27T13:50:00-04:00",
+  "group": {
+    "linkId": "root_group",
+    "title": "overall health",
+    "concept": [
+      {
+        "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+        "code": "Overall Health"
+      }
+    ],
+    "text": "This set of questions asks you to rate your health and how well you manage in several different areas.",
+    "required": true,
+    "repeats": false,
+    "question": [
+      {
+        "linkId": "4937",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OverallHealth_MedicalFormConfidence"
+          }
+        ],
+        "text": "How confident are you filling out medical forms by yourself?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "\u00bfCu\u00e1nto confianza tiene completando formas m\u00e9dicos por usted mismo?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "MedicalFormConfidence_Extremely",
+            "display": "extremely",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "extremadamente"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "MedicalFormConfidence_QuiteABit",
+            "display": "quite a bit",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "bastante"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "MedicalFormConfidence_Somewhat",
+            "display": "somewhat",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "algo"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "MedicalFormConfidence_ALittleBit",
+            "display": "a little bit",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "un poco"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "MedicalFormConfidence_NotAtAll",
+            "display": "not at all",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "nada seguro"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "4941",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OverallHealth_HealthMaterialAssistance"
+          }
+        ],
+        "text": "How often do you have someone help you read health-related materials?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "\u00bfCon qu\u00e9 frecuencia alguien lo ayuda a leer material relacionado con su salud?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "HealthMaterialAssistance_Always",
+            "display": "always",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "siempre"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "HealthMaterialAssistance_Often",
+            "display": "often",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "a menudo"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "HealthMaterialAssistance_Sometimes",
+            "display": "sometimes",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "a veces"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "HealthMaterialAssistance_Occasionally",
+            "display": "occasionally",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "de vez en cuando"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "HealthMaterialAssistance_Never",
+            "display": "never",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "nunca"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "4945",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OverallHealth_DifficultUnderstandInfo"
+          }
+        ],
+        "text": "How often do you have problems learning about your medical condition because of difficulty understanding written information?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "\u00bfCon qu\u00e9 frecuencia tiene problemas de aprender sobre su estado de salud porque tiene dificultad entendiendo la informaci\u00f3n escrita?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "DifficultUnderstandInfo_Always",
+            "display": "always",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "siempre"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "DifficultUnderstandInfo_Often",
+            "display": "often",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "a menudo"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "DifficultUnderstandInfo_Sometimes",
+            "display": "sometimes",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "a veces"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "DifficultUnderstandInfo_Occasionally",
+            "display": "occasionally",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "de vez en cuando"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "DifficultUnderstandInfo_Never",
+            "display": "never",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "nunca"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "4894",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OverallHealth_GeneralHealth"
+          }
+        ],
+        "text": "In general, would you say your health is:",
+        "_text": {
+          "extension": [
+            {
+              "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En general, dir\u00eda que su salud es:"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralHealth_Excellent",
+            "display": "excellent",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "excelente"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralHealth_VeryGood",
+            "display": "very good",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "muybuena"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralHealth_Good",
+            "display": "good",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "buena"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralHealth_Fair",
+            "display": "fair",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "pasable"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralHealth_Poor",
+            "display": "poor",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "mala"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "4898",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OverallHealth_GeneralQuality"
+          }
+        ],
+        "text": "In general, would you say your quality of life is:",
+        "_text": {
+          "extension": [
+            {
+              "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En general, dir\u00eda que su calidad de vida es:"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralQuality_Excellent",
+            "display": "excellent",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "excelente"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralQuality_VeryGood",
+            "display": "very good",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "muy buena"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralQuality_Good",
+            "display": "good",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "buena"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralQuality_Fair",
+            "display": "fair",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "pasable"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralQuality_Poor",
+            "display": "poor",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "mala"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "4902",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OverallHealth_GeneralPhysicalHealth"
+          }
+        ],
+        "text": "In general, how would you rate your physical health?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En general, \u00bfc\u00f3mo calificar\u00eda su salud f\u00edsica?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralPhysicalHealth_Excellent",
+            "display": "excellent",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "excelente"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralPhysicalHealth_VeryGood",
+            "display": "very good",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "muy buena"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralPhysicalHealth_Good",
+            "display": "good",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "buena"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralPhysicalHealth_Fair",
+            "display": "fair",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "pasable"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralPhysicalHealth_Poor",
+            "display": "poor",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "mala"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "4906",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OverallHealth_GeneralMentalHealth"
+          }
+        ],
+        "text": "In general, how would you rate your mental health, including your mood and your ability to think?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En general, \u00bfc\u00f3mo calificar\u00eda su salud mental, incluyendo su estado de \u00e1nimo y su capacidad para pensar?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralMentalHealth_Excllent",
+            "display": "excellent",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "excelente"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralMentalHealth_VeryGood",
+            "display": "very good",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "muy buena"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralMentalHealth_Good",
+            "display": "good",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "buena"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralMentalHealth_Fair",
+            "display": "fair",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "pasable"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralMentalHealth_Poor",
+            "display": "poor",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "mala"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "4910",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OverallHealth_SocialSatisfaction"
+          }
+        ],
+        "text": "In general, how would you rate your satisfaction with your social activities and relationships?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En general, \u00bfc\u00f3mo calificar\u00eda su satisfacci\u00f3n con sus actividades sociales y sus relaciones con otras personas?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "SocialSatisfaction_Excellent",
+            "display": "excellent",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "excelente"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "SocialSatisfaction_VeryGood",
+            "display": "very good",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "muy buena"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "SocialSatisfaction_Good",
+            "display": "good",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "buena"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "SocialSatisfaction_Fair",
+            "display": "fair",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "pasable"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "SocialSatisfaction_Poor",
+            "display": "poor",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "mala"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "4914",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OverallHealth_EverydayActivities"
+          }
+        ],
+        "text": "To what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "\u00bfEn qu\u00e9 medida puede realizar actividades f\u00edsicas diarias, como caminar, subir escaleras, cargar las compras o mover una silla?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "EverydayActivities_Completely",
+            "display": "completely",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "completamente"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "EverydayActivities_Mostly",
+            "display": "mostly",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "en su mayor\u00eda"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "EverydayActivities_Moderately",
+            "display": "moderately",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "moderamente"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "EverydayActivities_ALittle",
+            "display": "a little",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "un poco"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "EverydayActivities_NotAtAll",
+            "display": "not at all",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "para nada"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "4919",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OverallHealth_AveragePain7Days"
+          }
+        ],
+        "text": "Select your answer",
+        "type": "decimal",
+        "required": false,
+        "repeats": false
+      },
+      {
+        "linkId": "4924",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "Multi Selector"
+          }
+        ],
+        "text": "In the past 7 days, how would you rate your fatigue on average?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En los \u00faltimos 7 d\u00edas\u2026 \nEn promedio, \u00bfc\u00f3mo calificar\u00eda su cansacio?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "none",
+            "display": "none",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ninguno"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "mild",
+            "display": "mild",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "leve"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "moderate",
+            "display": "moderate",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "moderado"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "severe",
+            "display": "severe",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "intenso"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "very severe",
+            "display": "very severe",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "muy intenso"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "4928",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OverallHealth_GeneralSocial"
+          }
+        ],
+        "text": "In general, please rate how well you carry out your usual social roles. (This includes activities at home, at work and in your community, and responsibilities as a parent, child, spouse, employee, friend, etc.)",
+        "_text": {
+          "extension": [
+            {
+              "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En general, califique en qu\u00e9 medida puede realizar actividades sociales y funciones habituales. (Esto incluye actividades en su casa, en el trabajo y en el \u00e1rea donde reside, as\u00ed tambi\u00e9n comosus responsabilidades como padre o madre, hijo\/a, c\u00f3nyuge, empleado\/a, amigo\/a, etc.)"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralSocial_Excellent",
+            "display": "excellent",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "excelente"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralSocial_VeryGood",
+            "display": "very good",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "muy Buena"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralSocial_Good",
+            "display": "good",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "buena"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralSocial_Fair",
+            "display": "fair",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "pasable"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "GeneralSocial_Poor",
+            "display": "poor",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "mala"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "4932",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OverallHealth_EmotionalProblem7Days"
+          }
+        ],
+        "text": "In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed, or irritable?",
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "EmotionalProblem7Days_Never",
+            "display": "never"
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "EmotionalProblem7Days_Rarely",
+            "display": "rarely"
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "EmotionalProblem7Days_Sometimes",
+            "display": "sometimes"
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "EmotionalProblem7Days_Often",
+            "display": "often",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "a menudo"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "EmotionalProblem7Days_Always",
+            "display": "always",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http:\/\/hl7.org\/fhir\/StructureDefinition\/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "siempre"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "9391",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "Pregnancy_PregnancyStatus"
+          }
+        ],
+        "text": "Are you currently pregnant? ",
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "PregnancyStatus_Yes",
+            "display": "yes"
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "PregnancyStatus_No",
+            "display": "no"
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "PMI_NotSure",
+            "display": "not sure"
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer"
+          }
+        ]
+      },
+      {
+        "linkId": "9395",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OverallHealth_MentrualStopped"
+          }
+        ],
+        "text": "Have your menstrual periods stopped permanently",
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "MentrualStopped_No",
+            "display": "no"
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "MentrualStopped_YesNone",
+            "display": "yes, I have no menstrual periods"
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "MentrualStopped_YesButHormone",
+            "display": "yes, but I have periods induced by hormones"
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "MentrualStopped_NotSure",
+            "display": "not sure"
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer"
+          }
+        ]
+      },
+      {
+        "linkId": "9399",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OverallHealth_MentrualStoppedReason"
+          }
+        ],
+        "text": "Why did your periods stop?",
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "MentrualStoppedReason_NaturalMenopause",
+            "display": "natural menopause (change of life)"
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "MentrualStoppedReason_Surgery",
+            "display": "surgery (a hysterectomy to remove your uterus and\/or an oophorectomy to remove your ovaries) "
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "MentrualStoppedReason_EndometrialAblation",
+            "display": "endometrial ablation"
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "MentrualStoppedReason_MedicationTherapy",
+            "display": "medication, chemotherapy, or radiation"
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "PMI_Other",
+            "display": "other"
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "PMI_NotSure",
+            "display": "not sure"
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer"
+          }
+        ]
+      },
+      {
+        "linkId": "9403",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OverallHealth_HysterectomyHistory"
+          }
+        ],
+        "text": "Have you ever had a hysterectomy (that is, surgery to remove your uterus or womb)?  ",
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "HysterectomyHistory_No",
+            "display": "no"
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "HysterectomyHistory_Yes",
+            "display": "yes"
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "HysterectomyHistory_NotSure",
+            "display": "not sure  "
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer"
+          }
+        ]
+      },
+      {
+        "linkId": "9405",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OverallHealth_HysterectomyHistoryAge"
+          }
+        ],
+        "text": "____ (age in years)",
+        "type": "decimal",
+        "required": false,
+        "repeats": false
+      },
+      {
+        "linkId": "9409",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OverallHealth_OvaryRemovalHistory"
+          }
+        ],
+        "text": "Have you ever had an ovary removed?",
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OvaryRemovalHistory_No",
+            "display": "no"
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OvaryRemovalHistory_YesSectioned",
+            "display": "yes, but only one ovary or part of one ovary"
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OvaryRemovalHistory_YesBoth",
+            "display": "yes, both ovaries "
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OvaryRemovalHistory_YesUnsure",
+            "display": "yes, but don\u2019t know whether one or both ovaries"
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OvaryRemovalHistory_NotSure",
+            "display": "not sure  "
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer"
+          }
+        ]
+      },
+      {
+        "linkId": "9411",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OverallHealthOvaryRemovalHistoryAge"
+          }
+        ],
+        "text": "____ (age in years)",
+        "type": "decimal",
+        "required": false,
+        "repeats": false
+      },
+      {
+        "linkId": "9416",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OverallHealth_OrganTransplant"
+          }
+        ],
+        "text": "Have you had a transplant of any type?  ",
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OrganTransplant_Yes",
+            "display": "yes"
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OrganTransplant_No",
+            "display": "no"
+          }
+        ]
+      },
+      {
+        "linkId": "9418",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OverallHealthOvaryRemovalHistoryAge"
+          }
+        ],
+        "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+        "type": "text",
+        "required": false,
+        "repeats": false
+      },
+      {
+        "linkId": "9422",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OverallHealth_OrganTransplant"
+          }
+        ],
+        "text": "Have you traveled outside of the country within the past 6 months?",
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OrganTransplant_Yes",
+            "display": "yes"
+          },
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OrganTransplant_No",
+            "display": "no"
+          }
+        ]
+      },
+      {
+        "linkId": "9424",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OrganTransplant_Description"
+          }
+        ],
+        "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+        "type": "text",
+        "required": false,
+        "repeats": false
+      },
+      {
+        "linkId": "9426",
+        "concept": [
+          {
+            "system": "http:\/\/terminology.pmi-ops.org\/CodeSystem\/ppi",
+            "code": "OrganTransplant_Date"
+          }
+        ],
+        "text": "how long?",
+        "type": "decimal",
+        "required": false,
+        "repeats": false
+      }
+    ]
+  }
+}
