@@ -1,0 +1,210 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ST-language",
+      "valueCode": "en"
+    }
+  ],
+  "identifier": {
+    "value": "7478"
+  },
+  "questionnaire": {
+    "reference": "Questionnaire/227"
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/P418488783"
+  },
+  "authored": "2017-04-03T22:47:05-04:00",
+  "group": {
+    "linkId": "root_group",
+    "title": "family history",
+    "text": "This module asks about your family’s medical history. Understanding your these medical issues can tell us a lot about what kinds of medical issues might be related to your genetics.",
+    "question": [
+      {
+        "linkId": "6252",
+        "text": "Do you know your family’s medical history? Please include only those family members you are related to by blood.\n\n",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Conoce la historia médica de su familia biológica?"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "FamilyMedicalHistoryAware_Yes"
+          }
+        ]
+      },
+      {
+        "linkId": "6358",
+        "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+        "answer": [
+          {
+            "valueString": "CancerCondition_BrainCancer"
+          },
+          {
+            "valueString": "CancerCondition_BreastCancer"
+          }
+        ]
+      },
+      {
+        "linkId": "6363",
+        "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+        "answer": [
+          {
+            "valueString": "CirculatoryCondition_AtrialFibrilation"
+          },
+          {
+            "valueString": "CirculatoryCondition_CongestiveHeartFailure"
+          }
+        ]
+      },
+      {
+        "linkId": "6264",
+        "text": "Has anyone in your immediate family ever been diagnosed with any other health conditions? Please think only of family you are closely related to by blood, including your parents, your grandparents, your sisters, your brothers, and your children.",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Ha sido alguien en su familia biológica inmediata  diagnosticado con otra condición de salud?"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "PMI_DontKnow"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
+Response Body
+{
+  "status": "completed",
+  "group": {
+    "linkId": "root_group",
+    "text": "This module asks about your family’s medical history. Understanding your these medical issues can tell us a lot about what kinds of medical issues might be related to your genetics.",
+    "question": [
+      {
+        "answer": [
+          {
+            "valueString": "FamilyMedicalHistoryAware_Yes"
+          }
+        ],
+        "linkId": "6252",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Conoce la historia médica de su familia biológica?"
+                }
+              ]
+            }
+          ]
+        },
+        "text": "Do you know your family’s medical history? Please include only those family members you are related to by blood.\n\n"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "CancerCondition_BrainCancer"
+          },
+          {
+            "valueString": "CancerCondition_BreastCancer"
+          }
+        ],
+        "linkId": "6358",
+        "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "CirculatoryCondition_AtrialFibrilation"
+          },
+          {
+            "valueString": "CirculatoryCondition_CongestiveHeartFailure"
+          }
+        ],
+        "linkId": "6363",
+        "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "PMI_DontKnow"
+          }
+        ],
+        "linkId": "6264",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Ha sido alguien en su familia biológica inmediata  diagnosticado con otra condición de salud?"
+                }
+              ]
+            }
+          ]
+        },
+        "text": "Has anyone in your immediate family ever been diagnosed with any other health conditions? Please think only of family you are closely related to by blood, including your parents, your grandparents, your sisters, your brothers, and your children."
+      }
+    ],
+    "title": "family history"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ST-language",
+      "valueCode": "en"
+    }
+  ],
+  "resourceType": "QuestionnaireResponse",
+  "questionnaire": {
+    "reference": "Questionnaire/227/_history/1"
+  },
+  "identifier": {
+    "value": "7478"
+  },
+  "id": "556341401",
+  "authored": "2017-04-03T22:47:05-04:00",
+  "subject": {
+    "reference": "Patient/P418488783"
+  }
+}

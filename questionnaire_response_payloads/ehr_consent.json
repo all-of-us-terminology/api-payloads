@@ -1,0 +1,344 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ST-language",
+      "valueCode": "en"
+    }
+  ],
+  "identifier": {
+    "value": "7474"
+  },
+  "questionnaire": {
+    "reference": "Questionnaire/219"
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/P418488783"
+  },
+  "authored": "2017-04-03T21:58:07-04:00",
+  "group": {
+    "linkId": "root_group",
+    "title": "EHR consent",
+    "question": [
+      {
+        "linkId": "6855",
+        "text": "This overview tells about the option to give All of Us access to your EHR (electronic health records)",
+        "answer": [
+          {
+            "valueString": "ready"
+          }
+        ]
+      },
+      {
+        "linkId": "6951",
+        "text": "Take as much time you need to decide about giving access to your EHR. You can review these screens as many times as you like. \n",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Tómese todo el tiempo que necesite para decidir si desea unirse. Puede revisar estas pantallas tantas veces como desee."
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "next"
+          }
+        ]
+      },
+      {
+        "linkId": "6990",
+        "text": "The quiz is to make sure we did a good job explaining the option of giving access to your EHR to you. You can do it now or you can come back later.",
+        "answer": [
+          {
+            "valueString": "quiz"
+          }
+        ]
+      },
+      {
+        "linkId": "6996",
+        "text": "Do I have to give All of Us access to my EHR?",
+        "answer": [
+          {
+            "valueDecimal": 1
+          }
+        ]
+      },
+      {
+        "linkId": "7008",
+        "text": "Will All of Us access sensitive information in my EHR?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Tengo que participar en All of Us?"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueDecimal": 1
+          }
+        ]
+      },
+      {
+        "linkId": "7020",
+        "text": "Once I give access to my EHR, can I change my mind?",
+        "answer": [
+          {
+            "valueDecimal": 1
+          }
+        ]
+      },
+      {
+        "linkId": "7032",
+        "text": "If I give access to my EHR, is my privacy guaranteed?",
+        "answer": [
+          {
+            "valueDecimal": 1
+          }
+        ]
+      },
+      {
+        "linkId": "7044",
+        "text": "You got 4 of 4 questions correct.\nTake the time you need to decide about joining All of Us. We are here to answer any questions you have.",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Ha respondido a una o más preguntas de forma incorrecta. ebe obtener todas las preguntas correctas para participar."
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "ready"
+          }
+        ]
+      },
+      {
+        "linkId": "7068",
+        "text": "STATEMENT BY PERSON AGREEING TO TAKE PART IN THIS RESEARCH PROGRAM",
+        "answer": [
+          {
+            "valueDecimal": 1
+          }
+        ]
+      },
+      {
+        "linkId": "7060",
+        "text": "Please sign below "
+      },
+      {
+        "linkId": "7061",
+        "text": "No Question Text Provided",
+        "answer": [
+          {
+            "valueDate": "2017-04-03"
+          }
+        ]
+      }
+    ]
+  }
+}
+Response Body
+{
+  "status": "completed",
+  "group": {
+    "linkId": "root_group",
+    "question": [
+      {
+        "answer": [
+          {
+            "valueString": "ready"
+          }
+        ],
+        "linkId": "6855",
+        "text": "This overview tells about the option to give All of Us access to your EHR (electronic health records)"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "next"
+          }
+        ],
+        "linkId": "6951",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Tómese todo el tiempo que necesite para decidir si desea unirse. Puede revisar estas pantallas tantas veces como desee."
+                }
+              ]
+            }
+          ]
+        },
+        "text": "Take as much time you need to decide about giving access to your EHR. You can review these screens as many times as you like. \n"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "quiz"
+          }
+        ],
+        "linkId": "6990",
+        "text": "The quiz is to make sure we did a good job explaining the option of giving access to your EHR to you. You can do it now or you can come back later."
+      },
+      {
+        "answer": [
+          {
+            "valueDecimal": 1
+          }
+        ],
+        "linkId": "6996",
+        "text": "Do I have to give All of Us access to my EHR?"
+      },
+      {
+        "answer": [
+          {
+            "valueDecimal": 1
+          }
+        ],
+        "linkId": "7008",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Tengo que participar en All of Us?"
+                }
+              ]
+            }
+          ]
+        },
+        "text": "Will All of Us access sensitive information in my EHR?"
+      },
+      {
+        "answer": [
+          {
+            "valueDecimal": 1
+          }
+        ],
+        "linkId": "7020",
+        "text": "Once I give access to my EHR, can I change my mind?"
+      },
+      {
+        "answer": [
+          {
+            "valueDecimal": 1
+          }
+        ],
+        "linkId": "7032",
+        "text": "If I give access to my EHR, is my privacy guaranteed?"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "ready"
+          }
+        ],
+        "linkId": "7044",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Ha respondido a una o más preguntas de forma incorrecta. ebe obtener todas las preguntas correctas para participar."
+                }
+              ]
+            }
+          ]
+        },
+        "text": "You got 4 of 4 questions correct.\nTake the time you need to decide about joining All of Us. We are here to answer any questions you have."
+      },
+      {
+        "answer": [
+          {
+            "valueDecimal": 1
+          }
+        ],
+        "linkId": "7068",
+        "text": "STATEMENT BY PERSON AGREEING TO TAKE PART IN THIS RESEARCH PROGRAM"
+      },
+      {
+        "linkId": "7060",
+        "text": "Please sign below "
+      },
+      {
+        "answer": [
+          {
+            "valueDate": "2017-04-03"
+          }
+        ],
+        "linkId": "7061",
+        "text": "No Question Text Provided"
+      }
+    ],
+    "title": "EHR consent"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ST-language",
+      "valueCode": "en"
+    }
+  ],
+  "resourceType": "QuestionnaireResponse",
+  "questionnaire": {
+    "reference": "Questionnaire/219/_history/1"
+  },
+  "identifier": {
+    "value": "7474"
+  },
+  "id": "626322454",
+  "authored": "2017-04-03T21:58:07-04:00",
+  "subject": {
+    "reference": "Patient/P418488783"
+  }
+}

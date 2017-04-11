@@ -1,376 +1,739 @@
-{  
-   "resourceType":"QuestionnaireResponse",
-   "id":"1952",
-   "extension":[  
-      {  
-         "url":"http://hl7.org/fhir/StructureDefinition/iso21090-ST-language",
-         "valueCode":"en"
+{
+  "resourceType": "QuestionnaireResponse",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ST-language",
+      "valueCode": "en"
+    }
+  ],
+  "identifier": {
+    "value": "7479"
+  },
+  "questionnaire": {
+    "reference": "Questionnaire/220"
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/P418488783"
+  },
+  "authored": "2017-04-03T22:47:47-04:00",
+  "group": {
+    "linkId": "root_group",
+    "title": "healthcare utilization",
+    "text": "This module asks about your access to medical and dental care, and how you use it. Understanding your regular sources of care helps provide a picture of your health.",
+    "question": [
+      {
+        "linkId": "4068",
+        "text": "Is there a place that you usually go when you are sick or you need advice about your health?\n\n*Usual Place: Include walk-in clinic, doctor's office, clinic, health center, Health Maintenance Organization or HMO, hospital emergency room or outpatient clinic, or a military or VA health care facility.\n",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Hay algún lugar donde va normalmente cuando está enfermo o necesita consejos sobre su salud?\n\n*Lugar: Incluyendo un clinica ambulatoria, oficina de doctor, clinica, centro de salud, Health Maintenance Organization or HMO, hospital, sala de emergencia or clinica de consulta externa, o un centro de salud para militar."
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "yes"
+          }
+        ]
+      },
+      {
+        "linkId": "4072",
+        "text": "name of place",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "respuesta libre"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "asdfa asdf"
+          }
+        ]
+      },
+      {
+        "linkId": "1456",
+        "text": "During the past 12 months, how many times have you seen a health care professional about your health at a doctor's office, a clinic or some other place? Do not include times you were hospitalized overnight, visits to hospital emergency rooms, home visits or telephone calls.\n\n*Include:  Physician’s,  osteopaths,  doctor’s  assistants,  nurse  practitioners,  nurses,  lab  technicians  and technicians who administer shots (i.e., allergy shots), paramedics, medics and physical therapists who work with or in a doctor’s office. \n\n*Do not include: Dentists, oral surgeons, chiropractors, chiropodists, podiatrists, naturopaths, Christian Science healers, opticians, optometrists and psychologists or social workers.\n",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Durante los últimos 12 meses, ¿Cuantas veces ha visto a un profesional proveedor de cuidado de salud por su salud en un consultorio médico, una clínica o algún otro lugar?\n\nNo incluya el tiempo que estuvo hospitalizado de la noche a la mañana, visitas a la sala de urgencia de un hospital, visitas a domicilio o llamadas telefónicas.\n\n*Incluye:  medicos, osteópatas , asistentes médicos, enfermeras practicantes, enfermeras , técnicos de laboratorio y técnicos que administran inyecciones (es decir, inyecciones para alergias) , paramédicos , médicos y fisioterapeutas que trabajan con o en la oficina de un médico \n\n*No incluye: Dentistas, cirujanos orales, quiroprácticos , podólogos , podólogos , naturópatas , sanadores de la Ciencia Cristiana , ópticos, optometristas y psicólogos o trabajadores sociales."
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "2"
+          }
+        ]
+      },
+      {
+        "linkId": "1487",
+        "text": "How many times have you been seen in the emergency room in the last 12 months?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Cuántas veces ha estado en el servicio o sala de urgencia en los últimos 12 meses?"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "2"
+          }
+        ]
+      },
+      {
+        "linkId": "1507",
+        "text": "About how long has it been since you last visited a dentist? Include all types of dentists, such as, orthodontists, oral surgeons, and all other dental specialists, as well as dental hygienists.",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Más o menos ¿Cuánto tiempo ha pasado desde su última visita al dentista? Incluya todos los tipos de dentistas, tales como, ortodoncistas, cirujanos orales, y todos los otros especialistas dentales, como así también higienistas dentales."
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "More than 5 years ago"
+          }
+        ]
+      },
+      {
+        "linkId": "4073",
+        "text": "In the past 12 months, have you used any of the following to exchange medical information with a health care professional?\nMark all that apply",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Durante los últimos 12 meses, ¿Ha usado usted alguno de los siguientes medios de comunicación para intercambia información médica con un profesional de la salud?\nEscoja todas las que apliquen."
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "text message"
+          },
+          {
+            "valueString": "App on a smartphone or mobile device"
+          },
+          {
+            "valueString": "Video conference (e.g., Skype, Facetime, etc.)"
+          },
+          {
+            "valueString": "Social media (e.g., Facebook, Google+, CaringBridge etc.)"
+          }
+        ]
+      },
+      {
+        "linkId": "4074",
+        "text": "Have you ever been offered access to your own personal health information online through a secure website or app by your health care provider?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Alguna vez se le ha ofrecido acceso a su propia información personal de salud en línea a través de un sitio web seguro o aplicación por su proveedor de cuidado de salud?"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "yes"
+          }
+        ]
+      },
+      {
+        "linkId": "4075",
+        "text": "About how long has it been since you last saw or talked to a healthcare professional about your health? Include doctors seen while you were a patient in a hospital. Has it been…",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Más o menos ¿Hace cuánto tiempo que usted vio o habló por última vez con un proveedor profesional de salud sobre su salud?  Incluya doctores que vio mientras estaba hospitalizado.\n¿Ha sido…?"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "More than 1 year, but not more than 2 years ago"
+          }
+        ]
+      },
+      {
+        "linkId": "4076",
+        "text": "During the past 12 months, were you a patient in a hospital overnight?  Do not include an overnight stay in the emergency room.",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Durante los últimos 12 meses, ¿Fue un paciente en el hospital durante la noche? No incluya una noche de estadía en la sala de emergencias."
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "Prefer not to answer"
+          }
+        ]
+      },
+      {
+        "linkId": "4077",
+        "text": "During the past 12 months, have you seen or talked to a mental health professional such as a psychologist, psychiatrist, psychiatric nurse or clinical social worker about your health?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Durante los últimos 12 meses,¿Ha visto o hablado con un profesional de salud mental, como ser un/a psicólogo/a, psiquiatra, enfermera/o psiquiátrica o trabajador/a social clínico sobre su salud?"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "yes"
+          }
+        ]
+      },
+      {
+        "linkId": "4079",
+        "text": "Are you covered by health insurance or some other kind of health care plan?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Está cubierto por un seguro de salud o algún otro tipo de plan de atención de salud?"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "Prefer not to answer"
+          }
+        ]
+      },
+      {
+        "linkId": "4080",
+        "text": "What kind of health insurance or health care coverage do you have?  Include those that pay for only one  type  of  service  (nursing  home  care,  accidents,  or  dental  care).    Exclude private  plans  that  only  provide extra cash while hospitalized.  If you have more than one kind of health insurance, mark all plans that you have.      ",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Qué clase de seguro salud o cobertura para el cuidado de su salud tiene? Seleccione todos los planes que tiene.\nIncluya los seguros que pagan por un solo tipo de servicio: cuidado de ancianos, accidentes, o cuidado dental).\nExcluya planes privados que sólo proporcionan suplemento de dinero en efectivo mientras está hospitalizado. Si tiene más de un tipo de seguro de salud, dígame todos los planes que tiene."
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "MEDICARE"
+          },
+          {
+            "valueString": "MEDI-GAP"
+          },
+          {
+            "valueString": "SCHIP (CHIP/Children’s Health Insurance Program)"
+          }
+        ]
+      },
+      {
+        "linkId": "4082",
+        "text": "During the past 12 months, have you delayed seeking medical care because of worry about the cost? This include preventative screenings like mammograms or colonoscopies. Do not include dental care.",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "La siguiente pregunta es sobre el uso del cuidado de salud. No incluya el cuidado dental.\n\nDURANTE LOS ÚLTIMOS 12 MESES, ¿ha retrasado la búsqueda de atención médica debido a preocupaciones por el costo? Esto incluye exámenes preventivos como mamografías o colonoscopias. No incluya el cuidado dental."
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "don't know"
+          }
+        ]
       }
-   ],
-   "questionnaire":{  
-      "reference":"220"
-   },
-   "group":{  
-      "linkId":"root",
-      "group":[  
-         {  
-            "linkId":"1",
-            "group":[  
-               {  
-                  "linkId":"1.1",
-                  "question":[  
-                     {  
-                        "linkId":"1.1.1",
-                        "answer":[  
-                           {  
-                              "valueString":"yes"
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.2",
-                  "question":[  
-                     {  
-                        "linkId":"1.2.1",
-                        "answer":[  
-                           {  
-                              "valueString":"Clinic or health center"
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.3",
-                  "question":[  
-                     {  
-                        "linkId":"1.3.1",
-                        "answer":[  
-                           {  
-                              "valueString":"1"
-                           }
-                        ]
-                     },
-                     {  
-                        "linkId":"1.3.2"
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.4",
-                  "question":[  
-                     {  
-                        "linkId":"1.4.1",
-                        "answer":[  
-                           {  
-                              "valueString":"2 to 3"
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.5",
-                  "question":[  
-                     {  
-                        "linkId":"1.5.1",
-                        "answer":[  
-                           {  
-                              "valueString":"8 to 9"
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.6",
-                  "question":[  
-                     {  
-                        "linkId":"1.6.1",
-                        "answer":[  
-                           {  
-                              "valueString":"Don't know"
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.7",
-                  "question":[  
-                     {  
-                        "linkId":"1.7.1",
-                        "answer":[  
-                           {  
-                              "valueBoolean":false
-                           }
-                        ]
-                     },
-                     {  
-                        "linkId":"1.7.2",
-                        "answer":[  
-                           {  
-                              "valueBoolean":true
-                           }
-                        ]
-                     },
-                     {  
-                        "linkId":"1.7.3",
-                        "answer":[  
-                           {  
-                              "valueBoolean":false
-                           }
-                        ]
-                     },
-                     {  
-                        "linkId":"1.7.4",
-                        "answer":[  
-                           {  
-                              "valueBoolean":false
-                           }
-                        ]
-                     },
-                     {  
-                        "linkId":"1.7.5",
-                        "answer":[  
-                           {  
-                              "valueBoolean":false
-                           }
-                        ]
-                     },
-                     {  
-                        "linkId":"1.7.6",
-                        "answer":[  
-                           {  
-                              "valueBoolean":false
-                           }
-                        ]
-                     },
-                     {  
-                        "linkId":"1.7.7",
-                        "answer":[  
-                           {  
-                              "valueBoolean":false
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.8",
-                  "question":[  
-                     {  
-                        "linkId":"1.8.1",
-                        "answer":[  
-                           {  
-                              "valueString":"yes"
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.9",
-                  "question":[  
-                     {  
-                        "linkId":"1.9.1",
-                        "answer":[  
-                           {  
-                              "valueString":"prefer not to answer"
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.10",
-                  "question":[  
-                     {  
-                        "linkId":"1.10.1",
-                        "answer":[  
-                           {  
-                              "valueString":"Never"
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.11",
-                  "question":[  
-                     {  
-                        "linkId":"1.11.1",
-                        "answer":[  
-                           {  
-                              "valueString":"prefer not to answer"
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.12",
-                  "question":[  
-                     {  
-                        "linkId":"1.12.1",
-                        "answer":[  
-                           {  
-                              "valueDecimal":1.0
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.13",
-                  "question":[  
-                     {  
-                        "linkId":"1.13.1",
-                        "answer":[  
-                           {  
-                              "valueString":"yes"
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.14",
-                  "question":[  
-                     {  
-                        "linkId":"1.14.1"
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.15",
-                  "question":[  
-                     {  
-                        "linkId":"1.15.1",
-                        "answer":[  
-                           {  
-                              "valueBoolean":true
-                           }
-                        ]
-                     },
-                     {  
-                        "linkId":"1.15.2",
-                        "answer":[  
-                           {  
-                              "valueBoolean":false
-                           }
-                        ]
-                     },
-                     {  
-                        "linkId":"1.15.3",
-                        "answer":[  
-                           {  
-                              "valueBoolean":false
-                           }
-                        ]
-                     },
-                     {  
-                        "linkId":"1.15.4",
-                        "answer":[  
-                           {  
-                              "valueBoolean":false
-                           }
-                        ]
-                     },
-                     {  
-                        "linkId":"1.15.5",
-                        "answer":[  
-                           {  
-                              "valueBoolean":false
-                           }
-                        ]
-                     },
-                     {  
-                        "linkId":"1.15.6",
-                        "answer":[  
-                           {  
-                              "valueBoolean":false
-                           }
-                        ]
-                     },
-                     {  
-                        "linkId":"1.15.7",
-                        "answer":[  
-                           {  
-                              "valueBoolean":true
-                           }
-                        ]
-                     },
-                     {  
-                        "linkId":"1.15.8",
-                        "answer":[  
-                           {  
-                              "valueBoolean":false
-                           }
-                        ]
-                     },
-                     {  
-                        "linkId":"1.15.9",
-                        "answer":[  
-                           {  
-                              "valueBoolean":false
-                           }
-                        ]
-                     },
-                     {  
-                        "linkId":"1.15.10",
-                        "answer":[  
-                           {  
-                              "valueBoolean":false
-                           }
-                        ]
-                     },
-                     {  
-                        "linkId":"1.15.11",
-                        "answer":[  
-                           {  
-                              "valueBoolean":false
-                           }
-                        ]
-                     },
-                     {  
-                        "linkId":"1.15.12",
-                        "answer":[  
-                           {  
-                              "valueBoolean":false
-                           }
-                        ]
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.16",
-                  "question":[  
-                     {  
-                        "linkId":"1.16.1"
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.17",
-                  "question":[  
-                     {  
-                        "linkId":"1.17.1"
-                     }
-                  ]
-               },
-               {  
-                  "linkId":"1.18",
-                  "question":[  
-                     {  
-                        "linkId":"1.18.1"
-                     }
-                  ]
-               }
-            ]
-         }
-      ]
-   }
+    ]
+  }
+}
+
+
+
+Response Body
+{
+  "status": "completed",
+  "group": {
+    "linkId": "root_group",
+    "text": "This module asks about your access to medical and dental care, and how you use it. Understanding your regular sources of care helps provide a picture of your health.",
+    "question": [
+      {
+        "answer": [
+          {
+            "valueString": "yes"
+          }
+        ],
+        "linkId": "4068",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Hay algún lugar donde va normalmente cuando está enfermo o necesita consejos sobre su salud?\n\n*Lugar: Incluyendo un clinica ambulatoria, oficina de doctor, clinica, centro de salud, Health Maintenance Organization or HMO, hospital, sala de emergencia or clinica de consulta externa, o un centro de salud para militar."
+                }
+              ]
+            }
+          ]
+        },
+        "text": "Is there a place that you usually go when you are sick or you need advice about your health?\n\n*Usual Place: Include walk-in clinic, doctor's office, clinic, health center, Health Maintenance Organization or HMO, hospital emergency room or outpatient clinic, or a military or VA health care facility.\n"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "asdfa asdf"
+          }
+        ],
+        "linkId": "4072",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "respuesta libre"
+                }
+              ]
+            }
+          ]
+        },
+        "text": "name of place"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "2"
+          }
+        ],
+        "linkId": "1456",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Durante los últimos 12 meses, ¿Cuantas veces ha visto a un profesional proveedor de cuidado de salud por su salud en un consultorio médico, una clínica o algún otro lugar?\n\nNo incluya el tiempo que estuvo hospitalizado de la noche a la mañana, visitas a la sala de urgencia de un hospital, visitas a domicilio o llamadas telefónicas.\n\n*Incluye:  medicos, osteópatas , asistentes médicos, enfermeras practicantes, enfermeras , técnicos de laboratorio y técnicos que administran inyecciones (es decir, inyecciones para alergias) , paramédicos , médicos y fisioterapeutas que trabajan con o en la oficina de un médico \n\n*No incluye: Dentistas, cirujanos orales, quiroprácticos , podólogos , podólogos , naturópatas , sanadores de la Ciencia Cristiana , ópticos, optometristas y psicólogos o trabajadores sociales."
+                }
+              ]
+            }
+          ]
+        },
+        "text": "During the past 12 months, how many times have you seen a health care professional about your health at a doctor's office, a clinic or some other place? Do not include times you were hospitalized overnight, visits to hospital emergency rooms, home visits or telephone calls.\n\n*Include:  Physician’s,  osteopaths,  doctor’s  assistants,  nurse  practitioners,  nurses,  lab  technicians  and technicians who administer shots (i.e., allergy shots), paramedics, medics and physical therapists who work with or in a doctor’s office. \n\n*Do not include: Dentists, oral surgeons, chiropractors, chiropodists, podiatrists, naturopaths, Christian Science healers, opticians, optometrists and psychologists or social workers.\n"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "2"
+          }
+        ],
+        "linkId": "1487",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Cuántas veces ha estado en el servicio o sala de urgencia en los últimos 12 meses?"
+                }
+              ]
+            }
+          ]
+        },
+        "text": "How many times have you been seen in the emergency room in the last 12 months?"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "More than 5 years ago"
+          }
+        ],
+        "linkId": "1507",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Más o menos ¿Cuánto tiempo ha pasado desde su última visita al dentista? Incluya todos los tipos de dentistas, tales como, ortodoncistas, cirujanos orales, y todos los otros especialistas dentales, como así también higienistas dentales."
+                }
+              ]
+            }
+          ]
+        },
+        "text": "About how long has it been since you last visited a dentist? Include all types of dentists, such as, orthodontists, oral surgeons, and all other dental specialists, as well as dental hygienists."
+      },
+      {
+        "answer": [
+          {
+            "valueString": "text message"
+          },
+          {
+            "valueString": "App on a smartphone or mobile device"
+          },
+          {
+            "valueString": "Video conference (e.g., Skype, Facetime, etc.)"
+          },
+          {
+            "valueString": "Social media (e.g., Facebook, Google+, CaringBridge etc.)"
+          }
+        ],
+        "linkId": "4073",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Durante los últimos 12 meses, ¿Ha usado usted alguno de los siguientes medios de comunica…e ha ofrecido acceso a su propia información personal de salud en línea a través de un sitio web seguro o aplicación por su proveedor de cuidado de salud?"
+                }
+              ]
+            }
+          ]
+        },
+        "text": "Have you ever been offered access to your own personal health information online through a secure website or app by your health care provider?"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "More than 1 year, but not more than 2 years ago"
+          }
+        ],
+        "linkId": "4075",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Más o menos ¿Hace cuánto tiempo que usted vio o habló por última vez con un proveedor profesional de salud sobre su salud?  Incluya doctores que vio mientras estaba hospitalizado.\n¿Ha sido…?"
+                }
+              ]
+            }
+          ]
+        },
+        "text": "About how long has it been since you last saw or talked to a healthcare professional about your health? Include doctors seen while you were a patient in a hospital. Has it been…"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "Prefer not to answer"
+          }
+        ],
+        "linkId": "4076",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Durante los últimos 12 meses, ¿Fue un paciente en el hospital durante la noche? No incluya una noche de estadía en la sala de emergencias."
+                }
+              ]
+            }
+          ]
+        },
+        "text": "During the past 12 months, were you a patient in a hospital overnight?  Do not include an overnight stay in the emergency room."
+      },
+      {
+        "answer": [
+          {
+            "valueString": "yes"
+          }
+        ],
+        "linkId": "4077",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Durante los últimos 12 meses,¿Ha visto o hablado con un profesional de salud mental, como ser un/a psicólogo/a, psiquiatra, enfermera/o psiquiátrica o trabajador/a social clínico sobre su salud?"
+                }
+              ]
+            }
+          ]
+        },
+        "text": "During the past 12 months, have you seen or talked to a mental health professional such as a psychologist, psychiatrist, psychiatric nurse or clinical social worker about your health?"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "Prefer not to answer"
+          }
+        ],
+        "linkId": "4079",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Está cubierto por un seguro de salud o algún otro tipo de plan de atención de salud?"
+                }
+              ]
+            }
+          ]
+        },
+        "text": "Are you covered by health insurance or some other kind of health care plan?"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "MEDICARE"
+          },
+          {
+            "valueString": "MEDI-GAP"
+          },
+          {
+            "valueString": "SCHIP (CHIP/Children’s Health Insurance Program)"
+          }
+        ],
+        "linkId": "4080",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Qué clase de seguro salud o cobertura para el cuidado de su salud tiene? Seleccione todos los planes que tiene.\nIncluya los seguros que pagan por un solo tipo de servicio: cuidado de ancianos, accidentes, o cuidado dental).\nExcluya planes privados que sólo proporcionan suplemento de dinero en efectivo mientras está hospitalizado. Si tiene más de un tipo de seguro de salud, dígame todos los planes que tiene."
+                }
+              ]
+            }
+          ]
+        },
+        "text": "What kind of health insurance or health care coverage do you have?  Include those that pay for only one  type  of  service  (nursing  home  care,  accidents,  or  dental  care).    Exclude private  plans  that  only  provide extra cash while hospitalized.  If you have more than one kind of health insurance, mark all plans that you have.      "
+      },
+      {
+        "answer": [
+          {
+            "valueString": "don't know"
+          }
+        ],
+        "linkId": "4082",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "La siguiente pregunta es sobre el uso del cuidado de salud. No incluya el cuidado dental.\n\nDURANTE LOS ÚLTIMOS 12 MESES, ¿ha retrasado la búsqueda de atención médica debido a preocupaciones por el costo? Esto incluye exámenes preventivos como mamografías o colonoscopias. No incluya el cuidado dental."
+                }
+              ]
+            }
+          ]
+        },
+        "text": "During the past 12 months, have you delayed seeking medical care because of worry about the cost? This include preventative screenings like mammograms or colonoscopies. Do not include dental care."
+      }
+    ],
+    "title": "healthcare utilization"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ST-language",
+      "valueCode": "en"
+    }
+  ],
+  "resourceType": "QuestionnaireResponse",
+  "questionnaire": {
+    "reference": "Questionnaire/220/_history/1"
+  },
+  "identifier": {
+    "value": "7479"
+  },
+  "id": "421846418",
+  "authored": "2017-04-03T22:47:47-04:00",
+  "subject": {
+    "reference": "Patient/P418488783"
+  }
 }

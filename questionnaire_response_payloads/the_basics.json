@@ -1,0 +1,746 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ST-language",
+      "valueCode": "en"
+    }
+  ],
+  "identifier": {
+    "value": "7475"
+  },
+  "questionnaire": {
+    "reference": "Questionnaire/226"
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/P418488783"
+  },
+  "authored": "2017-04-03T22:40:50-04:00",
+  "group": {
+    "linkId": "root_group",
+    "title": "the basics",
+    "text": "This set of items asks about your background, household, and contact information. The purpose is to gather some general information about you.",
+    "question": [
+      {
+        "linkId": "5690",
+        "text": "In what country were you born?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿En qué país nació usted?"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "PMI_Other"
+          }
+        ]
+      },
+      {
+        "linkId": "5691",
+        "text": "country of origin",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "país de origen"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "P. R. China"
+          }
+        ]
+      },
+      {
+        "linkId": "5696",
+        "text": "Which categories describe you? Select all that apply. Note, you may select more than one group.",
+        "answer": [
+          {
+            "valueString": "PMI_PreferNotToAnswer"
+          }
+        ]
+      },
+      {
+        "linkId": "5704",
+        "text": "What was your biological sex assigned at birth?",
+        "answer": [
+          {
+            "valueString": "BiologicalSexBirth_Male"
+          }
+        ]
+      },
+      {
+        "linkId": "5708",
+        "text": "What terms best express how you describe your gender identity? (Check all that apply)",
+        "answer": [
+          {
+            "valueString": "GenderIdentity_Man"
+          }
+        ]
+      },
+      {
+        "linkId": "5712",
+        "text": "Which of the following best represents how you think of yourself?",
+        "answer": [
+          {
+            "valueString": "SexualOrientation_Straight"
+          }
+        ]
+      },
+      {
+        "linkId": "5723",
+        "text": "What is the highest grade or year of school you completed?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Cuál es el grado o nivel de educación más alto que ha completado?"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "EducationLevel_Advanced"
+          }
+        ]
+      },
+      {
+        "linkId": "5755",
+        "text": "One of the things we're trying to understand is how people's income may affect their use of health services. Household income includes your income plus the income of all family members in your household for the last calendar year. Include all wages and other sources of income. \n\nWhat is your annual household income from all sources?\n",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Cuál es su ingreso annual del hogar incluyendo todas las fuentes?"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "PMI_PreferNotToAnswer"
+          }
+        ]
+      },
+      {
+        "linkId": "5726",
+        "text": "Have you ever served on active duty in the United States Armed forces, either in the regular military or in a National Guard or military reserve unit? \n\nNote: Active duty does not include training for the Reserves or National Guard, but DOES include activation, for example, for the Persian Gulf War.",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Alguna vez ha estado en servicio activo en las Fuerzas Armadas de los Estados Unidos, ya sea en el servicio militar regular, en la Guardia Nacional o en una unidad de reserva militar? \nNOTA: El servicio activo no incluye el entrenamiento en la Reserva ni en la Guardia Nacional, pero SÍ incluye las actividades de movilización, por ejemplo, para la Guerra del Golfo Pérsico.\tSí"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "ActiveDuty_No"
+          }
+        ]
+      },
+      {
+        "linkId": "5729",
+        "text": "What is your current marital status?\n\n",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Cuál es su estado civil presente?"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "CurrentMaritalStatus_Married"
+          }
+        ]
+      },
+      {
+        "linkId": "5734",
+        "text": "number of people",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "cantidad de adultos"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueDecimal": 999
+          }
+        ]
+      },
+      {
+        "linkId": "5738",
+        "text": "number of people",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "cantidad de niños (number)"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueDecimal": 222
+          }
+        ]
+      },
+      {
+        "linkId": "9762",
+        "text": "Are you covered by health insurance or some other kind of health care plan?",
+        "answer": [
+          {
+            "valueString": "PMI_DontKnow"
+          }
+        ]
+      },
+      {
+        "linkId": "9766",
+        "text": "What kind of health insurance or health care coverage do you have?  Include those that pay for only one  type  of  service  (nursing  home  care,  accidents,  or  dental care).    Exclude private plans that only provide extra cash while hospitalized.  If you have more than one kind of health insurance, mark all plans that you have.  \n\nHere is more information about the Medicaid programs     \nhttps://www.medicaid.gov/medicaid/by-state/by-state.html",
+        "answer": [
+          {
+            "valueString": "HealthInsuranceType_Private"
+          }
+        ]
+      },
+      {
+        "linkId": "5742",
+        "text": "What is your current employment status?  Please select 1 or more of these categories. ",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Cuál es su situación laboral presente?"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "CurrentEmployment_Wages"
+          },
+          {
+            "valueString": "CurrentEmployment_SelfEmployed"
+          }
+        ]
+      },
+      {
+        "linkId": "5752",
+        "text": "Pick your answers from the following choices",
+        "answer": [
+          {
+            "valueString": "PMI_PreferNotToAnswer"
+          }
+        ]
+      },
+      {
+        "linkId": "5758",
+        "text": "Do you own or rent your home?",
+        "answer": [
+          {
+            "valueString": "CurrentHomeOwn_Own"
+          }
+        ]
+      },
+      {
+        "linkId": "5765",
+        "text": "How many years have you lived at your current address?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Cuántos años ha vivido en su dirección actual?"
+                }
+              ]
+            }
+          ]
+        },
+        "answer": [
+          {
+            "valueString": "HowManyLivingYears_6to10"
+          }
+        ]
+      },
+      {
+        "linkId": "5769",
+        "text": "In the past 6 months, have you been worried or concerned about NOT having stable housing that you own, rent, or stay in as part of a household?",
+        "answer": [
+          {
+            "valueString": "StableHouseConcern_No"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
+Response Body
+{
+  "status": "completed",
+  "group": {
+    "linkId": "root_group",
+    "text": "This set of items asks about your background, household, and contact information. The purpose is to gather some general information about you.",
+    "question": [
+      {
+        "answer": [
+          {
+            "valueString": "PMI_Other"
+          }
+        ],
+        "linkId": "5690",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿En qué país nació usted?"
+                }
+              ]
+            }
+          ]
+        },
+        "text": "In what country were you born?"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "P. R. China"
+          }
+        ],
+        "linkId": "5691",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "país de origen"
+                }
+              ]
+            }
+          ]
+        },
+        "text": "country of origin"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "PMI_PreferNotToAnswer"
+          }
+        ],
+        "linkId": "5696",
+        "text": "Which categories describe you? Select all that apply. Note, you may select more than one group."
+      },
+      {
+        "answer": [
+          {
+            "valueString": "BiologicalSexBirth_Male"
+          }
+        ],
+        "linkId": "5704",
+        "text": "What was your biological sex assigned at birth?"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "GenderIdentity_Man"
+          }
+        ],
+        "linkId": "5708",
+        "text": "What terms best express how you describe your gender identity? (Check all that apply)"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "SexualOrientation_Straight"
+          }
+        ],
+        "linkId": "5712",
+        "text": "Which of the following best represents how you think of yourself?"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "EducationLevel_Advanced"
+          }
+        ],
+        "linkId": "5723",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Cuál es el grado o nivel de educación más alto que ha completado?"
+                }
+              ]
+            }
+          ]
+        },
+        "text": "What is the highest grade or year of school you completed?"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "PMI_PreferNotToAnswer"
+          }
+        ],
+        "linkId": "5755",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Cuál es su ingreso annual del hogar incluyendo todas las fuentes?"
+                }
+              ]
+            }
+          ]
+        },
+        "text": "One of the things we're trying to understand is how people's income may affect their use of health services. Household income includes your income plus the income of all family members in your household for the last calendar year. Include all wages and other sources of income. \n\nWhat is your annual household income from all sources?\n"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "ActiveDuty_No"
+          }
+        ],
+        "linkId": "5726",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Alguna vez ha estado en servicio activo en las Fuerzas Armadas de los Estados Unidos, ya sea en el servicio militar regular, en la Guardia Nacional o en una unidad de reserva militar? \nNOTA: El servicio activo no incluye el entrenamiento en la Reserva ni en la Guardia Nacional, pero SÍ incluye las actividades de movilización, por ejemplo, para la Guerra del Golfo Pérsico.\tSí"
+                }
+              ]
+            }
+          ]
+        },
+        "text": "Have you ever served on active duty in the United States Armed forces, either in the regular military or in a National Guard or military reserve unit? \n\nNote: Active duty does not include training for the Reserves or National Guard, but DOES include activation, for example, for the Persian Gulf War."
+      },
+      {
+        "answer": [
+          {
+            "valueString": "CurrentMaritalStatus_Married"
+          }
+        ],
+        "linkId": "5729",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Cuál es su estado civil presente?"
+                }
+              ]
+            }
+          ]
+        },
+        "text": "What is your current marital status?\n\n"
+      },
+      {
+        "answer": [
+          {
+            "valueDecimal": 999
+          }
+        ],
+        "linkId": "5734",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "cantidad de adultos"
+                }
+              ]
+            }
+          ]
+        },
+        "text": "number of people"
+      },
+      {
+        "answer": [
+          {
+            "valueDecimal": 222
+          }
+        ],
+        "linkId": "5738",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "cantidad de niños (number)"
+                }
+              ]
+            }
+          ]
+        },
+        "text": "number of people"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "PMI_DontKnow"
+          }
+        ],
+        "linkId": "9762",
+        "text": "Are you covered by health insurance or some other kind of health care plan?"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "HealthInsuranceType_Private"
+          }
+        ],
+        "linkId": "9766",
+        "text": "What kind of health insurance or health care coverage do you have?  Include those that pay for only one  type  of  service  (nursing  home  care,  accidents,  or  dental care).    Exclude private plans that only provide extra cash while hospitalized.  If you have more than one kind of health insurance, mark all plans that you have.  \n\nHere is more information about the Medicaid programs     \nhttps://www.medicaid.gov/medicaid/by-state/by-state.html"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "CurrentEmployment_Wages"
+          },
+          {
+            "valueString": "CurrentEmployment_SelfEmployed"
+          }
+        ],
+        "linkId": "5742",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Cuál es su situación laboral presente?"
+                }
+              ]
+            }
+          ]
+        },
+        "text": "What is your current employment status?  Please select 1 or more of these categories. "
+      },
+      {
+        "answer": [
+          {
+            "valueString": "PMI_PreferNotToAnswer"
+          }
+        ],
+        "linkId": "5752",
+        "text": "Pick your answers from the following choices"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "CurrentHomeOwn_Own"
+          }
+        ],
+        "linkId": "5758",
+        "text": "Do you own or rent your home?"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "HowManyLivingYears_6to10"
+          }
+        ],
+        "linkId": "5765",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Cuántos años ha vivido en su dirección actual?"
+                }
+              ]
+            }
+          ]
+        },
+        "text": "How many years have you lived at your current address?"
+      },
+      {
+        "answer": [
+          {
+            "valueString": "StableHouseConcern_No"
+          }
+        ],
+        "linkId": "5769",
+        "text": "In the past 6 months, have you been worried or concerned about NOT having stable housing that you own, rent, or stay in as part of a household?"
+      }
+    ],
+    "title": "the basics"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ST-language",
+      "valueCode": "en"
+    }
+  ],
+  "resourceType": "QuestionnaireResponse",
+  "questionnaire": {
+    "reference": "Questionnaire/226/_history/1"
+  },
+  "identifier": {
+    "value": "7475"
+  },
+  "id": "495881576",
+  "authored": "2017-04-03T22:40:50-04:00",
+  "subject": {
+    "reference": "Patient/P418488783"
+  }
+}
