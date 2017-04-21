@@ -5,9 +5,9 @@
       "value": "Vibrent_FORM_ID_296"
     }
   ],
-  "version": "70",
+  "version": "74",
   "status": "published",
-  "date": "2017-04-17T13:49:49-04:00",
+  "date": "2017-04-20T16:06:59+00:00",
   "group": {
     "linkId": "root_group",
     "title": "EHR consent",
@@ -87,7 +87,7 @@
             "code": "Multi Selector"
           }
         ],
-        "text": "Take as much time you need to decide about giving access to your EHR. You can review these screens as many times as you like. \n",
+        "text": "Take as much time you need to decide about giving All of Us access to your EHR. You can review these screens as many times as you like. \n",
         "_text": {
           "extension": [
             {

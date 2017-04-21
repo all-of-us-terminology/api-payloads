@@ -5,9 +5,9 @@
       "value": "Vibrent_FORM_ID_284"
     }
   ],
-  "version": "209",
+  "version": "230",
   "status": "published",
-  "date": "2017-04-18T18:34:31-04:00",
+  "date": "2017-04-21T19:31:54+00:00",
   "group": {
     "linkId": "root_group",
     "title": "the basics",
@@ -375,7 +375,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Ethnicity_AIAN"
+            "code": "WhatRaceEthnicity_Asian"
           }
         ],
         "text": "American Indian or Alaska Native",
@@ -795,7 +795,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Ethnicity_Black"
+            "code": "WhatRaceEthnicity_Black"
           }
         ],
         "text": "Black, African American or African",
@@ -1065,7 +1065,24 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "WhatRaceEthnicity_FreeText",
-            "display": "Ninguna opción me describe completamente (respuesta libre opcional)"
+            "display": "None of these fully describe me",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Ninguna opción me describe completamente (respuesta libre opcional)"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -1087,7 +1104,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Ethnicity_Hispanic"
+            "code": "WhatRaceEthnicity_Hispanic"
           }
         ],
         "text": "Hispanic, Latino, or Spanish",
@@ -1352,7 +1369,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Ethnicity_MENA"
+            "code": "WhatRaceEthnicity_MENA"
           }
         ],
         "text": "Middle Eastern or North African",
@@ -1639,7 +1656,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Ethnicity_NHPI"
+            "code": "WhatRaceEthnicity_White"
           }
         ],
         "text": "Native Hawaiian or other Pacific Islander",
@@ -2213,7 +2230,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Gender_BiologicalSexBirth"
+            "code": "BiologicalSex_SexAtBirth"
           }
         ],
         "text": "What was your biological sex assigned at birth?",
@@ -2240,7 +2257,7 @@
         "option": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "BiologicalSexBirth_Female",
+            "code": "SexAtBirth_Female",
             "display": "female",
             "_display": {
               "extension": [
@@ -2262,7 +2279,7 @@
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "BiologicalSexBirth_Male",
+            "code": "SexAtBirth_Male",
             "display": "male",
             "_display": {
               "extension": [
@@ -2284,7 +2301,7 @@
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "BiologicalSexBirth_Intersex",
+            "code": "SexAtBirth_Intersex",
             "display": "intersex",
             "_display": {
               "extension": [
@@ -2328,7 +2345,7 @@
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PMI_Other",
+            "code": "SexAtBirth_None",
             "display": "none of these describe me ",
             "_display": {
               "extension": [
@@ -3092,7 +3109,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Education_EducationLevel"
+            "code": "EducationLevel_HighestGrade"
           }
         ],
         "text": "What is the highest grade or year of school you completed?",
@@ -3119,7 +3136,7 @@
         "option": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "EducationLevel_NeverAttended",
+            "code": "HighestGrade_NeverAttended",
             "display": "never attended school or only attended kindergarten",
             "_display": {
               "extension": [
@@ -3141,7 +3158,7 @@
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "EducationLevel_1to4",
+            "code": "HighestGrade_OneThroughFour",
             "display": "grades 1 through 4 (primary)",
             "_display": {
               "extension": [
@@ -3163,7 +3180,7 @@
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "EducationLevel_5to8",
+            "code": "HighestGrade_FiveThroughEight",
             "display": "grades 5 through 8 (secondary)",
             "_display": {
               "extension": [
@@ -3185,7 +3202,7 @@
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "EducationLevel_9to11",
+            "code": "HighestGrade_NineThroughEleven",
             "display": "grades 9 through 11 (Some high school)",
             "_display": {
               "extension": [
@@ -3207,12 +3224,12 @@
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "EducationLevel_12GED",
+            "code": "HighestGrade_TwelveOrGED",
             "display": "grade 12 or GED (high school graduate) "
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "EducationLevel_College1to3",
+            "code": "HighestGrade_CollegeOnetoThree",
             "display": "college 1 to 3 years (some college or technical school)",
             "_display": {
               "extension": [
@@ -3234,7 +3251,7 @@
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "EducationLevel_College4plus",
+            "code": "HighestGrade_CollegeGraduate",
             "display": "college 4 years or more (college graduate) ",
             "_display": {
               "extension": [
@@ -3256,7 +3273,7 @@
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "EducationLevel_Advanced",
+            "code": "HighestGrade_AdvancedDegree",
             "display": "advanced degree (Master’s, Doctorate, etc.) ",
             "_display": {
               "extension": [
@@ -3320,7 +3337,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "¿Cuál es su ingreso annual del hogar incluyendo todas las fuentes?"
+                  "valueString": "Una de las cosas que tratamos de entender es de qué modo los ingresos de las personas pueden afectar su uso de los servicios de salud. El ingreso familiar incluye su ingreso más el ingreso de todos los miembros de la familia que viven en su casa durante el último año calendario. \n\nIncluye todos los sueldos y otras fuentes de ingreso."
                 }
               ]
             }
@@ -3543,7 +3560,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "prefiero no contestar"
+                      "valueString": "Prefiero no responder"
                     }
                   ]
                 }
@@ -3572,7 +3589,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "¿Alguna vez ha estado en servicio activo en las Fuerzas Armadas de los Estados Unidos, ya sea en el servicio militar regular, en la Guardia Nacional o en una unidad de reserva militar? \nNOTA: El servicio activo no incluye el entrenamiento en la Reserva ni en la Guardia Nacional, pero SÍ incluye las actividades de movilización, por ejemplo, para la Guerra del Golfo Pérsico.\tSí"
+                  "valueString": "¿Alguna vez ha estado en servicio activo en las Fuerzas Armadas de los Estados Unidos, ya sea en el servicio militar regular, en la Guardia Nacional o en una unidad de reserva militar? \n\nImportante: El servicio activo no incluye el entrenamiento para las reservas o la Guardia Nacional, pero SÍ incluye la incorporación, por ejemplo, para la Guerra del Golfo Pérsico."
                 }
               ]
             }
@@ -3641,7 +3658,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "prefiero no contestar"
+                      "valueString": "Prefiero no responder"
                     }
                   ]
                 }
@@ -3670,7 +3687,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "¿Cuál es su estado civil presente?"
+                  "valueString": "¿Cuál es su estado civil actual?"
                 }
               ]
             }
@@ -3783,7 +3800,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "nunco estuvo casado/a"
+                      "valueString": "Soltero"
                     }
                   ]
                 }
@@ -3805,7 +3822,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "vive en pareha sin estar casado"
+                      "valueString": "Vivo con mi pareja"
                     }
                   ]
                 }
@@ -3827,7 +3844,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "prefiero no contestar"
+                      "valueString": "Prefiero no responder"
                     }
                   ]
                 }
@@ -3856,7 +3873,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "cantidad de adultos"
+                  "valueString": "cantidad de personas"
                 }
               ]
             }
@@ -3905,6 +3922,23 @@
           }
         ],
         "text": "Are you covered by health insurance or some other kind of health care plan?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Está cubierto por un seguro de salud o algún otro tipo de plan de atención médica?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -3912,7 +3946,24 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "HealthInsurance_Yes",
-            "display": "yes"
+            "display": "yes",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Sí"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
@@ -3929,7 +3980,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "MEDICARE"
+                      "valueString": "No"
                     }
                   ]
                 }
@@ -3939,7 +3990,24 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PMI_DontKnow",
-            "display": "don't know"
+            "display": "don't know",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no lo sé"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
@@ -3956,7 +4024,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "MEDI-GAP"
+                      "valueString": "Prefiero no responder"
                     }
                   ]
                 }
@@ -3974,6 +4042,23 @@
           }
         ],
         "text": "What kind of health insurance or health care coverage do you have?  Include those that pay for only one  type  of  service  (nursing  home  care,  accidents,  or  dental care).    Exclude private plans that only provide extra cash while hospitalized.  If you have more than one kind of health insurance, mark all plans that you have.  \n\nHere is more information about the Medicaid programs     \nhttps://www.medicaid.gov/medicaid/by-state/by-state.html",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Qué tipo de seguro médico o cobertura de atención médica tiene? Incluya aquellos que paga por solo un tipo de servicio (atención en residencias para ancianos, atención en caso de accidente o atención odontológica). Excluya los planes privados con los que solo paga un monto adicional mientras está hospitalizado. Si tiene más de un tipo de seguro médico, marque todos los planes que tiene.\nAquí encontrará más información acerca de los programas Medicaid     \nhttps://www.medicaid.gov/medicaid/by-state/by-state.html"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": true,
@@ -3981,7 +4066,24 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "HealthInsuranceType_Private",
-            "display": "private health insurance (includes employer-based)"
+            "display": "private health insurance (includes employer-based)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Seguro médico privado (incluye los seguros patrocinados por el empleador)"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
@@ -4064,7 +4166,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "SCHIP (CHIP/Children’s Health Insurance Program"
+                      "valueString": "SCHIP (CHIP/Programa de seguro médico para niños)"
                     }
                   ]
                 }
@@ -4086,7 +4188,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Military health care (TRICARE/VA/CHAMP-VA)"
+                      "valueString": "Atención médica para militares (TRICARE/VA/CHAMP-VA)"
                     }
                   ]
                 }
@@ -4108,7 +4210,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Indian health service"
+                      "valueString": "Servicio de Salud para Indígenas Estadounidenses"
                     }
                   ]
                 }
@@ -4130,7 +4232,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "State-sponsored health plan"
+                      "valueString": "Plan de salud patrocinado por el estado"
                     }
                   ]
                 }
@@ -4152,7 +4254,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Other government program"
+                      "valueString": "Otra programa gubernamental"
                     }
                   ]
                 }
@@ -4174,7 +4276,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Single service plan (e.g., dental, vision,  prescriptions)"
+                      "valueString": "Plan de servicio individual (por ejemplo, dental, oftalmología, medicamentos recetados)"
                     }
                   ]
                 }
@@ -4196,7 +4298,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "No coverage of any type"
+                      "valueString": "No tiene ningún tipo de cobertura"
                     }
                   ]
                 }
@@ -4218,7 +4320,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Prefer not to answer"
+                      "valueString": "Prefiero no responder"
                     }
                   ]
                 }
@@ -4240,7 +4342,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Don't know"
+                      "valueString": "no lo sé"
                     }
                   ]
                 }
@@ -4269,7 +4371,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "¿Cuál es su situación laboral presente?"
+                  "valueString": "¿Cuál es su situación laboral actual?  Seleccione 1 o más de estas categorías."
                 }
               ]
             }
@@ -4294,7 +4396,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "empleado/a asalariado/a"
+                      "valueString": "asalariado (tiempo parcial o tiempo completo)"
                     }
                   ]
                 }
@@ -4316,7 +4418,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "trabajador/a independiente"
+                      "valueString": "autónomo"
                     }
                   ]
                 }
@@ -4338,7 +4440,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "desempleado/a por 1 año o más"
+                      "valueString": "desocupado hace 1 año o más"
                     }
                   ]
                 }
@@ -4360,7 +4462,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "ha estado desempleado/a por menos de 1 año"
+                      "valueString": "desocupado hace menos de 1 año"
                     }
                   ]
                 }
@@ -4382,7 +4484,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "soy una mujer u hombre que me ocupo de tareas de la casa"
+                      "valueString": "dedicado a las labores del hogar"
                     }
                   ]
                 }
@@ -4448,7 +4550,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "no puede trabajar"
+                      "valueString": "incapacitado para trabajar (discapacitado)"
                     }
                   ]
                 }
@@ -4470,7 +4572,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "prefiero no contestar"
+                      "valueString": "Prefiero no responder"
                     }
                   ]
                 }
@@ -4681,7 +4783,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "prefiero no contestar"
+                      "valueString": "Prefiero no responder"
                     }
                   ]
                 }
@@ -4704,6 +4806,23 @@
           }
         ],
         "text": "Do you own or rent your home?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Es propietario de su casa o alquila?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -4711,17 +4830,68 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "CurrentHomeOwn_Own",
-            "display": "own"
+            "display": "own",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Soy propietario"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "CurrentHomeOwn_Rent",
-            "display": "rent"
+            "display": "rent",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Alquilo"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "CurrentHomeOwn_OtherArrangement",
-            "display": "other arrangement"
+            "display": "other arrangement",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Otra disposición"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
@@ -4760,7 +4930,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "prefiero no contestar"
+                      "valueString": "Prefiero no responder"
                     }
                   ]
                 }
@@ -4778,6 +4948,23 @@
           }
         ],
         "text": "Where are you currently living?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Dónde vive en la actualidad?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -4785,47 +4972,200 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "CurrentLiving_CollegeCamp",
-            "display": "on a college campus"
+            "display": "on a college campus",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "En el campus de la universidad"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "CurrentLiving_Friend",
-            "display": "with a friend/roommate"
+            "display": "with a friend/roommate",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Con un amigo/compañero de habitación"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "CurrentLiving_Family",
-            "display": "with family"
+            "display": "with family",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Con la familia"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "CurrentLiving_MotelHotel",
-            "display": "motel/hotel"
+            "display": "motel/hotel",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Motel/hotel"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "CurrentLiving_TemporaryInstitute",
-            "display": "hospital, rehabilitation center, drug treatment center, or other temporary institution"
+            "display": "hospital, rehabilitation center, drug treatment center, or other temporary institution",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Hospital, centro de rehabilitación, centro de tratamiento de drogadicción u otra institución temporaria"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "CurrentLiving_ResidentialFacility",
-            "display": "in a group home, nursing home, or other residential facility"
+            "display": "in a group home, nursing home, or other residential facility",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "En un hogar grupal, una residencia para ancianos u otro centro residencial"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "CurrentLiving_Transitional",
-            "display": "transitional housing"
+            "display": "transitional housing",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Alojamiento transitorio"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "CurrentLiving_Shelter",
-            "display": "emergency shelter or homeless shelter"
+            "display": "emergency shelter or homeless shelter",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Refugio de emergencia o refugio para personas sin hogar"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "CurrentLiving_Outside",
-            "display": "anywhere outside (e.g., street, vehicle, abandoned building)"
+            "display": "anywhere outside (e.g., street, vehicle, abandoned building)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "En cualquier lugar (por ejemplo, la calle, un vehículo, un edificio abandonado)"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
@@ -4914,32 +5254,134 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "HowManyLivingYears_less1",
-            "display": "less than 1 year"
+            "display": "less than 1 year",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Menos de 1 año"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "HowManyLivingYears_1to2",
-            "display": "1-2 years"
+            "display": "1-2 years",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "1 a 2 años"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "HowManyLivingYears_3to5",
-            "display": "3-5 years"
+            "display": "3-5 years",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "3 a 5 años"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "HowManyLivingYears_6to10",
-            "display": "6-10 years"
+            "display": "6-10 years",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "6 a 10 años"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "HowManyLivingYears_11to20",
-            "display": "11-20 years"
+            "display": "11-20 years",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "11 a 20 años"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "HowManyLivingYears_more20",
-            "display": "more than 20 years"
+            "display": "more than 20 years",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Más de 20 años"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -4952,6 +5394,23 @@
           }
         ],
         "text": "In the past 6 months, have you been worried or concerned about NOT having stable housing that you own, rent, or stay in as part of a household?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En los últimos 6 meses, ¿ha estado preocupado o ansioso por NO tener una vivienda estable propia o alquilada, o donde pueda alojarse y que constituya un hogar?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -5001,6 +5460,18 @@
             }
           }
         ]
+      },
+      {
+        "linkId": "10448",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+          }
+        ],
+        "text": "social security number",
+        "type": "text",
+        "required": false,
+        "repeats": false
       },
       {
         "linkId": "5789",
@@ -5570,7 +6041,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Dropdown"
+            "code": "SecondaryContactInfo_PersonOneRelationship"
           }
         ],
         "text": "relationship to you",
@@ -5807,7 +6278,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "SecondaryContactInfo_PersonTwoAddress"
+            "code": "SecondaryContactInfo_SecondContactsAddress"
           }
         ],
         "text": "person 2 state",

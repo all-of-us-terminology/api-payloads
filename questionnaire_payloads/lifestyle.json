@@ -5,9 +5,9 @@
       "value": "Vibrent_FORM_ID_286"
     }
   ],
-  "version": "82",
+  "version": "100",
   "status": "published",
-  "date": "2017-04-18T17:08:01-04:00",
+  "date": "2017-04-21T13:27:14+00:00",
   "group": {
     "linkId": "root_group",
     "title": "lifestyle",
@@ -132,7 +132,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "prefiero no contestar"
+                      "valueString": "Prefiero no responder"
                     }
                   ]
                 }
@@ -274,7 +274,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "prefiero no contestar"
+                      "valueString": "Prefiero no responder"
                     }
                   ]
                 }
@@ -433,7 +433,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "prefiero no contestar"
+                      "valueString": "Prefiero no responder"
                     }
                   ]
                 }
@@ -743,7 +743,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "prefiero no contestar"
+                      "valueString": "Prefiero no responder"
                     }
                   ]
                 }
@@ -885,7 +885,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "prefiero no contestar"
+                      "valueString": "Prefiero no responder"
                     }
                   ]
                 }
@@ -1005,7 +1005,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "prefiero no contestar"
+                      "valueString": "Prefiero no responder"
                     }
                   ]
                 }
@@ -1147,7 +1147,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "prefiero no contestar"
+                      "valueString": "Prefiero no responder"
                     }
                   ]
                 }
@@ -1267,7 +1267,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "prefiero no contestar"
+                      "valueString": "Prefiero no responder"
                     }
                   ]
                 }
@@ -1409,7 +1409,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "prefiero no contestar"
+                      "valueString": "Prefiero no responder"
                     }
                   ]
                 }
@@ -1529,7 +1529,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "prefiero no contestar"
+                      "valueString": "Prefiero no responder"
                     }
                   ]
                 }
@@ -1671,7 +1671,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "prefiero no contestar"
+                      "valueString": "Prefiero no responder"
                     }
                   ]
                 }
@@ -1689,6 +1689,23 @@
           }
         ],
         "text": "In your entire life, have you had at least 1 drink of any kind of alcohol, not counting small tastes or sips. For example, a 12 ounce can of beer is considered 1 serving of beer, a 5 ounce glass of wine is considered 1 serving of wine \n\n(By a “drink,” we mean a can or bottle of beer, a glass of wine or a wine cooler, a shot of liquor, or a mixed drink with liquor in it.)",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En toda su vida, ¿ha bebido al menos 1 trago de algún tipo de alcohol, sin contar los sorbos pequeños? (Con \"trago\", nos referimos a una lata o una botella de cerveza, una copa de vino o una bebida alcohólica gasificada, una medida de bebida destilada o un cóctel con bebida destilada)."
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -1696,12 +1713,46 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "AlcoholParticipant_Yes",
-            "display": "yes"
+            "display": "yes",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Sí"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "AlcoholParticipant_No",
-            "display": "no"
+            "display": "no",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "No"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -1714,6 +1765,23 @@
           }
         ],
         "text": "How often did you have a drink containing alcohol in the past year?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Con qué frecuencia tomó tragos con alcohol en el último año?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -1721,27 +1789,112 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "DrinkFrequencyPastYear_Never",
-            "display": "never"
+            "display": "never",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Nunca"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "DrinkFrequencyPastYear_MonthlyOrLess",
-            "display": "monthly or less"
+            "display": "monthly or less",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una vez al mes o menos"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "DrinkFrequencyPastYear_2to4PerMonth",
-            "display": "two to four times a month"
+            "display": "two to four times a month",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Dos a cuatro veces al mes"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "DrinkFrequencyPastYear_2to3PerWeek",
-            "display": "two to three times a week"
+            "display": "two to three times a week",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Dos o tres veces a la semana"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "DrinkFrequencyPastYear_4orMorePerWeek",
-            "display": "four or more times a week"
+            "display": "four or more times a week",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Cuatro veces o más a la semana"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -1754,6 +1907,23 @@
           }
         ],
         "text": "How many drinks did you have on a typical day when you were drinking in the past year?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Cuántos tragos tomaba en un día normal cuando bebía en el último año?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -1761,27 +1931,112 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "AverageDailyDrinkCount_1or2",
-            "display": "1 or 2"
+            "display": "1 or 2",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "1 o 2"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "AverageDailyDrinkCount_3or4",
-            "display": "3 or 4"
+            "display": "3 or 4",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "3 o 4"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "AverageDailyDrinkCount_5or6",
-            "display": "5 or 6"
+            "display": "5 or 6",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "5 o 6"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "AverageDailyDrinkCount_7to9",
-            "display": "7 to 9"
+            "display": "7 to 9",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "7 a 9"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "AverageDailyDrinkCount_10orMore",
-            "display": "10 or more"
+            "display": "10 or more",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "10 o más"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -1794,6 +2049,23 @@
           }
         ],
         "text": "How often did you have six or more drinks on one occasion in the past year?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Con qué frecuencia tomó seis o más tragos en una sola ocasión en el último año?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -1801,32 +2073,134 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "6orMoreDrinksOccurence_Never",
-            "display": "never"
+            "display": "never",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Nunca"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "6orMoreDrinksOccurence_LessThanMonthly",
-            "display": "less than monthly"
+            "display": "less than monthly",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Menos de una vez al mes"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "6orMoreDrinksOccurence_Monthly",
-            "display": "monthly"
+            "display": "monthly",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una vez al mes"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "6orMoreDrinksOccurence_Weekly",
-            "display": "weekly "
+            "display": "weekly ",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una vez a la semana"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "6orMoreDrinksOccurence_Daily",
-            "display": "daily or almost daily"
+            "display": "daily or almost daily",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "A diario o casi todos los días"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "6orMoreDrinksOccurence_NeverInLastYear",
-            "display": "never in the last year"
+            "display": "never in the last year",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Nunca en el último año"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -1839,6 +2213,23 @@
           }
         ],
         "text": "In your LIFETIME, which of the following substances have you ever used? (select all that apply)",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En TODA SU VIDA, ¿cuál de las siguientes sustancias ha usado?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": true,
@@ -1846,52 +2237,222 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "WhichDrugsUsed_MarijuanaUse",
-            "display": "marijuana (cannabis, pot, grass, hash, weed, etc.)"
+            "display": "marijuana (cannabis, pot, grass, hash, weed, etc.)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Marihuana (cannabis, mota, hachís, hierba, etc.)"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "WhichDrugsUsed_CocaineUse",
-            "display": "cocaine (coke, crack, etc.)"
+            "display": "cocaine (coke, crack, etc.)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Cocaína (coca, crack, etc.)"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "WhichDrugsUsed_PrescriptionStimulantsUse",
-            "display": "prescription stimulants for non-medical reasons (Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)"
+            "display": "prescription stimulants for non-medical reasons (Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Estimulantes recetados por motivos no médicos (Ritalin, Concerta, Dexedrina, Adderall, píldoras para bajar de peso, etc.)"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "WhichDrugsUsed_MethamphetamineUse",
-            "display": "methamphetamine (speed, crystal meth, ice, etc.)"
+            "display": "methamphetamine (speed, crystal meth, ice, etc.)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Otros estimulantes (metanfetamina [meta speed, cristalizada, solidificada, etc.], k2/spice, sales de baño)"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "WhichDrugsUsed_InhalantsUse",
-            "display": "inhalants (nitrous oxide, glue, gas, paint thinner, etc.)"
+            "display": "inhalants (nitrous oxide, glue, gas, paint thinner, etc.)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Inhalantes (óxido nitroso, pegamento, gasolina, diluyente de pintura, etc.)"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "WhichDrugsUsed_SedativesUse",
-            "display": "sedatives or sleeping pills for non-medical reasons (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)"
+            "display": "sedatives or sleeping pills for non-medical reasons (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Sedantes o píldoras para dormir por motivos no médicos (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "WhichDrugsUsed_HallucinogensUse",
-            "display": "hallucinogens (LSD, acid, mushrooms, PCP, Special K,\necstasy, etc.)"
+            "display": "hallucinogens (LSD, acid, mushrooms, PCP, Special K,\necstasy, etc.)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Alucinógenos (LSD, ácidos, hongos, PCP, ketamina, éxtasis, etc.)"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "WhichDrugsUsed_StreetOpioidsUse",
-            "display": "street opioids (heroin, opium, etc.)"
+            "display": "street opioids (heroin, opium, etc.)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Opioides callejeros (heroína, opio, etc.)"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "WhichDrugsUsed_PrescriptionOpioidsUse",
-            "display": "prescription opioids for non-medical reasons (fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine, etc.)"
+            "display": "prescription opioids for non-medical reasons (fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine, etc.)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Opioides recetados por motivos no médicos (fentanilo, oxicodona [OxyContina, Percocet], hidrocodona [Vicodina], metadona, buprenorfina, etc.)"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PMI_Other",
-            "display": "other"
+            "display": "other",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Otros"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -1917,6 +2478,23 @@
           }
         ],
         "text": "In the past three months, how often have you used marijuana (cannabis, pot, grass, hash, etc.)?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó  Marihuana (cannabis, mota, hachís, hierba, etc.) ?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -1924,27 +2502,112 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "Marijuana3MonthUse_Never",
-            "display": "never"
+            "display": "never",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Nunca"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "Marijuana3MonthUse_OneOrTwice",
-            "display": "once or twice"
+            "display": "once or twice",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una o dos veces"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "Marijuana3MonthUse_Monthly",
-            "display": "monthly"
+            "display": "monthly",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una vez al mes"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "Marijuana3MonthUse_Weekly",
-            "display": "weekly"
+            "display": "weekly",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una vez a la semana"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "Marijuana3MonthUse_Daily",
-            "display": "daily or almost daily"
+            "display": "daily or almost daily",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "A diario o casi todos los días"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -1957,6 +2620,23 @@
           }
         ],
         "text": "In the past three months, how often have you used cocaine (coke, crack, etc.)?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó Cocaína (coca, crack, etc.)?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -1997,6 +2677,23 @@
           }
         ],
         "text": "In the past three months, how often have you used prescription stimulants for non-medical reasons (Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó Estimulantes recetados por motivos no médicos (Vyvanse Ritalin, Concerta, Dexedrina, Adderall, píldoras para bajar de peso, etc.)"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -2037,6 +2734,23 @@
           }
         ],
         "text": "In the past three months, how often have you used methamphetamine (speed, crystal meth, ice, etc.)?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó (metanfetamina [meta speed, cristalizada, solidificada, etc.], k2/spice, sales de baño)?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -2077,6 +2791,23 @@
           }
         ],
         "text": "In the past three months, how often have you used inhalants (nitrous oxide, glue, gas, paint thinner, etc.)?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó Inhalantes (óxido nitroso, pegamento, gasolina, diluyente de pintura, etc.)?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -2117,6 +2848,23 @@
           }
         ],
         "text": "In the past three months, how often have you used sedatives or sleeping pills for non-medical reasons (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó Sedantes o píldoras para dormir por motivos no médicos (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -2157,6 +2905,23 @@
           }
         ],
         "text": "In the past three months, how often have you used hallucinogens (LSD, acid, mushrooms, PCP, Special K,\necstasy, etc.)?\n",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó Alucinógenos (LSD, ácidos, hongos, PCP, ketamina, éxtasis, etc.)?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -2164,27 +2929,112 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "Hallucinogen3MonthUse_Never",
-            "display": "never"
+            "display": "never",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Nunca"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "Hallucinogen3MonthUse_OnceOrTwice",
-            "display": "once or twice"
+            "display": "once or twice",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una o dos veces"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "Hallucinogen3MonthUse_Monthly",
-            "display": "monthly"
+            "display": "monthly",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una vez al mes"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "Hallucinogen3MonthUse_Weekly",
-            "display": "weekly"
+            "display": "weekly",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una vez a la semana"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "Hallucinogen3MonthUse_Daily",
-            "display": "daily or almost daily"
+            "display": "daily or almost daily",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "A diario o casi todos los días"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -2197,6 +3047,23 @@
           }
         ],
         "text": "In the past three months, how often have you used street opioids (heroin, opium, etc.)?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó Opioides callejeros (heroína, opio, etc.)?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -2204,27 +3071,112 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "StreetOpioid3MonthUse_Never",
-            "display": "never"
+            "display": "never",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Nunca"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "StreetOpioid3MonthUse_OnceOrTwice",
-            "display": "once or twice"
+            "display": "once or twice",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una o dos veces"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "StreetOpioid3MonthUse_Monthly",
-            "display": "monthly"
+            "display": "monthly",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una vez al mes"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "StreetOpioid3MonthUse_Weekly",
-            "display": "weekly"
+            "display": "weekly",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una vez a la semana"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "StreetOpioid3MonthUse_Daily",
-            "display": "daily or almost daily"
+            "display": "daily or almost daily",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "A diario o casi todos los días"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -2237,6 +3189,23 @@
           }
         ],
         "text": "In the past three months, how often have you used prescription opioids for non-medical reasons (fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine, etc.)?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó Opioides recetados por motivos no médicos (obana, fentanilo, oxicodona [OxyContina, Percocet], hidrocodona [Vicodina], metadona, buprenorfina [Suboxone], etc.)?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -2244,27 +3213,112 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PrescriptionOpiod3MonthUse_Never",
-            "display": "never"
+            "display": "never",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Nunca"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PrescriptionOpiod3MonthUse_OnceOrTwice",
-            "display": "once or twice"
+            "display": "once or twice",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una o dos veces"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PrescriptionOpiod3MonthUse_Monthly",
-            "display": "monthly"
+            "display": "monthly",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una vez al mes"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PrescriptionOpiod3MonthUse_Weekly",
-            "display": "weekly"
+            "display": "weekly",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una vez a la semana"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PrescriptionOpiod3MonthUse_Daily",
-            "display": "daily or almost daily"
+            "display": "daily or almost daily",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "A diario o casi todos los días"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       }

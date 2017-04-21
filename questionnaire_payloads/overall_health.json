@@ -5,16 +5,16 @@
       "value": "Vibrent_FORM_ID_279"
     }
   ],
-  "version": "102",
+  "version": "117",
   "status": "published",
-  "date": "2017-04-18T17:15:45-04:00",
+  "date": "2017-04-21T14:52:55+00:00",
   "group": {
     "linkId": "root_group",
     "title": "overall health",
     "concept": [
       {
         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-        "code": "Overall Health"
+        "code": "OverallHealth"
       }
     ],
     "text": "This set of questions asks you to rate your health and how well you manage in several different areas.",
@@ -41,7 +41,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "¿Cuánto confianza tiene completando formas médicos por usted mismo?"
+                  "valueString": "¿Qué seguridad siente al llenar formularios médicos por su cuenta?"
                 }
               ]
             }
@@ -325,7 +325,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "¿Con qué frecuencia tiene problemas de aprender sobre su estado de salud porque tiene dificultad entendiendo la información escrita?"
+                  "valueString": "¿Con qué frecuencia tiene problemas para conocer más sobre su afección médica debido a su dificultad para entender la información escrita?"
                 }
               ]
             }
@@ -514,7 +514,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "muybuena"
+                      "valueString": "muy buena"
                     }
                   ]
                 }
@@ -558,7 +558,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "pasable"
+                      "valueString": "regular"
                     }
                   ]
                 }
@@ -700,7 +700,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "pasable"
+                      "valueString": "regular"
                     }
                   ]
                 }
@@ -842,7 +842,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "pasable"
+                      "valueString": "regular"
                     }
                   ]
                 }
@@ -893,7 +893,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "En general, ¿cómo calificaría su salud mental, incluyendo su estado de ánimo y su capacidad para pensar?"
+                  "valueString": "En general, ¿cómo calificaría su salud mental, incluidos su estado de ánimo y su capacidad de razonamiento?"
                 }
               ]
             }
@@ -984,7 +984,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "pasable"
+                      "valueString": "regular"
                     }
                   ]
                 }
@@ -1035,7 +1035,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "En general, ¿cómo calificaría su satisfacción con sus actividades sociales y sus relaciones con otras personas?"
+                  "valueString": "En general, ¿cómo calificaría su satisfacción con respecto a sus actividades sociales y sus relaciones?"
                 }
               ]
             }
@@ -1126,7 +1126,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "pasable"
+                      "valueString": "regular"
                     }
                   ]
                 }
@@ -1177,7 +1177,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "¿En qué medida puede realizar actividades físicas diarias, como caminar, subir escaleras, cargar las compras o mover una silla?"
+                  "valueString": "¿En qué medida puede desarrollar sus actividades físicas cotidianas, como caminar, subir escaleras, cargar bolsas o mover una silla?"
                 }
               ]
             }
@@ -1202,7 +1202,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "completamente"
+                      "valueString": "totalmente"
                     }
                   ]
                 }
@@ -1224,7 +1224,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "en su mayoría"
+                      "valueString": "en gran parte"
                     }
                   ]
                 }
@@ -1246,7 +1246,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "moderamente"
+                      "valueString": "medianamente"
                     }
                   ]
                 }
@@ -1290,7 +1290,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "para nada"
+                      "valueString": "en absoluto"
                     }
                   ]
                 }
@@ -1332,7 +1332,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "En los últimos 7 días… \nEn promedio, ¿cómo calificaría su cansacio?"
+                  "valueString": "En los últimos 7 días, ¿cómo calificaría su fatiga en promedio?"
                 }
               ]
             }
@@ -1357,7 +1357,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "ninguno"
+                      "valueString": "ninguna"
                     }
                   ]
                 }
@@ -1401,7 +1401,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "moderado"
+                      "valueString": "moderada"
                     }
                   ]
                 }
@@ -1423,7 +1423,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "intenso"
+                      "valueString": "severa"
                     }
                   ]
                 }
@@ -1445,7 +1445,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "muy intenso"
+                      "valueString": "muy severa"
                     }
                   ]
                 }
@@ -1474,7 +1474,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "En general, califique en qué medida puede realizar actividades sociales y funciones habituales. (Esto incluye actividades en su casa, en el trabajo y en el área donde reside, así también comosus responsabilidades como padre o madre, hijo/a, cónyuge, empleado/a, amigo/a, etc.)"
+                  "valueString": "En general, califique de qué manera puede ejercer su rol social normal. (Esto incluye actividades en el hogar, en el trabajo y en su comunidad, así como sus responsabilidades como padre, hijo, cónyuge, empleado, amigo, etc.)"
                 }
               ]
             }
@@ -1521,7 +1521,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "muy Buena"
+                      "valueString": "muy buena"
                     }
                   ]
                 }
@@ -1565,7 +1565,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "pasable"
+                      "valueString": "regular"
                     }
                   ]
                 }
@@ -1605,6 +1605,23 @@
           }
         ],
         "text": "In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed, or irritable?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En los últimos 7 días, ¿con qué frecuencia ha sufrido problemas emocionales, por ejemplo, sentirse ansioso, deprimido o irritable?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -1612,17 +1629,68 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "EmotionalProblem7Days_Never",
-            "display": "never"
+            "display": "never",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "nunca"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "EmotionalProblem7Days_Rarely",
-            "display": "rarely"
+            "display": "rarely",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "en raras ocasiones"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "EmotionalProblem7Days_Sometimes",
-            "display": "sometimes"
+            "display": "sometimes",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "a veces"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
@@ -1639,7 +1707,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "a menudo"
+                      "valueString": "con frecuencia"
                     }
                   ]
                 }
@@ -1679,6 +1747,23 @@
           }
         ],
         "text": "Are you currently pregnant? ",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En este momento, ¿está embarazada?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -1686,22 +1771,90 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PregnancyStatus_Yes",
-            "display": "yes"
+            "display": "yes",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "sí"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PregnancyStatus_No",
-            "display": "no"
+            "display": "no",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PMI_NotSure",
-            "display": "not sure"
+            "display": "not sure",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no estoy segura"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PMI_PreferNotToAnswer",
-            "display": "prefer not to answer"
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -1714,6 +1867,23 @@
           }
         ],
         "text": "Have your menstrual periods stopped permanently",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Sus periodos menstruales ¿se han interrumpido en forma permanente?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -1721,27 +1891,112 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "MentrualStopped_No",
-            "display": "no"
+            "display": "no",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "MentrualStopped_YesNone",
-            "display": "yes, I have no menstrual periods"
+            "display": "yes, I have no menstrual periods",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "sí, no tengo periodos menstruales"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "MentrualStopped_YesButHormone",
-            "display": "yes, but I have periods induced by hormones"
+            "display": "yes, but I have periods induced by hormones",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "sí, pero tengo periodos inducidos por hormonas"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "MentrualStopped_NotSure",
-            "display": "not sure"
+            "display": "not sure",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no estoy segura"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PMI_PreferNotToAnswer",
-            "display": "prefer not to answer"
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -1754,6 +2009,23 @@
           }
         ],
         "text": "Why did your periods stop?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Por qué se interrumpieron sus periodos?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -1761,37 +2033,156 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "MentrualStoppedReason_NaturalMenopause",
-            "display": "natural menopause (change of life)"
+            "display": "natural menopause (change of life)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "menopausia natural (cambio de vida)"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "MentrualStoppedReason_Surgery",
-            "display": "surgery (a hysterectomy to remove your uterus and/or an oophorectomy to remove your ovaries) "
+            "display": "surgery (a hysterectomy to remove your uterus and/or an oophorectomy to remove your ovaries) ",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "cirugía (una histerectomía para extraer el útero o ooforectomía para extraer los ovarios)"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "MentrualStoppedReason_EndometrialAblation",
-            "display": "endometrial ablation"
+            "display": "endometrial ablation",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ablación endometrial"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "MentrualStoppedReason_MedicationTherapy",
-            "display": "medication, chemotherapy, or radiation"
+            "display": "medication, chemotherapy, or radiation",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "medicamentos, quimioterapia o radiación"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PMI_Other",
-            "display": "other"
+            "display": "other",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "otro"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PMI_NotSure",
-            "display": "not sure"
+            "display": "not sure",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no estoy segura"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PMI_PreferNotToAnswer",
-            "display": "prefer not to answer"
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -1804,6 +2195,23 @@
           }
         ],
         "text": "Have you ever had a hysterectomy (that is, surgery to remove your uterus or womb)?  ",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Alguna vez se ha sometido a una histerectomía (es decir, una cirugía para extraer el útero o la matriz)?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -1811,22 +2219,90 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "HysterectomyHistory_No",
-            "display": "no"
+            "display": "no",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "HysterectomyHistory_Yes",
-            "display": "yes"
+            "display": "yes",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "sí"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "HysterectomyHistory_NotSure",
-            "display": "not sure  "
+            "display": "not sure  ",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no estoy segura"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PMI_PreferNotToAnswer",
-            "display": "prefer not to answer"
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -1852,6 +2328,23 @@
           }
         ],
         "text": "Have you ever had an ovary removed?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Alguna vez le extrajeron un ovario?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -1859,32 +2352,134 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "OvaryRemovalHistory_No",
-            "display": "no"
+            "display": "no",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "OvaryRemovalHistory_YesSectioned",
-            "display": "yes, but only one ovary or part of one ovary"
+            "display": "yes, but only one ovary or part of one ovary",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "sí, pero solo un ovario o parte de un ovario"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "OvaryRemovalHistory_YesBoth",
-            "display": "yes, both ovaries "
+            "display": "yes, both ovaries ",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "sí, ambos ovarios"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "OvaryRemovalHistory_YesUnsure",
-            "display": "yes, but don’t know whether one or both ovaries"
+            "display": "yes, but don’t know whether one or both ovaries",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "sí, pero no sé si uno o ambos ovarios"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "OvaryRemovalHistory_NotSure",
-            "display": "not sure  "
+            "display": "not sure  ",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no estoy segura"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PMI_PreferNotToAnswer",
-            "display": "prefer not to answer"
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -1910,6 +2505,23 @@
           }
         ],
         "text": "Have you had a transplant of any type?  ",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Se sometido a algún tipo de trasplante?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -1917,12 +2529,46 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "OrganTransplant_Yes",
-            "display": "yes"
+            "display": "yes",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "sí"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "OrganTransplant_No",
-            "display": "no"
+            "display": "no",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -1948,6 +2594,23 @@
           }
         ],
         "text": "Date of transplant",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Cuándo fue el trasplante?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "date",
         "required": false,
         "repeats": false
@@ -1961,6 +2624,23 @@
           }
         ],
         "text": "Have you traveled outside of the country within the past 6 months?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Ha viajado fuera de los Estados Unidos en los últimos 6 meses?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "required": false,
         "repeats": false,
@@ -1968,12 +2648,46 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "OrganTransplant_Yes",
-            "display": "yes"
+            "display": "yes",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "sí"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "OrganTransplant_No",
-            "display": "no"
+            "display": "no",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -1985,7 +2699,7 @@
             "code": "OrganTransplant_Description"
           }
         ],
-        "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+        "text": "place of travel",
         "type": "text",
         "required": false,
         "repeats": false
@@ -1998,7 +2712,7 @@
             "code": "OrganTransplant_Date"
           }
         ],
-        "text": "days",
+        "text": "number of days",
         "type": "decimal",
         "required": false,
         "repeats": false
