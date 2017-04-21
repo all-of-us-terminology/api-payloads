@@ -28,7 +28,6 @@ def read_codebook(codebook=None, url=None, found=None):
     return found
 
 def read_questionnaire(q, found=None, level=0):
-    qtype = 'Question'
     question = q.get('question', [])
     group = q.get('group', [])
 
