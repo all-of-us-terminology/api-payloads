@@ -1,0 +1,7 @@
+dependencies:
+  pre:
+    - pip install requests
+
+test:
+  override:
+    - cd validation && python2.7 validate.py
