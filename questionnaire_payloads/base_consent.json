@@ -5,9 +5,9 @@
       "value": "Vibrent_FORM_ID_295"
     }
   ],
-  "version": "242",
+  "version": "258",
   "status": "published",
-  "date": "2017-04-20T20:01:54+00:00",
+  "date": "2017-04-26T16:02:42+00:00",
   "group": {
     "linkId": "root_group",
     "title": "consent",
@@ -1044,6 +1044,242 @@
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "no",
             "display": "no"
+          }
+        ]
+      },
+      {
+        "linkId": "10452",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Multi Selector"
+          }
+        ],
+        "text": "Where do you currently reside?",
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Central Arizona",
+            "display": "Central Arizona (Maricopa County)"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Southern Arizona",
+            "display": "Southern Arizona, including Tucson (Pima, Pinal, Graham, Cochise, Santa Cruz, Yuma Counties)"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Neither",
+            "display": "Neither"
+          }
+        ]
+      },
+      {
+        "linkId": "10455",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Multi Selector"
+          }
+        ],
+        "text": "Have you ever received care at any Banner facility or are you currently affiliated with any of the following facilities? This may include receiving care in a hospital, urgent care, emergency department, outpatient clinic or through employee health in a Banner facility, such as Good Samaritan, Thunderbird, Boswell, Banner Health Institute.",
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Banner University Medical Center - Phoenix, also called Good Samaritan Hospital or Good Sam",
+            "display": "Banner University Medical Center - Phoenix, also called Good Samaritan Hospital or Good Sam"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Banner Baywood Medical Center, Mesa or Baywood",
+            "display": "Banner Baywood Medical Center, Mesa or Baywood"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Banner Behavioral Health Hospital, Scottsdale",
+            "display": "Banner Behavioral Health Hospital, Scottsdale"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Banner Boswell Medical Center, Sun City",
+            "display": "Banner Boswell Medical Center, Sun City"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Banner Casa Grande Medical Center, Casa Grande",
+            "display": "Banner Casa Grande Medical Center, Casa Grande"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Banner Del E. Webb Medical Center, Sun City West",
+            "display": "Banner Del E. Webb Medical Center, Sun City West"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Banner Desert Medical Center, Mesa or Desert Samaritan",
+            "display": "Banner Desert Medical Center, Mesa or Desert Samaritan"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Banner Estrella Medical Center, Phoenix",
+            "display": "Banner Estrella Medical Center, Phoenix"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Banner Gateway Medical Center, Gilbert",
+            "display": "Banner Gateway Medical Center, Gilbert"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Banner Goldfield Medical Center, Apache Junction",
+            "display": "Banner Goldfield Medical Center, Apache Junction "
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Banner Heart Hospital, Mesa",
+            "display": "Banner Heart Hospital, Mesa"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Banner Ironwood Medical Center, San Tan Valley",
+            "display": "Banner Ironwood Medical Center, San Tan Valley"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Banner MD Anderson Cancer Center, Gilbert",
+            "display": "Banner MD Anderson Cancer Center, Gilbert"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Banner Thunderbird Medical Center, Glendale",
+            "display": "Banner Thunderbird Medical Center, Glendale"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Cardon Children's Medical Center, Mesa",
+            "display": "Cardon Children's Medical Center, Mesa"
+          }
+        ]
+      },
+      {
+        "linkId": "10458",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Multi Selector"
+          }
+        ],
+        "text": "Have you ever received care at any Banner facility or are you currently affiliated with any of the following facilities? This may include receiving care in a hospital, urgent care, emergency department, outpatient clinic or through employee health in a Banner facility, such as Good Samaritan, Thunderbird, Boswell, Banner Health Institute.",
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Banner University Medical Center - Tucson, also known as University Medical Center (UMC), University of Arizona Medical Center (UAMC), University Physicians Healthcare (UPH), University of Arizona Health Network (UAHN)",
+            "display": "Banner University Medical Center - Tucson, also known as University Medical Center (UMC), University of Arizona Medical Center (UAMC), University Physicians Healthcare (UPH), University of Arizona Health Network (UAHN)"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Banner University Medical Center - South Campus, also known as University of Arizona Medical Center, South Campus (BUMCS); Kino Hospital; University Physicians Healthcare (UPH); University of Arizona Health Network (UAHN)",
+            "display": "Banner University Medical Center - South Campus, also known as University of Arizona Medical Center, South Campus (BUMCS); Kino Hospital; University Physicians Healthcare (UPH); University of Arizona Health Network (UAHN)"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Banner Primary Care and/or Specialty Clinics, also known as University Physicians Healthcare (UPH) University of Arizona Health Network (UAHN), or University Medical Center (UMC) at North Hills, Alvernon, or North Wilmot Rd.",
+            "display": "Banner Primary Care and/or Specialty Clinics, also known as University Physicians Healthcare (UPH) University of Arizona Health Network (UAHN), or University Medical Center (UMC) at North Hills, Alvernon, or North Wilmot Rd. "
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "University of Arizona Cancer Center, including Main, Orange Grove, and/or North Campuses",
+            "display": "University of Arizona Cancer Center, including Main, Orange Grove, and/or North Campuses"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "University Medical Imaging (UMI)",
+            "display": "University Medical Imaging (UMI)"
+          }
+        ]
+      },
+      {
+        "linkId": "10462",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Multi Selector"
+          }
+        ],
+        "text": "Are you presently a registered patient at any of the following clinics?\n San Ysidro Health Center, Otay Family Health Center, Chula Vista Medical Plaza, Ocean View Community Health Center, Euclid Community Health Center, King Chavez Family Clinic, Paradise Hills Family Clinic, National City Family Clinic, Chaldean Middle Eastern Social Services, San Ysidro Senior Health Center, San Ysidro Mi Clinica",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Actualmente, es usted paciente registrado en alguna de las siguientes clinicas?  San Ysidro Health Center, Otay Family Health Center, Chula Vista Medical Plaza, Ocean View Community Health Center, Euclid Community Health Center,\tKing Chavez Family Clinic, Paradise Hills Family Clinic, National City Family Clinic, Chaldean Middle Eastern Social Services, San Ysidro Senior Health Center, San Ysidro Mi Clinica"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "yes",
+            "display": "yes",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "si"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "no",
+            "display": "no",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       }

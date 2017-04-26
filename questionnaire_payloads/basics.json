@@ -5,9 +5,9 @@
       "value": "Vibrent_FORM_ID_284"
     }
   ],
-  "version": "230",
+  "version": "235",
   "status": "published",
-  "date": "2017-04-21T19:31:54+00:00",
+  "date": "2017-04-26T15:03:18+00:00",
   "group": {
     "linkId": "root_group",
     "title": "the basics",
@@ -375,7 +375,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "WhatRaceEthnicity_Asian"
+            "code": "WhatRaceEthnicity_AIAN"
           }
         ],
         "text": "American Indian or Alaska Native",
@@ -446,8 +446,8 @@
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "AIAN_CentralAmericanIndian",
-            "display": "Central American Indian",
+            "code": "AIAN_CentralSouthAmericanIndian",
+            "display": "Central or South American Indian",
             "_display": {
               "extension": [
                 {
@@ -460,28 +460,6 @@
                     {
                       "url": "content",
                       "valueString": "Indígena de América Central"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "AIAN_SouthAmericanIndian",
-            "display": "South American Indian",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "América del Sur"
                     }
                   ]
                 }
@@ -530,7 +508,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Ethnicity_Asian"
+            "code": "WhatRaceEthnicity_Asian"
           }
         ],
         "text": "Asian ",
@@ -1131,7 +1109,7 @@
         "option": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Hispanic_Columbian",
+            "code": "Hispanic_Colombian",
             "display": "Colombian",
             "_display": {
               "extension": [
@@ -1175,7 +1153,7 @@
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Hispanic_DominicanRepublic",
+            "code": "Hispanic_Dominican",
             "display": "Dominican",
             "_display": {
               "extension": [
@@ -1307,7 +1285,7 @@
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Ethnicity_Spaniard",
+            "code": "Hispanic_Spanish",
             "display": "Spanish",
             "_display": {
               "extension": [
@@ -1656,7 +1634,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "WhatRaceEthnicity_White"
+            "code": "WhatRaceEthnicity_NHPI"
           }
         ],
         "text": "Native Hawaiian or other Pacific Islander",
@@ -1921,7 +1899,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Ethnicity_White"
+            "code": "WhatRaceEthnicity_White"
           }
         ],
         "text": "White ",
@@ -2168,7 +2146,7 @@
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "White_Spaniard",
+            "code": "White_Spanish",
             "display": "Spanish",
             "_display": {
               "extension": [
@@ -5668,297 +5646,297 @@
         "option": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_AL",
+            "code": "Alabama",
             "display": "Alabama"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_AK",
+            "code": "Alaska",
             "display": "Alaska"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_AS",
+            "code": "American Samoa",
             "display": "American Samoa"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_AZ",
+            "code": "Arizona",
             "display": "Arizona"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_AR",
+            "code": "Arkansas",
             "display": "Arkansas"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_CA",
+            "code": "California",
             "display": "California"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_CO",
+            "code": "Colorado",
             "display": "Colorado"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_CT",
+            "code": "Connecticut",
             "display": "Connecticut"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_DC",
+            "code": "District of Columbia",
             "display": "District of Columbia"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_DE",
+            "code": "Delaware",
             "display": "Delaware"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_FM",
+            "code": "Federated States of Micronesia",
             "display": "Federated States of Micronesia"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_FL",
+            "code": "Florida",
             "display": "Florida"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_GA",
+            "code": "Georgia",
             "display": "Georgia"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_GU",
+            "code": "Guam",
             "display": "Guam"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_HI",
+            "code": "Hawaii",
             "display": "Hawaii"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_ID",
+            "code": "Idaho",
             "display": "Idaho"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_IL",
+            "code": "Illinois",
             "display": "Illinois"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_IN",
+            "code": "Indiana",
             "display": "Indiana"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_IA",
+            "code": "Iowa",
             "display": "Iowa"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_KS",
+            "code": "Kansas",
             "display": "Kansas"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_KY",
+            "code": "Kentucky",
             "display": "Kentucky"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_LA",
+            "code": "Louisiana",
             "display": "Louisiana"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_ME",
+            "code": "Maine",
             "display": "Maine"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_MH",
+            "code": "Marshall Islands",
             "display": "Marshall Islands"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_MD",
+            "code": "Maryland",
             "display": "Maryland"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_MA",
+            "code": "Massachusetts",
             "display": "Massachusetts"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_MI",
+            "code": "Michigan",
             "display": "Michigan"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_MN",
+            "code": "Minnesota",
             "display": "Minnesota"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_MS",
+            "code": "Mississippi",
             "display": "Mississippi"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_MO",
+            "code": "Missouri",
             "display": "Missouri"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_MT",
+            "code": "Montana",
             "display": "Montana"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_NE",
+            "code": "Nebraska",
             "display": "Nebraska"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_NV",
+            "code": "Nevada",
             "display": "Nevada"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_NH",
+            "code": "New Hampshire",
             "display": "New Hampshire"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_NJ",
+            "code": "New Jersey",
             "display": "New Jersey"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_NM",
+            "code": "New Mexico",
             "display": "New Mexico"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_NY",
+            "code": "New York",
             "display": "New York"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_NC",
+            "code": "North Carolina",
             "display": "North Carolina"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_MP",
+            "code": "North Marianas Islands",
             "display": "North Marianas Islands"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_ND",
+            "code": "North Dakota",
             "display": "North Dakota"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_OH",
+            "code": "Ohio",
             "display": "Ohio"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_OK",
+            "code": "Oklahoma",
             "display": "Oklahoma"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_OR",
+            "code": "Oregon",
             "display": "Oregon"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_PW",
+            "code": "Palau",
             "display": "Palau"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_PA",
+            "code": "Pennsylvania",
             "display": "Pennsylvania"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_PR",
+            "code": "Puerto Rico",
             "display": "Puerto Rico"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_RI",
+            "code": "Rhode Island",
             "display": "Rhode Island"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_SC",
+            "code": "South Carolina",
             "display": "South Carolina"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_SD",
+            "code": "South Dakota",
             "display": "South Dakota"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_TN",
+            "code": "Tennessee",
             "display": "Tennessee"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_TX",
+            "code": "Texas",
             "display": "Texas"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_UT",
+            "code": "Utah",
             "display": "Utah"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_VT",
+            "code": "Vermont",
             "display": "Vermont"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_VA",
+            "code": "Virginia",
             "display": "Virginia"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_VI",
+            "code": "Virgin Islands",
             "display": "Virgin Islands"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_WA",
+            "code": "Washington",
             "display": "Washington"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_WV",
+            "code": "West Virginia",
             "display": "West Virginia"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_WI",
+            "code": "Wisconsin",
             "display": "Wisconsin"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_WY",
+            "code": "Wyoming",
             "display": "Wyoming"
           }
         ]
@@ -6274,7 +6252,7 @@
         "repeats": false
       },
       {
-        "linkId": "10410",
+        "linkId": "10459",
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
@@ -6288,297 +6266,297 @@
         "option": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_AL",
+            "code": "Alabama",
             "display": "Alabama"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_AK",
+            "code": "Alaska",
             "display": "Alaska"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_AS",
+            "code": "American Samoa",
             "display": "American Samoa"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_AZ",
+            "code": "Arizona",
             "display": "Arizona"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_AR",
+            "code": "Arkansas",
             "display": "Arkansas"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_CA",
+            "code": "California",
             "display": "California"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_CO",
+            "code": "Colorado",
             "display": "Colorado"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_CT",
+            "code": "Connecticut",
             "display": "Connecticut"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_DC",
+            "code": "District of Columbia",
             "display": "District of Columbia"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_DE",
+            "code": "Delaware",
             "display": "Delaware"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_FM",
+            "code": "Federated States of Micronesia",
             "display": "Federated States of Micronesia"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_FL",
+            "code": "Florida",
             "display": "Florida"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_GA",
+            "code": "Georgia",
             "display": "Georgia"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_GU",
+            "code": "Guam",
             "display": "Guam"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_HI",
+            "code": "Hawaii",
             "display": "Hawaii"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_ID",
+            "code": "Idaho",
             "display": "Idaho"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_IL",
+            "code": "Illinois",
             "display": "Illinois"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_IN",
+            "code": "Indiana",
             "display": "Indiana"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_IA",
+            "code": "Iowa",
             "display": "Iowa"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_KS",
+            "code": "Kansas",
             "display": "Kansas"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_KY",
+            "code": "Kentucky",
             "display": "Kentucky"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_LA",
+            "code": "Louisiana",
             "display": "Louisiana"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_ME",
+            "code": "Maine",
             "display": "Maine"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_MH",
+            "code": "Marshall Islands",
             "display": "Marshall Islands"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_MD",
+            "code": "Maryland",
             "display": "Maryland"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_MA",
+            "code": "Massachusetts",
             "display": "Massachusetts"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_MI",
+            "code": "Michigan",
             "display": "Michigan"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_MN",
+            "code": "Minnesota",
             "display": "Minnesota"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_MS",
+            "code": "Mississippi",
             "display": "Mississippi"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_MO",
+            "code": "Missouri",
             "display": "Missouri"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_MT",
+            "code": "Montana",
             "display": "Montana"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_NE",
+            "code": "Nebraska",
             "display": "Nebraska"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_NV",
+            "code": "Nevada",
             "display": "Nevada"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_NH",
+            "code": "New Hampshire",
             "display": "New Hampshire"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_NJ",
+            "code": "New Jersey",
             "display": "New Jersey"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_NM",
+            "code": "New Mexico",
             "display": "New Mexico"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_NY",
+            "code": "New York",
             "display": "New York"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_NC",
+            "code": "North Carolina",
             "display": "North Carolina"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_MP",
+            "code": "North Marianas Islands",
             "display": "North Marianas Islands"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_ND",
+            "code": "North Dakota",
             "display": "North Dakota"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_OH",
+            "code": "Ohio",
             "display": "Ohio"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_OK",
+            "code": "Oklahoma",
             "display": "Oklahoma"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_OR",
+            "code": "Oregon",
             "display": "Oregon"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_PW",
+            "code": "Palau",
             "display": "Palau"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_PA",
+            "code": "Pennsylvania",
             "display": "Pennsylvania"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_PR",
+            "code": "Puerto Rico",
             "display": "Puerto Rico"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_RI",
+            "code": "Rhode Island",
             "display": "Rhode Island"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_SC",
+            "code": "South Carolina",
             "display": "South Carolina"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_SD",
+            "code": "South Dakota",
             "display": "South Dakota"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_TN",
+            "code": "Tennessee",
             "display": "Tennessee"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_TX",
+            "code": "Texas",
             "display": "Texas"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_UT",
+            "code": "Utah",
             "display": "Utah"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_VT",
+            "code": "Vermont",
             "display": "Vermont"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_VA",
+            "code": "Virginia",
             "display": "Virginia"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_VI",
+            "code": "Virgin Islands",
             "display": "Virgin Islands"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_WA",
+            "code": "Washington",
             "display": "Washington"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_WV",
+            "code": "West Virginia",
             "display": "West Virginia"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_WI",
+            "code": "Wisconsin",
             "display": "Wisconsin"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TheBasics_SecondaryContactInfo_WY",
+            "code": "Wyoming",
             "display": "Wyoming"
           }
         ]
