@@ -5,9 +5,9 @@
       "value": "Vibrent_FORM_ID_295"
     }
   ],
-  "version": "258",
+  "version": "259",
   "status": "published",
-  "date": "2017-04-26T16:02:42+00:00",
+  "date": "2017-04-26T16:31:45+00:00",
   "group": {
     "linkId": "root_group",
     "title": "consent",
@@ -50,7 +50,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIAddress_State"
+            "code": "StreetAddress_PIIState"
           }
         ],
         "text": "What is your state of residence?",
@@ -792,7 +792,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ConsentPII_PIIAddress"
+            "code": "PIIAddress_StreetAddress"
           }
         ],
         "text": "address 1",
@@ -822,7 +822,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ConsentPII_PIIAddress"
+            "code": "PIIAddress_StreetAddress"
           }
         ],
         "text": "address 2",
@@ -852,7 +852,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIAddress_City"
+            "code": "StreetAddress_PIICity"
           }
         ],
         "text": "city",
@@ -882,7 +882,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIAddress_ZIP"
+            "code": "StreetAddress_PIIZIP"
           }
         ],
         "text": "zip code",
@@ -972,7 +972,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIBirthInformation_BirthDate"
+            "code": "ConsentPII_PIIBirthInformation"
           }
         ],
         "text": "please enter your birthdate",
