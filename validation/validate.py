@@ -5,6 +5,7 @@ import sys
 from copy import copy
 
 CODEBOOK = 'http://terminology.pmi-ops.org/CodeSystem/ppi.json'
+EXTRAS = 'http://terminology.pmi-ops.org/CodeSystem/ppi.json'
 QUESTIONNAIRE_GLOB = '../questionnaire_payloads/*.json'
 
 def get_property(prop, c):
@@ -66,6 +67,8 @@ errors = []
 warnings = []
 
 for q in questionnaire_codes:
+    if q[0] == EXTRAS:
+        continue
     if q not in codebook_codes:
         errors.append("ERROR: %s in questionnaire but not in codebook"%str(q))
         continue
