@@ -5,9 +5,9 @@
       "value": "Vibrent_FORM_ID_296"
     }
   ],
-  "version": "77",
+  "version": "92",
   "status": "published",
-  "date": "2017-04-26T15:55:38+00:00",
+  "date": "2017-05-15T16:02:24+00:00",
   "group": {
     "linkId": "root_group",
     "title": "EHR consent",
@@ -242,12 +242,12 @@
         "option": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "0",
+            "code": "AllOfAccess_Yes",
             "display": "Giving access to my EHR is required."
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "1",
+            "code": "AllOfAccess_No",
             "display": "I get to decide. I do not have to give access to my EHR."
           }
         ]
@@ -284,12 +284,12 @@
         "option": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "1",
+            "code": "SensitiveInfoAccess_Yes",
             "display": "All of Us will access my entire EHR, including sensitive information"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "0",
+            "code": "SensitiveInfoAccess_No",
             "display": "All of Us will not access sensitive information in my EHR"
           }
         ]
@@ -309,12 +309,12 @@
         "option": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "1",
+            "code": "AccessChangeMind_Yes",
             "display": "Yes, I can stop access to my EHR at any time"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "0",
+            "code": "AccessChangeMind_No",
             "display": "No, once I give access to my EHR I cannot change my mind."
           }
         ]
@@ -334,12 +334,12 @@
         "option": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "0",
+            "code": "AccessPrivacyGuaruntee_Yes",
             "display": "My privacy is guaranteed."
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "1",
+            "code": "AccessPrivacyGuaruntee_No",
             "display": "Risks to my privacy are minimized, but are not zero."
           }
         ]

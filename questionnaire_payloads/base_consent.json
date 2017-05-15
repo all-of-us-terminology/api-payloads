@@ -5,9 +5,9 @@
       "value": "Vibrent_FORM_ID_295"
     }
   ],
-  "version": "259",
+  "version": "287",
   "status": "published",
-  "date": "2017-04-26T16:31:45+00:00",
+  "date": "2017-05-15T16:22:31+00:00",
   "group": {
     "linkId": "root_group",
     "title": "consent",
@@ -20,6 +20,19 @@
     "required": true,
     "repeats": false,
     "question": [
+      {
+        "linkId": "10732",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Youtube Video"
+          }
+        ],
+        "text": "kDQfJhk0cjU",
+        "type": "dateTime",
+        "required": false,
+        "repeats": false
+      },
       {
         "linkId": "9841",
         "concept": [
@@ -364,6 +377,149 @@
         ],
         "text": "hidden organization reference",
         "type": "text",
+        "required": false,
+        "repeats": false
+      },
+      {
+        "linkId": "10465",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Copy of Signature Box"
+          }
+        ],
+        "text": "Please sign below ",
+        "type": "attachment",
+        "required": false,
+        "repeats": false
+      },
+      {
+        "linkId": "10466",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Copy of New Day Selector"
+          }
+        ],
+        "text": "Select today's date",
+        "type": "date",
+        "required": false,
+        "repeats": false
+      },
+      {
+        "linkId": "10733",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Copy of Youtube Video"
+          }
+        ],
+        "text": "CxmmeUYIbL0",
+        "type": "dateTime",
+        "required": false,
+        "repeats": false
+      },
+      {
+        "linkId": "10734",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Copy of Copy of Youtube Video"
+          }
+        ],
+        "text": "sSy1dRg_V_I",
+        "type": "dateTime",
+        "required": false,
+        "repeats": false
+      },
+      {
+        "linkId": "10735",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Copy of Copy of Copy of Youtube Video"
+          }
+        ],
+        "text": "fkXvqjYw-_c",
+        "type": "dateTime",
+        "required": false,
+        "repeats": false
+      },
+      {
+        "linkId": "10736",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Copy of Copy of Copy of Copy of Youtube Video"
+          }
+        ],
+        "text": "W_JuT9bnW7Q",
+        "type": "dateTime",
+        "required": false,
+        "repeats": false
+      },
+      {
+        "linkId": "10737",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Copy of Copy of Copy of Copy of Copy of Youtube Video"
+          }
+        ],
+        "text": "fzhnn63-Gkg",
+        "type": "dateTime",
+        "required": false,
+        "repeats": false
+      },
+      {
+        "linkId": "10738",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Copy of Copy of Copy of Copy of Copy of Copy of Youtube Video"
+          }
+        ],
+        "text": "FG2-5vEw-6M",
+        "type": "dateTime",
+        "required": false,
+        "repeats": false
+      },
+      {
+        "linkId": "10739",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Copy of Copy of Copy of Copy of Copy of Copy of Copy of Youtube Video"
+          }
+        ],
+        "text": "ZwlqLxdo8LY",
+        "type": "dateTime",
+        "required": false,
+        "repeats": false
+      },
+      {
+        "linkId": "10740",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Youtube Video"
+          }
+        ],
+        "text": "P_LIgAywQiE",
+        "type": "dateTime",
+        "required": false,
+        "repeats": false
+      },
+      {
+        "linkId": "10741",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Copy of Youtube Video"
+          }
+        ],
+        "text": "GsaGjA4uVYc",
+        "type": "dateTime",
         "required": false,
         "repeats": false
       },
@@ -908,36 +1064,6 @@
         "repeats": false
       },
       {
-        "linkId": "9862",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ConsentPII_EmailAddress"
-          }
-        ],
-        "text": "email address",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "dirección de correo electrónico"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "text",
-        "required": false,
-        "repeats": false
-      },
-      {
         "linkId": "9838",
         "concept": [
           {
@@ -972,7 +1098,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ConsentPII_PIIBirthInformation"
+            "code": "PIIBirthInformation_BirthDate"
           }
         ],
         "text": "please enter your birthdate",
@@ -1062,12 +1188,12 @@
         "option": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Central Arizona",
+            "code": "CArizona",
             "display": "Central Arizona (Maricopa County)"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Southern Arizona",
+            "code": "SArizona",
             "display": "Southern Arizona, including Tucson (Pima, Pinal, Graham, Cochise, Santa Cruz, Yuma Counties)"
           },
           {
@@ -1092,77 +1218,77 @@
         "option": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Banner University Medical Center - Phoenix, also called Good Samaritan Hospital or Good Sam",
+            "code": "Banner University Medical",
             "display": "Banner University Medical Center - Phoenix, also called Good Samaritan Hospital or Good Sam"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Banner Baywood Medical Center, Mesa or Baywood",
+            "code": "Banner Baywood Medical",
             "display": "Banner Baywood Medical Center, Mesa or Baywood"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Banner Behavioral Health Hospital, Scottsdale",
+            "code": "Banner Behavioral Health",
             "display": "Banner Behavioral Health Hospital, Scottsdale"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Banner Boswell Medical Center, Sun City",
+            "code": "Banner Boswell Medical",
             "display": "Banner Boswell Medical Center, Sun City"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Banner Casa Grande Medical Center, Casa Grande",
+            "code": "Banner Casa Grande Medical",
             "display": "Banner Casa Grande Medical Center, Casa Grande"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Banner Del E. Webb Medical Center, Sun City West",
+            "code": "Banner Del E. Webb Medical",
             "display": "Banner Del E. Webb Medical Center, Sun City West"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Banner Desert Medical Center, Mesa or Desert Samaritan",
+            "code": "Banner Desert Medical Center",
             "display": "Banner Desert Medical Center, Mesa or Desert Samaritan"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Banner Estrella Medical Center, Phoenix",
+            "code": "Banner Estrella Medical",
             "display": "Banner Estrella Medical Center, Phoenix"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Banner Gateway Medical Center, Gilbert",
+            "code": "Banner Gateway Medical",
             "display": "Banner Gateway Medical Center, Gilbert"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Banner Goldfield Medical Center, Apache Junction",
+            "code": "Banner Goldfield Medical",
             "display": "Banner Goldfield Medical Center, Apache Junction "
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Banner Heart Hospital, Mesa",
+            "code": "Banner Heart Hospital,",
             "display": "Banner Heart Hospital, Mesa"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Banner Ironwood Medical Center, San Tan Valley",
+            "code": "Banner Ironwood Medical",
             "display": "Banner Ironwood Medical Center, San Tan Valley"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Banner MD Anderson Cancer Center, Gilbert",
+            "code": "Banner MD Anderson Cancer",
             "display": "Banner MD Anderson Cancer Center, Gilbert"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Banner Thunderbird Medical Center, Glendale",
+            "code": "Banner Thunderbird Medical",
             "display": "Banner Thunderbird Medical Center, Glendale"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Cardon Children's Medical Center, Mesa",
+            "code": "Cardon Children's Medical",
             "display": "Cardon Children's Medical Center, Mesa"
           }
         ]
@@ -1182,22 +1308,22 @@
         "option": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Banner University Medical Center - Tucson, also known as University Medical Center (UMC), University of Arizona Medical Center (UAMC), University Physicians Healthcare (UPH), University of Arizona Health Network (UAHN)",
+            "code": "University of Arizona Health Network (UAHN)",
             "display": "Banner University Medical Center - Tucson, also known as University Medical Center (UMC), University of Arizona Medical Center (UAMC), University Physicians Healthcare (UPH), University of Arizona Health Network (UAHN)"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Banner University Medical Center - South Campus, also known as University of Arizona Medical Center, South Campus (BUMCS); Kino Hospital; University Physicians Healthcare (UPH); University of Arizona Health Network (UAHN)",
+            "code": "University of Arizona Medical Center",
             "display": "Banner University Medical Center - South Campus, also known as University of Arizona Medical Center, South Campus (BUMCS); Kino Hospital; University Physicians Healthcare (UPH); University of Arizona Health Network (UAHN)"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Banner Primary Care and/or Specialty Clinics, also known as University Physicians Healthcare (UPH) University of Arizona Health Network (UAHN), or University Medical Center (UMC) at North Hills, Alvernon, or North Wilmot Rd.",
+            "code": "University Physicians Healthcare (UPH)",
             "display": "Banner Primary Care and/or Specialty Clinics, also known as University Physicians Healthcare (UPH) University of Arizona Health Network (UAHN), or University Medical Center (UMC) at North Hills, Alvernon, or North Wilmot Rd. "
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "University of Arizona Cancer Center, including Main, Orange Grove, and/or North Campuses",
+            "code": "University of Arizona Cancer Center",
             "display": "University of Arizona Cancer Center, including Main, Orange Grove, and/or North Campuses"
           },
           {
