@@ -5,9 +5,9 @@
       "value": "Vibrent_FORM_ID_279"
     }
   ],
-  "version": "120",
+  "version": "123",
   "status": "published",
-  "date": "2017-05-15T16:48:35+00:00",
+  "date": "2017-05-15T18:25:51+00:00",
   "group": {
     "linkId": "root_group",
     "title": "overall health",
@@ -1739,126 +1739,6 @@
         ]
       },
       {
-        "linkId": "9391",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "Pregnancy_PregnancyStatus"
-          }
-        ],
-        "text": "Are you currently pregnant? ",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "En este momento, ¿está embarazada?"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "required": false,
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PregnancyStatus_Yes",
-            "display": "yes",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "sí"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PregnancyStatus_No",
-            "display": "no",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "no"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PMI_NotSure",
-            "display": "not sure",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "no estoy segura"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PMI_PreferNotToAnswer",
-            "display": "prefer not to answer",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "prefiero no responder"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
         "linkId": "9395",
         "concept": [
           {
@@ -1957,6 +1837,126 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "MentrualStopped_NotSure",
+            "display": "not sure",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no estoy segura"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "9391",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Pregnancy_PregnancyStatus"
+          }
+        ],
+        "text": "Are you currently pregnant? ",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En este momento, ¿está embarazada?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "required": false,
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PregnancyStatus_Yes",
+            "display": "yes",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "sí"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PregnancyStatus_No",
+            "display": "no",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_NotSure",
             "display": "not sure",
             "_display": {
               "extension": [
