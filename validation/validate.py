@@ -84,34 +84,48 @@ for q in questionnaire_codes:
     if q[0] == EXTRAS:
         continue
     if q not in codebook_codes:
-        errors.append("ERROR: %s in questionnaire '%s' but not in codebook"%(str(q), questionnaire_codes[q]['source']))
+        errors.append({
+          'level': 'ERROR',
+          'questionnaire': questionnaire_codes[q]['source'],
+          'code': str(q),
+          'detail': 'Code not found in codebook'
+        })
         continue
     qtype = questionnaire_codes[q]['type']
     cbtype = codebook_codes[q]['type']
     if qtype != cbtype:
-        errors.append("ERROR: %s in questionnaire '%s' is a %s, but codebook says it's a %s"%(questionnaire_codes[q]['source'], q[1], qtype, cbtype))
+        errors.append({
+          'level': 'ERROR',
+          'questionnaire': questionnaire_codes[q]['source'],
+          'code': str(q),
+          'detail': 'Questionnaire calls it a %s but codebook calls it a %s'%(qtype, cbtype)
+        })
+
     if qtype == 'Answer':
         question = questionnaire_codes[q]['parents'][-1]
         codebook_answer = codebook_codes[q]
         if not set([question]) & set(codebook_answer['parents']):
-            errors.append("ERROR: Answer %s in questionnaire '%s' is listed as a response to question %s, but codebook says it's only valid as an answer to %s (or its parents)"%(q, questionnaire_codes[q]['source'], question, codebook_answer['parents'][-1]))
-
+            errors.append({
+            'level': 'ERROR',
+            'questionnaire': questionnaire_codes[q]['source'],
+            'code': str(q),
+            'detail': 'Questionnaire says this is an answer to %s but codebook says this is only valid in response to %s (or its parents)'%(question, codebook_answer['parents'][-1])
+            })
 
 for q in codebook_codes:
     if q not in questionnaire_codes:
-        warnings.append("WARNING: %s in codebook but not in questionnaire"%str(q))
+        errors.append({
+        'level': 'WARNING',
+        'questionnaire': 'N/A',
+        'code': str(q),
+        'detail': 'Present in codebook but nt in any questionnaire'
+        })
 
-print len(errors), "errors"
-print len(warnings), "warnings"
-print
-print "errors"
-print "\n".join(errors)
-print
-print "warnings"
-print "\n".join(warnings)
-
-#for k, v in questionnaire_codes.iteritems():
-#    print v
+import pprint
+for e in errors:
+    print "%s on %s from questionnaire %s"%(e['level'], e['code'], e['questionnaire'])
+    print e['detail']
+    print
 
 if errors:
     sys.exit(1)
