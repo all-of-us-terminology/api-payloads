@@ -28,7 +28,7 @@ def read_codebook(codebook=None, url=None, found=None):
         read_codebook(c, url, found)
     return found
 
-def read_questionnaire(q, found=None, level=0):
+def read_questionnaire(questionnaire_label, q, found=None, level=0):
     question = q.get('question', [])
     group = q.get('group', [])
 
@@ -42,13 +42,15 @@ def read_questionnaire(q, found=None, level=0):
     for c in concept:
         c = copy(c)
         c['type'] = 'Module Name' if level == 1 else 'Question'
+        c['source'] = questionnaire_label
         found[(c.get('system'), c.get('code'))] = c
     for c in q.get('option', []):
         c = copy(c)
         c['type'] = 'Answer'
+        c['source'] = questionnaire_label
         found[(c.get('system'), c.get('code'))] = c
     for part in group + question:
-        read_questionnaire(part, found, level+1)
+        read_questionnaire(questionnaire_label, part, found, level+1)
 
     return found
 
@@ -57,7 +59,7 @@ def read_questionnaires():
     files = glob.glob(QUESTIONNAIRE_GLOB)
     for fname in files:
         with open(fname) as f:
-            read_questionnaire(json.load(f), question_codes)
+            read_questionnaire(fname.split("/")[-1], json.load(f), question_codes)
     return question_codes
 
 codebook_codes = read_codebook()
@@ -70,12 +72,12 @@ for q in questionnaire_codes:
     if q[0] == EXTRAS:
         continue
     if q not in codebook_codes:
-        errors.append("ERROR: %s in questionnaire but not in codebook"%str(q))
+        errors.append("ERROR: %s in questionnaire '%s' but not in codebook"%(str(q), questionnaire_codes[q]['source']))
         continue
     qtype = questionnaire_codes[q]['type']
     cbtype = codebook_codes[q]['type']
     if qtype != cbtype:
-        errors.append("ERROR: %s in questionnaire is a %s, but codebook says it's a %s"%(q[1], qtype, cbtype))
+        errors.append("ERROR: %s in questionnaire '%s' is a %s, but codebook says it's a %s"%(questionnaire_codes[q]['source'], q[1], qtype, cbtype))
 
 for q in codebook_codes:
     if q not in questionnaire_codes:
