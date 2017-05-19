@@ -16,6 +16,7 @@ def get_property(prop, c):
 def read_codebook(codebook=None, url=None, found=None, path_to_here=None):
     if codebook == None:
         codebook = requests.get(CODEBOOK).json()
+        print "Evaluating Questionnaire against current codebook version: %s\n"%codebook['version']
         found = {}
         path_to_here = []
         url = codebook['url']
@@ -104,13 +105,24 @@ for q in questionnaire_codes:
     if qtype == 'Answer':
         question = questionnaire_codes[q]['parents'][-1]
         codebook_answer = codebook_codes[q]
-        if not set([question]) & set(codebook_answer['parents']):
+        try:
+            parent_code_from_codebok = codebook_answer['parents'][-1]
+            if not set([question]) & set(codebook_answer['parents']):
+                errors.append({
+                'level': 'ERROR',
+                'questionnaire': questionnaire_codes[q]['source'],
+                'code': str(q),
+                'detail': 'Questionnaire says this is an answer to %s but codebook says this is only valid in response to %s (or its parents)'%(question, parent_code_from_codebok)
+                })
+
+        except:
             errors.append({
             'level': 'ERROR',
             'questionnaire': questionnaire_codes[q]['source'],
             'code': str(q),
-            'detail': 'Questionnaire says this is an answer to %s but codebook says this is only valid in response to %s (or its parents)'%(question, codebook_answer['parents'][-1])
+            'detail': 'Codebook version of this answer code appears not to have a parent question'
             })
+
 
 for q in codebook_codes:
     if q not in questionnaire_codes:
