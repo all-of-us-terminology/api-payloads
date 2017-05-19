@@ -30,7 +30,7 @@ def read_codebook(codebook=None, url=None, found=None, path_to_here=None):
         read_codebook(c, url, found, path_to_here + [(url, c['code'])])
     return found
 
-def read_questionnaire(questionnaire_label, q, found=None, path_to_here=None):
+def read_questionnaire(questionnaire_label, q, found=None, level=0, path_to_here=None):
     question = q.get('question', [])
     group = q.get('group', [])
 
@@ -42,8 +42,6 @@ def read_questionnaire(questionnaire_label, q, found=None, path_to_here=None):
 
     if path_to_here == None:
         path_to_here = []
-
-    level = len(path_to_here)
 
     concept = q.get('concept', [])
     if concept:
@@ -64,7 +62,7 @@ def read_questionnaire(questionnaire_label, q, found=None, path_to_here=None):
         c['parents'] = path_to_here + codes
         found[(c.get('system'), c.get('code'))] = c
     for part in group + question:
-        read_questionnaire(questionnaire_label, part, found, path_to_here + codes)
+        read_questionnaire(questionnaire_label, part, found, level+1, path_to_here + codes)
 
     return found
 
