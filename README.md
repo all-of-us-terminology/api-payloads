@@ -7,4 +7,4 @@ It contains:
 - Current versions of questionnaire responses
 - Prototyped versions of base definitions of Questionnaire and QuestionnaireResponse FHIR payloads
 
-On each commit, validation tests runs in Circle CI to compare the Questionnaire payloads with the currently published code book content.
+On each commit, validation tests runs [in Circle CI](https://circleci.com/gh/all-of-us-terminology/api-payloads) to compare the Questionnaire payloads with the currently published code book content.
