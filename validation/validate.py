@@ -110,7 +110,7 @@ for q in questionnaire_codes:
             # Allow any question to have an answer that has 'PMI' as its parent code; these are the
             # base values found here:
             # https://docs.google.com/spreadsheets/d/1TNqJ1ekLFHF4vYA2SNCb-4NL8QgoJrfuJsxnUuXd-is/edit#gid=1791570240
-            if parent_code_from_codebook != 'PMI' and not set([question]) & set(codebook_answer['parents']):
+            if parent_code_from_codebook[1] != 'PMI' and not set([question]) & set(codebook_answer['parents']):
                 errors.append({
                 'level': 'ERROR',
                 'questionnaire': questionnaire_codes[q]['source'],
