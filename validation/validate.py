@@ -106,13 +106,16 @@ for q in questionnaire_codes:
         question = questionnaire_codes[q]['parents'][-1]
         codebook_answer = codebook_codes[q]
         try:
-            parent_code_from_codebok = codebook_answer['parents'][-1]
-            if not set([question]) & set(codebook_answer['parents']):
+            parent_code_from_codebook = codebook_answer['parents'][-1]
+            # Allow any question to have an answer that has 'PMI' as its parent code; these are the
+            # base values found here:
+            # https://docs.google.com/spreadsheets/d/1TNqJ1ekLFHF4vYA2SNCb-4NL8QgoJrfuJsxnUuXd-is/edit#gid=1791570240
+            if parent_code_from_codebook != 'PMI' and not set([question]) & set(codebook_answer['parents']):
                 errors.append({
                 'level': 'ERROR',
                 'questionnaire': questionnaire_codes[q]['source'],
                 'code': str(q),
-                'detail': 'Questionnaire says this is an answer to %s but codebook says this is only valid in response to %s (or its parents)'%(question, parent_code_from_codebok)
+                'detail': 'Questionnaire says this is an answer to %s but codebook says this is only valid in response to %s (or its parents)'%(question, parent_code_from_codebook)
                 })
 
         except:
