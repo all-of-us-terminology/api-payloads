@@ -204,7 +204,7 @@ print
 
 for e in errors:
     print "%s (%s) on %s from questionnaire %s"%(e['level'], e['type'], e['code'], e['questionnaire'])
-    print e['detail']
+    print e['detail'].encode('utf-8')
     print
 
 if [e for e in errors if e['level'] == 'ERROR']:
