@@ -8,6 +8,13 @@ CODEBOOK = 'http://terminology.pmi-ops.org/CodeSystem/ppi.json'
 EXTRAS = 'http://terminology.pmi-ops.org/CodeSystem/ppi.json'
 QUESTIONNAIRE_GLOB = '../questionnaire_payloads/*.json'
 
+CONCEPTS_THAT_REPEAT = [
+    'SecondaryContactInfo_PersonOneName',
+    'SecondaryContactInfo_SecondContactsName',
+    'PIIAddress_StreetAddress',
+    'SecondaryContactInfo_SecondContactsAddress',
+    'SecondaryContactInfo_PersonOneAddress']
+
 def get_property(prop, c):
     matches = [p.get('valueCode') for p in c.get('property', []) if p.get('code') == prop]
     if matches: return matches[0]
@@ -24,6 +31,7 @@ def read_codebook(codebook=None, url=None, found=None, path_to_here=None):
         found[(url, c['code'])] = {
             'code': c['code'],
             'system': url,
+            'display': c['display'],
             'type': get_property('concept-type', c),
             'topic': get_property('concept-topic', c),
             'parents': path_to_here
@@ -52,16 +60,21 @@ def read_questionnaire(questionnaire_label, q, found=None, level=0, path_to_here
 
     for c in concept:
         c = copy(c)
+        concept = (c.get('system'), c.get('code'))
         c['type'] = 'Module Name' if level == 1 else 'Question'
         c['source'] = questionnaire_label
         c['parents'] = path_to_here
-        found[(c.get('system'), c.get('code'))] = c
+        c['questionText'] = q.get('text', None)
+        c['redefined'] = bool(found.get(concept))
+        found[concept] = c
     for c in q.get('option', []):
         c = copy(c)
+        concept = (c.get('system'), c.get('code'))
         c['type'] = 'Answer'
         c['source'] = questionnaire_label
         c['parents'] = path_to_here + codes
-        found[(c.get('system'), c.get('code'))] = c
+        c['redefined'] = bool(found.get(concept))
+        found[concept] = c
     for part in group + question:
         read_questionnaire(questionnaire_label, part, found, level+1, path_to_here + codes)
 
@@ -95,8 +108,22 @@ for q in questionnaire_codes:
           'detail': 'Code not found in codebook'
         })
         continue
+    qc = questionnaire_codes[q]
+    cc = codebook_codes[q]
     qtype = questionnaire_codes[q]['type']
     cbtype = codebook_codes[q]['type']
+
+    if qtype == 'Question' and qc.get('redefined'):
+        if q[1] in CONCEPTS_THAT_REPEAT:
+            continue
+        errors.append({
+          'level': 'ERROR',
+          'questionnaire': questionnaire_codes[q]['source'],
+          'code': str(q),
+          'detail': 'Code assigned to multiple questions'
+        })
+
+
     if qtype != cbtype:
         errors.append({
           'level': 'ERROR',
