@@ -1,6 +1,7 @@
 import requests
 import glob
 import json
+import re
 import sys
 from copy import copy
 
@@ -14,6 +15,10 @@ CONCEPTS_THAT_REPEAT = [
     'PIIAddress_StreetAddress',
     'SecondaryContactInfo_SecondContactsAddress',
     'SecondaryContactInfo_PersonOneAddress']
+
+def normalize(s):
+    condensed = s.encode('utf-8').strip().lower()
+    return re.sub('[^0-9a-zA-Z]+', '', condensed)
 
 def get_property(prop, c):
     matches = [p.get('valueCode') for p in c.get('property', []) if p.get('code') == prop]
@@ -94,7 +99,6 @@ codebook_codes = read_codebook()
 questionnaire_codes = read_questionnaires()
 
 errors = []
-warnings = []
 
 for q in questionnaire_codes:
     if q[0] == EXTRAS:
@@ -106,6 +110,7 @@ for q in questionnaire_codes:
             level = 'WARNING'
         errors.append({
           'level': level,
+          'type': 'not-in-codebook',
           'questionnaire': questionnaire_codes[q]['source'],
           'code': str(q),
           'detail': 'Code not found in codebook'
@@ -122,6 +127,7 @@ for q in questionnaire_codes:
             continue
         errors.append({
           'level': 'ERROR',
+          'type': 'multiple-assignments',
           'questionnaire': questionnaire_codes[q]['source'],
           'code': str(q),
           'detail': 'Code assigned to multiple questions'
@@ -130,9 +136,10 @@ for q in questionnaire_codes:
     if qtype in ('Question', 'Answer'):
         expected = cc['display']
         observed = qc['questionText'] if qtype == 'Question' else qc['display']
-        if expected.encode('utf-8').strip().lower() != observed.encode('utf-8').strip().lower():
+        if normalize(expected) != normalize(observed):
             errors.append({
                 'level': 'WARNING',
+                'type': 'text-mismatch',
                 'questionnaire': qc['source'],
                 'code': str(q),
                 'detail': "%s mismatch:\n'%s'\nvs questionnaire with\n'%s'"%(qtype, expected, observed)
@@ -142,6 +149,7 @@ for q in questionnaire_codes:
     if qtype != cbtype:
         errors.append({
           'level': 'ERROR',
+          'type': 'type-mismatch',
           'questionnaire': questionnaire_codes[q]['source'],
           'code': str(q),
           'detail': 'Questionnaire calls it a %s but codebook calls it a %s'%(qtype, cbtype)
@@ -158,6 +166,7 @@ for q in questionnaire_codes:
             if parent_code_from_codebook[1] != 'PMI' and not set([question]) & set(codebook_answer['parents']):
                 errors.append({
                 'level': 'ERROR',
+                'type': 'valueset-mismatch',
                 'questionnaire': questionnaire_codes[q]['source'],
                 'code': str(q),
                 'detail': 'Questionnaire says this is an answer to %s but codebook says this is only valid in response to %s (or its parents)'%(question, parent_code_from_codebook)
@@ -166,6 +175,7 @@ for q in questionnaire_codes:
         except:
             errors.append({
             'level': 'ERROR',
+            'type': 'missing-parent',
             'questionnaire': questionnaire_codes[q]['source'],
             'code': str(q),
             'detail': 'Codebook version of this answer code appears not to have a parent question'
@@ -177,6 +187,7 @@ for q in codebook_codes:
         qtype = codebook_codes[q]['type']
         errors.append({
         'level': 'WARNING',
+        'type': 'missing-from-questionnaires',
         'questionnaire': 'N/A',
         'code': str(q),
         'detail': '%s Present in codebook but not in any questionnaire'%qtype
@@ -185,8 +196,14 @@ for q in codebook_codes:
 import pprint
 
 errors = sorted(errors, key=lambda e: e['level'])
+
+for etype in set([e['type'] for e in errors]):
+    print len([e for e in errors if e['type'] == etype]), "\t%s issues"%etype
+
+print
+
 for e in errors:
-    print "%s on %s from questionnaire %s"%(e['level'], e['code'], e['questionnaire'])
+    print "%s (%s) on %s from questionnaire %s"%(e['level'], e['type'], e['code'], e['questionnaire'])
     print e['detail']
     print
 
