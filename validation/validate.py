@@ -135,7 +135,7 @@ for q in questionnaire_codes:
                 'level': 'WARNING',
                 'questionnaire': qc['source'],
                 'code': str(q),
-                'detail': "Answer mismatch:\n'%s'\nvs questionnaire with\n'%s'"%(expected, observed)
+                'detail': "%s mismatch:\n'%s'\nvs questionnaire with\n'%s'"%(qtype, expected, observed)
             })
 
 
