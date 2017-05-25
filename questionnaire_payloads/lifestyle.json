@@ -1,1 +1,3448 @@
-{"resourceType":"Questionnaire","identifier":[{"value":"Vibrent_FORM_ID_286"}],"version":"118","status":"published","date":"2017-05-23T20:04:38+00:00","group":{"linkId":"root_group","title":"lifestyle","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Lifestyle"}],"text":"This module asks about personal habits that may affect your health, like smoking, drinking alcohol, or using any drugs.","required":true,"repeats":false,"question":[{"linkId":"5974","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Smoking_100CigsLifetime"}],"text":"Have you smoked at least 100 cigarettes in your entire life? (There are 20 cigarettes in a pack.) ","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"¿Ha fumado usted al menos 100 cigarrillos en toda su vida?"}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"100CigsLifetime_Yes","display":"yes","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"sí"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"100CigsLifetime_No","display":"no","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"no"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_DontKnow","display":"don't know","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"no sé"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer","display":"prefer not to answer","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Prefiero no responder"}]}]}}]},{"linkId":"5978","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Smoking_SmokeFrequency"}],"text":"Do you now smoke cigarettes every day, some days, or not at all?","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"¿Fuma usted ahora cigarrillos todos los días, algunos días o nunca?"}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"SmokeFrequency_EveryDay","display":"every day","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"todos los días"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"SmokeFrequency_SomeDays","display":"some days","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"algunos días"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"SmokeFrequency_NotAtAll","display":"not at all","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"nunca"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_DontKnow","display":"don't know","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"no sé"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer","display":"prefer not to answer","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Prefiero no responder"}]}]}}]},{"linkId":"6016","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Smoking_DailySmokeStartingAge"}],"text":"enter age: [range: 1-99, enter (0) for none]","type":"decimal","repeats":false},{"linkId":"6017","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_DontKnow"}],"text":"QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR","type":"boolean","repeats":false},{"linkId":"9362","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer"}],"text":"QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR","type":"boolean","repeats":false},{"linkId":"6031","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Smoking_SeriousQuitAttempt"}],"text":"In the past, have you ever made a serious attempt to quit smoking? That is, have you stopped smoking for at least one day or longer because you were trying to quit?","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"En el pasado, ¿ha intentado seriamente dejar de fumar? es decir, ¿ha dejado de fumar durante al menos un día o más porque estaba tratando de dejar de fumar?"}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"SeriousQuitAttempt_AttemptQuitSmoking","display":"yes","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"sí"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"SeriousQuitAttempt_NoAttemptQuitSmoking","display":"no","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"no"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_DontKnow","display":"don't know","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"no sé"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer","display":"prefer not to answer","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Prefiero no responder"}]}]}}]},{"linkId":"9369","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"AttemptQuitSmoking_CompletelyQuitAge"}],"text":"_____ age stopped smoking","type":"decimal","repeats":false},{"linkId":"9370","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_DontKnow"}],"text":"QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR","type":"boolean","repeats":false},{"linkId":"9371","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer"}],"text":"QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR","type":"boolean","repeats":false},{"linkId":"9376","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Smoking_NumberOfYears"}],"text":"____ years smoked (0-99)","type":"decimal","repeats":false},{"linkId":"9377","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_DontKnow"}],"text":"QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR","type":"boolean","repeats":false},{"linkId":"9378","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer"}],"text":"QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR","type":"boolean","repeats":false},{"linkId":"5987","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Smoking_CurrentDailyCigaretteNumber"}],"text":"enter number of cigarettes per day_____ [range: 1-99]","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"entre el número de cigarrillos por día ____ [de: 1 a  99]"}]}]},"type":"decimal","repeats":false},{"linkId":"5988","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_DontKnow"}],"text":"QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR","type":"boolean","repeats":false},{"linkId":"9379","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer"}],"text":"QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR","type":"boolean","repeats":false},{"linkId":"9384","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Smoking_AverageDailyCigaretteNumber"}],"text":"enter number of cigarettes per day_____ [range: 1-99]","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"entre el número de cigarrillos por día ____ [de: 1 a  99]"}]}]},"type":"decimal","repeats":false},{"linkId":"9385","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_DontKnow"}],"text":"QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR","type":"boolean","repeats":false},{"linkId":"9386","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer"}],"text":"QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR","type":"boolean","repeats":false},{"linkId":"6052","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"ElectronicSmoking_ElectricSmokeParticipant"}],"text":"Have you ever used an electronic nicotine product, even one or two times (Electronic nicotine products include e-cigarettes, vape pens, hookah pens, personal vaporizers and mods, e-cigars, e-pipes, and e-hookahs)?","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"¿Alguna vez ha fumado un dispositivo electrónico con nicotina como ser un cigarrillo electrónico, una hookah\nelectrónica, un puro electrónico o una pipa electrónica?"}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"ElectricSmokeParticipant_Yes","display":"yes","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"sí"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"ElectricSmokeParticipant_No","display":"no","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"no"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_DontKnow","display":"don't know","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"no sé"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer","display":"prefer not to answer","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Prefiero no responder"}]}]}}]},{"linkId":"6056","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"ElectronicSmoking_ElectricSmokeFrequency"}],"text":"Do you now use electronic nicotine products?","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"¿Utiliza ahora dispositivos de nicotina electrónicos?"}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"ElectricSmokeFrequency_EveryDay","display":"every day","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"todos los días"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"ElectricSmokeFrequency_SomeDays","display":"some days","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"algunos días"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"ElectricSmokeFrequency_NotAtAll","display":"not at all","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"nunca"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_DontKnow","display":"don't know","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"no sé"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer","display":"prefer not to answer","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Prefiero no responder"}]}]}}]},{"linkId":"6060","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"CigarSmoking_CigarSmokeParticipant"}],"text":"Have you ever smoked a traditional cigar, cigarillo, or filtered cigar, even one or two puffs?","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"¿Alguna vez ha fumado un puro tradicional o \"grande\", un purito o un puro con filtro, incluso si solo fueron\nuna o dos pitaditas?"}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"CigarSmokeParticipant_Yes","display":"yes","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"sí"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"CigarSmokeParticipant_No","display":"no","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"no"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_DontKnow","display":"don't know","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"no sé"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer","display":"prefer not to answer","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Prefiero no responder"}]}]}}]},{"linkId":"6064","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"CigarSmoking_CurrentCigarFrequency"}],"text":"Do you now smoke a traditional cigar, cigarillo, or filtered cigar?","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"¿Fuma ahora un cigarro tradicional, cigarrillo o un cigarro con filtro?"}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"CurrentCigarFrequency_EveryDay","display":"every day","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"todos los días"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"CurrentCigarFrequency_SomeDays","display":"some days","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"algunos días"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"CurrentCigarFrequency_NotAtAll","display":"not at all","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"nunca"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_DontKnow","display":"don't know","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"no sé"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer","display":"prefer not to answer","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Prefiero no responder"}]}]}}]},{"linkId":"6068","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"HookahSmoking_HookahSmokeParticipant"}],"text":"Have you ever smoked tobacco in a hookah, even one or two puffs?","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"¿Alguna vez ha fumado tabaco en una hookah, incluso si solo fueron una o dos pitaditas?"}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"HookahSmokeParticipant_Yes","display":"yes","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"sí"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"HookahSmokeParticipant_No","display":"no","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"no"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_DontKnow","display":"don't know","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"no sé"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer","display":"prefer not to answer","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Prefiero no responder"}]}]}}]},{"linkId":"6072","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"HookahSmoking_CurrentHookahFrequency"}],"text":"Do you now smoke hookah?","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"¿Fuma ahora con hookahs?"}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"CurrentHookahFrequency_EveryDay","display":"every day","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"todos los días"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"CurrentHookahFrequency_SomeDays","display":"some days","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"algunos días"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"CurrentHookahFrequency_NotAtAll","display":"not at all","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"nunca"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_DontKnow","display":"don't know","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"no sé"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer","display":"prefer not to answer","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Prefiero no responder"}]}]}}]},{"linkId":"6076","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"SmokelessTobacco_SmokelessTobaccoParticipant"}],"text":"Have you ever used smokeless tobacco products, even one or two times (Smokeless tobacco products include snus pouches, Skoal Bandits, loose snus, moist snuff, dip, spit, and chewing tobacco)?","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"¿Alguna vez ha usado productos de tabaco sin humo, aunque sea una o dos veces? (productos de tabaco sin humo incluyen bolsas de snus, skoal bandits, snus suelto, snus húmedo, chupable, escupible, rapé y tabaco de mascar.)"}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"SmokelessTobaccoParticipant_Yes","display":"yes","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"sí"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"SmokelessTobaccoParticipant_No","display":"no","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"no"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_DontKnow","display":"don't know","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"no sé"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer","display":"prefer not to answer","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Prefiero no responder"}]}]}}]},{"linkId":"6080","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"SmokelessTobacco_SmokelessTobaccoFrequency"}],"text":"Do you now use smokeless tobacco products?","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"¿Usa actualmente productos de tabaco sin humo?"}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"SmokelessTobaccoFrequency_EveryDay","display":"every day","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"todos los días"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"SmokelessTobaccoFrequency_SomeDays","display":"some days","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"algunos días"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"SmokelessTobaccoFrequency_NotAtAll","display":"not at all","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"nunca"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_DontKnow","display":"don't know","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"no sé"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer","display":"prefer not to answer","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Prefiero no responder"}]}]}}]},{"linkId":"6085","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Alcohol_AlcoholParticipant"}],"text":"In your entire life, have you had at least 1 drink of any kind of alcohol, not counting small tastes or sips. For example, a 12 ounce can of beer is considered 1 serving of beer, a 5 ounce glass of wine is considered 1 serving of wine \n\n(By a “drink,” we mean a can or bottle of beer, a glass of wine or a wine cooler, a shot of liquor, or a mixed drink with liquor in it.)","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"En toda su vida, ¿ha bebido al menos 1 trago de algún tipo de alcohol, sin contar los sorbos pequeños? (Con \"trago\", nos referimos a una lata o una botella de cerveza, una copa de vino o una bebida alcohólica gasificada, una medida de bebida destilada o un cóctel con bebida destilada)."}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"AlcoholParticipant_Yes","display":"yes","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Sí"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"AlcoholParticipant_No","display":"no","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"No"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer","display":"prefer not to answer","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Prefiero no responder"}]}]}}]},{"linkId":"9435","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Alcohol_DrinkFrequencyPastYear"}],"text":"How often did you have a drink containing alcohol in the past year?","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"¿Con qué frecuencia tomó tragos con alcohol en el último año?"}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"DrinkFrequencyPastYear_Never","display":"never","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Nunca"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"DrinkFrequencyPastYear_MonthlyOrLess","display":"monthly or less","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Una vez al mes o menos"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"DrinkFrequencyPastYear_2to4PerMonth","display":"two to four times a month","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Dos a cuatro veces al mes"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"DrinkFrequencyPastYear_2to3PerWeek","display":"two to three times a week","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Dos o tres veces a la semana"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"DrinkFrequencyPastYear_4orMorePerWeek","display":"four or more times a week","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Cuatro veces o más a la semana"}]}]}}]},{"linkId":"9439","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Alcohol_AverageDailyDrinkCount"}],"text":"On a typical day when you drink, how many drinks do you have?","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"¿Cuántos tragos tomaba en un día normal cuando bebía en el último año?"}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"AverageDailyDrinkCount_1or2","display":"1 or 2","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"1 o 2"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"AverageDailyDrinkCount_3or4","display":"3 or 4","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"3 o 4"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"AverageDailyDrinkCount_5or6","display":"5 or 6","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"5 o 6"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"AverageDailyDrinkCount_7to9","display":"7 to 9","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"7 a 9"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"AverageDailyDrinkCount_10orMore","display":"10 or more","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"10 o más"}]}]}}]},{"linkId":"9443","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Alcohol_6orMoreDrinksOccurence"}],"text":"How often did you have six or more drinks on one occasion in the past year?","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"¿Con qué frecuencia tomó seis o más tragos en una sola ocasión en el último año?"}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"6orMoreDrinksOccurence_Never","display":"never","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Nunca"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"6orMoreDrinksOccurence_LessThanMonthly","display":"less than monthly","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Menos de una vez al mes"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"6orMoreDrinksOccurence_Monthly","display":"monthly","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Una vez al mes"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"6orMoreDrinksOccurence_Weekly","display":"weekly ","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Una vez a la semana"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"6orMoreDrinksOccurence_Daily","display":"daily or almost daily","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"A diario o casi todos los días"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"6orMoreDrinksOccurence_NeverInLastYear","display":"never in the last year","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Nunca en el último año"}]}]}}]},{"linkId":"6111","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"RecreationalDrugUse_WhichDrugsUsed"}],"text":"In your LIFETIME, have you ever used the following substances? (select all that apply)","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"En TODA SU VIDA, ¿cuál de las siguientes sustancias ha usado?"}]}]},"type":"choice","repeats":true,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"WhichDrugsUsed_MarijuanaUse","display":"marijuana (cannabis, pot, grass, hash, weed, etc.)","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Marihuana (cannabis, mota, hachís, hierba, etc.)"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"WhichDrugsUsed_CocaineUse","display":"cocaine (coke, crack, etc.)","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Cocaína (coca, crack, etc.)"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"WhichDrugsUsed_PrescriptionStimulantsUse","display":"prescription stimulants for non-medical reasons (Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Estimulantes recetados por motivos no médicos (Ritalin, Concerta, Dexedrina, Adderall, píldoras para bajar de peso, etc.)"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"WhichDrugsUsed_MethamphetamineUse","display":"methamphetamine (speed, crystal meth, ice, etc.)","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Otros estimulantes (metanfetamina [meta speed, cristalizada, solidificada, etc.], k2/spice, sales de baño)"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"WhichDrugsUsed_InhalantsUse","display":"inhalants (nitrous oxide, glue, gas, paint thinner, etc.)","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Inhalantes (óxido nitroso, pegamento, gasolina, diluyente de pintura, etc.)"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"WhichDrugsUsed_SedativesUse","display":"sedatives or sleeping pills for non-medical reasons (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Sedantes o píldoras para dormir por motivos no médicos (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"WhichDrugsUsed_HallucinogensUse","display":"hallucinogens (LSD, acid, mushrooms, PCP, Special K,\necstasy, etc.)","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Alucinógenos (LSD, ácidos, hongos, PCP, ketamina, éxtasis, etc.)"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"WhichDrugsUsed_StreetOpioidsUse","display":"street opioids (heroin, opium, etc.)","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Opioides callejeros (heroína, opio, etc.)"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"WhichDrugsUsed_PrescriptionOpioidsUse","display":"prescription opioids for non-medical reasons (fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine, etc.)","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Opioides recetados por motivos no médicos (fentanilo, oxicodona [OxyContina, Percocet], hidrocodona [Vicodina], metadona, buprenorfina, etc.)"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"WhichDrugsUsed_NoneOfTheseDrugs","display":"none of these drugs"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer","display":"prefer not to answer","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Prefiero no responder"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"WhichDrugsUsed_OtherSpecify","display":"other","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Otros"}]}]}}]},{"linkId":"9444","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_FreeText"}],"text":"other","type":"text","repeats":false},{"linkId":"9445","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Past3MonthUseFrequency_Marijuana3MonthUse"}],"text":"In the PAST THREE MONTHS, how often have you used marijuana (cannabis, pot, grass, hash, etc.)?","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó  Marihuana (cannabis, mota, hachís, hierba, etc.) ?"}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Marijuana3MonthUse_Never","display":"never","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Nunca"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Marijuana3MonthUse_OneOrTwice","display":"once or twice","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Una o dos veces"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Marijuana3MonthUse_Monthly","display":"monthly","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Una vez al mes"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Marijuana3MonthUse_Weekly","display":"weekly","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Una vez a la semana"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Marijuana3MonthUse_Daily","display":"daily or almost daily","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"A diario o casi todos los días"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer","display":"prefer not to answer","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Prefiero no responder"}]}]}}]},{"linkId":"9454","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Past3MonthUseFrequency_Cocaine3MonthUse"}],"text":"In the PAST THREE MONTHS, how often have you used cocaine (coke, crack, etc.)?","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó Cocaína (coca, crack, etc.)?"}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Cocaine3MonthUse_Never","display":"never"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Cocaine3MonthUse_OnceOrTwice","display":"once or twice"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Cocaine3MonthUse_Monthly","display":"monthly"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Cocaine3MonthUse_Weekly","display":"weekly"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Cocaine3MonthUse_Daily","display":"daily or almost daily"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer","display":"prefer not to answer","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Prefiero no responder"}]}]}}]},{"linkId":"9447","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Past3MonthUseFrequency_PrescriptionStimulant3MonthUse"}],"text":"In the PAST THREE MONTHS, how often have you used prescription stimulants for non-medical reasons (Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)?","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó Estimulantes recetados por motivos no médicos (Vyvanse Ritalin, Concerta, Dexedrina, Adderall, píldoras para bajar de peso, etc.)"}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PrescriptionStimulant3MonthUse_Never","display":"never"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PrescriptionStimulant3MonthUse_OnceOrTwice","display":"once or twice"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PrescriptionStimulant3MonthUse_Monthly","display":"monthly"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PrescriptionStimulant3MonthUse_Weekly","display":"weekly"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PrescriptionStimulant3MonthUse_Daily","display":"daily or almost daily"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer","display":"prefer not to answer","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Prefiero no responder"}]}]}}]},{"linkId":"9448","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Past3MonthUseFrequency_OtherStimulant3MonthUse"}],"text":"In the PAST THREE MONTHS, how often have you used other stimulants (methamphetamine, speed, crystal meth, ice, k2/spice, bath salts, etc.)","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó (metanfetamina [meta speed, cristalizada, solidificada, etc.], k2/spice, sales de baño)?"}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"OtherStimulant3MonthUse_Never","display":"never"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"OtherStimulant3MonthUse_OnceOrTwice","display":"once or twice"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"OtherStimulant3MonthUse_Monthly","display":"monthly"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"OtherStimulant3MonthUse_Weekly","display":"weekly"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"OtherStimulant3MonthUse_Daily","display":"daily or almost daily"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer","display":"prefer not to answer","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Prefiero no responder"}]}]}}]},{"linkId":"9449","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Past3MonthUseFrequency_Inhalant3MonthUse"}],"text":"In the PAST THREE MONTHS, how often have you used inhalants (nitrous oxide, glue, gas, paint thinner, etc.)?","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó Inhalantes (óxido nitroso, pegamento, gasolina, diluyente de pintura, etc.)?"}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Inhalant3MonthUse_Never","display":"never"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Inhalant3MonthUse_OnceOrTwice","display":"once or twice"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Inhalant3MonthUse_Monthly","display":"monthly"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Inhalant3MonthUse_Weekly","display":"weekly"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Inhalant3MonthUse_Daily","display":"daily or almost daily"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer","display":"prefer not to answer"}]},{"linkId":"9450","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Past3MonthUseFrequency_Sedative3MonthUse"}],"text":"In the PAST THREE MONTHS, how often have you used sedatives or sleeping pills for non-medical reasons (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)?","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó Sedantes o píldoras para dormir por motivos no médicos (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)?"}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Sedative3MonthUse_Never","display":"never"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Sedative3MonthUse_OnceOrTwice","display":"once or twice"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Sedative3MonthUse_Monthly","display":"monthly"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Sedative3MonthUse_Weekly","display":"weekly"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Sedative3MonthUse_Daily","display":"daily or almost daily"},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer","display":"prefer not to answer"}]},{"linkId":"9451","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Past3MonthUseFrequency_Hallucinogen3MonthUse"}],"text":"In the PAST THREE MONTHS, how often have you used hallucinogens (LSD, acid, mushrooms, PCP, Special K,\necstasy, etc.)?\n","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó Alucinógenos (LSD, ácidos, hongos, PCP, ketamina, éxtasis, etc.)?"}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Hallucinogen3MonthUse_Never","display":"never","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Nunca"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Hallucinogen3MonthUse_OnceOrTwice","display":"once or twice","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Una o dos veces"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Hallucinogen3MonthUse_Monthly","display":"monthly","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Una vez al mes"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Hallucinogen3MonthUse_Weekly","display":"weekly","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Una vez a la semana"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Hallucinogen3MonthUse_Daily","display":"daily or almost daily","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"A diario o casi todos los días"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer","display":"prefer not to answer"}]},{"linkId":"9452","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Past3MonthUseFrequency_StreetOpioid3MonthUse"}],"text":"In the PAST THREE MONTHS, how often have you used street opioids (heroin, opium, etc.)?","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó Opioides callejeros (heroína, opio, etc.)?"}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"StreetOpioid3MonthUse_Never","display":"never","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Nunca"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"StreetOpioid3MonthUse_OnceOrTwice","display":"once or twice","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Una o dos veces"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"StreetOpioid3MonthUse_Monthly","display":"monthly","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Una vez al mes"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"StreetOpioid3MonthUse_Weekly","display":"weekly","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Una vez a la semana"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"StreetOpioid3MonthUse_Daily","display":"daily or almost daily","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"A diario o casi todos los días"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer","display":"prefer not to answer"}]},{"linkId":"9453","concept":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"Past3MonthUseFrequency_PrescriptionOpiod3MonthUse"}],"text":"In the PAST THREE MONTHS, how often have you used prescription opioids for non-medical reasons (fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine, etc.)?","_text":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó Opioides recetados por motivos no médicos (obana, fentanilo, oxicodona [OxyContina, Percocet], hidrocodona [Vicodina], metadona, buprenorfina [Suboxone], etc.)?"}]}]},"type":"choice","repeats":false,"option":[{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PrescriptionOpiod3MonthUse_Never","display":"never","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Nunca"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PrescriptionOpiod3MonthUse_OnceOrTwice","display":"once or twice","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Una o dos veces"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PrescriptionOpiod3MonthUse_Monthly","display":"monthly","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Una vez al mes"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PrescriptionOpiod3MonthUse_Weekly","display":"weekly","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"Una vez a la semana"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PrescriptionOpiod3MonthUse_Daily","display":"daily or almost daily","_display":{"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/translation","extension":[{"url":"lang","valueCode":"es"},{"url":"content","valueString":"A diario o casi todos los días"}]}]}},{"system":"http://terminology.pmi-ops.org/CodeSystem/ppi","code":"PMI_PreferNotToAnswer","display":"prefer not to answer"}]}]}}
+{
+  "resourceType": "Questionnaire",
+  "identifier": [
+    {
+      "value": "Vibrent_FORM_ID_286"
+    }
+  ],
+  "version": "118",
+  "status": "published",
+  "date": "2017-05-23T20:04:38+00:00",
+  "group": {
+    "linkId": "root_group",
+    "title": "lifestyle",
+    "concept": [
+      {
+        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+        "code": "Lifestyle"
+      }
+    ],
+    "text": "This module asks about personal habits that may affect your health, like smoking, drinking alcohol, or using any drugs.",
+    "required": true,
+    "repeats": false,
+    "question": [
+      {
+        "linkId": "5974",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Smoking_100CigsLifetime"
+          }
+        ],
+        "text": "Have you smoked at least 100 cigarettes in your entire life? (There are 20 cigarettes in a pack.) ",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Ha fumado usted al menos 100 cigarrillos en toda su vida?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "100CigsLifetime_Yes",
+            "display": "yes",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "sí"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "100CigsLifetime_No",
+            "display": "no",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_DontKnow",
+            "display": "don't know",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no sé"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "5978",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Smoking_SmokeFrequency"
+          }
+        ],
+        "text": "Do you now smoke cigarettes every day, some days, or not at all?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Fuma usted ahora cigarrillos todos los días, algunos días o nunca?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "SmokeFrequency_EveryDay",
+            "display": "every day",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "todos los días"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "SmokeFrequency_SomeDays",
+            "display": "some days",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "algunos días"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "SmokeFrequency_NotAtAll",
+            "display": "not at all",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "nunca"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_DontKnow",
+            "display": "don't know",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no sé"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "6016",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Smoking_DailySmokeStartingAge"
+          }
+        ],
+        "text": "enter age: [range: 1-99, enter (0) for none]",
+        "type": "decimal",
+        "repeats": false
+      },
+      {
+        "linkId": "6017",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_DontKnow"
+          }
+        ],
+        "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+        "type": "boolean",
+        "repeats": false
+      },
+      {
+        "linkId": "9362",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer"
+          }
+        ],
+        "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+        "type": "boolean",
+        "repeats": false
+      },
+      {
+        "linkId": "6031",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Smoking_SeriousQuitAttempt"
+          }
+        ],
+        "text": "In the past, have you ever made a serious attempt to quit smoking? That is, have you stopped smoking for at least one day or longer because you were trying to quit?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En el pasado, ¿ha intentado seriamente dejar de fumar? es decir, ¿ha dejado de fumar durante al menos un día o más porque estaba tratando de dejar de fumar?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "SeriousQuitAttempt_AttemptQuitSmoking",
+            "display": "yes",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "sí"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "SeriousQuitAttempt_NoAttemptQuitSmoking",
+            "display": "no",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_DontKnow",
+            "display": "don't know",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no sé"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "9369",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "AttemptQuitSmoking_CompletelyQuitAge"
+          }
+        ],
+        "text": "_____ age stopped smoking",
+        "type": "decimal",
+        "repeats": false
+      },
+      {
+        "linkId": "9370",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_DontKnow"
+          }
+        ],
+        "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+        "type": "boolean",
+        "repeats": false
+      },
+      {
+        "linkId": "9371",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer"
+          }
+        ],
+        "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+        "type": "boolean",
+        "repeats": false
+      },
+      {
+        "linkId": "9376",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Smoking_NumberOfYears"
+          }
+        ],
+        "text": "____ years smoked (0-99)",
+        "type": "decimal",
+        "repeats": false
+      },
+      {
+        "linkId": "9377",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_DontKnow"
+          }
+        ],
+        "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+        "type": "boolean",
+        "repeats": false
+      },
+      {
+        "linkId": "9378",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer"
+          }
+        ],
+        "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+        "type": "boolean",
+        "repeats": false
+      },
+      {
+        "linkId": "5987",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Smoking_CurrentDailyCigaretteNumber"
+          }
+        ],
+        "text": "enter number of cigarettes per day_____ [range: 1-99]",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "entre el número de cigarrillos por día ____ [de: 1 a  99]"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "decimal",
+        "repeats": false
+      },
+      {
+        "linkId": "5988",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_DontKnow"
+          }
+        ],
+        "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+        "type": "boolean",
+        "repeats": false
+      },
+      {
+        "linkId": "9379",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer"
+          }
+        ],
+        "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+        "type": "boolean",
+        "repeats": false
+      },
+      {
+        "linkId": "9384",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Smoking_AverageDailyCigaretteNumber"
+          }
+        ],
+        "text": "enter number of cigarettes per day_____ [range: 1-99]",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "entre el número de cigarrillos por día ____ [de: 1 a  99]"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "decimal",
+        "repeats": false
+      },
+      {
+        "linkId": "9385",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_DontKnow"
+          }
+        ],
+        "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+        "type": "boolean",
+        "repeats": false
+      },
+      {
+        "linkId": "9386",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer"
+          }
+        ],
+        "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+        "type": "boolean",
+        "repeats": false
+      },
+      {
+        "linkId": "6052",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "ElectronicSmoking_ElectricSmokeParticipant"
+          }
+        ],
+        "text": "Have you ever used an electronic nicotine product, even one or two times (Electronic nicotine products include e-cigarettes, vape pens, hookah pens, personal vaporizers and mods, e-cigars, e-pipes, and e-hookahs)?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Alguna vez ha fumado un dispositivo electrónico con nicotina como ser un cigarrillo electrónico, una hookah\nelectrónica, un puro electrónico o una pipa electrónica?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "ElectricSmokeParticipant_Yes",
+            "display": "yes",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "sí"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "ElectricSmokeParticipant_No",
+            "display": "no",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_DontKnow",
+            "display": "don't know",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no sé"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "6056",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "ElectronicSmoking_ElectricSmokeFrequency"
+          }
+        ],
+        "text": "Do you now use electronic nicotine products?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Utiliza ahora dispositivos de nicotina electrónicos?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "ElectricSmokeFrequency_EveryDay",
+            "display": "every day",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "todos los días"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "ElectricSmokeFrequency_SomeDays",
+            "display": "some days",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "algunos días"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "ElectricSmokeFrequency_NotAtAll",
+            "display": "not at all",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "nunca"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_DontKnow",
+            "display": "don't know",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no sé"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "6060",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "CigarSmoking_CigarSmokeParticipant"
+          }
+        ],
+        "text": "Have you ever smoked a traditional cigar, cigarillo, or filtered cigar, even one or two puffs?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Alguna vez ha fumado un puro tradicional o \"grande\", un purito o un puro con filtro, incluso si solo fueron\nuna o dos pitaditas?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "CigarSmokeParticipant_Yes",
+            "display": "yes",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "sí"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "CigarSmokeParticipant_No",
+            "display": "no",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_DontKnow",
+            "display": "don't know",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no sé"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "6064",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "CigarSmoking_CurrentCigarFrequency"
+          }
+        ],
+        "text": "Do you now smoke a traditional cigar, cigarillo, or filtered cigar?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Fuma ahora un cigarro tradicional, cigarrillo o un cigarro con filtro?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "CurrentCigarFrequency_EveryDay",
+            "display": "every day",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "todos los días"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "CurrentCigarFrequency_SomeDays",
+            "display": "some days",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "algunos días"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "CurrentCigarFrequency_NotAtAll",
+            "display": "not at all",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "nunca"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_DontKnow",
+            "display": "don't know",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no sé"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "6068",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "HookahSmoking_HookahSmokeParticipant"
+          }
+        ],
+        "text": "Have you ever smoked tobacco in a hookah, even one or two puffs?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Alguna vez ha fumado tabaco en una hookah, incluso si solo fueron una o dos pitaditas?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "HookahSmokeParticipant_Yes",
+            "display": "yes",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "sí"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "HookahSmokeParticipant_No",
+            "display": "no",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_DontKnow",
+            "display": "don't know",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no sé"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "6072",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "HookahSmoking_CurrentHookahFrequency"
+          }
+        ],
+        "text": "Do you now smoke hookah?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Fuma ahora con hookahs?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "CurrentHookahFrequency_EveryDay",
+            "display": "every day",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "todos los días"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "CurrentHookahFrequency_SomeDays",
+            "display": "some days",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "algunos días"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "CurrentHookahFrequency_NotAtAll",
+            "display": "not at all",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "nunca"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_DontKnow",
+            "display": "don't know",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no sé"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "6076",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "SmokelessTobacco_SmokelessTobaccoParticipant"
+          }
+        ],
+        "text": "Have you ever used smokeless tobacco products, even one or two times (Smokeless tobacco products include snus pouches, Skoal Bandits, loose snus, moist snuff, dip, spit, and chewing tobacco)?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Alguna vez ha usado productos de tabaco sin humo, aunque sea una o dos veces? (productos de tabaco sin humo incluyen bolsas de snus, skoal bandits, snus suelto, snus húmedo, chupable, escupible, rapé y tabaco de mascar.)"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "SmokelessTobaccoParticipant_Yes",
+            "display": "yes",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "sí"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "SmokelessTobaccoParticipant_No",
+            "display": "no",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_DontKnow",
+            "display": "don't know",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no sé"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "6080",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "SmokelessTobacco_SmokelessTobaccoFrequency"
+          }
+        ],
+        "text": "Do you now use smokeless tobacco products?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Usa actualmente productos de tabaco sin humo?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "SmokelessTobaccoFrequency_EveryDay",
+            "display": "every day",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "todos los días"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "SmokelessTobaccoFrequency_SomeDays",
+            "display": "some days",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "algunos días"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "SmokelessTobaccoFrequency_NotAtAll",
+            "display": "not at all",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "nunca"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_DontKnow",
+            "display": "don't know",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no sé"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "6085",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Alcohol_AlcoholParticipant"
+          }
+        ],
+        "text": "In your entire life, have you had at least 1 drink of any kind of alcohol, not counting small tastes or sips. For example, a 12 ounce can of beer is considered 1 serving of beer, a 5 ounce glass of wine is considered 1 serving of wine \n\n(By a “drink,” we mean a can or bottle of beer, a glass of wine or a wine cooler, a shot of liquor, or a mixed drink with liquor in it.)",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En toda su vida, ¿ha bebido al menos 1 trago de algún tipo de alcohol, sin contar los sorbos pequeños? (Con \"trago\", nos referimos a una lata o una botella de cerveza, una copa de vino o una bebida alcohólica gasificada, una medida de bebida destilada o un cóctel con bebida destilada)."
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "AlcoholParticipant_Yes",
+            "display": "yes",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Sí"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "AlcoholParticipant_No",
+            "display": "no",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "No"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "9435",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Alcohol_DrinkFrequencyPastYear"
+          }
+        ],
+        "text": "How often did you have a drink containing alcohol in the past year?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Con qué frecuencia tomó tragos con alcohol en el último año?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "DrinkFrequencyPastYear_Never",
+            "display": "never",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Nunca"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "DrinkFrequencyPastYear_MonthlyOrLess",
+            "display": "monthly or less",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una vez al mes o menos"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "DrinkFrequencyPastYear_2to4PerMonth",
+            "display": "two to four times a month",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Dos a cuatro veces al mes"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "DrinkFrequencyPastYear_2to3PerWeek",
+            "display": "two to three times a week",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Dos o tres veces a la semana"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "DrinkFrequencyPastYear_4orMorePerWeek",
+            "display": "four or more times a week",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Cuatro veces o más a la semana"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "9439",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Alcohol_AverageDailyDrinkCount"
+          }
+        ],
+        "text": "On a typical day when you drink, how many drinks do you have?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Cuántos tragos tomaba en un día normal cuando bebía en el último año?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "AverageDailyDrinkCount_1or2",
+            "display": "1 or 2",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "1 o 2"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "AverageDailyDrinkCount_3or4",
+            "display": "3 or 4",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "3 o 4"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "AverageDailyDrinkCount_5or6",
+            "display": "5 or 6",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "5 o 6"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "AverageDailyDrinkCount_7to9",
+            "display": "7 to 9",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "7 a 9"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "AverageDailyDrinkCount_10orMore",
+            "display": "10 or more",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "10 o más"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "9443",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Alcohol_6orMoreDrinksOccurence"
+          }
+        ],
+        "text": "How often did you have six or more drinks on one occasion in the past year?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "¿Con qué frecuencia tomó seis o más tragos en una sola ocasión en el último año?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "6orMoreDrinksOccurence_Never",
+            "display": "never",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Nunca"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "6orMoreDrinksOccurence_LessThanMonthly",
+            "display": "less than monthly",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Menos de una vez al mes"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "6orMoreDrinksOccurence_Monthly",
+            "display": "monthly",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una vez al mes"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "6orMoreDrinksOccurence_Weekly",
+            "display": "weekly ",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una vez a la semana"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "6orMoreDrinksOccurence_Daily",
+            "display": "daily or almost daily",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "A diario o casi todos los días"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "6orMoreDrinksOccurence_NeverInLastYear",
+            "display": "never in the last year",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Nunca en el último año"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "6111",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "RecreationalDrugUse_WhichDrugsUsed"
+          }
+        ],
+        "text": "In your LIFETIME, have you ever used the following substances? (select all that apply)",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En TODA SU VIDA, ¿cuál de las siguientes sustancias ha usado?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": true,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "WhichDrugsUsed_MarijuanaUse",
+            "display": "marijuana (cannabis, pot, grass, hash, weed, etc.)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Marihuana (cannabis, mota, hachís, hierba, etc.)"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "WhichDrugsUsed_CocaineUse",
+            "display": "cocaine (coke, crack, etc.)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Cocaína (coca, crack, etc.)"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "WhichDrugsUsed_PrescriptionStimulantsUse",
+            "display": "prescription stimulants for non-medical reasons (Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Estimulantes recetados por motivos no médicos (Ritalin, Concerta, Dexedrina, Adderall, píldoras para bajar de peso, etc.)"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "WhichDrugsUsed_MethamphetamineUse",
+            "display": "methamphetamine (speed, crystal meth, ice, etc.)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Otros estimulantes (metanfetamina [meta speed, cristalizada, solidificada, etc.], k2/spice, sales de baño)"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "WhichDrugsUsed_InhalantsUse",
+            "display": "inhalants (nitrous oxide, glue, gas, paint thinner, etc.)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Inhalantes (óxido nitroso, pegamento, gasolina, diluyente de pintura, etc.)"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "WhichDrugsUsed_SedativesUse",
+            "display": "sedatives or sleeping pills for non-medical reasons (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Sedantes o píldoras para dormir por motivos no médicos (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "WhichDrugsUsed_HallucinogensUse",
+            "display": "hallucinogens (LSD, acid, mushrooms, PCP, Special K,\necstasy, etc.)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Alucinógenos (LSD, ácidos, hongos, PCP, ketamina, éxtasis, etc.)"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "WhichDrugsUsed_StreetOpioidsUse",
+            "display": "street opioids (heroin, opium, etc.)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Opioides callejeros (heroína, opio, etc.)"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "WhichDrugsUsed_PrescriptionOpioidsUse",
+            "display": "prescription opioids for non-medical reasons (fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine, etc.)",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Opioides recetados por motivos no médicos (fentanilo, oxicodona [OxyContina, Percocet], hidrocodona [Vicodina], metadona, buprenorfina, etc.)"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "WhichDrugsUsed_NoneOfTheseDrugs",
+            "display": "none of these drugs"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "WhichDrugsUsed_OtherSpecify",
+            "display": "other",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Otros"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "9444",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_FreeText"
+          }
+        ],
+        "text": "other",
+        "type": "text",
+        "repeats": false
+      },
+      {
+        "linkId": "9445",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Past3MonthUseFrequency_Marijuana3MonthUse"
+          }
+        ],
+        "text": "In the PAST THREE MONTHS, how often have you used marijuana (cannabis, pot, grass, hash, etc.)?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó  Marihuana (cannabis, mota, hachís, hierba, etc.) ?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Marijuana3MonthUse_Never",
+            "display": "never",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Nunca"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Marijuana3MonthUse_OneOrTwice",
+            "display": "once or twice",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una o dos veces"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Marijuana3MonthUse_Monthly",
+            "display": "monthly",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una vez al mes"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Marijuana3MonthUse_Weekly",
+            "display": "weekly",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una vez a la semana"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Marijuana3MonthUse_Daily",
+            "display": "daily or almost daily",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "A diario o casi todos los días"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "9454",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Past3MonthUseFrequency_Cocaine3MonthUse"
+          }
+        ],
+        "text": "In the PAST THREE MONTHS, how often have you used cocaine (coke, crack, etc.)?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó Cocaína (coca, crack, etc.)?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Cocaine3MonthUse_Never",
+            "display": "never"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Cocaine3MonthUse_OnceOrTwice",
+            "display": "once or twice"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Cocaine3MonthUse_Monthly",
+            "display": "monthly"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Cocaine3MonthUse_Weekly",
+            "display": "weekly"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Cocaine3MonthUse_Daily",
+            "display": "daily or almost daily"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "9447",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Past3MonthUseFrequency_PrescriptionStimulant3MonthUse"
+          }
+        ],
+        "text": "In the PAST THREE MONTHS, how often have you used prescription stimulants for non-medical reasons (Ritalin, Concerta, Dexedrine, Adderall, diet pills, etc.)?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó Estimulantes recetados por motivos no médicos (Vyvanse Ritalin, Concerta, Dexedrina, Adderall, píldoras para bajar de peso, etc.)"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PrescriptionStimulant3MonthUse_Never",
+            "display": "never"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PrescriptionStimulant3MonthUse_OnceOrTwice",
+            "display": "once or twice"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PrescriptionStimulant3MonthUse_Monthly",
+            "display": "monthly"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PrescriptionStimulant3MonthUse_Weekly",
+            "display": "weekly"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PrescriptionStimulant3MonthUse_Daily",
+            "display": "daily or almost daily"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "9448",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Past3MonthUseFrequency_OtherStimulant3MonthUse"
+          }
+        ],
+        "text": "In the PAST THREE MONTHS, how often have you used other stimulants (methamphetamine, speed, crystal meth, ice, k2/spice, bath salts, etc.)",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó (metanfetamina [meta speed, cristalizada, solidificada, etc.], k2/spice, sales de baño)?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "OtherStimulant3MonthUse_Never",
+            "display": "never"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "OtherStimulant3MonthUse_OnceOrTwice",
+            "display": "once or twice"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "OtherStimulant3MonthUse_Monthly",
+            "display": "monthly"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "OtherStimulant3MonthUse_Weekly",
+            "display": "weekly"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "OtherStimulant3MonthUse_Daily",
+            "display": "daily or almost daily"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "9449",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Past3MonthUseFrequency_Inhalant3MonthUse"
+          }
+        ],
+        "text": "In the PAST THREE MONTHS, how often have you used inhalants (nitrous oxide, glue, gas, paint thinner, etc.)?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó Inhalantes (óxido nitroso, pegamento, gasolina, diluyente de pintura, etc.)?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Inhalant3MonthUse_Never",
+            "display": "never"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Inhalant3MonthUse_OnceOrTwice",
+            "display": "once or twice"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Inhalant3MonthUse_Monthly",
+            "display": "monthly"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Inhalant3MonthUse_Weekly",
+            "display": "weekly"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Inhalant3MonthUse_Daily",
+            "display": "daily or almost daily"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer"
+          }
+        ]
+      },
+      {
+        "linkId": "9450",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Past3MonthUseFrequency_Sedative3MonthUse"
+          }
+        ],
+        "text": "In the PAST THREE MONTHS, how often have you used sedatives or sleeping pills for non-medical reasons (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó Sedantes o píldoras para dormir por motivos no médicos (Valium, Serepax, Ativan, Xanax, Librium, Rohypnol, GHB, etc.)?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Sedative3MonthUse_Never",
+            "display": "never"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Sedative3MonthUse_OnceOrTwice",
+            "display": "once or twice"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Sedative3MonthUse_Monthly",
+            "display": "monthly"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Sedative3MonthUse_Weekly",
+            "display": "weekly"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Sedative3MonthUse_Daily",
+            "display": "daily or almost daily"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer"
+          }
+        ]
+      },
+      {
+        "linkId": "9451",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Past3MonthUseFrequency_Hallucinogen3MonthUse"
+          }
+        ],
+        "text": "In the PAST THREE MONTHS, how often have you used hallucinogens (LSD, acid, mushrooms, PCP, Special K,\necstasy, etc.)?\n",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó Alucinógenos (LSD, ácidos, hongos, PCP, ketamina, éxtasis, etc.)?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Hallucinogen3MonthUse_Never",
+            "display": "never",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Nunca"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Hallucinogen3MonthUse_OnceOrTwice",
+            "display": "once or twice",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una o dos veces"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Hallucinogen3MonthUse_Monthly",
+            "display": "monthly",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una vez al mes"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Hallucinogen3MonthUse_Weekly",
+            "display": "weekly",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una vez a la semana"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Hallucinogen3MonthUse_Daily",
+            "display": "daily or almost daily",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "A diario o casi todos los días"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer"
+          }
+        ]
+      },
+      {
+        "linkId": "9452",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Past3MonthUseFrequency_StreetOpioid3MonthUse"
+          }
+        ],
+        "text": "In the PAST THREE MONTHS, how often have you used street opioids (heroin, opium, etc.)?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó Opioides callejeros (heroína, opio, etc.)?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "StreetOpioid3MonthUse_Never",
+            "display": "never",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Nunca"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "StreetOpioid3MonthUse_OnceOrTwice",
+            "display": "once or twice",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una o dos veces"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "StreetOpioid3MonthUse_Monthly",
+            "display": "monthly",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una vez al mes"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "StreetOpioid3MonthUse_Weekly",
+            "display": "weekly",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una vez a la semana"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "StreetOpioid3MonthUse_Daily",
+            "display": "daily or almost daily",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "A diario o casi todos los días"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer"
+          }
+        ]
+      },
+      {
+        "linkId": "9453",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "Past3MonthUseFrequency_PrescriptionOpiod3MonthUse"
+          }
+        ],
+        "text": "In the PAST THREE MONTHS, how often have you used prescription opioids for non-medical reasons (fentanyl, oxycodone [OxyContin, Percocet], hydrocodone [Vicodin], methadone, buprenorphine, etc.)?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En los últimos tres meses, ¿con qué frecuencia usó las sustancias que mencionó Opioides recetados por motivos no médicos (obana, fentanilo, oxicodona [OxyContina, Percocet], hidrocodona [Vicodina], metadona, buprenorfina [Suboxone], etc.)?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PrescriptionOpiod3MonthUse_Never",
+            "display": "never",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Nunca"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PrescriptionOpiod3MonthUse_OnceOrTwice",
+            "display": "once or twice",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una o dos veces"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PrescriptionOpiod3MonthUse_Monthly",
+            "display": "monthly",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una vez al mes"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PrescriptionOpiod3MonthUse_Weekly",
+            "display": "weekly",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Una vez a la semana"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PrescriptionOpiod3MonthUse_Daily",
+            "display": "daily or almost daily",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "A diario o casi todos los días"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer",
+            "display": "prefer not to answer"
+          }
+        ]
+      }
+    ]
+  }
+}
