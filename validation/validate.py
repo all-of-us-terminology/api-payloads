@@ -163,7 +163,7 @@ for q in codebook_codes:
         'level': 'WARNING',
         'questionnaire': 'N/A',
         'code': str(q),
-        'detail': 'Present in codebook but nt in any questionnaire'
+        'detail': 'Present in codebook but not in any questionnaire'
         })
 
 import pprint
