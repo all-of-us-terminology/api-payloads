@@ -142,5 +142,5 @@ for e in errors:
     print e['detail']
     print
 
-if errors:
+if [e for e in errors if e['level'] == 'ERROR']:
     sys.exit(1)
