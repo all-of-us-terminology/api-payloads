@@ -67,6 +67,7 @@ def read_questionnaire(questionnaire_label, q, found=None, level=0, path_to_here
         c['questionText'] = q.get('text', None)
         c['redefined'] = bool(found.get(concept))
         found[concept] = c
+
     for c in q.get('option', []):
         c = copy(c)
         concept = (c.get('system'), c.get('code'))
@@ -75,6 +76,7 @@ def read_questionnaire(questionnaire_label, q, found=None, level=0, path_to_here
         c['parents'] = path_to_here + codes
         c['redefined'] = bool(found.get(concept))
         found[concept] = c
+
     for part in group + question:
         read_questionnaire(questionnaire_label, part, found, level+1, path_to_here + codes)
 
@@ -97,6 +99,7 @@ warnings = []
 for q in questionnaire_codes:
     if q[0] == EXTRAS:
         continue
+
     if q not in codebook_codes:
         level = 'ERROR'
         if q[1] == None:
@@ -108,10 +111,11 @@ for q in questionnaire_codes:
           'detail': 'Code not found in codebook'
         })
         continue
+
     qc = questionnaire_codes[q]
     cc = codebook_codes[q]
-    qtype = questionnaire_codes[q]['type']
-    cbtype = codebook_codes[q]['type']
+    qtype = qc['type']
+    cbtype = cc['type']
 
     if qtype == 'Question' and qc.get('redefined'):
         if q[1] in CONCEPTS_THAT_REPEAT:
@@ -122,6 +126,17 @@ for q in questionnaire_codes:
           'code': str(q),
           'detail': 'Code assigned to multiple questions'
         })
+
+    if qtype in ('Question', 'Answer'):
+        expected = cc['display']
+        observed = qc['questionText'] if qtype == 'Question' else qc['display']
+        if expected.encode('utf-8').strip().lower() != observed.encode('utf-8').strip().lower():
+            errors.append({
+                'level': 'WARNING',
+                'questionnaire': qc['source'],
+                'code': str(q),
+                'detail': "Answer mismatch:\n'%s'\nvs\n'%s'"%(expected, observed)
+            })
 
 
     if qtype != cbtype:
