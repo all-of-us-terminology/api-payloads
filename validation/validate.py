@@ -85,8 +85,11 @@ for q in questionnaire_codes:
     if q[0] == EXTRAS:
         continue
     if q not in codebook_codes:
+        level = 'ERROR'
+        if q[1] == None:
+            level = 'WARNING'
         errors.append({
-          'level': 'ERROR',
+          'level': level,
           'questionnaire': questionnaire_codes[q]['source'],
           'code': str(q),
           'detail': 'Code not found in codebook'
@@ -137,6 +140,8 @@ for q in codebook_codes:
         })
 
 import pprint
+
+errors = sorted(errors, key=lambda e: e['level'])
 for e in errors:
     print "%s on %s from questionnaire %s"%(e['level'], e['code'], e['questionnaire'])
     print e['detail']
