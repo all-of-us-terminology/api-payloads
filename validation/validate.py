@@ -159,11 +159,12 @@ for q in questionnaire_codes:
 
 for q in codebook_codes:
     if q not in questionnaire_codes:
+        qtype = codebook_codes[q]['type']
         errors.append({
         'level': 'WARNING',
         'questionnaire': 'N/A',
         'code': str(q),
-        'detail': 'Present in codebook but not in any questionnaire'
+        'detail': '%s Present in codebook but not in any questionnaire'%qtype
         })
 
 import pprint
