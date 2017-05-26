@@ -5,9 +5,9 @@
       "value": "Vibrent_FORM_ID_284"
     }
   ],
-  "version": "283",
+  "version": "284",
   "status": "published",
-  "date": "2017-05-26T16:38:15+00:00",
+  "date": "2017-05-26T16:44:52+00:00",
   "group": {
     "linkId": "root_group",
     "title": "the basics",
@@ -2720,7 +2720,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "SpecifiedGenderIdentity_SpecifiedGenderIdentityTextBox"
+            "code": "SpecifiedGender_SpecifiedGenderTextBox"
           }
         ],
         "text": "other (please specify)",
