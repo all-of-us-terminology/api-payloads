@@ -8,13 +8,9 @@ from copy import copy
 CODEBOOK = 'http://terminology.pmi-ops.org/CodeSystem/ppi.json'
 EXTRAS = 'http://terminology.pmi-ops.org/CodeSystem/ppi.json'
 QUESTIONNAIRE_GLOB = '../questionnaire_payloads/*.json'
+EXCLUDE_QUESTIONNAIRES_WITH = 'consent'
 
-CONCEPTS_THAT_REPEAT = [
-    'SecondaryContactInfo_PersonOneName',
-    'SecondaryContactInfo_SecondContactsName',
-    'PIIAddress_StreetAddress',
-    'SecondaryContactInfo_SecondContactsAddress',
-    'SecondaryContactInfo_PersonOneAddress']
+CONCEPTS_THAT_REPEAT = [ ]
 
 def normalize(s):
     condensed = s.encode('utf-8').strip().lower()
@@ -166,15 +162,6 @@ for q in questionnaire_codes:
     if qtype in ('Question', 'Answer'):
         expected = cc['display']
         observed = qc['questionText'] if qtype == 'Question' else qc['display']
-        if normalize(expected) != normalize(observed):
-            errors.append({
-                'level': 'WARNING',
-                'type': 'text-mismatch',
-                'questionnaire': qc['source'],
-                'code': str(q),
-                'detail': "%s mismatch:\n'%s'\nvs questionnaire with\n'%s'"%(qtype, expected, observed)
-            })
-
 
     if qtype != cbtype:
         errors.append({
@@ -215,10 +202,15 @@ for q in questionnaire_codes:
 for q in codebook_codes:
     if q not in questionnaire_codes:
         qtype = codebook_codes[q]['type']
+        if qtype == 'Topic':
+            continue
+        codebook_module = codebook_codes[q]['parents']
+        if codebook_module:
+            codebook_module = codebook_module[0][1]
         errors.append({
         'level': 'WARNING',
         'type': 'missing-from-questionnaires',
-        'questionnaire': 'N/A',
+        'questionnaire': 'N/A; codebook topic %s'%codebook_module,
         'code': str(q),
         'detail': '%s Present in codebook but not in any questionnaire'%qtype
         })
