@@ -70,7 +70,11 @@ def read_questionnaire(questionnaire_label, q, found=None, level=0, path_to_here
         c['source'] = questionnaire_label
         c['parents'] = path_to_here
         c['questionText'] = q.get('text', None)
+        c['questionType'] = q.get('type', None)
         c['redefined'] = bool(found.get(concept))
+        c['other_definitions'] = found.get(concept, {}).get('other_definitions', [])
+        if found.get(concept):
+            c['other_definitions'] += [found.get(concept)]
         found[concept] = c
 
     for c in q.get('option', []):
@@ -80,6 +84,9 @@ def read_questionnaire(questionnaire_label, q, found=None, level=0, path_to_here
         c['source'] = questionnaire_label
         c['parents'] = path_to_here + codes
         c['redefined'] = bool(found.get(concept))
+        c['other_definitions'] = found.get(concept, {}).get('other_definitions', [])
+        if found.get(concept):
+            c['other_definitions'] += [found.get(concept)]
         found[concept] = c
 
     for part in group + question:
@@ -122,6 +129,29 @@ for q in questionnaire_codes:
     qtype = qc['type']
     cbtype = cc['type']
 
+    if qc.get('redefined'):
+        alldefs = [qc] + qc['other_definitions']
+
+        alltypes = list(set([d['type'] for d in alldefs]))
+        if len(alltypes) > 1:
+            errors.append({
+              'level': 'ERROR',
+              'type': 'same-code-for-question-and-answer',
+              'questionnaire': questionnaire_codes[q]['source'],
+              'code': str(q),
+              'detail': 'Code assigned to positions with multiple types (%s)'%(alltypes)
+            })
+
+        alltypes = list(set([d.get('questionType') for d in alldefs]))
+        if len(alltypes) > 1:
+            errors.append({
+              'level': 'ERROR',
+              'type': 'multiple-question-types',
+              'questionnaire': questionnaire_codes[q]['source'],
+              'code': str(q),
+              'detail': 'Code assigned to positions with multiple types (%s)'%(alltypes)
+            })
+
     if qtype == 'Question' and qc.get('redefined'):
         if q[1] in CONCEPTS_THAT_REPEAT:
             continue
@@ -130,7 +160,7 @@ for q in questionnaire_codes:
           'type': 'multiple-assignments',
           'questionnaire': questionnaire_codes[q]['source'],
           'code': str(q),
-          'detail': 'Code assigned to multiple questions'
+          'detail': 'Code assigned to multiple questions (%s)'%(1+len(qc['other_definitions']))
         })
 
     if qtype in ('Question', 'Answer'):
