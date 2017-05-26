@@ -5,9 +5,9 @@
       "value": "Vibrent_FORM_ID_284"
     }
   ],
-  "version": "279",
+  "version": "282",
   "status": "published",
-  "date": "2017-05-24T18:48:44+00:00",
+  "date": "2017-05-26T16:10:09+00:00",
   "group": {
     "linkId": "root_group",
     "title": "the basics",
@@ -101,7 +101,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PMI_FreeText"
+            "code": "TheBasics_CountryBornTextBox"
           }
         ],
         "text": "country of origin",
@@ -463,7 +463,7 @@
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "RaceEthnicityFreeTextBox_FreeTextSpecific",
+            "code": "AIANSpecific_AIANNoneOfTheseDescribeMe",
             "display": "None of these fully describe me",
             "_display": {
               "extension": [
@@ -490,7 +490,19 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "RaceEthnicityFreeTextBox_FreeTextSpecific"
+            "code": "WhatTribeAffiliation_FreeText"
+          }
+        ],
+        "text": "enter other race or ethnicity",
+        "type": "text",
+        "repeats": false
+      },
+      {
+        "linkId": "10788",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "AIANNoneOfTheseDescribeMe_AIANFreeText"
           }
         ],
         "text": "enter other race or ethnicity",
@@ -726,7 +738,7 @@
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "RaceEthnicityFreeTextBox_FreeTextSpecific",
+            "code": "AsianSpecific_NoneOfTheseDescribeMe",
             "display": "None of these fully describe me",
             "_display": {
               "extension": [
@@ -753,7 +765,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "RaceEthnicityFreeTextBox_FreeTextSpecific"
+            "code": "AsianSpecific_NoneOfTheseDescribeMe"
           }
         ],
         "text": "enter other race or ethnicity",
@@ -1033,7 +1045,7 @@
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "RaceEthnicityFreeTextBox_FreeTextSpecific",
+            "code": "BlackSpecific_NoneOfTheseDescribeMe",
             "display": "None of these fully describe me",
             "_display": {
               "extension": [
@@ -1060,7 +1072,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "RaceEthnicityFreeTextBox_FreeTextSpecific"
+            "code": "BlackNoneOfTheseDescribeMe_BlackFreeText"
           }
         ],
         "text": "enter other race or ethnicity",
@@ -1296,7 +1308,7 @@
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "RaceEthnicityFreeTextBox_FreeTextSpecific",
+            "code": "HispanicSpecific_HispanicNoneOfTheseDescribeMe",
             "display": "None of these fully describe me",
             "_display": {
               "extension": [
@@ -1323,7 +1335,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "RaceEthnicityFreeTextBox_FreeTextSpecific"
+            "code": "HispanicNoneOfTheseDescribeMe_HispanicFreeText"
           }
         ],
         "text": "enter other race or ethnicity",
@@ -1581,7 +1593,7 @@
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "RaceEthnicityFreeTextBox_FreeTextSpecific",
+            "code": "MENASpecific_MENANoneOfTheseDescribeMe",
             "display": "None of these fully describe me",
             "_display": {
               "extension": [
@@ -1608,7 +1620,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "RaceEthnicityFreeTextBox_FreeTextSpecific"
+            "code": "MENANoneOfTheseDescribeMe_MENAFreeText"
           }
         ],
         "text": "enter other race or ethnicity",
@@ -1844,7 +1856,7 @@
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "RaceEthnicityFreeTextBox_FreeTextSpecific",
+            "code": "NHPISpecific_NHPINoneOfTheseDescribeMe",
             "display": "None of these fully describe me",
             "_display": {
               "extension": [
@@ -1871,7 +1883,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "RaceEthnicityFreeTextBox_FreeTextSpecific"
+            "code": "NHPINoneOfTheseDescribeMe_NHPIFreeText"
           }
         ],
         "text": "enter other race or ethnicity",
@@ -2151,7 +2163,7 @@
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "RaceEthnicityFreeTextBox_FreeTextSpecific",
+            "code": "WhiteSpecific_WhiteNoneOfTheseDescribeMe",
             "display": "None of these fully describe me",
             "_display": {
               "extension": [
@@ -2178,7 +2190,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "RaceEthnicityFreeTextBox_FreeTextSpecific"
+            "code": "WhiteNoneOfTheseDescribeMe_WhiteFreeText"
           }
         ],
         "text": "enter other race or ethnicity",
@@ -2304,7 +2316,7 @@
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "SexAtBirth_None",
+            "code": "SexAtBirth_SexAtBirthNoneOfThese",
             "display": "none of these describe me ",
             "_display": {
               "extension": [
@@ -2331,7 +2343,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PMI_FreeText"
+            "code": "SexAtBirthNoneOfThese_SexAtBirthTextBox"
           }
         ],
         "text": "other (please specify)",
@@ -2523,7 +2535,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "AdditionalOptions_CloserGenderDescription"
+            "code": "Gender_CloserGenderDescription"
           }
         ],
         "text": "Are any of these a closer description to your gender identity? (Check all that apply)",
@@ -3032,7 +3044,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PMI_FreeText"
+            "code": "SomethingElse_SexualitySomethingElseTextBox"
           }
         ],
         "text": "please specify",
@@ -4142,7 +4154,7 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "HealthInsuranceType_Indian",
-            "display": "Indian health service  ",
+            "display": "Indian health service",
             "_display": {
               "extension": [
                 {
@@ -5136,7 +5148,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PMI_FreeText"
+            "code": "LivingSituation_LivingSituationFreeText"
           }
         ],
         "text": "please specify",
@@ -5415,7 +5427,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "SecondaryContactInfo_PersonOneName"
+            "code": "SecondaryContactInfo_PersonOneFirstName"
           }
         ],
         "text": "person 1 first name",
@@ -5444,7 +5456,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "SecondaryContactInfo_PersonOneName"
+            "code": "SecondaryContactInfo_PersonOneMiddleInitial"
           }
         ],
         "text": "person 1 middle initial",
@@ -5473,7 +5485,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "SecondaryContactInfo_PersonOneName"
+            "code": "SecondaryContactInfo_PersonOneLastName"
           }
         ],
         "text": "person 1 last name",
@@ -5502,7 +5514,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "SecondaryContactInfo_PersonOneAddress"
+            "code": "SecondaryContactInfo_PersonOneAddressOne"
           }
         ],
         "text": "person 1 address 1",
@@ -5531,7 +5543,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "SecondaryContactInfo_PersonOneAddress"
+            "code": "SecondaryContactInfo_PersonOneAddressTwo"
           }
         ],
         "text": "person 1 address 2",
@@ -6024,7 +6036,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "SecondaryContactInfo_SecondContactsName"
+            "code": "SecondaryContactInfo_SecondContactsFirstName"
           }
         ],
         "text": "person 2 first name",
@@ -6053,7 +6065,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "SecondaryContactInfo_SecondContactsName"
+            "code": "SecondaryContactInfo_SecondContactsMiddleInitial"
           }
         ],
         "text": "person 2 middle initial",
@@ -6082,7 +6094,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "SecondaryContactInfo_SecondContactsName"
+            "code": "SecondaryContactInfo_SecondContactsLastName"
           }
         ],
         "text": "person 2 last name",
@@ -6111,7 +6123,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "SecondaryContactInfo_SecondContactsAddress"
+            "code": "SecondaryContactInfo_SecondContactsAddressOne"
           }
         ],
         "text": "person 2 address 1",
@@ -6140,7 +6152,7 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "SecondaryContactInfo_SecondContactsAddress"
+            "code": "SecondaryContactInfo_SecondContactsAddressTwo"
           }
         ],
         "text": "person 2 address 2",
