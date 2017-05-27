@@ -162,6 +162,14 @@ for q in questionnaire_codes:
     if qtype in ('Question', 'Answer'):
         expected = cc['display']
         observed = qc['questionText'] if qtype == 'Question' else qc['display']
+        if normalize(expected) != normalize(observed):
+            errors.append({
+                'level': 'WARNING',
+                'type': 'text-mismatch',
+                'questionnaire': qc['source'],
+                'code': str(q),
+                'detail': "%s mismatch:\n'%s'\nvs questionnaire with\n'%s'"%(qtype, expected, observed)
+            })
 
     if qtype != cbtype:
         errors.append({
