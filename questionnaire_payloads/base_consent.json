@@ -5,9 +5,9 @@
       "value": "Vibrent_FORM_ID_295"
     }
   ],
-  "version": "326",
+  "version": "329",
   "status": "published",
-  "date": "2017-05-26T21:29:45+00:00",
+  "date": "2017-06-07T19:36:58+00:00",
   "group": {
     "linkId": "root_group",
     "title": "consent",
@@ -1316,69 +1316,66 @@
           }
         ],
         "text": "Are you presently a registered patient at any of the following clinics?\n San Ysidro Health Center, Otay Family Health Center, Chula Vista Medical Plaza, Ocean View Community Health Center, Euclid Community Health Center, King Chavez Family Clinic, Paradise Hills Family Clinic, National City Family Clinic, Chaldean Middle Eastern Social Services, San Ysidro Senior Health Center, San Ysidro Mi Clinica",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Actualmente, es usted paciente registrado en alguna de las siguientes clinicas?  San Ysidro Health Center, Otay Family Health Center, Chula Vista Medical Plaza, Ocean View Community Health Center, Euclid Community Health Center,\tKing Chavez Family Clinic, Paradise Hills Family Clinic, National City Family Clinic, Chaldean Middle Eastern Social Services, San Ysidro Senior Health Center, San Ysidro Mi Clinica"
-                }
-              ]
-            }
-          ]
-        },
         "type": "choice",
         "repeats": false,
         "option": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PresentlyRegisteredPatient_YesRegistered",
-            "display": "yes",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "si"
-                    }
-                  ]
-                }
-              ]
-            }
+            "display": "yes"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PresentlyRegisteredPatient_NoRegistered",
-            "display": "no",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "no"
-                    }
-                  ]
-                }
-              ]
-            }
+            "display": "no"
+          }
+        ]
+      },
+      {
+        "linkId": "10797",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "MichiganSitePairing_LiveInFollowingAreas"
+          }
+        ],
+        "text": "Do you live in any of the following general areas?",
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "LiveInFollowingAreas_LiveInEastSouthEastMichigan",
+            "display": "East/Southeast Michigan (Metropolitan Detroit area)"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "LiveInFollowingAreas_DoNotLiveInListedAreas",
+            "display": "I do not live in any listed area"
+          }
+        ]
+      },
+      {
+        "linkId": "10800",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "EastSoutheastMichigan_CareAtHenryFord"
+          }
+        ],
+        "text": "Have you ever received care at a Henry Ford Health System facility or are you currently affiliated with the institution? \n\nThis many include receiving care in a HFHS hospital, urgent care, emergency department, outpatient clinic or through HFHS employee health. ",
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "CareAtHenryFord_YesCareAtHenryFord",
+            "display": "yes"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "CareAtHenryFord_NoCareAtHenryFord",
+            "display": "no"
           }
         ]
       }
