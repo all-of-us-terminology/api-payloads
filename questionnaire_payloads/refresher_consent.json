@@ -1,0 +1,78 @@
+{
+  "resourceType": "Questionnaire",
+  "identifier": [
+    {
+      "value": "Vibrent_FORM_ID_491"
+    }
+  ],
+  "version": "17",
+  "status": "published",
+  "date": "2017-06-14T15:03:48+00:00",
+  "group": {
+    "linkId": "root_group",
+    "title": "refresher consent",
+    "concept": [
+      {
+        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+        "code": "RefresherConsent"
+      }
+    ],
+    "required": true,
+    "repeats": false,
+    "question": [
+      {
+        "linkId": "10804",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "RefresherConsent_PhysicalMeasurements"
+          }
+        ],
+        "text": "RefresherConsent_PhysicalMeasurements",
+        "type": "dateTime",
+        "repeats": false
+      },
+      {
+        "linkId": "10805",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "RefresherConsent_SamplesVideo"
+          }
+        ],
+        "text": "RefresherConsent_SamplesVideo",
+        "type": "dateTime",
+        "repeats": false
+      },
+      {
+        "linkId": "9752",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "RefresherConsent_VoluntaryParticipation"
+          }
+        ],
+        "text": "Participation is voluntary. You do not have to have measurements taken or give samples.",
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "VoluntaryParticipation_DoNotWantToHaveMeasurements",
+            "display": "I don't want to have measurements"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "VoluntaryParticipation_DoNotWantToGiveSamples",
+            "display": "I don't want to give samples"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "VoluntaryParticipation_IAmReadyToParticipate",
+            "display": "I am ready to participate"
+          }
+        ]
+      }
+    ]
+  }
+}

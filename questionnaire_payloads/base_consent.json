@@ -1,13 +1,13 @@
-{ 
+{
   "resourceType": "Questionnaire",
   "identifier": [
     {
       "value": "Vibrent_FORM_ID_295"
     }
   ],
-  "version": "329",
+  "version": "335",
   "status": "published",
-  "date": "2017-06-07T19:36:58+00:00",
+  "date": "2017-06-14T14:52:22+00:00",
   "group": {
     "linkId": "root_group",
     "title": "consent",
@@ -1375,6 +1375,30 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "CareAtHenryFord_NoCareAtHenryFord",
+            "display": "no"
+          }
+        ]
+      },
+      {
+        "linkId": "10803",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "TennesseeSitePairing_CherokeeHealthPatient"
+          }
+        ],
+        "text": "Are you a Cherokee Health Systems patient?",
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "CherokeeHealthPatient_YesCherokeeHealthPatient",
+            "display": "yes"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "CherokeeHealthPatient_NoCherokeeHealthPatient",
             "display": "no"
           }
         ]
