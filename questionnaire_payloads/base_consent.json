@@ -5,9 +5,9 @@
       "value": "Vibrent_FORM_ID_295"
     }
   ],
-  "version": "335",
+  "version": "337",
   "status": "published",
-  "date": "2017-06-14T14:52:22+00:00",
+  "date": "2017-06-20T17:20:48+00:00",
   "group": {
     "linkId": "root_group",
     "title": "consent",
@@ -1327,6 +1327,30 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PresentlyRegisteredPatient_NoRegistered",
+            "display": "no"
+          }
+        ]
+      },
+      {
+        "linkId": "10808",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "CaliforniaSitePairing_CaliforniaUniversityCare"
+          }
+        ],
+        "text": "Have you ever received care at any of the following health centers?\n\nUniversity of California Irvine Health\nUniversity of Southern California\nUniversity of California San Diego",
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "CaliforniaUniversityCare_CaliforniaHealthCareYes",
+            "display": "yes"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "CaliforniaUniversityCare_CaliforniaHealthCareNo",
             "display": "no"
           }
         ]
