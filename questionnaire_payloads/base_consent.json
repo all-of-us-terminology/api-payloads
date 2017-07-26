@@ -1,13 +1,13 @@
-{ 
+{
   "resourceType": "Questionnaire",
   "identifier": [
     {
       "value": "Vibrent_FORM_ID_295"
     }
   ],
-  "version": "361",
+  "version": "383",
   "status": "published",
-  "date": "2017-07-19T15:13:59+00:00",
+  "date": "2017-07-26T20:37:47+00:00",
   "group": {
     "linkId": "root_group",
     "title": "consent",
@@ -396,7 +396,7 @@
             "code": "ExtraConsent_CABoRSignature"
           }
         ],
-        "text": "Please sign below ",
+        "text": "If you're using a computer please use your mouse to sign below. If you are using a mobile device please use your finger to sign.",
         "type": "attachment",
         "repeats": false
       },
@@ -408,7 +408,7 @@
             "code": "ExtraConsent__CABoRTodaysDate"
           }
         ],
-        "text": "Select today's date",
+        "text": "Today's Date",
         "type": "date",
         "repeats": false
       },
@@ -825,7 +825,7 @@
             "code": "ExtraConsent_Signature"
           }
         ],
-        "text": "Please sign below ",
+        "text": "If you're using a computer please use your mouse to sign below. If you are using a mobile device please use your finger to sign.",
         "type": "attachment",
         "repeats": false
       },
@@ -837,7 +837,7 @@
             "code": "ExtraConsent_TodaysDate"
           }
         ],
-        "text": "Select today's date",
+        "text": "Today's date",
         "type": "date",
         "repeats": false
       },
@@ -1315,7 +1315,7 @@
             "code": "ExtraConsent_PresentlyRegisteredPatient"
           }
         ],
-        "text": "Are you presently a registered patient at any of the following clinics?\n San Ysidro Health Center, Otay Family Health Center, Chula Vista Medical Plaza, Ocean View Community Health Center, Euclid Community Health Center, King Chavez Family Clinic, Paradise Hills Family Clinic, National City Family Clinic, Chaldean Middle Eastern Social Services, San Ysidro Senior Health Center, San Ysidro Mi Clinica",
+        "text": "Are you presently a registered patient at any of the following clinics?\n\nSan Ysidro Health Center\nOtay Family Health Center\nChula Vista Medical Plaza\nOcean View Community Health Center\nEuclid Community Health Center\nKing Chavez Family Clinic\nParadise Hills Family Clinic\nNational City Family Clinic\nChaldean Middle Eastern Social Services\nSan Ysidro Senior Health Center\nSan Ysidro Mi Clinica",
         "type": "choice",
         "repeats": false,
         "option": [
@@ -1434,6 +1434,30 @@
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "ColumbiaCare_ColumbiaCareNone",
             "display": "none of these"
+          }
+        ]
+      },
+      {
+        "linkId": "10888",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "NewYorkSitePairing_HRHCare"
+          }
+        ],
+        "text": "Have you ever received care at the Peekskill Health Center, or any other HRHCare health center?\n",
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "HRHCare_Yes",
+            "display": "yes"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "HRHCare_No",
+            "display": "no"
           }
         ]
       },
@@ -1602,6 +1626,83 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "BaylorScott_No",
+            "display": "no"
+          }
+        ]
+      },
+      {
+        "linkId": "10910",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "NewEnglandSitePairing_CareReceived"
+          }
+        ],
+        "text": "Have you ever received care at any hospital, health center or clinic affiliated with Boston Medical Center (BMC) or Partners HealthCare (Partners). \n",
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "CareReceived_YesBMC",
+            "display": "yes, at a BMC location"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "CareReceived_YesPartners",
+            "display": "yes, at a Partners organization"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "CareReceived_No",
+            "display": "no"
+          }
+        ]
+      },
+      {
+        "linkId": "10891",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "MississippiSitePairing_JacksonHinds"
+          }
+        ],
+        "text": "Have you ever received care from a health provider at the Jackson-Hinds Comprehensive Health Center's Main Site (James Anderson Clinic) or the Copiah Clinic?",
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "JacksonHinds_Yes",
+            "display": "yes"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "JacksonHinds_No",
+            "display": "no"
+          }
+        ]
+      },
+      {
+        "linkId": "10894",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "MississippiSitePairing_JacksonHindsAppointment"
+          }
+        ],
+        "text": " Have you already scheduled an All of Us research appointment at the Jackson-Hinds Comprehensive Health Center's Main Site (James Anderson Clinic) or the Copiah Clinic?",
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "JacksonHindsAppointment_Yes",
+            "display": "yes"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "JacksonHindsAppointment_No",
             "display": "no"
           }
         ]
