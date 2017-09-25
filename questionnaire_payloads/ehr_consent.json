@@ -5,9 +5,9 @@
       "value": "Vibrent_FORM_ID_296"
     }
   ],
-  "version": "117",
+  "version": "190",
   "status": "published",
-  "date": "2017-05-25T15:26:00+00:00",
+  "date": "2017-09-22T18:28:55+00:00",
   "group": {
     "linkId": "root_group",
     "title": "EHR consent",
@@ -29,6 +29,23 @@
           }
         ],
         "text": "This overview tells about the option to give All of Us access to your EHR (electronic health records). This is optional, but if you do decide to give us access, you will need to sign an electronic form at the end.",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Esta revisión le informa sobre la opción de autorizar a All of Us el acceso a su EHR (registro electrónico de salud)."
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "repeats": false,
         "option": [
@@ -47,7 +64,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "¡Estoy listo(a)!"
+                      "valueString": "¡Estoy listo!"
                     }
                   ]
                 }
@@ -69,7 +86,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "volver más tarde"
+                      "valueString": "Continuaré más tarde"
                     }
                   ]
                 }
@@ -122,7 +139,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Tómese todo el tiempo que necesite para decidir si desea unirse. Puede revisar estas pantallas tantas veces como desee."
+                  "valueString": "Usted puede tomarse todo el tiempo que necesite para decidir sobre el acceso de All of Us a su EHR. Puede revisar estas pantallas las veces que quiera."
                 }
               ]
             }
@@ -146,7 +163,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "revisar de nuevo"
+                      "valueString": "Repasar nuevamente"
                     }
                   ]
                 }
@@ -216,7 +233,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Hacer la prueba"
+                      "valueString": "Comenzar"
                     }
                   ]
                 }
@@ -238,7 +255,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "volver más tarde"
+                      "valueString": "Regresar más tarde"
                     }
                   ]
                 }
@@ -262,12 +279,46 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "AllOfAccess_Yes",
-            "display": "Giving access to my EHR is required."
+            "display": "Giving access to my EHR is required.",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Dar el acceso a mi EHR es requerido."
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "AllOfAccess_No",
-            "display": "I get to decide. I do not have to give access to my EHR."
+            "display": "I get to decide. I do not have to give access to my EHR.",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Usted puede decidir. No es necesario que permita el acceso a mi EHR."
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -291,7 +342,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "¿Tengo que participar en All of Us?"
+                  "valueString": "¿Tendrá All of Us acceso a la información confidencial que está en mi EHR?"
                 }
               ]
             }
@@ -303,12 +354,46 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "SensitiveInfoAccess_Yes",
-            "display": "All of Us will access my entire EHR, including sensitive information"
+            "display": "All of Us will access my entire EHR, including sensitive information",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "All of Us tendrá acceso a toda la información en mi EHR, incluyendo la información confidencial."
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "SensitiveInfoAccess_Yes",
-            "display": "All of Us will not access sensitive information in my EHR"
+            "code": "SensitiveInfoAccess_No",
+            "display": "All of Us will not access sensitive information in my EHR",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "All of Us no tendrá acceso a la información confidencial en mi EHR."
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -321,18 +406,69 @@
           }
         ],
         "text": "Once I give access to my EHR, can I change my mind?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Una vez que doy permiso a All of Us para que tenga acceso a mi EHR, ¿puedo cambiar de opinión?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "repeats": false,
         "option": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "AccessChangeMind_Yes",
-            "display": "Yes, I can stop access to my EHR at any time"
+            "display": "Yes, I can stop access to my EHR at any time",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Sí, puedo decidir terminar el acceso a mi EHR en cualquier momento."
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "AccessChangeMind_No",
-            "display": "No, once I give access to my EHR I cannot change my mind."
+            "display": "No, once I give access to my EHR I cannot change my mind.",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "No, una vez que doy permiso a All of Us para acceder mi EHR, no puedo cambiar de opinión."
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -345,30 +481,6 @@
           }
         ],
         "text": "If I give access to my EHR, is my privacy guaranteed?",
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "AccessPrivacyGuaruntee_Yes",
-            "display": "My privacy is guaranteed."
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "AccessPrivacyGuaruntee_No",
-            "display": "Risks to my privacy are minimized, but are not zero."
-          }
-        ]
-      },
-      {
-        "linkId": "7044",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "EHRConsentPII_JoinAllOfUs"
-          }
-        ],
-        "text": "You got 4 of 4 questions correct.\nTake the time you need to decide about joining All of Us. We are here to answer any questions you have.",
         "_text": {
           "extension": [
             {
@@ -380,7 +492,82 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Ha respondido a una o más preguntas de forma incorrecta. ebe obtener todas las preguntas correctas para participar."
+                  "valueString": "Si doy permiso a All of Us para que tenga acceso a mi EHR, ¿estará garantizada mi privacidad?"
+                }
+              ]
+            }
+          ]
+        },
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "AccessPrivacyGuaruntee_Yes",
+            "display": "My privacy is guaranteed.",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "Sí, mi privacidad está garantizada."
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "AccessPrivacyGuaruntee_No",
+            "display": "Risks to my privacy are minimized, but are not zero.",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "El riesgo a mi privacidad es mínimo, pero no cero."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "linkId": "7044",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "EHRConsentPII_JoinAllOfUs"
+          }
+        ],
+        "text": "You got 4 of 4 questions correct.\nTake the time you need to decide about giving access to your EHR. We are here to answer any questions you have.",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Respondió correctamente 4 preguntas de un total de 4.\nUsted puede tomarse el tiempo que necesite para decidir si desea darnos acceso a su EHR. Estamos aquí para responder a cualquier pregunta que tenga."
                 }
               ]
             }
@@ -392,7 +579,7 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "JoinAllOfUs_Ready",
-            "display": "I'm ready to join"
+            "display": "continue"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
@@ -433,12 +620,36 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "ConsentPermission_Yes",
-            "display": "I have read this consent form. I understand the information in this form. All of my questions have been answered. I freely and willingly choose to take part."
+            "display": "yes, I'm ready"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "ConsentPermission_No",
-            "display": "I have read this consent form. I understand the information in this form. All of my questions have been answered. I freely and willingly choose to not to take part."
+            "display": "no, I do not wish to give All of Us access to my EHR"
+          }
+        ]
+      },
+      {
+        "linkId": "11305",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "EHRConsentPII_TXandMAHIPPA"
+          }
+        ],
+        "text": "EHRConsentPII_ConsentPermission",
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "TXandMAHIPPA_IDoAgree",
+            "display": "I do agree"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "TXandMAHIPPA_IDoNotAgree",
+            "display": "I do NOT agree"
           }
         ]
       },
@@ -465,6 +676,54 @@
         "text": "EHRConsentPII_TodaysDate",
         "type": "date",
         "repeats": false
+      },
+      {
+        "linkId": "11284",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "EHRConsentPII_ILHIPPAWitnessSignature"
+          }
+        ],
+        "text": "EHRConsentPII_Signature",
+        "type": "attachment",
+        "repeats": false
+      },
+      {
+        "linkId": "11285",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "EHRConsentPII_TodaysDateILHIPPAWitness"
+          }
+        ],
+        "text": "EHRConsentPII_TodaysDate",
+        "type": "date",
+        "repeats": false
+      },
+      {
+        "linkId": "11288",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "EHRConsentPII_ILHIPPAReminder"
+          }
+        ],
+        "text": "EHRConsentPII_ConsentPermission",
+        "type": "choice",
+        "repeats": false,
+        "option": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "ILHIPPAReminder_Yes",
+            "display": "yes, remind me"
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "ILHIPPAReminder_No",
+            "display": "no, do not  remind me"
+          }
+        ]
       }
     ]
   }
