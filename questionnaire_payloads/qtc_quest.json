@@ -5,9 +5,9 @@
       "value": "Vibrent_FORM_ID_514"
     }
   ],
-  "version": "25",
+  "version": "26",
   "status": "published",
-  "date": "2017-10-04T19:46:32+00:00",
+  "date": "2017-10-05T18:55:34+00:00",
   "group": {
     "linkId": "root_group",
     "title": "QTCQuestScheduling",
@@ -48,11 +48,10 @@
         "linkId": "11618",
         "concept": [
           {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "DRC_Code"
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
           }
         ],
-        "text": "hint text",
+        "text": "hidden organization reference",
         "type": "text",
         "repeats": false
       }
