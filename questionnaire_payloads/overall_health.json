@@ -5,9 +5,9 @@
       "value": "Vibrent_FORM_ID_279"
     }
   ],
-  "version": "149",
+  "version": "160",
   "status": "published",
-  "date": "2017-05-27T14:49:31+00:00",
+  "date": "2017-09-14T20:53:58+00:00",
   "group": {
     "linkId": "root_group",
     "title": "overall health",
@@ -1298,7 +1298,7 @@
             "code": "OverallHealth_AveragePain7Days"
           }
         ],
-        "text": "Select your answer",
+        "text": "In the past 7 days, how would you rate your pain on average?  \n0 (no pain) to 10 (worst pain imaginable) ",
         "type": "decimal",
         "repeats": false
       },
