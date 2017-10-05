@@ -5,9 +5,9 @@
       "value": "Vibrent_FORM_ID_284"
     }
   ],
-  "version": "322",
+  "version": "323",
   "status": "published",
-  "date": "2017-10-05T20:16:10+00:00",
+  "date": "2017-10-05T20:57:30+00:00",
   "group": {
     "linkId": "root_group",
     "title": "the basics",
@@ -6031,10 +6031,10 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PrimaryContactInfo_PreferNotToAnswer"
+            "code": "SecondaryContactInfo_PersonOnePreferNotToAnswer"
           }
         ],
-        "text": "PrimaryContactInfo_PreferNotToAnswer",
+        "text": "SecondaryContactInfo_PersonOnePreferNotToAnswer",
         "type": "boolean",
         "repeats": false
       },
@@ -6652,10 +6652,10 @@
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "SecondaryContactInfo_PreferNotToAnswer"
+            "code": "SecondaryContactInfo_PersonTwoPreferNotToAnswer"
           }
         ],
-        "text": "SecondaryContactInfo_PreferNotToAnswer",
+        "text": "SecondaryContactInfo_PersonTwoPreferNotToAnswer",
         "type": "boolean",
         "repeats": false
       }
