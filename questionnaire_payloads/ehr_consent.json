@@ -5,9 +5,9 @@
       "value": "Vibrent_FORM_ID_296"
     }
   ],
-  "version": "190",
+  "version": "207",
   "status": "published",
-  "date": "2017-09-22T18:28:55+00:00",
+  "date": "2017-10-05T13:36:14+00:00",
   "group": {
     "linkId": "root_group",
     "title": "EHR consent",
@@ -196,6 +196,18 @@
       },
       {
         "linkId": "6987",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "EHRConsentPII_EmailCopy"
+          }
+        ],
+        "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+        "type": "boolean",
+        "repeats": false
+      },
+      {
+        "linkId": "11610",
         "concept": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
