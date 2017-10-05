@@ -5,9 +5,9 @@
       "value": "Vibrent_FORM_ID_295"
     }
   ],
-  "version": "450",
+  "version": "482",
   "status": "published",
-  "date": "2017-09-11T20:49:57+00:00",
+  "date": "2017-10-05T13:13:03+00:00",
   "group": {
     "linkId": "root_group",
     "title": "consent",
@@ -1453,6 +1453,11 @@
                 }
               ]
             }
+          },
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "AZSitepairingLocation_None",
+            "display": "None of these"
           }
         ]
       },
@@ -1539,24 +1544,7 @@
             "code": "CaliforniaSitePairing_CaliforniaUniversityCare"
           }
         ],
-        "text": "Have you ever received care at any of the following health centers?\n\nUniversity of California Irvine Health\nUniversity of Southern California\nUniversity of California San Diego",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "¿Alguna vez ha recibido atención en alguno de estos centros de salud?\n\nUniversity of California Irvine Health\nUniversity of Southern California\nUniversity of California San Diego"
-                }
-              ]
-            }
-          ]
-        },
+        "text": "You are welcome to enroll in one of the California Precision Medicine Consortium (CAPMC) sites.  \n\nParticipants in the CAPMC include those who receive their healthcare from provider organizations in California such as University of California Medical Centers and affiliates, University of Southern California, Cedars-Sinai Medical Center, and other healthcare organizations. Will you enroll through CAPMC? ",
         "type": "choice",
         "repeats": false,
         "option": [
@@ -1907,7 +1895,7 @@
             "code": "CHCSitePairing_CHCCareatLocation"
           }
         ],
-        "text": "Please indicate if you have received care at one of the following locations:\nCHC Inc Middletown\nCHC Inc Meriden",
+        "text": "Please indicate if you have received care at one of the following locations:\n\nCHC Inc Middletown\nCHC Inc Meriden",
         "_text": {
           "extension": [
             {
@@ -2399,7 +2387,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Alguna vez ha recibido atención en una localidad de Baylor Scott & White y/o Health Texas Provider Network como: \nHospitales BSWH\nHillcrest Health Clinics (Clinicas de Salud Hillcrest)\nHealth Texas Physician Network\n(HTPN) clinicas/consultorios del medico\n\nSi está enseguro, llame a 844-4US-BSWH (1-844-487-2794)"
+                  "valueString": "Alguna vez ha recibido atención en una localidad de Baylor Scott & White y/o Health Texas Provider Network como: \nHospitales BSWH\nHillcrest Health Clinics (Clinicas de Salud Hillcrest)\nHealth Texas Physician Network\n(HTPN) clinicas/consultorios del medico"
                 }
               ]
             }
