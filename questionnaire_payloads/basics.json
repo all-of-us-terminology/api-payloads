@@ -5,9 +5,9 @@
       "value": "Vibrent_FORM_ID_284"
     }
   ],
-  "version": "291",
+  "version": "319",
   "status": "published",
-  "date": "2017-05-27T17:57:48+00:00",
+  "date": "2017-09-25T19:09:25+00:00",
   "group": {
     "linkId": "root_group",
     "title": "the basics",
@@ -2769,7 +2769,7 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "SexualOrientation_Straight",
-            "display": "Straight; that is, not gay or lesbian, etc"
+            "display": "straight; that is, not gay or lesbian, etc"
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
@@ -5406,6 +5406,18 @@
         "repeats": false
       },
       {
+        "linkId": "10879",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer"
+          }
+        ],
+        "text": "PMI_PreferNotToAnswer",
+        "type": "boolean",
+        "repeats": false
+      },
+      {
         "linkId": "5789",
         "concept": [
           {
@@ -6015,6 +6027,18 @@
         ]
       },
       {
+        "linkId": "10880",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer"
+          }
+        ],
+        "text": "PMI_PreferNotToAnswer",
+        "type": "boolean",
+        "repeats": false
+      },
+      {
         "linkId": "9771",
         "concept": [
           {
@@ -6622,6 +6646,18 @@
             "display": "relative"
           }
         ]
+      },
+      {
+        "linkId": "10881",
+        "concept": [
+          {
+            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+            "code": "PMI_PreferNotToAnswer"
+          }
+        ],
+        "text": "PMI_PreferNotToAnswer",
+        "type": "boolean",
+        "repeats": false
       }
     ]
   }
