@@ -5,9 +5,9 @@
       "value": "Vibrent_FORM_ID_284"
     }
   ],
-  "version": "323",
+  "version": "337",
   "status": "published",
-  "date": "2017-10-05T20:57:30+00:00",
+  "date": "2017-10-20T22:03:52+00:00",
   "group": {
     "linkId": "root_group",
     "title": "the basics",
@@ -41,7 +41,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "¿En qué país nació?"
+                  "valueString": "¿En qué país nació usted?"
                 }
               ]
             }
@@ -87,7 +87,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Otro país"
+                      "valueString": "otro país"
                     }
                   ]
                 }
@@ -145,7 +145,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "¿Cuáles son las categorías que lo describen? Seleccione todas las opciones que correspondan. Tenga en cuenta que puede seleccionar más de un grupo."
+                  "valueString": "¿Qué categorías lo o la describen?\nMarque todas las respuestas que correspondan. Nota: puede seleccionar más de un grupo."
                 }
               ]
             }
@@ -169,7 +169,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Indígena estadounidense o nativo de Alaska (por ejemplo: azteca, tribu pies negros, maya, Nación Navajo, Pueblo Nativo del Gobierno Tradicional del Iñupiaq de Barrow, Comunidad Esquimal de Nome, etc.)*"
+                      "valueString": "Indio americano o nativo de Alaska (por ejemplo, nación Navajo, tribu Pies Negros, maya, azteca, pueblo nativo del gobierno tradicional inuit de Barrow, Comunidad esquimal de Nome, etc.)**"
                     }
                   ]
                 }
@@ -191,7 +191,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Asiático (por ejemplo: Indígena de Asia, chino, filipino, japonés, coreano, vietnamita, etc.) *"
+                      "valueString": "Asiático (por ejemplo, Chino, Filipino, Indio Asiático, Vietnamita, coreano, japonés, etc.)*"
                     }
                   ]
                 }
@@ -213,7 +213,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Negro, afroamericano o africano (por ejemplo: afroamericano, etíope, haitiano, jamaiquino, nigeriano, somalí, etc.) *"
+                      "valueString": "Negro, Africano, o Afroamericano (por ejemplo, Africano Americano, Jamaiquino, Haitiano, Nigeriano, Etíope, Somalí, etc.)*"
                     }
                   ]
                 }
@@ -235,7 +235,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Hispano, latino o español (por ejemplo: colombiano, cubano, dominicano, mexicano o mexicano estadounidense, puertorriqueño, salvadoreño, etc.) *"
+                      "valueString": "Hispano, Latino o Español (por ejemplo, Mexicano, Mexicano americano, Puertorriqueño, cubano, salvadoreño, dominicano, colombiano, etc.)*"
                     }
                   ]
                 }
@@ -257,7 +257,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Medioriental o africano del norte (por ejemplo: argelino, egipcio, iraní, libanés, marroquí, sirio, etc.) *"
+                      "valueString": "Del Medio Oriente o del Norte de África (por ejemplo, libanés, iraní, egipcio, sirio, marroquí, argelino, etc.)*"
                     }
                   ]
                 }
@@ -279,7 +279,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Hawaiano nativo u otro isleño del Pacífico (por ejemplo: chamorro, fiyiano, marshalés, hawaiano nativo, tongano, etc.) *"
+                      "valueString": "Nativo de Hawái o de otras Islas del Pacífico (por ejemplo, nativo hawaiano, samoano, chamorro, tongano, fiyiano, marshalés, etc.)*"
                     }
                   ]
                 }
@@ -301,7 +301,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Blanco (por ejemplo: inglés, europeo, francés, alemán, irlandés, italiano, polaco, etc.) *"
+                      "valueString": "Blanco (por ejemplo, Alemán, Europeo, Irlandés, Inglés, Italiano, Polaco, Francés, etc.)"
                     }
                   ]
                 }
@@ -323,7 +323,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Ninguna opción me describe completamente (respuesta libre opcional)"
+                      "valueString": "Ninguna de estas me describe completamente"
                     }
                   ]
                 }
@@ -363,6 +363,23 @@
           }
         ],
         "text": "enter other race or ethnicity",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "ingrese otra raza u origen étnico"
+                }
+              ]
+            }
+          ]
+        },
         "type": "text",
         "repeats": false
       },
@@ -410,7 +427,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Indígena estadounidense"
+                      "valueString": "Indio americano"
                     }
                   ]
                 }
@@ -454,7 +471,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Indígena de América Central"
+                      "valueString": "Indio centroamericano o sudamericano"
                     }
                   ]
                 }
@@ -476,7 +493,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Ninguna opción me describe completamente"
+                      "valueString": "Ninguna de estas me describe completamente"
                     }
                   ]
                 }
@@ -494,6 +511,23 @@
           }
         ],
         "text": "enter other race or ethnicity",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "ingrese otra raza u origen étnico"
+                }
+              ]
+            }
+          ]
+        },
         "type": "text",
         "repeats": false
       },
@@ -506,6 +540,23 @@
           }
         ],
         "text": "enter other race or ethnicity",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "ingrese otra raza u origen étnico"
+                }
+              ]
+            }
+          ]
+        },
         "type": "text",
         "repeats": false
       },
@@ -553,7 +604,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Indígena de Asia"
+                      "valueString": "Indio asiático"
                     }
                   ]
                 }
@@ -751,7 +802,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Ninguna opción me describe completamente (respuesta libre opcional)"
+                      "valueString": "Ninguna de estas me describe completamente"
                     }
                   ]
                 }
@@ -769,6 +820,23 @@
           }
         ],
         "text": "enter other race or ethnicity",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "ingrese otra raza u origen étnico"
+                }
+              ]
+            }
+          ]
+        },
         "type": "text",
         "repeats": false
       },
@@ -792,7 +860,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Negro, afroamericano o africano"
+                  "valueString": "Negro o afroamericano"
                 }
               ]
             }
@@ -838,7 +906,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Barbadense"
+                      "valueString": "Barbadeño"
                     }
                   ]
                 }
@@ -860,7 +928,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Caribeño"
+                      "valueString": "Caribe"
                     }
                   ]
                 }
@@ -1058,7 +1126,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Ninguna opción me describe completamente (respuesta libre opcional)"
+                      "valueString": "Ninguna de estas me describe completamente"
                     }
                   ]
                 }
@@ -1076,6 +1144,23 @@
           }
         ],
         "text": "enter other race or ethnicity",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "ingrese otra raza u origen étnico"
+                }
+              ]
+            }
+          ]
+        },
         "type": "text",
         "repeats": false
       },
@@ -1099,7 +1184,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Hispano, latino o español"
+                  "valueString": "Hispano, latino o de origen español"
                 }
               ]
             }
@@ -1233,7 +1318,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Mexicano o mexicano estadounidense"
+                      "valueString": "Mexicano o mexicano americano"
                     }
                   ]
                 }
@@ -1321,7 +1406,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Ninguna opción me describe completamente (respuesta libre opcional)"
+                      "valueString": "Ninguna de estas me describe completamente"
                     }
                   ]
                 }
@@ -1339,6 +1424,23 @@
           }
         ],
         "text": "enter other race or ethnicity",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "ingrese otra raza u origen étnico"
+                }
+              ]
+            }
+          ]
+        },
         "type": "text",
         "repeats": false
       },
@@ -1362,7 +1464,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Medioriental o africano del norte"
+                  "valueString": "Del Medio Oriente o del norte de África"
                 }
               ]
             }
@@ -1496,7 +1598,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Israelí"
+                      "valueString": "Israelita"
                     }
                   ]
                 }
@@ -1606,7 +1708,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Ninguna opción me describe completamente (respuesta libre opcional)"
+                      "valueString": "Ninguna de estas me describe completamente"
                     }
                   ]
                 }
@@ -1624,6 +1726,23 @@
           }
         ],
         "text": "enter other race or ethnicity",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "ingrese otra raza u origen étnico"
+                }
+              ]
+            }
+          ]
+        },
         "type": "text",
         "repeats": false
       },
@@ -1647,7 +1766,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Hawaiano nativo u otro isleño del Pacífico"
+                  "valueString": "Nativo de Hawái o de otras Islas del Pacífico"
                 }
               ]
             }
@@ -1759,7 +1878,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Hawaiano nativo"
+                      "valueString": "Nativo de Hawái"
                     }
                   ]
                 }
@@ -1869,7 +1988,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Ninguna opción me describe completamente (respuesta libre opcional)"
+                      "valueString": "Ninguna de estas me describe completamente"
                     }
                   ]
                 }
@@ -1887,6 +2006,23 @@
           }
         ],
         "text": "enter other race or ethnicity",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "ingrese otra raza u origen étnico"
+                }
+              ]
+            }
+          ]
+        },
         "type": "text",
         "repeats": false
       },
@@ -2176,7 +2312,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Ninguna opción me describe completamente (respuesta libre opcional)"
+                      "valueString": "Ninguna de estas me describe completamente"
                     }
                   ]
                 }
@@ -2194,6 +2330,23 @@
           }
         ],
         "text": "enter other race or ethnicity",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "ingrese otra raza u origen étnico"
+                }
+              ]
+            }
+          ]
+        },
         "type": "text",
         "repeats": false
       },
@@ -2217,7 +2370,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "¿Cuál es el sexo que le asignaron al nacer?"
+                  "valueString": "¿Qué sexo biológico se le asignó al nacer?"
                 }
               ]
             }
@@ -2329,7 +2482,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "ninguna de estas opciones me describe"
+                      "valueString": "Ninguna de estas me describe"
                     }
                   ]
                 }
@@ -2387,7 +2540,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "¿Qué término expresa mejor la manera en que describe su identidad sexual?"
+                  "valueString": "¿Con cuál género se identifica mejor? (Marque todas las que correspondan)"
                 }
               ]
             }
@@ -2411,7 +2564,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Hombre"
+                      "valueString": "hombre"
                     }
                   ]
                 }
@@ -2433,7 +2586,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Mujer"
+                      "valueString": "mujer"
                     }
                   ]
                 }
@@ -2455,7 +2608,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "No binario"
+                      "valueString": "no binario"
                     }
                   ]
                 }
@@ -2477,7 +2630,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Transgénero"
+                      "valueString": "transgénero"
                     }
                   ]
                 }
@@ -2499,7 +2652,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Ninguna de estas opciones me describe y me gustaría considerar otras opciones"
+                      "valueString": "ninguna de estas opciones me describe"
                     }
                   ]
                 }
@@ -2521,7 +2674,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Prefiero no responder"
+                      "valueString": "prefiero no responder"
                     }
                   ]
                 }
@@ -2550,7 +2703,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "¿Alguna de estas opciones se acerca más a la descripción de su identidad sexual?"
+                  "valueString": "¿Alguna de estas opciones se acerca más a una descripción de cómo se considera a sí mismo?"
                 }
               ]
             }
@@ -2574,7 +2727,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Hombre transexual/Hombre transgénero/Mujer a hombre (FTM)"
+                      "valueString": "hombre transexual/Hombre transgénero/Mujer a hombre (FTM)"
                     }
                   ]
                 }
@@ -2596,7 +2749,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Mujer transexual/Mujer transgénero/Hombre a mujer (MTF)"
+                      "valueString": "mujer transexual/Mujer transgénero/Hombre a mujer (MTF)"
                     }
                   ]
                 }
@@ -2618,7 +2771,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Pangénero"
+                      "valueString": "género no binario"
                     }
                   ]
                 }
@@ -2640,7 +2793,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Género fluido"
+                      "valueString": "género fluido"
                     }
                   ]
                 }
@@ -2662,7 +2815,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Género variante"
+                      "valueString": "variante de género"
                     }
                   ]
                 }
@@ -2684,7 +2837,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Se cuestiona o duda sobre su identidad de género"
+                      "valueString": "con dudas o inseguridad acerca de su identidad de género"
                     }
                   ]
                 }
@@ -2706,7 +2859,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Ninguna de estas opciones me describe y me gustaría especificar (respuesta libre opcional)"
+                      "valueString": "ninguna de estas me describe, y quiero especificar"
                     }
                   ]
                 }
@@ -2753,38 +2906,157 @@
           }
         ],
         "text": "Which of the following best represents how you think of yourself?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Cuál de las siguientes opciones piensa usted que le representa mejor?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "repeats": false,
         "option": [
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "SexualOrientation_Gay",
-            "display": "gay"
+            "display": "gay",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "gay"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "SexualOrientation_Lesbian",
-            "display": "lesbian"
+            "display": "lesbian",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "lesbiana"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "SexualOrientation_Straight",
-            "display": "straight; that is, not gay or lesbian, etc"
+            "display": "straight; that is, not gay or lesbian, etc",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "heterosexual (no eres gay ni lesbiana)"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "SexualOrientation_Bisexual",
-            "display": "bisexual"
+            "display": "bisexual",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "bisexual"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "SexualOrientation_None",
-            "display": "none of these describe me, and I’d like to see additional options  "
+            "display": "none of these describe me, and I’d like to see additional options  ",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "ninguna de estas me describe"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PMI_PreferNotToAnswer",
-            "display": "prefer not to answer"
+            "display": "prefer not to answer",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "prefiero no responder"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -2808,7 +3080,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "¿Alguna de las siguientes opciones se acerca más a cómo se percibe?"
+                  "valueString": "¿Alguna de estas opciones se acerca más a una descripción de cómo se considera a sí mismo?"
                 }
               ]
             }
@@ -2832,7 +3104,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Homosexual"
+                      "valueString": "queer"
                     }
                   ]
                 }
@@ -2854,7 +3126,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Polisexual, omnisexual, sapiosexual o pansexual"
+                      "valueString": "polisexual, omnisexual, sapiosexual o pansexual"
                     }
                   ]
                 }
@@ -2876,7 +3148,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Asexual"
+                      "valueString": "asexual"
                     }
                   ]
                 }
@@ -2898,7 +3170,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Dos espíritus"
+                      "valueString": "dos espíritus"
                     }
                   ]
                 }
@@ -2920,7 +3192,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "No ha definido o está en proceso de definir su sexualidad"
+                      "valueString": "no ha descubierto o está en proceso de descubrir su sexualidad"
                     }
                   ]
                 }
@@ -2942,7 +3214,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Principalmente heterosexual, pero a veces siente atracción por personas de su mismo sexo"
+                      "valueString": "mayormente heterosexual, pero a veces atraído a personas de su mismo sexo"
                     }
                   ]
                 }
@@ -2964,7 +3236,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "No cree tener sexualidad"
+                      "valueString": "no considera que tenga una sexualidad"
                     }
                   ]
                 }
@@ -3008,7 +3280,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "no lo sé"
+                      "valueString": "no sabe la respuesta"
                     }
                   ]
                 }
@@ -3030,7 +3302,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "No, me percibo de otra manera (respuesta libre opcional)"
+                      "valueString": "no, quiero decir otra cosa"
                     }
                   ]
                 }
@@ -3134,7 +3406,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "1.°  a 6.° grado (escuela primaria)"
+                      "valueString": "1.°  a  4.° grado (Primaria)"
                     }
                   ]
                 }
@@ -3156,7 +3428,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "7. ° a 9. ° grado (estudios secundarios)"
+                      "valueString": "5. ° a  8. ° grado (Secundaria)"
                     }
                   ]
                 }
@@ -3178,7 +3450,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "10 a 12.º grado (bachillerato)"
+                      "valueString": "9º a 11.º grado (Preparatoria o bachillerato incompleta)"
                     }
                   ]
                 }
@@ -3188,7 +3460,24 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "HighestGrade_TwelveOrGED",
-            "display": "grade 12 or GED (high school graduate) "
+            "display": "grade 12 or GED (high school graduate) ",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "12º grado o GED (Preparatoria o bachillerato completo o GED)"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
@@ -3205,7 +3494,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "10 a 12.º grado (bachillerato)"
+                      "valueString": "1 a 3 años de universidad (algunos estudios universitarios o de escuela técnica)"
                     }
                   ]
                 }
@@ -3227,7 +3516,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "4 años o más de universidad (graduado del universidad)"
+                      "valueString": "4 años o más de universidad (graduado de la universidad)"
                     }
                   ]
                 }
@@ -3249,7 +3538,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "estudios graduados (maestría, doctorado, etc.)"
+                      "valueString": "estudios avanzados (Maestría, Doctorado, etc.)"
                     }
                   ]
                 }
@@ -3300,7 +3589,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "¿Alguna vez ha estado en servicio activo en las Fuerzas Armadas de los Estados Unidos, ya sea en el servicio militar regular, en la Guardia Nacional o en una unidad de reserva militar? \n\nImportante: El servicio activo no incluye el entrenamiento para las reservas o la Guardia Nacional, pero SÍ incluye la incorporación, por ejemplo, para la Guerra del Golfo Pérsico."
+                  "valueString": "¿Alguna vez ha estado en servicio activo en las Fuerzas Armadas de los Estados Unidos, ya sea en el servicio militar regular, en la Guardia Nacional o en una unidad de reserva militar?\n\nNOTA: El servicio activo no incluye el entrenamiento en la Reserva ni en la Guardia Nacional, pero SÍ incluye las actividades de movilización, por ejemplo, para la Guerra del Golfo Pérsico."
                 }
               ]
             }
@@ -3368,7 +3657,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Prefiero no responder"
+                      "valueString": "prefiero no contestar"
                     }
                   ]
                 }
@@ -3509,7 +3798,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Soltero"
+                      "valueString": "nunca estuvo casado/a"
                     }
                   ]
                 }
@@ -3531,7 +3820,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Vivo con mi pareja"
+                      "valueString": "vive en pareja sin estar casado/a / unión libre"
                     }
                   ]
                 }
@@ -3553,7 +3842,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Prefiero no responder"
+                      "valueString": "prefiero no contestar"
                     }
                   ]
                 }
@@ -3640,7 +3929,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "¿Está cubierto por un seguro de salud o algún otro tipo de plan de atención médica?"
+                  "valueString": "¿Tiene usted seguro médico o algún tipo de plan para el cuidado de su salud?"
                 }
               ]
             }
@@ -3664,7 +3953,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Sí"
+                      "valueString": "sí"
                     }
                   ]
                 }
@@ -3686,7 +3975,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "No"
+                      "valueString": "no"
                     }
                   ]
                 }
@@ -3708,7 +3997,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "no lo sé"
+                      "valueString": "no sé"
                     }
                   ]
                 }
@@ -3730,7 +4019,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Prefiero no responder"
+                      "valueString": "prefiero no responder"
                     }
                   ]
                 }
@@ -3759,7 +4048,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "¿Qué tipo de seguro médico o cobertura de atención médica tiene? Incluya aquellos que paga por solo un tipo de servicio (atención en residencias para ancianos, atención en caso de accidente o atención odontológica). Excluya los planes privados con los que solo paga un monto adicional mientras está hospitalizado. Si tiene más de un tipo de seguro médico, marque todos los planes que tiene.\nAquí encontrará más información acerca de los programas Medicaid     \nhttps://www.medicaid.gov/medicaid/by-state/by-state.html"
+                  "valueString": "¿Qué tipo de seguro médico o plan para el cuidado de su salud tiene usted? Incluya a los que pagan solo por un tipo de servicio (enfermería a domicilio, accidentes o atención dental). Excluya los planes privados que solo proveen dinero extra durante la hospitalización. Si tiene más de un tipo de seguro de salud, marque todos los planes que tenga."
                 }
               ]
             }
@@ -3783,7 +4072,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Seguro médico privado (incluye los seguros patrocinados por el empleador)"
+                      "valueString": "Seguro de salud privado (incluye provistos por el empleador)"
                     }
                   ]
                 }
@@ -3871,7 +4160,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "SCHIP (CHIP/Programa de seguro médico para niños)"
+                      "valueString": "SCHIP (CHIP/Children's Health Insurance Program)"
                     }
                   ]
                 }
@@ -3893,7 +4182,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Atención médica para militares (TRICARE/VA/CHAMP-VA)"
+                      "valueString": "atención médica militar (TRICARE/VA/CHAMP-VA)"
                     }
                   ]
                 }
@@ -3915,7 +4204,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Servicio de Salud para Indígenas Estadounidenses"
+                      "valueString": "servicio de salud indígena"
                     }
                   ]
                 }
@@ -3937,7 +4226,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Plan de salud patrocinado por el estado"
+                      "valueString": "plan de salud patrocinado por el Estado"
                     }
                   ]
                 }
@@ -3959,7 +4248,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Otra programa gubernamental"
+                      "valueString": "otro programa gubernamental"
                     }
                   ]
                 }
@@ -3981,7 +4270,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Plan de servicio individual (por ejemplo, dental, oftalmología, medicamentos recetados)"
+                      "valueString": "plan de servicio único (p. ej., dental, vista, recetas)"
                     }
                   ]
                 }
@@ -4003,7 +4292,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "No tiene ningún tipo de cobertura"
+                      "valueString": "ningún tipo de cobertura"
                     }
                   ]
                 }
@@ -4025,7 +4314,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Prefiero no responder"
+                      "valueString": "prefiero no responder"
                     }
                   ]
                 }
@@ -4047,7 +4336,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "no lo sé"
+                      "valueString": "no sé"
                     }
                   ]
                 }
@@ -4076,7 +4365,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "¿Cuál es su situación laboral actual?  Seleccione 1 o más de estas categorías."
+                  "valueString": "¿Cuál es su situación de trabajo actual?"
                 }
               ]
             }
@@ -4100,7 +4389,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "asalariado (tiempo parcial o tiempo completo)"
+                      "valueString": "empleado/a asalariado/a (tiempo parcial o tiempo completo)"
                     }
                   ]
                 }
@@ -4122,7 +4411,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "autónomo"
+                      "valueString": "trabajador/a independiente"
                     }
                   ]
                 }
@@ -4144,7 +4433,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "desocupado hace 1 año o más"
+                      "valueString": "desempleado/a por 1 año o más"
                     }
                   ]
                 }
@@ -4166,7 +4455,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "desocupado hace menos de 1 año"
+                      "valueString": "desempleado/a por menos de 1 año"
                     }
                   ]
                 }
@@ -4188,7 +4477,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "dedicado a las labores del hogar"
+                      "valueString": "soy una mujer u hombre que me ocupo de tareas de la casa/ Ama de casa"
                     }
                   ]
                 }
@@ -4254,7 +4543,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "incapacitado para trabajar (discapacitado)"
+                      "valueString": "no puede trabajar (Por Discapacidad"
                     }
                   ]
                 }
@@ -4276,7 +4565,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Prefiero no responder"
+                      "valueString": "prefiero no contestar"
                     }
                   ]
                 }
@@ -4468,6 +4757,23 @@
           }
         ],
         "text": "Pick your answers from the following choices",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Elija su respuesta de las siguientes opciones"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "repeats": false,
         "option": [
@@ -4486,7 +4792,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Prefiero no responder"
+                      "valueString": "prefiero no responder"
                     }
                   ]
                 }
@@ -4496,7 +4802,24 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PMI_DoesNotApplyToMe",
-            "display": "does not apply to me"
+            "display": "does not apply to me",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no se me aplica"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -4520,7 +4843,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Una de las cosas que tratamos de entender es de qué modo los ingresos de las personas pueden afectar su uso de los servicios de salud. El ingreso familiar incluye su ingreso más el ingreso de todos los miembros de la familia que viven en su casa durante el último año calendario. \n\nIncluye todos los sueldos y otras fuentes de ingreso."
+                  "valueString": "Una de las cosas que intentamos entender es cómo los ingresos de las personas afectan el uso de los servicios de salud. El ingreso familiar incluye sus ingresos más los de todos los integrantes de su familia en su hogar durante el último año de calendario. Incluya todos los salarios y otras fuentes de ingreso.\n\n¿Cuál es su ingreso familiar anual incluyendo otras fuentes?"
                 }
               ]
             }
@@ -4566,7 +4889,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "$10.000- $24.999"
+                      "valueString": "de $10.000 a menos de $15.000"
                     }
                   ]
                 }
@@ -4771,7 +5094,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Es propietario de su casa o alquila?"
+                  "valueString": "¿Vive usted en casa propia o alquilada (rentada)?"
                 }
               ]
             }
@@ -4795,7 +5118,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Soy propietario"
+                      "valueString": "propia"
                     }
                   ]
                 }
@@ -4817,7 +5140,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Alquilo"
+                      "valueString": "alquilada (rentada)"
                     }
                   ]
                 }
@@ -4839,7 +5162,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Otra disposición"
+                      "valueString": "otra situación de vivienda"
                     }
                   ]
                 }
@@ -4883,7 +5206,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Prefiero no responder"
+                      "valueString": "prefiero no contestar"
                     }
                   ]
                 }
@@ -4912,7 +5235,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "¿Dónde vive en la actualidad?"
+                  "valueString": "¿En dónde vive actualmente?"
                 }
               ]
             }
@@ -4936,7 +5259,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "En el campus de la universidad"
+                      "valueString": "en un campo universitario"
                     }
                   ]
                 }
@@ -4958,7 +5281,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Con un amigo/compañero de habitación"
+                      "valueString": "con un amigo/compañero de habitación"
                     }
                   ]
                 }
@@ -4980,7 +5303,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Con la familia"
+                      "valueString": "con familia"
                     }
                   ]
                 }
@@ -5002,7 +5325,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Motel/hotel"
+                      "valueString": "motel/hotel"
                     }
                   ]
                 }
@@ -5024,7 +5347,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Hospital, centro de rehabilitación, centro de tratamiento de drogadicción u otra institución temporaria"
+                      "valueString": "hospital, centro de rehabilitación, centro de tratamiento por abuso de drogas u otra institución temporal"
                     }
                   ]
                 }
@@ -5046,7 +5369,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "En un hogar grupal, una residencia para ancianos u otro centro residencial"
+                      "valueString": "en una casa comunitaria, un asilo u otro centro residencial"
                     }
                   ]
                 }
@@ -5068,7 +5391,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Alojamiento transitorio"
+                      "valueString": "hogar de transición"
                     }
                   ]
                 }
@@ -5090,7 +5413,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Refugio de emergencia o refugio para personas sin hogar"
+                      "valueString": "albergue de emergencia o para personas sin hogar"
                     }
                   ]
                 }
@@ -5112,7 +5435,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "En cualquier lugar (por ejemplo, la calle, un vehículo, un edificio abandonado)"
+                      "valueString": "en cualquier lugar afuera (por ejemplo, calle, vehículo, edificio abandonado)"
                     }
                   ]
                 }
@@ -5122,7 +5445,7 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PMI_Other",
-            "display": "other (please specify)",
+            "display": "other (free text)",
             "_display": {
               "extension": [
                 {
@@ -5134,7 +5457,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "otro (por favor especifique)"
+                      "valueString": "otro (texto libre)"
                     }
                   ]
                 }
@@ -5238,7 +5561,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "1 a 2 años"
+                      "valueString": "1-2 años"
                     }
                   ]
                 }
@@ -5260,7 +5583,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "3 a 5 años"
+                      "valueString": "3-5 años"
                     }
                   ]
                 }
@@ -5282,7 +5605,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "6 a 10 años"
+                      "valueString": "6-10 años"
                     }
                   ]
                 }
@@ -5304,7 +5627,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "11 a 20 años"
+                      "valueString": "11-20 años"
                     }
                   ]
                 }
@@ -5326,7 +5649,7 @@
                     },
                     {
                       "url": "content",
-                      "valueString": "Más de 20 años"
+                      "valueString": "más de 20 años"
                     }
                   ]
                 }
@@ -5344,6 +5667,23 @@
           }
         ],
         "text": "In the past 6 months, have you been worried or concerned about NOT having a place to live?",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "En los últimos 6 meses, ¿ha estado usted preocupado por NO tener un lugar estable donde vivir del que sea dueño, que rente (alquile) o se aloje como parte de un hogar?"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "repeats": false,
         "option": [
@@ -5437,7 +5777,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "nombre"
+                  "valueString": "nombre de la primera persona"
                 }
               ]
             }
@@ -5466,7 +5806,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "nombre"
+                  "valueString": "inicial del segundo nombre de la primera persona"
                 }
               ]
             }
@@ -5495,7 +5835,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "apellido"
+                  "valueString": "apellido de la primera persona"
                 }
               ]
             }
@@ -5524,7 +5864,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "dirección postal"
+                  "valueString": "dirección numero 1 de la primera persona"
                 }
               ]
             }
@@ -5553,7 +5893,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "dirección - línea adicional (opcional)"
+                  "valueString": "dirección numero 2 de la primera persona"
                 }
               ]
             }
@@ -5582,7 +5922,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "ciudad"
+                  "valueString": "ciudad de primera persona"
                 }
               ]
             }
@@ -5600,6 +5940,23 @@
           }
         ],
         "text": "person 1 state",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "estado de primera persona"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "repeats": false,
         "option": [
@@ -5932,7 +6289,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "código/ número de teléfono"
+                  "valueString": "correo electrónico de primera persona"
                 }
               ]
             }
@@ -5961,7 +6318,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "código/ número de teléfono"
+                  "valueString": "teléfono de primera persona"
                 }
               ]
             }
@@ -6002,27 +6359,112 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PersonOneRelationship_SpousePartner",
-            "display": "spouse/partner"
+            "display": "spouse/partner",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "esposo/conyuge"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PersonOneRelationship_Friend",
-            "display": "friend"
+            "display": "friend",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "amigo"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PersonOneRelationship_ParentGuardian",
-            "display": "parent/guardian"
+            "display": "parent/guardian",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "padre/custodio legal"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PersonOneRelationship_Child",
-            "display": "child"
+            "display": "child",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "hijo"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "PersonOneRelationship_Relative",
-            "display": "relative"
+            "display": "relative",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "pariente"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -6058,7 +6500,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "nombre"
+                  "valueString": "nombre de la segunda persona"
                 }
               ]
             }
@@ -6087,7 +6529,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "nombre"
+                  "valueString": "inicial del segundo nombre de la segunda persona"
                 }
               ]
             }
@@ -6116,7 +6558,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "apellido"
+                  "valueString": "apellido de la segunda persona"
                 }
               ]
             }
@@ -6145,7 +6587,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "dirección postal"
+                  "valueString": "dirección número 1 de la segunda persona"
                 }
               ]
             }
@@ -6174,7 +6616,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "dirección - línea adicional (opcional)"
+                  "valueString": "dirección número 2 de la segunda persona"
                 }
               ]
             }
@@ -6203,7 +6645,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "ciudad"
+                  "valueString": "ciudad de la segunda persona"
                 }
               ]
             }
@@ -6221,6 +6663,23 @@
           }
         ],
         "text": "person 2 state",
+        "_text": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "es"
+                },
+                {
+                  "url": "content",
+                  "valueString": "estado de la segunda persona"
+                }
+              ]
+            }
+          ]
+        },
         "type": "choice",
         "repeats": false,
         "option": [
@@ -6553,7 +7012,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "correo electrónico"
+                  "valueString": "correo electrónico de la segunda persona"
                 }
               ]
             }
@@ -6582,7 +7041,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "código/ número de teléfono"
+                  "valueString": "teléfono de la segunda persona"
                 }
               ]
             }
@@ -6623,27 +7082,112 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "SecondContactsRelationship_SpousePartner",
-            "display": "spouse/partner"
+            "display": "spouse/partner",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "esposo/conyuge"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "SecondContactsRelationship_Friend",
-            "display": "friend"
+            "display": "friend",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "amigo"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "SecondContactsRelationship_ParentGuardian",
-            "display": "parent/guardian"
+            "display": "parent/guardian",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "padre/custodio legal"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "SecondContactsRelationship_Child",
-            "display": "child"
+            "display": "child",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "hijo"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "SecondContactsRelationship_Relative",
-            "display": "relative"
+            "display": "relative",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "pariente"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
