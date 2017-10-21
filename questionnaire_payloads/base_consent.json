@@ -5,9 +5,9 @@
       "value": "Vibrent_FORM_ID_295"
     }
   ],
-  "version": "482",
+  "version": "495",
   "status": "published",
-  "date": "2017-10-05T13:13:03+00:00",
+  "date": "2017-10-20T22:17:23+00:00",
   "group": {
     "linkId": "root_group",
     "title": "consent",
@@ -59,12 +59,46 @@
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "18YearsofAge_18YearsYes",
-            "display": "yes"
+            "display": "yes",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "sí"
+                    }
+                  ]
+                }
+              ]
+            }
           },
           {
             "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
             "code": "18YearsofAge_18YearsNo",
-            "display": "no"
+            "display": "no",
+            "_display": {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
+                  "extension": [
+                    {
+                      "url": "lang",
+                      "valueCode": "es"
+                    },
+                    {
+                      "url": "content",
+                      "valueString": "no"
+                    }
+                  ]
+                }
+              ]
+            }
           }
         ]
       },
@@ -946,7 +980,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "estado"
+                  "valueString": "nombre"
                 }
               ]
             }
@@ -975,7 +1009,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "estado"
+                  "valueString": "inicial del segundo"
                 }
               ]
             }
@@ -1004,7 +1038,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "estado"
+                  "valueString": "apellido"
                 }
               ]
             }
@@ -1033,7 +1067,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "estado"
+                  "valueString": "dirección"
                 }
               ]
             }
@@ -1062,7 +1096,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "estado"
+                  "valueString": "dirección"
                 }
               ]
             }
@@ -1091,7 +1125,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "número de teléfono"
+                  "valueString": "ciudad"
                 }
               ]
             }
@@ -1120,7 +1154,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "dirección de correo electrónico"
+                  "valueString": "código postal"
                 }
               ]
             }
