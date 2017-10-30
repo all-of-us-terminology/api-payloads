@@ -1,2728 +1,2018 @@
 {
-  "resourceType": "Questionnaire",
-  "identifier": [
-    {
-      "value": "Vibrent_FORM_ID_295"
-    }
-  ],
-  "version": "495",
-  "status": "published",
-  "date": "2017-10-20T22:17:23+00:00",
-  "group": {
-    "linkId": "root_group",
-    "title": "consent",
-    "concept": [
-      {
-        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-        "code": "ConsentPII"
-      }
-    ],
-    "required": true,
-    "repeats": false,
-    "question": [
-      {
-        "linkId": "10732",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_WelcomeVideo"
-          }
-        ],
-        "text": "kDQfJhk0cjU",
-        "type": "dateTime",
-        "repeats": false
-      },
-      {
-        "linkId": "10783",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ConsentPII_EmailAddress"
-          }
-        ],
-        "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
-        "type": "text",
-        "repeats": false
-      },
-      {
-        "linkId": "9841",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_18YearsofAge"
-          }
-        ],
-        "text": "Are you 18 years of age or older?",
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "18YearsofAge_18YearsYes",
-            "display": "yes",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "sí"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "18YearsofAge_18YearsNo",
-            "display": "no",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "no"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "linkId": "9503",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "StreetAddress_PIIState"
-          }
-        ],
-        "text": "What is your state of residence?",
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_AL",
-            "display": "Alabama"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_AK",
-            "display": "Alaska"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_AS",
-            "display": "American Samoa"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_AZ",
-            "display": "Arizona"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_AR",
-            "display": "Arkansas"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_CA",
-            "display": "California"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_CO",
-            "display": "Colorado"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_CT",
-            "display": "Connecticut"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_DC",
-            "display": "District of Columbia"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_DE",
-            "display": "Delaware"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_FM",
-            "display": "Federated States of Micronesia"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_FL",
-            "display": "Florida"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_GA",
-            "display": "Georgia"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_GU",
-            "display": "Guam"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_HI",
-            "display": "Hawaii"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_ID",
-            "display": "Idaho"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_IL",
-            "display": "Illinois"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_IN",
-            "display": "Indiana"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_IA",
-            "display": "Iowa"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_KS",
-            "display": "Kansas"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_KY",
-            "display": "Kentucky"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_LA",
-            "display": "Louisiana"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_ME",
-            "display": "Maine"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_MH",
-            "display": "Marshall Islands"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_MD",
-            "display": "Maryland"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_MA",
-            "display": "Massachusetts"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_MI",
-            "display": "Michigan"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_MN",
-            "display": "Minnesota"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_MS",
-            "display": "Mississippi"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_MO",
-            "display": "Missouri"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_MT",
-            "display": "Montana"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_NE",
-            "display": "Nebraska"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_NV",
-            "display": "Nevada"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_NH",
-            "display": "New Hampshire"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_NJ",
-            "display": "New Jersey"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_NM",
-            "display": "New Mexico"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_NY",
-            "display": "New York"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_NC",
-            "display": "North Carolina"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_MP",
-            "display": "North Marianas Islands"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_ND",
-            "display": "North Dakota"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_OH",
-            "display": "Ohio"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_OK",
-            "display": "Oklahoma"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_OR",
-            "display": "Oregon"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_PW",
-            "display": "Palau"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_PA",
-            "display": "Pennsylvania"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_PR",
-            "display": "Puerto Rico"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_RI",
-            "display": "Rhode Island"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_SC",
-            "display": "South Carolina"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_SD",
-            "display": "South Dakota"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_TN",
-            "display": "Tennessee"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_TX",
-            "display": "Texas"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_UT",
-            "display": "Utah"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_VT",
-            "display": "Vermont"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_VA",
-            "display": "Virginia"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_VI",
-            "display": "Virgin Islands"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_WA",
-            "display": "Washington"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_WV",
-            "display": "West Virginia"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_WI",
-            "display": "Wisconsin"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIState_WY",
-            "display": "Wyoming"
-          }
-        ]
-      },
-      {
-        "linkId": "9895",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-          }
-        ],
-        "text": "hidden organization reference",
-        "type": "text",
-        "repeats": false
-      },
-      {
-        "linkId": "10465",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_CABoRSignature"
-          }
-        ],
-        "text": "If you're using a computer please use your mouse to sign below. If you are using a mobile device please use your finger to sign.",
-        "type": "attachment",
-        "repeats": false
-      },
-      {
-        "linkId": "10466",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent__CABoRTodaysDate"
-          }
-        ],
-        "text": "ExtraConsent__CABoRTodaysDate",
-        "type": "date",
-        "repeats": false
-      },
-      {
-        "linkId": "10733",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_KeepinginTouchVideo"
-          }
-        ],
-        "text": "CxmmeUYIbL0",
-        "type": "dateTime",
-        "repeats": false
-      },
-      {
-        "linkId": "10734",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_HealthDataVideo"
-          }
-        ],
-        "text": "sSy1dRg_V_I",
-        "type": "dateTime",
-        "repeats": false
-      },
-      {
-        "linkId": "10735",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_PhysicalMeausrementsVideo"
-          }
-        ],
-        "text": "fkXvqjYw-_c",
-        "type": "dateTime",
-        "repeats": false
-      },
-      {
-        "linkId": "10736",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_SamplesVideo"
-          }
-        ],
-        "text": "W_JuT9bnW7Q",
-        "type": "dateTime",
-        "repeats": false
-      },
-      {
-        "linkId": "10737",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_FitnessTrackerVideo"
-          }
-        ],
-        "text": "fzhnn63-Gkg",
-        "type": "dateTime",
-        "repeats": false
-      },
-      {
-        "linkId": "10738",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_HealthRecordVideo"
-          }
-        ],
-        "text": "FG2-5vEw-6M",
-        "type": "dateTime",
-        "repeats": false
-      },
-      {
-        "linkId": "10739",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_OtherHealthDataVideo"
-          }
-        ],
-        "text": "ZwlqLxdo8LY",
-        "type": "dateTime",
-        "repeats": false
-      },
-      {
-        "linkId": "10740",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_DataSharingVideo"
-          }
-        ],
-        "text": "P_LIgAywQiE",
-        "type": "dateTime",
-        "repeats": false
-      },
-      {
-        "linkId": "10741",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_RisktoPrivacyVideo"
-          }
-        ],
-        "text": "GsaGjA4uVYc",
-        "type": "dateTime",
-        "repeats": false
-      },
-      {
-        "linkId": "6770",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_EmailACopyToMe"
-          }
-        ],
-        "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
-        "type": "boolean",
-        "repeats": false
-      },
-      {
-        "linkId": "6701",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_AllOfUsPurpose"
-          }
-        ],
-        "text": "What is the purpose of All of Us?",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "¿Cuál es el propósito de All of Us?"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "AllOfUsPurpose_GiveMedicalAdvice",
-            "display": "To give medical advice and treatment.",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "Ofrecer consejo médico y tratamiento médico."
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "AllOfUsPurpose_HelpScientistsDiscover",
-            "display": "To help scientists make discoveries about health.",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "Ayudar a los investigadores a hacer descubrimientos en el área de la salud."
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "linkId": "6698",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_TakePartAllOfUs"
-          }
-        ],
-        "text": "Do I have to take part in All of Us?",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "¿Tengo que participar en All of Us?"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TakePartAllOfUs_TakingPartIsVoluntary",
-            "display": "Taking part is voluntary. I get to choose if I want to do it. ",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "La participación es voluntaria. Puedo decidir si quiero hacerlo."
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TakePartAllOfUs_TakingPartIsRequired",
-            "display": "Taking part is required. I have to do it.",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "La participación es obligatoria. Tengo que hacerlo."
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "linkId": "6707",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_CanIWithdraw"
-          }
-        ],
-        "text": "If I join, can I withdraw (“quit”)?\n",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Si participo, ¿puedo dejar de participar en All of Us en cualquier momento?"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "CanIWithdraw_ICanWithdraw",
-            "display": "I can withdraw at any time.",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "Puedo dejar de participar en cualquier momento."
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "CanIWithdraw_ICannotWithdraw",
-            "display": "I can’t withdraw ever.",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "No puedo dejar de participar nunca."
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "linkId": "6835",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_PrivacyGuaranteeQuestion"
-          }
-        ],
-        "text": "Using smartphones, apps, and sensors are always a potential risk to privacy. Can All of Us research guarantee your privacy?",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "El uso de teléfonos celulares inteligentes (smartphones), aplicaciones y sensores siempre constituye un posible riesgo a su privacidad. ¿Puede All of Us garantizar su privacidad?"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PrivacyGuaranteeQuestion_PrivacyGuaranteed",
-            "display": "My privacy is guaranteed.",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "Mi privacidad está garantizada."
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PrivacyGuaranteeQuestion_RisksAreMinimized",
-            "display": "Risks to my privacy are minimized, but are not zero.",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "Los riesgos a mi privacidad son mínimos, pero posibles."
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "linkId": "6728",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_ReadyOrNeedHelp"
-          }
-        ],
-        "text": "You got 4 of 4 questions correct.\nTake the time you need to decide about joining All of Us. We are here to answer any questions you have.",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Respondió correctamente 4 preguntas de un total de 4. \nTómese el tiempo necesario para decidir si desea formar parte de All of Us. Estamos aquí para responder cualquier pregunta que tenga."
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ReadyOrNeedHelp_Ready",
-            "display": "I'm ready to join",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "Estoy listo para unirme"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ReadyOrNeedHelp_NeedHelp",
-            "display": "get some help"
-          }
-        ]
-      },
-      {
-        "linkId": "6773",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_AgreeToConsent"
-          }
-        ],
-        "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
-        "type": "boolean",
-        "repeats": false
-      },
-      {
-        "linkId": "6779",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_Signature"
-          }
-        ],
-        "text": "If you're using a computer please use your mouse to sign below. If you are using a mobile device please use your finger to sign.",
-        "type": "attachment",
-        "repeats": false
-      },
-      {
-        "linkId": "6780",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_TodaysDate"
-          }
-        ],
-        "text": "Today's date",
-        "type": "date",
-        "repeats": false
-      },
-      {
-        "linkId": "9459",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIName_First"
-          }
-        ],
-        "text": "first name",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "nombre"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "text",
-        "repeats": false
-      },
-      {
-        "linkId": "9460",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIName_Middle"
-          }
-        ],
-        "text": "middle initial",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "inicial del segundo"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "text",
-        "repeats": false
-      },
-      {
-        "linkId": "9461",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIName_Last"
-          }
-        ],
-        "text": "last name",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "apellido"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "text",
-        "repeats": false
-      },
-      {
-        "linkId": "9462",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIAddress_StreetAddress"
-          }
-        ],
-        "text": "address 1",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "dirección"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "text",
-        "repeats": false
-      },
-      {
-        "linkId": "9463",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIAddress_StreetAddress2"
-          }
-        ],
-        "text": "address 2",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "dirección"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "text",
-        "repeats": false
-      },
-      {
-        "linkId": "9464",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "StreetAddress_PIICity"
-          }
-        ],
-        "text": "city",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "ciudad"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "text",
-        "repeats": false
-      },
-      {
-        "linkId": "9837",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "StreetAddress_PIIZIP"
-          }
-        ],
-        "text": "zip code",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "código postal"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "text",
-        "repeats": false
-      },
-      {
-        "linkId": "9838",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIContactInformation_Phone"
-          }
-        ],
-        "text": "phone number",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "número de teléfono"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "text",
-        "repeats": false
-      },
-      {
-        "linkId": "9469",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PIIBirthInformation_BirthDate"
-          }
-        ],
-        "text": "please enter your birthdate",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "favor ingrese su fecha de nacimiento"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "date",
-        "repeats": false
-      },
-      {
-        "linkId": "9849",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_EverReceivedUPMCCare"
-          }
-        ],
-        "text": "Have you ever received care at a UPMC healthcare provider? \n\nThis may include care in a UPMC hospital, physician practice, urgent care center, or emergency room.\n",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "¿Alguna vez ha recibido atención con un proveedor de cuidados de salud de UPMC? \n\nEsto puede incluir atención en un hospital, consultorio de un médico, centro de atención de urgencia o sala de emergencias de UPMC."
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "EverReceivedUPMCCare_Yes",
-            "display": "yes",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "sí"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "EverReceivedUPMCCare_No",
-            "display": "no",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "no"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "linkId": "9852",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_ScheduledWithPACares"
-          }
-        ],
-        "text": "Have you already scheduled an appointment with your local PA Cares for Us team for physical measurements and biosample collection?\n",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "¿Alguna vez programó una cita con su equipo local de PA Cares for Us para tomarse mediciones físicas o obtener una muestra biológica?"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ScheduledWithPACares_Yes",
-            "display": "yes",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "sí"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ScheduledWithPACares_No",
-            "display": "no",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "no"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "linkId": "10452",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ArizonaSitePairing_AZSitepairingLocation"
-          }
-        ],
-        "text": "The All of Us Research Program is enrolling participants at the following healthcare sites. At which location do you wish to schedule your visit?",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "El programa de investigación All of Us está inscribiendo participantes en los sigiuentes sitios de atención medica. ¿En cual sitio quiere hacer su cita?"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "AZSitepairingLocation_Phoenix",
-            "display": "PHOENIX: Banner University Medical Center – Phoenix (formerly known as Good Samaritan Hospital or Good Sam)",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "PHOENIX: Banner University Medical Center – Phoenix (formalmente conocido como Good Samaritan Hospital o Good Sam)"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "AZSitepairingLocation_Mesa",
-            "display": "MESA: Banner Desert Medical Center (formerly known as Desert Samaritan)",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "MESA: Banner Desert Medical Center (formalmente conocido como Desert Samaritan)"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "AZSitepairingLocation_TucsonUniversityCampus",
-            "display": "TUCSON: University Campus: Banner University Medical Center – Tucson (formerly known as University of Arizona Medical Center or UMC, University Physicians or UPH)",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "TUCSON: University Campus: Banner University Medical Center – Tucson (formalmente conocido como University of Arizona Medical Center o UMC, University Physicians o UPH)"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "AZSitepairingLocation_TuscsonSouthCampus",
-            "display": "TUCSON: South Campus: Banner University Medical Center – South (formerly known as Kino Hospital)",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "TUCSON: South Campus: Banner University Medical Center – South (formalmente conocido como Kino Hospital)"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "AZSitepairingLocation_None",
-            "display": "None of these"
-          }
-        ]
-      },
-      {
-        "linkId": "10462",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ExtraConsent_PresentlyRegisteredPatient"
-          }
-        ],
-        "text": "Are you presently a registered patient at any of the following clinics?\n\nSan Ysidro Health Center\nOtay Family Health Center\nChula Vista Medical Plaza\nOcean View Community Health Center\nEuclid Community Health Center\nKing Chavez Family Clinic\nParadise Hills Family Clinic\nNational City Family Clinic\nChaldean Middle Eastern Social Services\nSan Ysidro Senior Health Center\nSan Ysidro Mi Clinica",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "¿Actualmente está registrado como paciente en alguna de estas clínicas?\n San Ysidro Health Center, Otay Family Health Center, Chula Vista Medical Plaza, Ocean View Community Health Center, Euclid Community Health Center, King Chavez Family Clinic, Paradise Hills Family Clinic, National City Family Clinic, Chaldean Middle Eastern Social Services, San Ysidro Senior Health Center, San Ysidro Mi Clinica"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PresentlyRegisteredPatient_YesRegistered",
-            "display": "yes",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "sí"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "PresentlyRegisteredPatient_NoRegistered",
-            "display": "no",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "no"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "linkId": "10808",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "CaliforniaSitePairing_CaliforniaUniversityCare"
-          }
-        ],
-        "text": "You are welcome to enroll in one of the California Precision Medicine Consortium (CAPMC) sites.  \n\nParticipants in the CAPMC include those who receive their healthcare from provider organizations in California such as University of California Medical Centers and affiliates, University of Southern California, Cedars-Sinai Medical Center, and other healthcare organizations. Will you enroll through CAPMC? ",
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "CaliforniaUniversityCare_CaliforniaHealthCareYes",
-            "display": "yes",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "sí"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "CaliforniaUniversityCare_CaliforniaHealthCareNo",
-            "display": "no",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "no"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "linkId": "10839",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "SouthCarolinaSitePairing_EauClaire"
-          }
-        ],
-        "text": "Are you currently a patient at any of the following Eau Claire clinics or health centers?\n\nWaverly Family Practice\nPelion Family Practice",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "¿Actualmente es paciente de alguna de estas clínicas o centros de salud de Eau Claire?\n\nWaverly Family Practice\nPelion Family Practice"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "EauClaire_Yes",
-            "display": "yes",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "sí"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "EauClaire_No",
-            "display": "no",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "no"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "linkId": "10842",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "SouthCarolinaSitePairing_EauClaireAppointment"
-          }
-        ],
-        "text": "Have you already scheduled an appointment with the All of Us Research Program team?",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "¿Ya ha fijado una cita con el equipo del programa de investigación All of Us?"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "EauClaireAppointment_Yes",
-            "display": "yes",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "sí"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "EauClaireAppointment_No",
-            "display": "no",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "no"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "linkId": "10819",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ColumbiaSitePairing_ColumbiaCare"
-          }
-        ],
-        "text": "Have you ever received care at any of the following?",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "¿Alguna vez ha recibido atención en alguno de estos establecimientos?"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ColumbiaCare_ColumbiaUniversityMedCenter",
-            "display": "Columbia University Medical Center / New York-Presbyterian"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ColumbiaCare_WeillCornell",
-            "display": "Weill Cornell Medicine / New York-Presbyterian"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ColumbiaCare_HarlemHospital",
-            "display": "Harlem Hospital"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "ColumbiaCare_ColumbiaCareNone",
-            "display": "none of these",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "ninguno de estos"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "linkId": "10888",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "NewYorkSitePairing_HRHCare"
-          }
-        ],
-        "text": "Have you ever received care at the Peekskill Health Center, or any other HRHCare health center?\n",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "¿Alguna vez a recibido atención medica en el Centro de Salud Peekskill, o cualquier otro centro de salud de HRH Care?"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "HRHCare_Yes",
-            "display": "yes",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "sí"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "HRHCare_No",
-            "display": "no",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "no"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "linkId": "10869",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "CHCSitePairing_CHCCareatLocation"
-          }
-        ],
-        "text": "Please indicate if you have received care at one of the following locations:\n\nCHC Inc Middletown\nCHC Inc Meriden",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Indique si alguna vez ha recibido atención en alguno de estos establecimientos:\nCHC Inc Middletown\nCHC Inc Meriden"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "CHCCareatLocation_Yes",
-            "display": "yes",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "sí"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "CHCCareatLocation_No",
-            "display": "no",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "no"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "linkId": "10797",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "MichiganSitePairing_LiveInFollowingAreas"
-          }
-        ],
-        "text": "Do you live in any of the following general areas?",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "¿Vive en alguna de estas regiones?"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "LiveInFollowingAreas_LiveInEastSouthEastMichigan",
-            "display": "East/Southeast Michigan (Metropolitan Detroit area)",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "Este/Sudeste de Michigan (área metropolitana de Detroit)"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "LiveInFollowingAreas_LiveInWesternMichigan",
-            "display": "Western Michigan",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "Michigan Occidental"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "LiveInFollowingAreas_DoNotLiveInListedAreas",
-            "display": "I do not live in any listed area",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "No vivo en ninguna región en la lista"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "linkId": "10800",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "EastSoutheastMichigan_CareAtHenryFord"
-          }
-        ],
-        "text": "Have you ever received care at a Henry Ford Health System facility or are you currently affiliated with the institution? \n\nThis may include receiving care in a HFHS hospital, urgent care, emergency department, outpatient clinic or through HFHS employee health.",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "¿Alguna vez ha recibido atención en un centro de Henry Ford Health System o está afiliado actualmente con la institución? \n\nEsto puede incluir atención en un hospital, centro de atención de urgencia, departamento de emergencias, clínica ambulatoria o atención de empleados de HFHS."
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "CareAtHenryFord_YesCareAtHenryFord",
-            "display": "yes",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "sí"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "CareAtHenryFord_NoCareAtHenryFord",
-            "display": "no",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "no"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "linkId": "11066",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "WesternMichiganSitePairing_SpectrumHealthSitePairing"
-          }
-        ],
-        "text": "Have you ever received care at a Spectrum Health System facility or are you currently affiliated with the system? This may include receiving care in a Spectrum hospital, urgent care, emergency department, outpatient clinic or through employee health.",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "¿Alguna vez ha recibido atención medica en un centro de Spectrum Health System o está actualmente afiliado con esta sistema? Esto puede incluir  el recibir atención en un hospital de Spectrum, centro de atención de urgencia, departamento de emergencias, clínica ambulatoria o atención de empleados."
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "SpectrumHealthSitePairing_Yes",
-            "display": "yes",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "sí"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "SpectrumHealthSitePairing_No",
-            "display": "no",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "no"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "linkId": "10848",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "IllinoisSitePairing_IllinoisInstitution"
-          }
-        ],
-        "text": "The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program.\n\nAt which institution do you receive care and wish to schedule an enrollment visit with? \n\nPlease choose 1 institution",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Los siguientes proveedores de cuidados de salud en su área están registrando participantes al programa de investigación All of Us.\n\n¿En cual institución recibe atención y quiere programar una visita para registrarse? \n Escoja 1 institución"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "IllinoisInstitution_MileSquare",
-            "display": "Mile Square Health Center"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "IllinoisInstitution_NorthShoreU",
-            "display": "NorthShore University HealthSystem"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "IllinoisInstitution_Northwestern",
-            "display": "Northwestern Medicine"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "IllinoisInstitution_RushU",
-            "display": "Rush University Medical Center"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "IllinoisInstitution_UChicagoMed",
-            "display": "University of Chicago Medicine"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "IllinoisInstitution_UIllinoisHealth",
-            "display": "University of Illinois (UI) Health"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "IllinoisInstitution_Noneofthese",
-            "display": "none of these",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "ninguno de estos"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "linkId": "10803",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TennesseeSitePairing_CherokeeHealthPatient"
-          }
-        ],
-        "text": "Are you a Cherokee Health Systems patient?",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "¿Es paciente de Cherokee Health Systems?"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "CherokeeHealthPatient_YesCherokeeHealthPatient",
-            "display": "yes",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "sí"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "CherokeeHealthPatient_NoCherokeeHealthPatient",
-            "display": "no",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "no"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "linkId": "10878",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "TexasSitePairing_BaylorScott"
-          }
-        ],
-        "text": "Have you ever received care at any Baylor Scott & White Health and/or Health Texas Provider Network facility such as:\n\nBSWH hospitals\nBSWH Urgent care centers\nBSWH Emergency rooms\nHillcrest Health Clinics\nHealth Texas Physician Network (HTPN) clinics/physician offices\n\nIf you are uncertain, please call at 844-4US-BSWH (1-844-487-2794).",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Alguna vez ha recibido atención en una localidad de Baylor Scott & White y/o Health Texas Provider Network como: \nHospitales BSWH\nHillcrest Health Clinics (Clinicas de Salud Hillcrest)\nHealth Texas Physician Network\n(HTPN) clinicas/consultorios del medico"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "BaylorScott_Yes",
-            "display": "yes",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "sí"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "BaylorScott_No",
-            "display": "no",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "no"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "linkId": "10910",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "NewEnglandSitePairing_CareReceived"
-          }
-        ],
-        "text": "Have you ever received care at any hospital, health center or clinic affiliated with Boston Medical Center (BMC) or Partners HealthCare (Partners). \n",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "¿Alguna vez ha recibido atención en algún hospital, centro de salud o clínica afiliada a Boston Medical Center (BMC) o Partners HealthCare (Partners)?"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "CareReceived_YesBMC",
-            "display": "yes, at a BMC location",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "sí, en un centro BMC"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "CareReceived_YesPartners",
-            "display": "yes, at a Partners organization",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "sí, en un centro Partners"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "CareReceived_No",
-            "display": "no",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "no"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "linkId": "10891",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "MississippiSitePairing_JacksonHinds"
-          }
-        ],
-        "text": "Have you ever received care from a health provider at the Jackson-Hinds Comprehensive Health Center's Main Site (James Anderson Clinic) or the Copiah Clinic?",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "¿Alguna vez ha recibido atención con un proveedor de cuidados de salud en el centro principal de Jackson-Hinds Comprehensive Health Center (James Anderson Clinic) o Copiah Clinic?"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "JacksonHinds_Yes",
-            "display": "yes",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "sí"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "JacksonHinds_No",
-            "display": "no",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "no"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "linkId": "10894",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "MississippiSitePairing_JacksonHindsAppointment"
-          }
-        ],
-        "text": "Have you already scheduled an All of Us research appointment at the Jackson-Hinds Comprehensive Health Center's Main Site (James Anderson Clinic) or the Copiah Clinic?",
-        "_text": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "es"
-                },
-                {
-                  "url": "content",
-                  "valueString": "¿Ya programó una cita para el programa de investigación All of Us en el centro principal de Jackson-Hinds Comprehensive Health Center (James Anderson Clinic) o Copiah Clinic?"
-                }
-              ]
-            }
-          ]
-        },
-        "type": "choice",
-        "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "JacksonHindsAppointment_Yes",
-            "display": "yes",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "sí"
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "JacksonHindsAppointment_No",
-            "display": "no",
-            "_display": {
-              "extension": [
-                {
-                  "url": "http://hl7.org/fhir/StructureDefinition/translation",
-                  "extension": [
-                    {
-                      "url": "lang",
-                      "valueCode": "es"
-                    },
-                    {
-                      "url": "content",
-                      "valueString": "no"
-                    }
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      }
-    ]
-  }
+	"resourceType": "Questionnaire",
+	"identifier": [{
+		"value": "Vibrent_FORM_ID_295"
+	}],
+	"version": "507",
+	"status": "published",
+	"date": "2017-10-27T20:12:42+00:00",
+	"group": {
+		"linkId": "root_group",
+		"title": "consent",
+		"concept": [{
+			"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+			"code": "ConsentPII"
+		}],
+		"required": true,
+		"repeats": false,
+		"question": [{
+			"linkId": "10732",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_WelcomeVideo"
+			}],
+			"text": "kDQfJhk0cjU",
+			"type": "dateTime",
+			"repeats": false
+		}, {
+			"linkId": "10783",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ConsentPII_EmailAddress"
+			}],
+			"text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+			"type": "text",
+			"repeats": false
+		}, {
+			"linkId": "9841",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_18YearsofAge"
+			}],
+			"text": "Are you 18 years of age or older?",
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "18YearsofAge_18YearsYes",
+				"display": "yes",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "sí"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "18YearsofAge_18YearsNo",
+				"display": "no",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "no"
+						}]
+					}]
+				}
+			}]
+		}, {
+			"linkId": "9503",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "StreetAddress_PIIState"
+			}],
+			"text": "What is your state of residence?",
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_AL",
+				"display": "Alabama"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_AK",
+				"display": "Alaska"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_AS",
+				"display": "American Samoa"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_AZ",
+				"display": "Arizona"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_AR",
+				"display": "Arkansas"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_CA",
+				"display": "California"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_CO",
+				"display": "Colorado"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_CT",
+				"display": "Connecticut"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_DC",
+				"display": "District of Columbia"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_DE",
+				"display": "Delaware"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_FM",
+				"display": "Federated States of Micronesia"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_FL",
+				"display": "Florida"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_GA",
+				"display": "Georgia"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_GU",
+				"display": "Guam"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_HI",
+				"display": "Hawaii"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_ID",
+				"display": "Idaho"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_IL",
+				"display": "Illinois"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_IN",
+				"display": "Indiana"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_IA",
+				"display": "Iowa"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_KS",
+				"display": "Kansas"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_KY",
+				"display": "Kentucky"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_LA",
+				"display": "Louisiana"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_ME",
+				"display": "Maine"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_MH",
+				"display": "Marshall Islands"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_MD",
+				"display": "Maryland"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_MA",
+				"display": "Massachusetts"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_MI",
+				"display": "Michigan"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_MN",
+				"display": "Minnesota"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_MS",
+				"display": "Mississippi"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_MO",
+				"display": "Missouri"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_MT",
+				"display": "Montana"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_NE",
+				"display": "Nebraska"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_NV",
+				"display": "Nevada"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_NH",
+				"display": "New Hampshire"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_NJ",
+				"display": "New Jersey"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_NM",
+				"display": "New Mexico"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_NY",
+				"display": "New York"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_NC",
+				"display": "North Carolina"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_MP",
+				"display": "North Marianas Islands"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_ND",
+				"display": "North Dakota"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_OH",
+				"display": "Ohio"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_OK",
+				"display": "Oklahoma"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_OR",
+				"display": "Oregon"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_PW",
+				"display": "Palau"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_PA",
+				"display": "Pennsylvania"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_PR",
+				"display": "Puerto Rico"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_RI",
+				"display": "Rhode Island"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_SC",
+				"display": "South Carolina"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_SD",
+				"display": "South Dakota"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_TN",
+				"display": "Tennessee"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_TX",
+				"display": "Texas"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_UT",
+				"display": "Utah"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_VT",
+				"display": "Vermont"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_VA",
+				"display": "Virginia"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_VI",
+				"display": "Virgin Islands"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_WA",
+				"display": "Washington"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_WV",
+				"display": "West Virginia"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_WI",
+				"display": "Wisconsin"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIState_WY",
+				"display": "Wyoming"
+			}]
+		}, {
+			"linkId": "9895",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+			}],
+			"text": "hidden organization reference",
+			"type": "text",
+			"repeats": false
+		}, {
+			"linkId": "10465",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_CABoRSignature"
+			}],
+			"text": "If you're using a computer please use your mouse to sign below. If you are using a mobile device please use your finger to sign.",
+			"type": "attachment",
+			"repeats": false
+		}, {
+			"linkId": "10466",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent__CABoRTodaysDate"
+			}],
+			"text": "ExtraConsent__CABoRTodaysDate",
+			"type": "date",
+			"repeats": false
+		}, {
+			"linkId": "10733",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_KeepinginTouchVideo"
+			}],
+			"text": "CxmmeUYIbL0",
+			"type": "dateTime",
+			"repeats": false
+		}, {
+			"linkId": "10734",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_HealthDataVideo"
+			}],
+			"text": "sSy1dRg_V_I",
+			"type": "dateTime",
+			"repeats": false
+		}, {
+			"linkId": "10735",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_PhysicalMeausrementsVideo"
+			}],
+			"text": "fkXvqjYw-_c",
+			"type": "dateTime",
+			"repeats": false
+		}, {
+			"linkId": "10736",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_SamplesVideo"
+			}],
+			"text": "W_JuT9bnW7Q",
+			"type": "dateTime",
+			"repeats": false
+		}, {
+			"linkId": "10737",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_FitnessTrackerVideo"
+			}],
+			"text": "fzhnn63-Gkg",
+			"type": "dateTime",
+			"repeats": false
+		}, {
+			"linkId": "10738",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_HealthRecordVideo"
+			}],
+			"text": "FG2-5vEw-6M",
+			"type": "dateTime",
+			"repeats": false
+		}, {
+			"linkId": "10739",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_OtherHealthDataVideo"
+			}],
+			"text": "ZwlqLxdo8LY",
+			"type": "dateTime",
+			"repeats": false
+		}, {
+			"linkId": "10740",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_DataSharingVideo"
+			}],
+			"text": "P_LIgAywQiE",
+			"type": "dateTime",
+			"repeats": false
+		}, {
+			"linkId": "10741",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_RisktoPrivacyVideo"
+			}],
+			"text": "GsaGjA4uVYc",
+			"type": "dateTime",
+			"repeats": false
+		}, {
+			"linkId": "6770",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_EmailACopyToMe"
+			}],
+			"text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+			"type": "boolean",
+			"repeats": false
+		}, {
+			"linkId": "6701",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_AllOfUsPurpose"
+			}],
+			"text": "What is the purpose of All of Us?",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "¿Cuál es el propósito de All of Us?"
+					}]
+				}]
+			},
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "AllOfUsPurpose_GiveMedicalAdvice",
+				"display": "To give medical advice and treatment.",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "Ofrecer consejo médico y tratamiento médico."
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "AllOfUsPurpose_HelpScientistsDiscover",
+				"display": "To help scientists make discoveries about health.",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "Ayudar a los investigadores a hacer descubrimientos en el área de la salud."
+						}]
+					}]
+				}
+			}]
+		}, {
+			"linkId": "6698",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_TakePartAllOfUs"
+			}],
+			"text": "Do I have to take part in All of Us?",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "¿Tengo que participar en All of Us?"
+					}]
+				}]
+			},
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "TakePartAllOfUs_TakingPartIsVoluntary",
+				"display": "Taking part is voluntary. I get to choose if I want to do it. ",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "La participación es voluntaria. Puedo decidir si quiero hacerlo."
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "TakePartAllOfUs_TakingPartIsRequired",
+				"display": "Taking part is required. I have to do it.",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "La participación es obligatoria. Tengo que hacerlo."
+						}]
+					}]
+				}
+			}]
+		}, {
+			"linkId": "6707",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_CanIWithdraw"
+			}],
+			"text": "If I join, can I withdraw (“quit”)?\n",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "Si participo, ¿puedo dejar de participar en All of Us en cualquier momento?"
+					}]
+				}]
+			},
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "CanIWithdraw_ICanWithdraw",
+				"display": "I can withdraw at any time.",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "Puedo dejar de participar en cualquier momento."
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "CanIWithdraw_ICannotWithdraw",
+				"display": "I can’t withdraw ever.",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "No puedo dejar de participar nunca."
+						}]
+					}]
+				}
+			}]
+		}, {
+			"linkId": "6835",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_PrivacyGuaranteeQuestion"
+			}],
+			"text": "Using smartphones, apps, and sensors are always a potential risk to privacy. Can All of Us research guarantee your privacy?",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "El uso de teléfonos celulares inteligentes (smartphones), aplicaciones y sensores siempre constituye un posible riesgo a su privacidad. ¿Puede All of Us garantizar su privacidad?"
+					}]
+				}]
+			},
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PrivacyGuaranteeQuestion_PrivacyGuaranteed",
+				"display": "My privacy is guaranteed.",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "Mi privacidad está garantizada."
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PrivacyGuaranteeQuestion_RisksAreMinimized",
+				"display": "Risks to my privacy are minimized, but are not zero.",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "Los riesgos a mi privacidad son mínimos, pero posibles."
+						}]
+					}]
+				}
+			}]
+		}, {
+			"linkId": "6728",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_ReadyOrNeedHelp"
+			}],
+			"text": "You got 4 of 4 questions correct.\nTake the time you need to decide about joining All of Us. We are here to answer any questions you have.",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "Respondió correctamente 4 preguntas de un total de 4. \nTómese el tiempo necesario para decidir si desea formar parte de All of Us. Estamos aquí para responder cualquier pregunta que tenga."
+					}]
+				}]
+			},
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ReadyOrNeedHelp_Ready",
+				"display": "I'm ready to join",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "Estoy listo para unirme"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ReadyOrNeedHelp_NeedHelp",
+				"display": "get some help"
+			}]
+		}, {
+			"linkId": "6773",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_AgreeToConsent"
+			}],
+			"text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+			"type": "boolean",
+			"repeats": false
+		}, {
+			"linkId": "6779",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_Signature"
+			}],
+			"text": "If you're using a computer please use your mouse to sign below. If you are using a mobile device please use your finger to sign.",
+			"type": "attachment",
+			"repeats": false
+		}, {
+			"linkId": "6780",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_TodaysDate"
+			}],
+			"text": "Today's date",
+			"type": "date",
+			"repeats": false
+		}, {
+			"linkId": "9459",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIName_First"
+			}],
+			"text": "first name",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "nombre"
+					}]
+				}]
+			},
+			"type": "text",
+			"repeats": false
+		}, {
+			"linkId": "9460",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIName_Middle"
+			}],
+			"text": "middle initial",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "inicial del segundo"
+					}]
+				}]
+			},
+			"type": "text",
+			"repeats": false
+		}, {
+			"linkId": "9461",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIName_Last"
+			}],
+			"text": "last name",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "apellido"
+					}]
+				}]
+			},
+			"type": "text",
+			"repeats": false
+		}, {
+			"linkId": "9462",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIAddress_StreetAddress"
+			}],
+			"text": "address 1",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "dirección"
+					}]
+				}]
+			},
+			"type": "text",
+			"repeats": false
+		}, {
+			"linkId": "9463",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIAddress_StreetAddress2"
+			}],
+			"text": "address 2",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "dirección"
+					}]
+				}]
+			},
+			"type": "text",
+			"repeats": false
+		}, {
+			"linkId": "9464",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "StreetAddress_PIICity"
+			}],
+			"text": "city",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "ciudad"
+					}]
+				}]
+			},
+			"type": "text",
+			"repeats": false
+		}, {
+			"linkId": "9837",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "StreetAddress_PIIZIP"
+			}],
+			"text": "zip code",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "código postal"
+					}]
+				}]
+			},
+			"type": "text",
+			"repeats": false
+		}, {
+			"linkId": "9838",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIContactInformation_Phone"
+			}],
+			"text": "phone number",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "número de teléfono"
+					}]
+				}]
+			},
+			"type": "text",
+			"repeats": false
+		}, {
+			"linkId": "9469",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PIIBirthInformation_BirthDate"
+			}],
+			"text": "please enter your birthdate",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "favor ingrese su fecha de nacimiento"
+					}]
+				}]
+			},
+			"type": "date",
+			"repeats": false
+		}, {
+			"linkId": "9849",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_EverReceivedUPMCCare"
+			}],
+			"text": "Have you ever received care at a UPMC healthcare provider? \n\nThis may include care in a UPMC hospital, physician practice, urgent care center, or emergency room.\n",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "¿Alguna vez ha recibido atención con un proveedor de cuidados de salud de UPMC? \n\nEsto puede incluir atención en un hospital, consultorio de un médico, centro de atención de urgencia o sala de emergencias de UPMC."
+					}]
+				}]
+			},
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "EverReceivedUPMCCare_Yes",
+				"display": "yes",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "sí"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "EverReceivedUPMCCare_No",
+				"display": "no",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "no"
+						}]
+					}]
+				}
+			}]
+		}, {
+			"linkId": "9852",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_ScheduledWithPACares"
+			}],
+			"text": "Have you already scheduled an appointment with your local PA Cares for Us team for physical measurements and biosample collection?\n",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "¿Alguna vez programó una cita con su equipo local de PA Cares for Us para tomarse mediciones físicas o obtener una muestra biológica?"
+					}]
+				}]
+			},
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ScheduledWithPACares_Yes",
+				"display": "yes",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "sí"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ScheduledWithPACares_No",
+				"display": "no",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "no"
+						}]
+					}]
+				}
+			}]
+		}, {
+			"linkId": "10452",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ArizonaSitePairing_AZSitepairingLocation"
+			}],
+			"text": "The All of Us Research Program is enrolling participants at the following healthcare sites. At which location do you wish to schedule your visit?",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "El Estudio de Investigación Científica All of Us está inscribiendo participantes en los sigiuentes sitios de atención medica. ¿En cual sitio quiere hacer su cita?"
+					}]
+				}]
+			},
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "AZSitepairingLocation_Phoenix",
+				"display": "PHOENIX: Banner University Medical Center – Phoenix (formerly known as Good Samaritan Hospital or Good Sam)",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "PHOENIX: Banner University Medical Center – Phoenix (formalmente conocido como Good Samaritan Hospital o Good Sam)"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "AZSitepairingLocation_Mesa",
+				"display": "MESA: Banner Desert Medical Center (formerly known as Desert Samaritan)",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "MESA: Banner Desert Medical Center (formalmente conocido como Desert Samaritan)"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "AZSitepairingLocation_Estrella",
+				"display": "ESTRELLA: Banner Estrella Medical Center"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "AZSitepairingLocation_TucsonUniversityCampus",
+				"display": "TUCSON: University Campus: Banner University Medical Center – Tucson (formerly known as University of Arizona Medical Center or UMC, University Physicians or UPH)",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "TUCSON: University Campus: Banner University Medical Center – Tucson (formalmente conocido como University of Arizona Medical Center o UMC, University Physicians o UPH)"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "AZSitepairingLocation_TuscsonSouthCampus",
+				"display": "TUCSON: South Campus: Banner University Medical Center – South (formerly known as Kino Hospital)",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "TUCSON: South Campus: Banner University Medical Center – South (formalmente conocido como Kino Hospital)"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "AZSitepairingLocation_CasaGrande",
+				"display": "CASA GRANDE: Banner Casa Grande Medical Center"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "AZSitepairingLocation_Glendale",
+				"display": "GLENDALE: Banner Thunderbird Medical Center"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "AZSitepairingLocation_SunCity",
+				"display": "SUN CITY: Banner Boswell Medical Center"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "AZSitepairingLocation_None",
+				"display": "None of these"
+			}]
+		}, {
+			"linkId": "10462",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ExtraConsent_PresentlyRegisteredPatient"
+			}],
+			"text": "Are you presently a registered patient at any of the following clinics?\n\nSan Ysidro Health Center\nOtay Family Health Center\nChula Vista Medical Plaza\nOcean View Community Health Center\nEuclid Community Health Center\nKing Chavez Family Clinic\nParadise Hills Family Clinic\nNational City Family Clinic\nChaldean Middle Eastern Social Services\nSan Ysidro Senior Health Center\nSan Ysidro Mi Clinica",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "¿Actualmente está registrado como paciente en alguna de estas clínicas?\n San Ysidro Health Center, Otay Family Health Center, Chula Vista Medical Plaza, Ocean View Community Health Center, Euclid Community Health Center, King Chavez Family Clinic, Paradise Hills Family Clinic, National City Family Clinic, Chaldean Middle Eastern Social Services, San Ysidro Senior Health Center, San Ysidro Mi Clinica"
+					}]
+				}]
+			},
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PresentlyRegisteredPatient_YesRegistered",
+				"display": "yes",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "sí"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "PresentlyRegisteredPatient_NoRegistered",
+				"display": "no",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "no"
+						}]
+					}]
+				}
+			}]
+		}, {
+			"linkId": "10808",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "CaliforniaSitePairing_CaliforniaUniversityCare"
+			}],
+			"text": "You are welcome to enroll in one of the California Precision Medicine Consortium (CAPMC) sites.  \n\nParticipants in the CAPMC include those who receive their healthcare from provider organizations in California such as University of California Medical Centers and affiliates, University of Southern California, Cedars-Sinai Medical Center, and other healthcare organizations. Will you enroll through CAPMC? ",
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "CaliforniaUniversityCare_CaliforniaHealthCareYes",
+				"display": "yes",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "sí"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "CaliforniaUniversityCare_CaliforniaHealthCareNo",
+				"display": "no",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "no"
+						}]
+					}]
+				}
+			}]
+		}, {
+			"linkId": "10839",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "SouthCarolinaSitePairing_EauClaire"
+			}],
+			"text": "Are you currently a patient at any of the following Eau Claire clinics or health centers?\n\nWaverly Family Practice\nPelion Family Practice",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "¿Actualmente es paciente de alguna de estas clínicas o centros de salud de Eau Claire?\n\nWaverly Family Practice\nPelion Family Practice"
+					}]
+				}]
+			},
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "EauClaire_Yes",
+				"display": "yes",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "sí"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "EauClaire_No",
+				"display": "no",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "no"
+						}]
+					}]
+				}
+			}]
+		}, {
+			"linkId": "10842",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "SouthCarolinaSitePairing_EauClaireAppointment"
+			}],
+			"text": "Have you already scheduled an appointment with the All of Us Research Program team?",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "¿Ya ha fijado una cita con el equipo del Estudio de Investigación Científica All of Us?"
+					}]
+				}]
+			},
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "EauClaireAppointment_Yes",
+				"display": "yes",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "sí"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "EauClaireAppointment_No",
+				"display": "no",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "no"
+						}]
+					}]
+				}
+			}]
+		}, {
+			"linkId": "10819",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ColumbiaSitePairing_ColumbiaCare"
+			}],
+			"text": "Have you ever received care at any of the following?",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "¿Alguna vez ha recibido atención en alguno de estos establecimientos?"
+					}]
+				}]
+			},
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ColumbiaCare_ColumbiaUniversityMedCenter",
+				"display": "Columbia University Medical Center / New York-Presbyterian"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ColumbiaCare_WeillCornell",
+				"display": "Weill Cornell Medicine / New York-Presbyterian"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ColumbiaCare_HarlemHospital",
+				"display": "Harlem Hospital"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "ColumbiaCare_ColumbiaCareNone",
+				"display": "none of these",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "ninguno de estos"
+						}]
+					}]
+				}
+			}]
+		}, {
+			"linkId": "10888",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "NewYorkSitePairing_HRHCare"
+			}],
+			"text": "Have you ever received care at the Peekskill Health Center, or any other HRHCare health center?\n",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "¿Alguna vez a recibido atención medica en el Centro de Salud Peekskill, o cualquier otro centro de salud de HRH Care?"
+					}]
+				}]
+			},
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "HRHCare_Yes",
+				"display": "yes",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "sí"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "HRHCare_No",
+				"display": "no",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "no"
+						}]
+					}]
+				}
+			}]
+		}, {
+			"linkId": "10869",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "CHCSitePairing_CHCCareatLocation"
+			}],
+			"text": "Please indicate if you have received care at one of the following locations:\n\nCHC Inc Middletown\nCHC Inc Meriden",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "Indique si alguna vez ha recibido atención en alguno de estos establecimientos:\nCHC Inc Middletown\nCHC Inc Meriden"
+					}]
+				}]
+			},
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "CHCCareatLocation_Yes",
+				"display": "yes",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "sí"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "CHCCareatLocation_No",
+				"display": "no",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "no"
+						}]
+					}]
+				}
+			}]
+		}, {
+			"linkId": "10797",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "MichiganSitePairing_LiveInFollowingAreas"
+			}],
+			"text": "Do you live in any of the following general areas?",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "¿Vive en alguna de estas regiones?"
+					}]
+				}]
+			},
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "LiveInFollowingAreas_LiveInEastSouthEastMichigan",
+				"display": "East/Southeast Michigan (Metropolitan Detroit area)",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "Este/Sudeste de Michigan (área metropolitana de Detroit)"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "LiveInFollowingAreas_LiveInWesternMichigan",
+				"display": "Western Michigan",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "Michigan Occidental"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "LiveInFollowingAreas_DoNotLiveInListedAreas",
+				"display": "I do not live in any listed area",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "No vivo en ninguna región en la lista"
+						}]
+					}]
+				}
+			}]
+		}, {
+			"linkId": "10800",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "EastSoutheastMichigan_CareAtHenryFord"
+			}],
+			"text": "Have you ever received care at a Henry Ford Health System facility or are you currently affiliated with the institution? \n\nThis may include receiving care in a HFHS hospital, urgent care, emergency department, outpatient clinic or through HFHS employee health.",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "¿Alguna vez ha recibido atención en un centro de Henry Ford Health System o está afiliado actualmente con la institución? \n\nEsto puede incluir atención en un hospital, centro de atención de urgencia, departamento de emergencias, clínica ambulatoria o atención de empleados de HFHS."
+					}]
+				}]
+			},
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "CareAtHenryFord_YesCareAtHenryFord",
+				"display": "yes",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "sí"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "CareAtHenryFord_NoCareAtHenryFord",
+				"display": "no",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "no"
+						}]
+					}]
+				}
+			}]
+		}, {
+			"linkId": "11066",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "WesternMichiganSitePairing_SpectrumHealthSitePairing"
+			}],
+			"text": "Have you ever received care at a Spectrum Health System facility or are you currently affiliated with the system? This may include receiving care in a Spectrum hospital, urgent care, emergency department, outpatient clinic or through employee health.",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "¿Alguna vez ha recibido atención medica en un centro de Spectrum Health System o está actualmente afiliado con esta sistema? Esto puede incluir  el recibir atención en un hospital de Spectrum, centro de atención de urgencia, departamento de emergencias, clínica ambulatoria o atención de empleados."
+					}]
+				}]
+			},
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "SpectrumHealthSitePairing_Yes",
+				"display": "yes",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "sí"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "SpectrumHealthSitePairing_No",
+				"display": "no",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "no"
+						}]
+					}]
+				}
+			}]
+		}, {
+			"linkId": "10848",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "IllinoisSitePairing_IllinoisInstitution"
+			}],
+			"text": "The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program.\n\nAt which institution do you receive care and wish to schedule an enrollment visit with? \n\nPlease choose 1 institution",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "Los siguientes proveedores de cuidados de salud en su área están registrando participantes al estudio de investigación científica All of Us.\n\n¿En cual institución recibe atención y quiere programar una visita para registrarse? \n Escoja 1 institución"
+					}]
+				}]
+			},
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "IllinoisInstitution_MileSquare",
+				"display": "Mile Square Health Center"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "IllinoisInstitution_NorthShoreU",
+				"display": "NorthShore University HealthSystem"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "IllinoisInstitution_Northwestern",
+				"display": "Northwestern Medicine"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "IllinoisInstitution_RushU",
+				"display": "Rush University Medical Center"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "IllinoisInstitution_UChicagoMed",
+				"display": "University of Chicago Medicine"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "IllinoisInstitution_UIllinoisHealth",
+				"display": "University of Illinois (UI) Health"
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "IllinoisInstitution_Noneofthese",
+				"display": "none of these",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "ninguno de estos"
+						}]
+					}]
+				}
+			}]
+		}, {
+			"linkId": "10803",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "TennesseeSitePairing_CherokeeHealthPatient"
+			}],
+			"text": "Are you a Cherokee Health Systems patient?",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "¿Es paciente de Cherokee Health Systems?"
+					}]
+				}]
+			},
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "CherokeeHealthPatient_YesCherokeeHealthPatient",
+				"display": "yes",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "sí"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "CherokeeHealthPatient_NoCherokeeHealthPatient",
+				"display": "no",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "no"
+						}]
+					}]
+				}
+			}]
+		}, {
+			"linkId": "10878",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "TexasSitePairing_BaylorScott"
+			}],
+			"text": "Have you ever received care at any Baylor Scott & White Health and/or Health Texas Provider Network facility such as:\n\nBSWH hospitals\nBSWH Urgent care centers\nBSWH Emergency rooms\nHillcrest Health Clinics\nHealth Texas Physician Network (HTPN) clinics/physician offices\n\nIf you are uncertain, please call at 844-4US-BSWH (1-844-487-2794).",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "Alguna vez ha recibido atención en una localidad de Baylor Scott & White y/o Health Texas Provider Network como: \nHospitales BSWH\nHillcrest Health Clinics (Clinicas de Salud Hillcrest)\nHealth Texas Physician Network\n(HTPN) clinicas/consultorios del medico"
+					}]
+				}]
+			},
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "BaylorScott_Yes",
+				"display": "yes",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "sí"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "BaylorScott_No",
+				"display": "no",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "no"
+						}]
+					}]
+				}
+			}]
+		}, {
+			"linkId": "10910",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "NewEnglandSitePairing_CareReceived"
+			}],
+			"text": "Have you ever received care at any hospital, health center or clinic affiliated with Boston Medical Center (BMC) or Partners HealthCare (Partners). \n",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "¿Alguna vez ha recibido atención en algún hospital, centro de salud o clínica afiliada a Boston Medical Center (BMC) o Partners HealthCare (Partners)?"
+					}]
+				}]
+			},
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "CareReceived_YesBMC",
+				"display": "yes, at a BMC location",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "sí, en un centro BMC"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "CareReceived_YesPartners",
+				"display": "yes, at a Partners organization",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "sí, en un centro Partners"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "CareReceived_No",
+				"display": "no",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "no"
+						}]
+					}]
+				}
+			}]
+		}, {
+			"linkId": "10891",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "MississippiSitePairing_JacksonHinds"
+			}],
+			"text": "Have you ever received care from a health provider at the Jackson-Hinds Comprehensive Health Center's Main Site (James Anderson Clinic) or the Copiah Clinic?",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "¿Alguna vez ha recibido atención con un proveedor de cuidados de salud en el centro principal de Jackson-Hinds Comprehensive Health Center (James Anderson Clinic) o Copiah Clinic?"
+					}]
+				}]
+			},
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "JacksonHinds_Yes",
+				"display": "yes",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "sí"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "JacksonHinds_No",
+				"display": "no",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "no"
+						}]
+					}]
+				}
+			}]
+		}, {
+			"linkId": "10894",
+			"concept": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "MississippiSitePairing_JacksonHindsAppointment"
+			}],
+			"text": "Have you already scheduled an All of Us research appointment at the Jackson-Hinds Comprehensive Health Center's Main Site (James Anderson Clinic) or the Copiah Clinic?",
+			"_text": {
+				"extension": [{
+					"url": "http://hl7.org/fhir/StructureDefinition/translation",
+					"extension": [{
+						"url": "lang",
+						"valueCode": "es"
+					}, {
+						"url": "content",
+						"valueString": "¿Ya programó una cita para el estudio de investigación científica All of Us en el centro principal de Jackson-Hinds Comprehensive Health Center (James Anderson Clinic) o Copiah Clinic?"
+					}]
+				}]
+			},
+			"type": "choice",
+			"repeats": false,
+			"option": [{
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "JacksonHindsAppointment_Yes",
+				"display": "yes",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "sí"
+						}]
+					}]
+				}
+			}, {
+				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
+				"code": "JacksonHindsAppointment_No",
+				"display": "no",
+				"_display": {
+					"extension": [{
+						"url": "http://hl7.org/fhir/StructureDefinition/translation",
+						"extension": [{
+							"url": "lang",
+							"valueCode": "es"
+						}, {
+							"url": "content",
+							"valueString": "no"
+						}]
+					}]
+				}
+			}]
+		}]
+	}
 }
