@@ -95,7 +95,14 @@ def read_questionnaires():
     files = glob.glob(QUESTIONNAIRE_GLOB)
     for fname in files:
         with open(fname) as f:
-            read_questionnaire(fname.split("/")[-1], json.load(f), question_codes)
+            try:
+                parsed_json = json.load(f)
+            except ValueError, e:
+                print (
+                    'Failed to parse JSON in %r. To debug, run:\n'
+                    '\tpython -m json.tool < %s') % (fname, fname)
+                raise
+            read_questionnaire(fname.split("/")[-1], parsed_json, question_codes)
     return question_codes
 
 codebook_codes = read_codebook()
