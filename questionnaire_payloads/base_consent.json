@@ -1,5 +1,5 @@
 {
-    "date": "2017-11-16T16:20:22+00:00",
+    "date": "2017-11-20T19:24:40+00:00",
     "group": {
         "concept": [
             {
@@ -1306,7 +1306,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfAlguna vez ha recibido atenci\u00f3n con un proveedor de cuidados de salud de UPMC? \n\nEsto puede incluir atenci\u00f3n en un hospital, consultorio de un m\u00e9dico, centro de atenci\u00f3n de urgencia o sala de emergencias de UPMC."
+                                    "valueString": "\u00bfAlguna vez ha recibido atenci\u00f3n con un proveedor de cuidados de salud de UPMC? \n\nEsto puede incluir atenci\u00f3n m\u00e9dica dentro de un hospital, consultorio de un m\u00e9dico, centro de atenci\u00f3n de urgencia o sala de emergencias de UPMC."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1381,7 +1381,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfAlguna vez program\u00f3 una cita con su equipo local de PA Cares for Us para tomarse mediciones f\u00edsicas o obtener una muestra biol\u00f3gica?"
+                                    "valueString": "\u00bfAlguna vez hizo una cita con su grupo local de PA Cares for Us para tomarse mediciones f\u00edsicas o obtener una muestra biol\u00f3gica?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1456,7 +1456,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "El Estudio de Investigaci\u00f3n Cient\u00edfica All of Us est\u00e1 inscribiendo participantes en los sigiuentes sitios de atenci\u00f3n medica. \u00bfEn cual sitio quiere hacer su cita?"
+                                    "valueString": "El Estudio de Investigaci\u00f3n Cient\u00edfica All of Us est\u00e1 registrando participantes en los sigiuentes sitios de atenci\u00f3n medica. \u00bfEn cu\u00e1l cl\u00ednica quisiera programar su cita?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1531,7 +1531,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "TUCSON: University Campus: Banner University Medical Center \u2013 Tucson (formalmente conocido como University of Arizona Medical Center o UMC, University Physicians o UPH)"
+                                            "valueString": "TUCSON: University Campus: Banner University Medical Center \u2013 Tucson (antes conocido como University of Arizona Medical Center o UMC, University Physicians o UPH)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1553,7 +1553,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "TUCSON: South Campus: Banner University Medical Center \u2013 South (formalmente conocido como Kino Hospital)"
+                                            "valueString": "TUCSON: South Campus: Banner University Medical Center \u2013 South (antes conocido como Kino Hospital)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1617,7 +1617,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfActualmente est\u00e1 registrado como paciente en alguna de estas cl\u00ednicas?\n San Ysidro Health Center, Otay Family Health Center, Chula Vista Medical Plaza, Ocean View Community Health Center, Euclid Community Health Center, King Chavez Family Clinic, Paradise Hills Family Clinic, National City Family Clinic, Chaldean Middle Eastern Social Services, San Ysidro Senior Health Center, San Ysidro Mi Clinica"
+                                    "valueString": "\u00bfActualmente est\u00e1 registrado como paciente en alguna de estas cl\u00ednicas?\n\n San Ysidro Health Center\nOtay Family Health Center\nChula Vista Medical Plaza\nOcean View Community Health Center\nEuclid Community Health Center\nKing Chavez Family Clinic\nParadise Hills Family Clinic\nNational City Family Clinic\nChaldean Middle Eastern Social Services\nSan Ysidro Senior Health Center\nSan Ysidro Mi Clinica"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1692,7 +1692,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Est\u00e1 bienvenido registrarse en uno de los sitios de California Precision Medicine Consortium (CAPMC, por sus siglas en ingl\u00e9s).\n\nParticipantes en el  CAPMC incluyen personas que reciben atenci\u00f3n m\u00e9dica del parte de organizaciones en California como los Centros M\u00e9dicos de la Universidad de Californiay y sus organizaciones afiliadas, incluso Universidad de California de Sur, Centro M\u00e9dico de Cedars-Sinai, y otras organizaciones de cuidados de salud. \u00bfSe registrar\u00e1 usted a trav\u00e9s de CAPMC?"
+                                    "valueString": "Le invitamos a registrarse en uno de los sitios de California Precision Medicine Consortium (CAPMC, por sus siglas en ingl\u00e9s).\n\nParticipantes en el  CAPMC incluyen aquellas personas que reciben atenci\u00f3n m\u00e9dica de organizaciones en California como los Centros M\u00e9dicos de la Universidad de California y sus organizaciones afiliadas, por ejemplo La Universidad de California de Sur, El Centro M\u00e9dico de Cedars-Sinai, y otras organizaciones de cuidados de salud. \u00bfSe registrar\u00e1 usted a trav\u00e9s de CAPMC?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1985,7 +1985,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfAlguna vez a recibido atenci\u00f3n medica en el Centro de Salud Peekskill, o cualquier otro centro de salud de HRH Care?"
+                                    "valueString": "\u00bfAlguna vez a recibido atenci\u00f3n medica en el Centro de Salud Peekskill, o en cualquier otro centro de salud de HRH Care?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2060,7 +2060,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Indique si alguna vez ha recibido atenci\u00f3n en alguno de estos establecimientos:\nCHC Inc Middletown\nCHC Inc Meriden"
+                                    "valueString": "\u00bfAlguna vez ha recibido atenci\u00f3n m\u00e9dica en alguno de estos centros de salud?\n\nCHC Inc Middletown\nCHC Inc Meriden"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2135,7 +2135,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfVive en alguna de estas regiones?"
+                                    "valueString": "\u00bfVive usted en alguna de estas regiones?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2183,7 +2183,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Michigan Occidental"
+                                            "valueString": "\u00c1rea Oeste de Michigan"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2232,7 +2232,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfAlguna vez ha recibido atenci\u00f3n en un centro de Henry Ford Health System o est\u00e1 afiliado actualmente con la instituci\u00f3n? \n\nEsto puede incluir atenci\u00f3n en un hospital, centro de atenci\u00f3n de urgencia, departamento de emergencias, cl\u00ednica ambulatoria o atenci\u00f3n de empleados de HFHS."
+                                    "valueString": "\u00bfAlguna vez ha recibido atenci\u00f3n m\u00e9dica en un centro de Henry Ford Health System o est\u00e1 afiliado actualmente con esta instituci\u00f3n? \n\nEsto puede incluir atenci\u00f3n en un hospital, centro de atenci\u00f3n m\u00e9dica de urgencia, departamento de emergencias, cl\u00ednica ambulatoria o atenci\u00f3n m\u00e9dica de empleados de HFHS."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2307,7 +2307,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfAlguna vez ha recibido atenci\u00f3n medica en un centro de Spectrum Health System o est\u00e1 actualmente afiliado con esta sistema? Esto puede incluir  el recibir atenci\u00f3n en un hospital de Spectrum, centro de atenci\u00f3n de urgencia, departamento de emergencias, cl\u00ednica ambulatoria o atenci\u00f3n de empleados."
+                                    "valueString": "\u00bfAlguna vez ha recibido atenci\u00f3n medica en un centro de Spectrum Health System o est\u00e1 actualmente afiliado con este sistema? Esto puede incluir  el recibir atenci\u00f3n en un hospital de Spectrum, centro de atenci\u00f3n de urgencia, departamento de emergencias, cl\u00ednica ambulatoria o atenci\u00f3n de empleados."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2372,6 +2372,23 @@
                 "type": "choice"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Los siguientes proveedores de cuidados de salud en su \u00e1rea est\u00e1n registrando participantes al programa de investigaci\u00f3n All of Us.\n\n\u00bfEn cual instituci\u00f3n recibe atenci\u00f3n y quiere programar una visita para registrarse? \n\n Escoja 1 instituci\u00f3n"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "IllinoisSitePairing_IllinoisInstitution",
@@ -2438,6 +2455,23 @@
                 "type": "choice"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Los siguientes Proveedores de Atenci\u00f3n M\u00e9dica en su \u00e1rea est\u00e1n registrando participantes en el Programa Cient\u00edfico All of Us. En cu\u00e1l instituci\u00f3n recibe usted atenci\u00f3n m\u00e9dica y quisiera hacer una cita para registrarse con nosotros?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "SitePairing_WisconsinSitePairing",
@@ -2574,7 +2608,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Alguna vez ha recibido atenci\u00f3n en una localidad de Baylor Scott & White y/o Health Texas Provider Network como: \nHospitales BSWH\nHillcrest Health Clinics (Clinicas de Salud Hillcrest)\nHealth Texas Physician Network\n(HTPN) clinicas/consultorios del medico"
+                                    "valueString": "Alguna vez ha recibido atenci\u00f3n en una localidad de Baylor Scott & White y/o Health Texas Provider Network como: \n\nHospitales BSWH\nHillcrest Health Clinics (Clinicas de Salud Hillcrest)\nHealth Texas Physician Network\n(HTPN) clinicas/consultorios del medico"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2649,7 +2683,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfAlguna vez ha recibido atenci\u00f3n en alg\u00fan hospital, centro de salud o cl\u00ednica afiliada a Boston Medical Center (BMC) o Partners HealthCare (Partners)?"
+                                    "valueString": "\u00bfAlguna vez ha recibido atenci\u00f3n m\u00e9dica en alg\u00fan hospital, centro de salud o cl\u00ednica afiliada a Boston Medical Center (BMC) o Partners HealthCare (Partners)?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2736,6 +2770,23 @@
                 "type": "choice"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Las sigueintes Cl\u00ednicas, Proveedores de Atenci\u00f3n M\u00e9dica y Hospitales en su \u00e1rea est\u00e1n registrando participantes en el Programa Cient\u00edfico All of Us. En cu\u00e1l instituci\u00f3n recibe usted atenci\u00f3n m\u00e9dica y quisiera hacer una cita para registrarse con nosotros.\n\nPor favor escoja una instituci\u00f3n"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "SitePairing_SouthernProviders",
@@ -2805,6 +2856,23 @@
                 "type": "choice"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Las sigueintes Cl\u00ednicas, Proveedores de Atenci\u00f3n M\u00e9dica y Hospitales en su \u00e1rea est\u00e1n registrando participantes en el Programa Cient\u00edfico All of Us. En cu\u00e1l instituci\u00f3n recibe usted atenci\u00f3n m\u00e9dica y quisiera hacer una cita para registrarse con nosotros. \n\nPor favor escoja una instituci\u00f3n"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "SitePairing_SEEC",
@@ -2845,7 +2913,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "The following Clinics, Healthcare Providers and Hospitals in your area are enrolling participants into the All of Us Research Program. At which institution do you receive care and wish to schedule an enrollment visit with? Please choose one institution.\n\nPlease choose 1 institution ",
+                "text": "The following Clinics, Healthcare Providers and Hospitals in your area are enrolling participants into the All of Us Research Program. At which institution do you receive care and wish to schedule an enrollment visit with? \n\nPlease choose 1 institution ",
                 "type": "choice"
             },
             {
@@ -2859,7 +2927,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfAlguna vez ha recibido atenci\u00f3n con un proveedor de cuidados de salud en el centro principal de Jackson-Hinds Comprehensive Health Center (James Anderson Clinic) o Copiah Clinic?"
+                                    "valueString": "\u00bfAlguna vez ha recibido atenci\u00f3n m\u00e1dica con un proveedor de cuidados de salud en el cl\u00ednica principal de Jackson-Hinds Comprehensive Health Center (James Anderson Clinic) o Copiah Clinic?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2934,7 +3002,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfYa program\u00f3 una cita para el estudio de investigaci\u00f3n cient\u00edfica All of Us en el centro principal de Jackson-Hinds Comprehensive Health Center (James Anderson Clinic) o Copiah Clinic?"
+                                    "valueString": "\u00bfYa hizo usted una cita para el estudio de investigaci\u00f3n cient\u00edfica All of Us en el centro principal de Jackson-Hinds Comprehensive Health Center (James Anderson Clinic) o Copiah Clinic?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3010,5 +3078,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "541"
+    "version": "549"
 }
