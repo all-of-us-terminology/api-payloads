@@ -1,36 +1,60 @@
 {
-  "resourceType": "Questionnaire",
-  "identifier": [
-    {
-      "value": "Vibrent_FORM_ID_504"
-    }
-  ],
-  "version": "10",
-  "status": "published",
-  "date": "2017-10-20T22:08:10+00:00",
-  "group": {
-    "linkId": "root_group",
-    "title": "SanDiegoBloodBankScheduling",
-    "concept": [
-      {
-        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-        "code": "SanDiegoBloodBankScheduling"
-      }
-    ],
-    "required": true,
-    "repeats": false,
-    "question": [
-      {
-        "linkId": "11063",
+    "date": "2017-12-05T19:26:48+00:00",
+    "group": {
         "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-          }
+            {
+                "code": "SanDiegoBloodBankScheduling",
+                "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }
         ],
-        "text": "hidden organization reference",
-        "type": "text",
-        "repeats": false
-      }
-    ]
-  }
+        "linkId": "root_group",
+        "question": [
+            {
+                "concept": [
+                    {
+                        "code": "SanDiegoBloodBankScheduling_EMSIOrSDBBPreference",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "13114",
+                "option": [
+                    {
+                        "code": "EMSIOrSDBBPreference_SDBB",
+                        "display": "San Diego Blood Bank",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "EMSIOrSDBBPreference_EMSI",
+                        "display": "Home visit (EMSI)",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Pick your answers from the following choices",
+                "type": "choice"
+            },
+            {
+                "concept": [
+                    {
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "11063",
+                "repeats": false,
+                "text": "hidden organization reference",
+                "type": "text"
+            }
+        ],
+        "repeats": false,
+        "required": true,
+        "title": "SanDiegoBloodBankScheduling"
+    },
+    "identifier": [
+        {
+            "value": "Vibrent_FORM_ID_504"
+        }
+    ],
+    "resourceType": "Questionnaire",
+    "status": "published",
+    "version": "16"
 }

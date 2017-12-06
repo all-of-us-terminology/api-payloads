@@ -1,60 +1,23 @@
 {
-  "resourceType": "Questionnaire",
-  "identifier": [
-    {
-      "value": "Vibrent_FORM_ID_514"
-    }
-  ],
-  "version": "35",
-  "status": "published",
-  "date": "2017-10-20T22:02:54+00:00",
-  "group": {
-    "linkId": "root_group",
-    "title": "QTCQuestScheduling",
-    "concept": [
-      {
-        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-        "code": "QTCQuestScheduling"
-      }
-    ],
-    "required": true,
-    "repeats": false,
-    "question": [
-      {
-        "linkId": "11552",
+    "date": "2017-11-22T16:55:59+00:00",
+    "group": {
         "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "QTCQuestScheduling_QTCQuestSite"
-          }
+            {
+                "code": "QTCQuestScheduling",
+                "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }
         ],
-        "text": "Please select the site where you would like to schedule your physical measurement and biosample appointment.",
-        "type": "choice",
+        "linkId": "root_group",
         "repeats": false,
-        "option": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "QTCQuestSite_QTCScheduling",
-            "display": "QTC"
-          },
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-            "code": "QTCQuestSite_QuestScheduling",
-            "display": "Quest"
-          }
-        ]
-      },
-      {
-        "linkId": "11618",
-        "concept": [
-          {
-            "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-          }
-        ],
-        "text": "hidden organization reference",
-        "type": "text",
-        "repeats": false
-      }
-    ]
-  }
+        "required": true,
+        "title": "QTCQuestScheduling"
+    },
+    "identifier": [
+        {
+            "value": "Vibrent_FORM_ID_514"
+        }
+    ],
+    "resourceType": "Questionnaire",
+    "status": "published",
+    "version": "37"
 }
