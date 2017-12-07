@@ -1,5 +1,5 @@
 {
-    "date": "2017-12-05T19:26:48+00:00",
+    "date": "2017-12-07T17:11:40+00:00",
     "group": {
         "concept": [
             {
@@ -10,6 +10,23 @@
         "linkId": "root_group",
         "question": [
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Escoja sus respuestas de las siguientes opciones"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "SanDiegoBloodBankScheduling_EMSIOrSDBBPreference",
@@ -24,6 +41,23 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Visita al domicilio (EMSI)"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
                         "code": "EMSIOrSDBBPreference_EMSI",
                         "display": "Home visit (EMSI)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
@@ -56,5 +90,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "16"
+    "version": "18"
 }

@@ -1,5 +1,5 @@
 {
-    "date": "2017-12-06T21:34:09+00:00",
+    "date": "2017-12-07T21:40:04+00:00",
     "group": {
         "concept": [
             {
@@ -29,7 +29,7 @@
                 },
                 "concept": [
                     {
-                        "code": "HPOSitePairing_PIIState",
+                        "code": "PMI",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -332,7 +332,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "What is your state of residence?",
+                "text": "In what state do you receive care?",
                 "type": "choice"
             },
             {
@@ -1600,11 +1600,45 @@
                 "linkId": "12225",
                 "option": [
                     {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "s\u00ed"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
                         "code": "CherokeeHealthPatient_YesCherokeeHealthPatient",
                         "display": "yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "no"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
                         "code": "CherokeeHealthPatient_NoCherokeeHealthPatient",
                         "display": "no",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
@@ -2095,5 +2129,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "21"
+    "version": "30"
 }
