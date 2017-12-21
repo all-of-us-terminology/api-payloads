@@ -1,5 +1,5 @@
 {
-    "date": "2017-12-07T19:11:45+00:00",
+    "date": "2017-12-14T22:09:35+00:00",
     "group": {
         "concept": [
             {
@@ -1318,7 +1318,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "En los \u00faltimos 7 d\u00edas,  En promedio, \u00bfc\u00f3mo calificar\u00eda su cansancio?"
+                                    "valueString": "En los \u00faltimos 7 d\u00edas, en promedio, \u00bfc\u00f3mo calificar\u00eda su cansancio?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3109,5 +3109,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "179"
+    "version": "180"
 }

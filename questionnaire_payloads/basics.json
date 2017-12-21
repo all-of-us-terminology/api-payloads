@@ -1,5 +1,5 @@
 {
-    "date": "2017-12-07T19:12:44+00:00",
+    "date": "2017-12-20T21:06:26+00:00",
     "group": {
         "concept": [
             {
@@ -150,7 +150,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Indio americano o nativo de Alaska (por ejemplo, naci\u00f3n Navajo, tribu Pies Negros, maya, azteca, pueblo nativo del gobierno tradicional inuit de Barrow, Comunidad esquimal de Nome, etc.)**"
+                                            "valueString": "Indio Americano o Nativo de Alaska (por ejemplo, Navajo Nation, Blackfeet Tribe, Maya, Azteca, Native Village of Barrow Inupiat, Nome Eskimo Community, etc)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -172,7 +172,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Asi\u00e1tico (por ejemplo, Chino, Filipino, Indio Asi\u00e1tico, Vietnamita, coreano, japon\u00e9s, etc.)*"
+                                            "valueString": "Asi\u00e1tico (por ejemplo, Chino, Filipino, Indio Asi\u00e1tico, Vietnamita, Coreano, Japon\u00e9s, etc.)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -194,7 +194,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Negro, Africano, o Afroamericano (por ejemplo, Africano Americano, Jamaiquino, Haitiano, Nigeriano, Et\u00edope, Somal\u00ed, etc.)*"
+                                            "valueString": "Negro, Africano, o Afroamericano (por ejemplo, Africano Americano, Jamaiquino, Haitiano, Nigeriano, Et\u00edope, Somal\u00ed, etc.)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -202,7 +202,7 @@
                             ]
                         },
                         "code": "WhatRaceEthnicity_Black",
-                        "display": "Black, African American or African (For example: African American, Ethiopian, Haitian, Jamaican, Nigerian, Somali, etc.) ",
+                        "display": "Black, African American or African (For example: African American, Ethiopian, Haitian, Jamaican, Nigerian, Somali, etc.)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -216,7 +216,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Hispano, Latino o Espa\u00f1ol (por ejemplo, Mexicano, Mexicano americano, Puertorrique\u00f1o, cubano, salvadore\u00f1o, dominicano, colombiano, etc.)*"
+                                            "valueString": "Hispano, Latino o Espa\u00f1ol (por ejemplo, Mexicano, Mexicano Americano, Puertorrique\u00f1o, Cubano, Salvadore\u00f1o, Dominicano, Colombiano, etc.)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -224,7 +224,7 @@
                             ]
                         },
                         "code": "WhatRaceEthnicity_Hispanic",
-                        "display": "Hispanic, Latino, or Spanish (For example: Columbian, Cuban, Dominican, Mexican or Mexican American, Puerto Rican, Salvadoran, etc.) ",
+                        "display": "Hispanic, Latino, or Spanish (For example: Columbian, Cuban, Dominican, Mexican or Mexican American, Puerto Rican, Salvadoran, etc.)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -238,7 +238,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Del Medio Oriente o del Norte de \u00c1frica (por ejemplo, liban\u00e9s, iran\u00ed, egipcio, sirio, marroqu\u00ed, argelino, etc.)*"
+                                            "valueString": "Del Medio Oriente o del Norte de \u00c1frica (por ejemplo, Liban\u00e9s, Iran\u00ed, Egipcio, Sirio, Marroqu\u00ed, Argelino, etc.)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -246,7 +246,7 @@
                             ]
                         },
                         "code": "WhatRaceEthnicity_MENA",
-                        "display": "Middle Eastern or North African (For example: Algerian, Egyptian, Iranian, Lebanese, Moroccan, Syrian, etc.) ",
+                        "display": "Middle Eastern or North African (For example: Algerian, Egyptian, Iranian, Lebanese, Moroccan, Syrian, etc.)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -260,7 +260,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Nativo de Haw\u00e1i o de otras Islas del Pac\u00edfico (por ejemplo, nativo hawaiano, samoano, chamorro, tongano, fiyiano, marshal\u00e9s, etc.)*"
+                                            "valueString": "Nativo de Haw\u00e1i o de otras Islas del Pac\u00edfico (por ejemplo, Nativo Hawaiano, Samoano, Chamorro, Tongano, Fiyiano, Marshal\u00e9s, etc.)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -304,7 +304,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Ninguna de estas me describe completamente"
+                                            "valueString": "ninguna de estas me describe completamente"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -312,7 +312,7 @@
                             ]
                         },
                         "code": "WhatRaceEthnicity_RaceEthnicityNoneOfThese",
-                        "display": "None of these fully describe me",
+                        "display": "none of these fully describe me",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -326,7 +326,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Prefiero no responder"
+                                            "valueString": "prefiero no responder"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -334,7 +334,7 @@
                             ]
                         },
                         "code": "PMI_PreferNotToAnswer",
-                        "display": "Prefer not to answer\n",
+                        "display": "prefer not to answer\n",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -2463,7 +2463,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Ninguna de estas me describe"
+                                            "valueString": "ninguna de estas me describe"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2708,7 +2708,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "hombre transexual/Hombre transg\u00e9nero/Mujer a hombre (FTM)"
+                                            "valueString": "hombre transexual/hombre transg\u00e9nero/mujer a hombre (FTM)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2730,7 +2730,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "mujer transexual/Mujer transg\u00e9nero/Hombre a mujer (MTF)"
+                                            "valueString": "mujer transexual/mujer transg\u00e9nero/hombre a mujer (MTF)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2896,7 +2896,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Cu\u00e1l de las siguientes opciones piensa usted que le representa mejor?"
+                                    "valueString": "\u00bfCu\u00e1l de las siguientes opciones piensa usted que le representa mejor?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3239,7 +3239,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "No usa etiquetas para identificarse"
+                                            "valueString": "no usa etiquetas para identificarse"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3409,7 +3409,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "5. \u00b0 a  8. \u00b0 grado (Secundaria)"
+                                            "valueString": "5.\u00b0 a  8.\u00b0 grado (Secundaria)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3431,7 +3431,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "9\u00ba a 11.\u00ba grado (Preparatoria o bachillerato incompleta)"
+                                            "valueString": "9.\u00ba a 11.\u00ba grado (Preparatoria o bachillerato incompleta)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3453,7 +3453,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "12\u00ba grado o GED (Preparatoria o bachillerato completo o GED)"
+                                            "valueString": "12.\u00ba grado o GED (Preparatoria o bachillerato completo o GED)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4053,7 +4053,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Seguro de salud privado (incluye provistos por el empleador)"
+                                            "valueString": "seguro de salud privado (incluye provistos por el empleador)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5350,7 +5350,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "en una casa comunitaria, un asilo u otro centro residencial"
+                                            "valueString": "en una casa comunitaria, un asilo u otro centro residencia"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7221,5 +7221,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "369"
+    "version": "385"
 }

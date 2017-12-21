@@ -1,5 +1,5 @@
 {
-    "date": "2017-12-06T20:02:31+00:00",
+    "date": "2017-12-21T17:51:57+00:00",
     "group": {
         "concept": [
             {
@@ -20,7 +20,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Esta revisi\u00f3n le informa sobre la opci\u00f3n de autorizar a All of Us el acceso a su EHR (registro electr\u00f3nico de salud)."
+                                    "valueString": "Esta revisi\u00f3n le informa sobre la opci\u00f3n de autorizar a All of Us el acceso a sus EHR (registro electr\u00f3nico de salud)."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -119,7 +119,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Usted puede tomarse todo el tiempo que necesite para decidir sobre el acceso de All of Us a su EHR. Puede revisar estas pantallas las veces que quiera."
+                                    "valueString": "Usted puede tomarse todo el tiempo que necesite para decidir sobre el acceso de All of Us a sus EHR. Puede revisar estas pantallas las veces que quiera."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -322,7 +322,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfTendr\u00e1 All of Us acceso a la informaci\u00f3n confidencial que est\u00e1 en mi EHR?"
+                                    "valueString": "\u00bfTendr\u00e1 All of Us acceso a la informaci\u00f3n confidencial que est\u00e1 en mis EHR?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -397,7 +397,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Una vez que doy permiso a All of Us para que tenga acceso a mi EHR, \u00bfpuedo cambiar de opini\u00f3n?"
+                                    "valueString": "Una vez que doy permiso a All of Us para que tenga acceso a mis EHR, \u00bfpuedo cambiar de opini\u00f3n?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -472,7 +472,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Si doy permiso a All of Us para que tenga acceso a mi EHR, \u00bfestar\u00e1 garantizada mi privacidad?"
+                                    "valueString": "Si doy permiso a All of Us para que tenga acceso a mi EHR, \u00bfestar\u00e1 garantizada mis privacidad?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -547,7 +547,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Respondi\u00f3 correctamente 4 preguntas de un total de 4.\nUsted puede tomarse el tiempo que necesite para decidir si desea darnos acceso a su EHR. Estamos aqu\u00ed para responder a cualquier pregunta que tenga."
+                                    "valueString": "Respondi\u00f3 correctamente 4 preguntas de un total de 4.\nUsted puede tomarse el tiempo que necesite para decidir si desea darnos acceso a sus EHR. Estamos aqu\u00ed para responder a cualquier pregunta que tenga."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -845,5 +845,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "285"
+    "version": "298"
 }

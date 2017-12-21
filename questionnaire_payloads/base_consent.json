@@ -1,5 +1,5 @@
 {
-    "date": "2017-12-06T19:55:59+00:00",
+    "date": "2017-12-21T14:25:09+00:00",
     "group": {
         "concept": [
             {
@@ -119,7 +119,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfQu\u00e9 es su estado de residencia?"
+                                    "valueString": "\u00bfCu\u00e1l es su estado de residencia?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -456,7 +456,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Si usted est\u00e1 usando una computadora, use el mouse para firmar abajo. Si usted est\u00e1 usando un aparato m\u00f3vil (cellular, tableta), por favor firme con su dedo."
+                                    "valueString": "Si usted est\u00e1 usando una computadora, use el mouse para firmar abajo. Si usted est\u00e1 usando un aparato m\u00f3vil (celular, tableta), por favor firme con su dedo."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -943,7 +943,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Estoy listo para unirme"
+                                            "valueString": "estoy listo para unirme"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1004,7 +1004,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Si usted est\u00e1 usando una computadora, use el mouse para firmar abajo. Si usted est\u00e1 usando un aparato m\u00f3vil (cellular, tableta), por favor firme con su dedo."
+                                    "valueString": "Si usted est\u00e1 usando una computadora, use el mouse para firmar abajo. Si usted est\u00e1 usando un aparato m\u00f3vil (celular, tableta), por favor firme con su dedo."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1023,6 +1023,23 @@
                 "type": "attachment"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Fecha de Hoy"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "ExtraConsent_TodaysDate",
@@ -1307,5 +1324,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "561"
+    "version": "585"
 }
