@@ -1,5 +1,5 @@
 {
-    "date": "2017-12-21T14:25:09+00:00",
+    "date": "2018-01-02T17:22:09+00:00",
     "group": {
         "concept": [
             {
@@ -10,6 +10,23 @@
         "linkId": "root_group",
         "question": [
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "DP91_a9wlxs"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "ExtraConsent_WelcomeVideo",
@@ -487,6 +504,23 @@
                 "type": "date"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "zzvNkCfygZU"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "ExtraConsent_KeepinginTouchVideo",
@@ -499,6 +533,23 @@
                 "type": "dateTime"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "-BbW0btnN4Q"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "ExtraConsent_HealthDataVideo",
@@ -511,6 +562,23 @@
                 "type": "dateTime"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "3qy3_Q-WiuA"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "ExtraConsent_PhysicalMeausrementsVideo",
@@ -523,6 +591,23 @@
                 "type": "dateTime"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "ZVZTOgFuaWs"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "ExtraConsent_SamplesVideo",
@@ -535,6 +620,23 @@
                 "type": "dateTime"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "2q38iMhBTo4"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "ExtraConsent_FitnessTrackerVideo",
@@ -547,6 +649,23 @@
                 "type": "dateTime"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "xxtXslnjAxU"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "ExtraConsent_HealthRecordVideo",
@@ -559,6 +678,23 @@
                 "type": "dateTime"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "knkEA6XzTtI"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "ExtraConsent_OtherHealthDataVideo",
@@ -571,6 +707,23 @@
                 "type": "dateTime"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "lhewno8u34U"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "ExtraConsent_DataSharingVideo",
@@ -583,6 +736,23 @@
                 "type": "dateTime"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "dW_400Y1dqE"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "ExtraConsent_RisktoPrivacyVideo",
@@ -793,7 +963,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Puedo dejar de participar en cualquier momento."
+                                            "valueString": "Si. Puedo dejar de participar en cualquier momento."
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1324,5 +1494,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "585"
+    "version": "613"
 }

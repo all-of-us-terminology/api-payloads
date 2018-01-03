@@ -1,121 +1,447 @@
 {
-	"resourceType": "Questionnaire",
-	"identifier": [{
-		"value": "Vibrent_FORM_ID_519"
-	}],
-	"version": "7",
-	"status": "published",
-	"date": "2017-10-31T18:32:01+00:00",
-	"group": {
-		"linkId": "root_group",
-		"title": "ppi module feedback",
-		"concept": [{
-			"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-			"code": "PPIModuleFeedback"
-		}],
-		"required": true,
-		"repeats": false,
-		"question": [{
-			"linkId": "11810",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "PPIFeedback_UnderstandingQuestions"
-			}],
-			"text": "Were the questions easy or hard to understand?\n",
-			"type": "choice",
-			"repeats": false,
-			"option": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "UnderstandingQuestions_VeryEasy",
-				"display": "very easy"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "UnderstandingQuestions_ALittleEasy",
-				"display": "a little easy"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "UnderstandingQuestions_ALittleHard",
-				"display": "a little hard"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "UnderstandingQuestions_VeryHard",
-				"display": "very hard"
-			}]
-		}, {
-			"linkId": "11815",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "PPIFeedback_WhatMadeItHardToUnderstand"
-			}],
-			"text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
-			"type": "text",
-			"repeats": false
-		}, {
-			"linkId": "11819",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "PPIFeedback_SkippingQuestions"
-			}],
-			"text": "Did you skip any of the questions?\n",
-			"type": "choice",
-			"repeats": false,
-			"option": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "SkippingQuestions_Yes",
-				"display": "yes, i skipped at least 1 question"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "SkippingQuestions_No",
-				"display": "no, i answered every single question"
-			}]
-		}, {
-			"linkId": "11824",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "PPIFeedback_WhySkippingQuestions"
-			}],
-			"text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
-			"type": "text",
-			"repeats": false
-		}, {
-			"linkId": "11871",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "PPIFeedback_TimeToAnswerQuestions"
-			}],
-			"text": "Did answering the survey questions take less time or more time than what you thought it would?",
-			"type": "choice",
-			"repeats": false,
-			"option": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "TimeToAnswerQuestions_MuchLessTime",
-				"display": "much less time than i thought"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "TimeToAnswerQuestions_SlightlyLessTime",
-				"display": "slightly less time than i thought"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "TimeToAnswerQuestions_NoOpinion",
-				"display": "no opinion"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "TimeToAnswerQuestions_SlightlyMoreTime",
-				"display": "slightly more time than i thought"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "TimeToAnswerQuestions_MuchMoreTime",
-				"display": "much more time than i thought"
-			}]
-		}, {
-			"linkId": "11829",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "PPIFeedback_LikedDislikedAboutQuestions"
-			}],
-			"text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
-			"type": "text",
-			"repeats": false
-		}]
-	}
+    "date": "2017-12-29T18:01:43+00:00",
+    "group": {
+        "concept": [
+            {
+                "code": "PPIModuleFeedback",
+                "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }
+        ],
+        "linkId": "root_group",
+        "question": [
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfLe result\u00f3 f\u00e1cil o dif\u00edcil entender las preguntas?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "PPIFeedback_UnderstandingQuestions",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "11810",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "muy f\u00e1cil"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "UnderstandingQuestions_VeryEasy",
+                        "display": "very easy",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "un poco f\u00e1cil"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "UnderstandingQuestions_ALittleEasy",
+                        "display": "a little easy",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "un poco dif\u00edcil"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "UnderstandingQuestions_ALittleHard",
+                        "display": "a little hard",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "muy dif\u00edcil"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "UnderstandingQuestions_VeryHard",
+                        "display": "very hard",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Were the questions easy or hard to understand?\n",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "por favor escriba abajo"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "PPIFeedback_WhatMadeItHardToUnderstand",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "11815",
+                "repeats": false,
+                "text": "please add text below",
+                "type": "text"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfSe salt\u00f3 alguna de las preguntas"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "PPIFeedback_SkippingQuestions",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "11819",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "s\u00ed, me salt\u00e9 al menos 1 pregunta"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "SkippingQuestions_Yes",
+                        "display": "yes, I skipped at least 1 question",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "no, respond\u00ed cada una de las preguntas"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "SkippingQuestions_No",
+                        "display": "no, I answered every single question",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Did you skip any of the questions?\n",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "por favor escriba abajo"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "PPIFeedback_WhySkippingQuestions",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "11824",
+                "repeats": false,
+                "text": "please add text below",
+                "type": "text"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfResponder las preguntas del cuestionario le tom\u00f3 menos o m\u00e1s tiempo de lo que pens\u00f3?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "PPIFeedback_TimeToAnswerQuestions",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "11871",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "mucho menos tiempo del que pens\u00e9"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "TimeToAnswerQuestions_MuchLessTime",
+                        "display": "much less time than I thought",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "menos de tiempo del que pens\u00e9,"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "TimeToAnswerQuestions_SlightlyLessTime",
+                        "display": "slightly less time than I thought",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "no tengo una opini\u00f3n"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "TimeToAnswerQuestions_NoOpinion",
+                        "display": "no opinion",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "m\u00e1s tiempo del que pens\u00e9"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "TimeToAnswerQuestions_SlightlyMoreTime",
+                        "display": "slightly more time than I thought",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "mucho m\u00e1s tiempo del que pens\u00e9"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "TimeToAnswerQuestions_MuchMoreTime",
+                        "display": "much more time than I thought",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Did answering the survey questions take less time or more time than what you thought it would?",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "por favor escriba abajo"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "PPIFeedback_LikedDislikedAboutQuestions",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "11829",
+                "repeats": false,
+                "text": "please add text below",
+                "type": "text"
+            }
+        ],
+        "repeats": false,
+        "required": true,
+        "title": "ppi module feedback"
+    },
+    "identifier": [
+        {
+            "value": "Vibrent_FORM_ID_519"
+        }
+    ],
+    "resourceType": "Questionnaire",
+    "status": "published",
+    "version": "19"
 }

@@ -1,5 +1,5 @@
 {
-    "date": "2017-12-21T17:51:57+00:00",
+    "date": "2018-01-02T17:21:15+00:00",
     "group": {
         "concept": [
             {
@@ -85,6 +85,23 @@
                 "type": "choice"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "xxtXslnjAxU"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "YoutubeVideos_WhatAreWeAsking",
@@ -97,6 +114,23 @@
                 "type": "dateTime"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "dW_400Y1dqE"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "YoutubeVideos_RiskToPrivacy",
@@ -845,5 +879,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "298"
+    "version": "303"
 }

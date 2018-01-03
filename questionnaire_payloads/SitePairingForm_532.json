@@ -1,5 +1,5 @@
 {
-    "date": "2017-12-07T22:27:09+00:00",
+    "date": "2018-01-02T19:48:51+00:00",
     "group": {
         "concept": [
             {
@@ -507,7 +507,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "El Estudio de Investigaci\u00f3n Cient\u00edfica All of Us est\u00e1 inscribiendo participantes en los sigiuentes sitios de atenci\u00f3n medica. \u00bfEn cual sitio quiere hacer su cita?"
+                                    "valueString": "El Programa Cient\u00edfico All of Us est\u00e1 inscribiendo participantes en los sigiuentes sitios de atenci\u00f3n medica. \u00bfEn cual sitio quiere hacer su cita?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -641,7 +641,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Ninguna de estas opciones"
+                                            "valueString": "ninguna de estas opciones"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -649,7 +649,7 @@
                             ]
                         },
                         "code": "AZSitepairingLocation_None",
-                        "display": "None of these",
+                        "display": "none of these",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -893,7 +893,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfYa ha fijado una cita con el equipo del Estudio de Investigaci\u00f3n Cient\u00edfica All of Us?"
+                                    "valueString": "\u00bfYa ha fijado una cita con el equipo del Programa Cient\u00edfico, All of Us  ?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1433,7 +1433,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Los siguientes proveedores de cuidados de salud en su \u00e1rea est\u00e1n registrando participantes al estudio de investigaci\u00f3n cient\u00edfica All of Us.\n\n\u00bfEn cual instituci\u00f3n recibe atenci\u00f3n y quiere programar una visita para registrarse? \n Escoja 1 instituci\u00f3n"
+                                    "valueString": "Los siguientes proveedores de cuidados de salud en su \u00e1rea est\u00e1n registrando participantes al Programa Cient\u00edfico All of Us.\n\n\u00bfEn cual instituci\u00f3n recibe atenci\u00f3n y quiere programar una visita para registrarse? \n Escoja 1 instituci\u00f3n"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1821,6 +1821,23 @@
                 "type": "choice"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Los siguientes cl\u00ednicas, proveedores de atenci\u00f3n m\u00e9dica y hospitales en su regi\u00f3n est\u00e1n registrando participantes en el Programa Cient\u00edfico All of Us. \u00bfEn cual recibe usted atenci\u00f3n m\u00e9dica y quiere programar una cita para registrarse?\n\nPor favor escoja una opci\u00f3n"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "SitePairing_SouthernProviders",
@@ -1907,6 +1924,23 @@
                 "type": "choice"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Los siguientes cl\u00ednicas, proveedores de atenci\u00f3n m\u00e9dica y hospitales en su regi\u00f3n est\u00e1n registrando participantes en el Programa Cient\u00edfico All of Us. \u00bfEn cual recibe usted atenci\u00f3n m\u00e9dica y quiere programar una cita para registrarse?\n\nPor favor escoja una opci\u00f3n"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "SitePairing_SEEC",
@@ -2053,7 +2087,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfYa program\u00f3 una cita para el estudio de investigaci\u00f3n cient\u00edfica All of Us en el centro principal de Jackson-Hinds Comprehensive Health Center (James Anderson Clinic) o Copiah Clinic?"
+                                    "valueString": "\u00bfYa program\u00f3 una cita para el Programa Cient\u00edfico All of Us en el centro principal de Jackson-Hinds Comprehensive Health Center (James Anderson Clinic) o Copiah Clinic?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2129,5 +2163,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "31"
+    "version": "53"
 }
