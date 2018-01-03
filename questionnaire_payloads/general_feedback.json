@@ -1,439 +1,1929 @@
 {
-	"resourceType": "Questionnaire",
-	"identifier": [{
-		"value": "Vibrent_FORM_ID_516"
-	}],
-	"version": "8",
-	"status": "published",
-	"date": "2017-10-30T16:00:23+00:00",
-	"group": {
-		"linkId": "root_group",
-		"title": "general feedback",
-		"concept": [{
-			"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-			"code": "GeneralFeedback"
-		}],
-		"required": true,
-		"repeats": false,
-		"question": [{
-			"linkId": "11631",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "General_FirstHearAboutAoU"
-			}],
-			"text": "Where did you first hear about the All of Us Research Program?\n(please check all that apply)\n",
-			"type": "choice",
-			"repeats": true,
-			"option": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "FirstHearAboutAoU_Website",
-				"display": "website"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "FirstHearAboutAoU_EmailInvite",
-				"display": "email invitation"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "FirstHearAboutAoU_SocialMedia",
-				"display": "social media (like Facebook or Twitter)"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "FirstHearAboutAoU_FriendsFamily",
-				"display": "friends or family"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "FirstHearAboutAoU_CommunityGroup",
-				"display": "community group or church"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "FirstHearAboutAoU_AoUMobileBus",
-				"display": "mobile bus for All of Us Research Program"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "FirstHearAboutAoU_ProvidersOffice",
-				"display": "health care provider’s office"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "FirstHearAboutAoU_Hospital",
-				"display": "at my hospital"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "FirstHearAboutAoU_Advertisement",
-				"display": "advertisement through TV, radio, billboard or newspaper"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "FirstHearAboutAoU_Work",
-				"display": "work"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "FirstHearAboutAoU_Other",
-				"display": "other"
-			}]
-		}, {
-			"linkId": "11741",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "Other_OtherFreeTextBox"
-			}],
-			"text": "other source",
-			"type": "text",
-			"repeats": false
-		}, {
-			"linkId": "11747",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "General_WhyDidYouJoin"
-			}],
-			"text": "Why did you join the All of Us Research Program?\n(please check all that apply)\n",
-			"type": "choice",
-			"repeats": true,
-			"option": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "WhyDidYouJoin_ProviderRecommended",
-				"display": "health care provided recommended it"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "WhyDidYouJoin_ResearcherRecommended",
-				"display": "a research assistant recommended it"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "WhyDidYouJoin_Wanted25Dollars",
-				"display": "i wanted the $25"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "WhyDidYouJoin_SoundedInteresting",
-				"display": "it sounded interesting"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "WhyDidYouJoin_LearnAboutMyHealth",
-				"display": "i want to learn more about my health"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "WhyDidYouJoin_FriendFamilyRecommended",
-				"display": "friend/family recommended it"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "WhyDidYouJoin_ContributeToMed",
-				"display": "i want to contribute to future medical discoveries"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "WhyDidYouJoin_HelpOthers",
-				"display": "i want to help others"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "WhyDidYouJoin_FeelConnected",
-				"display": "i want to feel connected to my community"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "WhyDidYouJoin_OtherReasonToJoin",
-				"display": "other"
-			}]
-		}, {
-			"linkId": "11748",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "OtherReasonToJoin_FreeTextBox"
-			}],
-			"text": "other reason",
-			"type": "text",
-			"repeats": false
-		}, {
-			"linkId": "11754",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "AccountCreation_WasItEasy"
-			}],
-			"text": "Was it easy or hard to create an account?\n",
-			"type": "choice",
-			"repeats": false,
-			"option": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "WasItEasy_VeryEasy",
-				"display": "very easy"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "WasItEasy_ALittleEasy",
-				"display": "a little easy"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "WasItEasy_ALittleHard",
-				"display": "a little hard"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "WasItEasy_VeryHard",
-				"display": "very hard"
-			}]
-		}, {
-			"linkId": "11758",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "AccountCreation_WhyWasItHard"
-			}],
-			"text": "Why was it hard to create an account?\n(check all that apply)\n",
-			"type": "choice",
-			"repeats": true,
-			"option": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "WhyWasItHard_TechnicalProblems",
-				"display": "technical problems on computer/tablet/smartphone"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "WhyWasItHard_TookTooMuchTime",
-				"display": "took too much time"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "WhyWasItHard_DifficultInstructions",
-				"display": "hard to understand the instructions"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "WhyWasItHard_NotGoodWithComputers",
-				"display": "i am not good with computers"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "WhyWasItHard_OtherReasonWhyHard",
-				"display": "other"
-			}]
-		}, {
-			"linkId": "11759",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "OtherReasonWhyHard_FreeTextBox"
-			}],
-			"text": "other reason",
-			"type": "text",
-			"repeats": false
-		}, {
-			"linkId": "11763",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "AccountCreation_AccountCreationTime"
-			}],
-			"text": "Did creating your account take less or more time than you thought it would?\n",
-			"type": "choice",
-			"repeats": false,
-			"option": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "AccountCreationTime_MuchLessTime",
-				"display": "much less time than i thought"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "AccountCreationTime_SlightlyLessTime",
-				"display": "slightly less time than i thought"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "AccountCreationTime_NoOpinion",
-				"display": "no opinion"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "AccountCreationTime_SlightlyMoreTime",
-				"display": "slightly more time than i thought"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "AccountCreationTime_MuchMoreTime",
-				"display": "much more time than i thought"
-			}]
-		}, {
-			"linkId": "11768",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "AccountCreation_IdeasForEasierAccountCreation"
-			}],
-			"text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
-			"type": "text",
-			"repeats": false
-		}, {
-			"linkId": "11774",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "GeneralConsent_ConsentEaseOfUnderstanding"
-			}],
-			"text": "Was the consent information easy or hard to understand?\n",
-			"type": "choice",
-			"repeats": false,
-			"option": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "ConsentEaseOfUnderstanding_VeryEasy",
-				"display": "very easy"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "ConsentEaseOfUnderstanding_ALittleEasy",
-				"display": "a little easy"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "ConsentEaseOfUnderstanding_ALittleHard",
-				"display": "a little hard"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "ConsentEaseOfUnderstanding_VeryHard",
-				"display": "very hard"
-			}]
-		}, {
-			"linkId": "11778",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "GeneralConsent_EaseOfUnderstanding"
-			}],
-			"text": "What information in the consent was hard to understand?\n(check all that apply)\n",
-			"type": "choice",
-			"repeats": true,
-			"option": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "EaseOfUnderstanding_ProgramBackground",
-				"display": "background on what the program is about"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "EaseOfUnderstanding_Biospecimen",
-				"display": "what will happen to my biospecimens (blood and urine)"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "EaseOfUnderstanding_MedicalRecords",
-				"display": "what will happen to my medical records"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "EaseOfUnderstanding_AnswersInPortal",
-				"display": "what will happen to the answers I give in the portal"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "EaseOfUnderstanding_PrivateInformation",
-				"display": "how my personal information will be kept private"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "EaseOfUnderstanding_WhyMedicalRecords",
-				"display": "why the program is asking for my medical records"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "EaseOfUnderstanding_DidntUnderstandMaterial",
-				"display": "i didn’t understand what i was reading"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "EaseOfUnderstanding_DidntUnderstandVideos",
-				"display": "i didn’t understand what was being said during the videos"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "EaseOfUnderstanding_RisksOfProgram",
-				"display": "risks of joining the program"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "EaseOfUnderstanding_BenefitsOfProgram",
-				"display": "benefits of joining the program"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "EaseOfUnderstanding_OtherEaseOfUnderstanding",
-				"display": "other"
-			}]
-		}, {
-			"linkId": "11779",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "OtherEaseOfUnderstanding_FreeTextBox"
-			}],
-			"text": "other reason",
-			"type": "text",
-			"repeats": false
-		}, {
-			"linkId": "11783",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "GeneralConsent_UnderstandingofAoU"
-			}],
-			"text": "Do you feel like you have a good understanding of what this program is about?",
-			"type": "choice",
-			"repeats": false,
-			"option": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "UnderstandingofAoU_No",
-				"display": "no, i don't really understand"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "UnderstandingofAoU_SortOf",
-				"display": "i sort of understand"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "UnderstandingofAoU_Mostly",
-				"display": "i mostly understand"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "UnderstandingofAoU_Yes",
-				"display": "yes, i completely understand"
-			}]
-		}, {
-			"linkId": "11787",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "GeneralConsent_TimeForConsent"
-			}],
-			"text": "Did going through the consent information take less or more time than you thought it would? ",
-			"type": "choice",
-			"repeats": false,
-			"option": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "TimeForConsent_MuchLessTime",
-				"display": "much less time than i thought"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "TimeForConsent_SlightlyLessTime",
-				"display": "slightly less time than i thought"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "TimeForConsent_NoOpinion",
-				"display": "no opinion"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "TimeForConsent_SlightlyMoreTime",
-				"display": "slightly more time than i thought"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "TimeForConsent_MuchMoreTime",
-				"display": "much more time than i thought"
-			}]
-		}, {
-			"linkId": "11792",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "GeneralConsent_HowToMakeConsentBetter"
-			}],
-			"text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
-			"type": "text",
-			"repeats": false
-		}, {
-			"linkId": "11796",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "GeneralConsent_PreferredContactMethod"
-			}],
-			"text": "We would like to send you updates about events and activities taking place in the Program. But we want you to have the choice in how much we contact you. How often would you like to hear from us: ",
-			"type": "choice",
-			"repeats": false,
-			"option": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "PreferredContactMethod_OnceAWeek",
-				"display": "once a week"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "PreferredContactMethod_OnceAMonth",
-				"display": "once a month"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "PreferredContactMethod_OnceEvery3Months",
-				"display": "once every 3 months"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "PreferredContactMethod_OnceEvery6Months",
-				"display": "once every 6 months"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "PreferredContactMethod_OnceAYear",
-				"display": "once a year"
-			}]
-		}, {
-			"linkId": "11801",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "GeneralConsent_OtherComments"
-			}],
-			"text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
-			"type": "text",
-			"repeats": false
-		}]
-	}
+    "date": "2017-12-29T18:02:35+00:00",
+    "group": {
+        "concept": [
+            {
+                "code": "GeneralFeedback",
+                "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }
+        ],
+        "linkId": "root_group",
+        "question": [
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "D\u00f3nde escuch\u00f3 por primera vez sobre el Programa de Investigaci\u00f3n All of Us? (Marque todas las que correspondan)"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "General_FirstHearAboutAoU",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "13877",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "p\u00e1gina de internet"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "FirstHearAboutAoU_Website",
+                        "display": "website",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "invitaci\u00f3n por correo electr\u00f3nico"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "FirstHearAboutAoU_EmailInvite",
+                        "display": "email invitation",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "redes sociales (como facebook o twitter)"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "FirstHearAboutAoU_SocialMedia",
+                        "display": "social media (like Facebook or Twitter)",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "amigos o familiares"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "FirstHearAboutAoU_FriendsFamily",
+                        "display": "friends or family",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "grupo comunitario o iglesia"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "FirstHearAboutAoU_CommunityGroup",
+                        "display": "community group or church",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "la unidad m\u00f3vil del programa de investigaci\u00f3n all of us"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "FirstHearAboutAoU_AoUMobileBus",
+                        "display": "mobile bus for All of Us Research Program",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "consultorio de proveedor de servicios de salud"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "FirstHearAboutAoU_ProvidersOffice",
+                        "display": "health care provider\u2019s office",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "en mi hospital"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "FirstHearAboutAoU_Hospital",
+                        "display": "at my hospital",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "publicidad en televisi\u00f3n, radio, aviso publicitario o peri\u00f3dicos"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "FirstHearAboutAoU_Advertisement",
+                        "display": "advertisement through TV, radio, billboard or newspaper",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "en el trabajo"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "FirstHearAboutAoU_Work",
+                        "display": "work",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "otro"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "FirstHearAboutAoU_Other",
+                        "display": "other",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": true,
+                "text": "Where did you first hear about the All of Us Research Program?\n(please check all that apply)\n",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "otro"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "Other_OtherFreeTextBox",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "13878",
+                "repeats": false,
+                "text": "other source",
+                "type": "text"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfPor qu\u00e9 decidi\u00f3 participar en el Programa de Investigaci\u00f3n All of Us? (Marque todos los que correspondan)"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "General_WhyDidYouJoin",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "13882",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "un proveedor de servicios de salud me lo recomend\u00f3"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "WhyDidYouJoin_ProviderRecommended",
+                        "display": "health care provided recommended it",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "un asistente de investigaci\u00f3n me lo recomend\u00f3"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "WhyDidYouJoin_ResearcherRecommended",
+                        "display": "a research assistant recommended it",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "quer\u00eda los $25"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "WhyDidYouJoin_Wanted25Dollars",
+                        "display": "I wanted the $25",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "me pareci\u00f3 interesante"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "WhyDidYouJoin_SoundedInteresting",
+                        "display": "it sounded interesting",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "quiero aprender m\u00e1s acerca de mi salud"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "WhyDidYouJoin_LearnAboutMyHealth",
+                        "display": "I want to learn more about my health",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "un amigo/familiar me lo recomend\u00f3"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "WhyDidYouJoin_FriendFamilyRecommended",
+                        "display": "friend/family recommended it",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "quiero contribuir a los descubrimientos m\u00e9dicos del futuro"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "WhyDidYouJoin_ContributeToMed",
+                        "display": "I want to contribute to future medical discoveries",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "quiero ayudar a los dem\u00e1s"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "WhyDidYouJoin_HelpOthers",
+                        "display": "I want to help others",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "quiero sentirme conectado con mi comunidad"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "WhyDidYouJoin_FeelConnected",
+                        "display": "I want to feel connected to my community",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "otro"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "WhyDidYouJoin_OtherReasonToJoin",
+                        "display": "other",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": true,
+                "text": "Why did you join the All of Us Research Program?\n(please check all that apply)\n",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "otro"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "OtherReasonToJoin_FreeTextBox",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "13883",
+                "repeats": false,
+                "text": "other reason",
+                "type": "text"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfLe fue f\u00e1cil o dif\u00edcil crear una cuenta?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "AccountCreation_WasItEasy",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "13889",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "muy f\u00e1cil"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "WasItEasy_VeryEasy",
+                        "display": "very easy",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "un poco f\u00e1cil"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "WasItEasy_ALittleEasy",
+                        "display": "a little easy",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "un poco dif\u00edcil"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "WasItEasy_ALittleHard",
+                        "display": "a little hard",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "muy dif\u00edcil"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "WasItEasy_VeryHard",
+                        "display": "very hard",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Was it easy or hard to create an account?\n",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Por qu\u00e9 fue dif\u00edcil crear una cuenta? [marque todas las que correspondan]"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "AccountCreation_WhyWasItHard",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "13893",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "problemas t\u00e9cnicos con computadora/tableta/tel\u00e9fono inteligente (smartphone)"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "WhyWasItHard_TechnicalProblems",
+                        "display": "technical problems on computer/tablet/smartphone",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "me tom\u00f3 demasiado tiempo"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "WhyWasItHard_TookTooMuchTime",
+                        "display": "took too much time",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "fue dif\u00edcil entender las instrucciones"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "WhyWasItHard_DifficultInstructions",
+                        "display": "hard to understand the instructions",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "no soy h\u00e1bil con las computadoras"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "WhyWasItHard_NotGoodWithComputers",
+                        "display": "I am not good with computers",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "otro"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "WhyWasItHard_OtherReasonWhyHard",
+                        "display": "other",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": true,
+                "text": "Why was it hard to create an account?\n(check all that apply)\n",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "otro"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "OtherReasonWhyHard_FreeTextBox",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "13894",
+                "repeats": false,
+                "text": "other reason",
+                "type": "text"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfLe tom\u00f3  m\u00e1s  o menos tiempo crear su cuenta del que pens\u00f3 que le tomar\u00eda?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "AccountCreation_AccountCreationTime",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "13898",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "mucho menos tiempo del que pens\u00e9"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "AccountCreationTime_MuchLessTime",
+                        "display": "much less time than I thought",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "un poco menos de tiempo del que pens\u00e9"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "AccountCreationTime_SlightlyLessTime",
+                        "display": "slightly less time than I thought",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "no tengo una opini\u00f3n"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "AccountCreationTime_NoOpinion",
+                        "display": "no opinion",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "m\u00e1s tiempo del que pens\u00e9"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "AccountCreationTime_SlightlyMoreTime",
+                        "display": "slightly more time than I thought",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "m\u00e1s tiempo del que pens\u00e9"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "AccountCreationTime_MuchMoreTime",
+                        "display": "much more time than I thought",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Did creating your account take less or more time than you thought it would?\n",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "por favor escriba sus comentarios abajo"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "AccountCreation_IdeasForEasierAccountCreation",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "13903",
+                "repeats": false,
+                "text": "please add suggestions below",
+                "type": "text"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfLa informaci\u00f3n del consentimiento fue f\u00e1cil o dif\u00edcil de entender?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "GeneralConsent_ConsentEaseOfUnderstanding",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "13909",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "muy f\u00e1cil"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "ConsentEaseOfUnderstanding_VeryEasy",
+                        "display": "very easy",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "un poco f\u00e1cil"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "ConsentEaseOfUnderstanding_ALittleEasy",
+                        "display": "a little easy",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "un poco dif\u00edcil"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "ConsentEaseOfUnderstanding_ALittleHard",
+                        "display": "a little hard",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "muy dif\u00edcil"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "ConsentEaseOfUnderstanding_VeryHard",
+                        "display": "very hard",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Was the consent information easy or hard to understand?\n",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfQu\u00e9 informaci\u00f3n en el consentimiento fue dif\u00edcil de entender? (marque todas las que correspondan)"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "GeneralConsent_EaseOfUnderstanding",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "13913",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "informacion general sobre el programa"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "EaseOfUnderstanding_ProgramBackground",
+                        "display": "background on what the program is about",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "qu\u00e9 pasar\u00e1 con mis muestras biol\u00f3gicas (sangre y orina)"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "EaseOfUnderstanding_Biospecimen",
+                        "display": "what will happen to my biospecimens (blood and urine)",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "qu\u00e9 pasar\u00e1 con mis registros m\u00e9dicos"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "EaseOfUnderstanding_MedicalRecords",
+                        "display": "what will happen to my medical records",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "qu\u00e9 pasar\u00e1 con las respuestas que yo voy a dar en el portal"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "EaseOfUnderstanding_AnswersInPortal",
+                        "display": "what will happen to the answers I give in the portal",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "c\u00f3mo proteger\u00e1n la privacidad de mi informaci\u00f3n personal"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "EaseOfUnderstanding_PrivateInformation",
+                        "display": "how my personal information will be kept private",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "por qu\u00e9 el programa me pide mis registros m\u00e9dicos"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "EaseOfUnderstanding_WhyMedicalRecords",
+                        "display": "why the program is asking for my medical records",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "no entend\u00ed lo que le\u00ed"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "EaseOfUnderstanding_DidntUnderstandMaterial",
+                        "display": "I didn\u2019t understand what i was reading",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "no entend\u00ed qu\u00e9 dec\u00edan los videos"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "EaseOfUnderstanding_DidntUnderstandVideos",
+                        "display": "I didn\u2019t understand what was being said during the videos",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "los riesgos de tomar parte en el programa"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "EaseOfUnderstanding_RisksOfProgram",
+                        "display": "risks of joining the program",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "EaseOfUnderstanding_BenefitsOfProgram",
+                        "display": "benefits of joining the program",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "otro"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "EaseOfUnderstanding_OtherEaseOfUnderstanding",
+                        "display": "other",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": true,
+                "text": "What information in the consent was hard to understand?\n(check all that apply)\n",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "otro"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "OtherEaseOfUnderstanding_FreeTextBox",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "13914",
+                "repeats": false,
+                "text": "other reason",
+                "type": "text"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfSiente que entiende bien de qu\u00e9 se trata este Programa"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "GeneralConsent_UnderstandingofAoU",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "13918",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "no, en realidad no entiendo"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "UnderstandingofAoU_No",
+                        "display": "no, I don't really understand",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "entiendo un poco"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "UnderstandingofAoU_SortOf",
+                        "display": "I sort of understand",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "entiendo bastante"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "UnderstandingofAoU_Mostly",
+                        "display": "I mostly understand",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "entiendo completamente"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "UnderstandingofAoU_Yes",
+                        "display": "yes, I completely understand",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Do you feel like you have a good understanding of what this program is about?",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfRepasar la informaci\u00f3n del consentimiento le tom\u00f3 menos o m\u00e1s tiempo del que pens\u00f3?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "GeneralConsent_TimeForConsent",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "13922",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "mucho menos tiempo del que pens\u00e9"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "TimeForConsent_MuchLessTime",
+                        "display": "much less time than I thought",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "un poco menos de tiempo del que pens\u00e9"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "TimeForConsent_SlightlyLessTime",
+                        "display": "slightly less time than I thought",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "no tengo una opini\u00f3n"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "TimeForConsent_NoOpinion",
+                        "display": "no opinion",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "m\u00e1s tiempo del que pens\u00e9"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "TimeForConsent_SlightlyMoreTime",
+                        "display": "slightly more time than I thought",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "mucho m\u00e1s tiempo del que pens\u00e9"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "TimeForConsent_MuchMoreTime",
+                        "display": "much more time than I thought",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Did going through the consent information take less or more time than you thought it would? ",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "por favor escriba sus comentarios abajo"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "GeneralConsent_HowToMakeConsentBetter",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "13927",
+                "repeats": false,
+                "text": "please add suggestions below",
+                "type": "text"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Nos gustar\u00eda enviarle informacion actualizada de los eventos y actividades del Programa. Sin embargo, queremos que tenga la opci\u00f3n de decidir qu\u00e9 tanto nos podemos comunicar con usted. \u00bfCon qu\u00e9 frecuencia le gustar\u00eda recibir nuestras notificaciones"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "GeneralConsent_PreferredContactMethod",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "13931",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "una vez por semana"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PreferredContactMethod_OnceAWeek",
+                        "display": "once a week",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "una vez por mes"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PreferredContactMethod_OnceAMonth",
+                        "display": "once a month",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "una vez cada 3 meses"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PreferredContactMethod_OnceEvery3Months",
+                        "display": "once every 3 months",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "una vez cada 6 meses"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PreferredContactMethod_OnceEvery6Months",
+                        "display": "once every 6 months",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "una vez al a\u00f1o"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PreferredContactMethod_OnceAYear",
+                        "display": "once a year",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "We would like to send you updates about events and activities taking place in the Program. But we want you to have the choice in how much we contact you. How often would you like to hear from us: ",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "por favor escriba sus comentarios abajo"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "GeneralConsent_OtherComments",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "13936",
+                "repeats": false,
+                "text": "please add suggestions below",
+                "type": "text"
+            }
+        ],
+        "repeats": false,
+        "required": true,
+        "title": "general feedback"
+    },
+    "identifier": [
+        {
+            "value": "Vibrent_FORM_ID_548"
+        }
+    ],
+    "resourceType": "Questionnaire",
+    "status": "published",
+    "version": "9"
 }
