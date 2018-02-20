@@ -1,5 +1,5 @@
 {
-    "date": "2018-02-20T14:25:26+00:00",
+    "date": "2018-02-20T16:56:31+00:00",
     "group": {
         "concept": [
             {
@@ -29,14 +29,14 @@
                 },
                 "concept": [
                     {
-                        "code": "QTCNorthCarolinaScheduling",
+                        "code": "QTCNorthCarolinaSchedulingNBC",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
                 "linkId": "21180",
                 "option": [
                     {
-                        "code": "QTCNorthCarolinaScheduling_QTC",
+                        "code": "QTCNorthCarolinaScheduling_QTC_New",
                         "display": "QTC",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -58,7 +58,7 @@
                                 }
                             ]
                         },
-                        "code": "QTCNorthCarolinaScheduling_CCBC",
+                        "code": "QTCNorthCarolinaScheduling_CCBC_New",
                         "display": "Community Blood Center of the Carolinas",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
@@ -90,5 +90,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "17"
+    "version": "18"
 }

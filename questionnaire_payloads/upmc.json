@@ -1,5 +1,5 @@
 {
-    "date": "2018-02-20T14:25:12+00:00",
+    "date": "2018-02-20T16:51:13+00:00",
     "group": {
         "concept": [
             {
@@ -29,7 +29,7 @@
                 },
                 "concept": [
                     {
-                        "code": "ExtraConsent_ScheduledWithPACares",
+                        "code": "ScheduledWithPACares",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -53,7 +53,7 @@
                                 }
                             ]
                         },
-                        "code": "ScheduledWithPACares_Yes",
+                        "code": "ScheduledWithPACares_Yes_New",
                         "display": "yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -75,7 +75,7 @@
                                 }
                             ]
                         },
-                        "code": "ScheduledWithPACares_No",
+                        "code": "ScheduledWithPACares_No_New",
                         "display": "no",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
@@ -96,5 +96,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "14"
+    "version": "15"
 }
