@@ -3,7 +3,7 @@
     "group": {
         "concept": [
             {
-                "code": "Jackson-Hinds Comprehensive Health Center",
+                "code": "JacksonHindsScheduling",
                 "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
             }
         ],
