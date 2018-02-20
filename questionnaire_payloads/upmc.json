@@ -1,0 +1,100 @@
+{
+    "date": "2018-02-20T16:51:13+00:00",
+    "group": {
+        "concept": [
+            {
+                "code": "UPMC",
+                "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }
+        ],
+        "linkId": "root_group",
+        "question": [
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfAlguna vez program\u00f3 una cita con su equipo local de All of Us Pennsylvania para tomarse mediciones f\u00edsicas o obtener una muestra biol\u00f3gica?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "ScheduledWithPACares",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "21011",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "s\u00ed"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "ScheduledWithPACares_Yes_New",
+                        "display": "yes",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "no"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "ScheduledWithPACares_No_New",
+                        "display": "no",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Have you already scheduled an appointment with your local All of Us Pennsylvania team for physical measurements and biosample collection?",
+                "type": "choice"
+            }
+        ],
+        "repeats": false,
+        "required": true,
+        "title": "All of Us PA Scheduling Information"
+    },
+    "identifier": [
+        {
+            "value": "Vibrent_FORM_ID_835"
+        }
+    ],
+    "resourceType": "Questionnaire",
+    "status": "published",
+    "version": "15"
+}
