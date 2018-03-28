@@ -1,5 +1,5 @@
 {
-    "date": "2018-03-15T20:19:20+00:00",
+    "date": "2018-03-28T17:13:56Z",
     "group": {
         "concept": [
             {
@@ -20,7 +20,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00a1Gracias por completar su proceso de consentimiento! Usted ha seleccionado [profile HPO_full_name value] como su proveedor. Antes de continuar, por favor confirme si esto es correcto."
+                                    "valueString": "\u00a1Gracias por completar su proceso de consentimiento! Usted ha seleccionado [profile Awardee_full_name value] como su proveedor. Antes de continuar, por favor confirme si esto es correcto."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -82,6 +82,81 @@
                 ],
                 "repeats": false,
                 "text": "Thank you for completing the consent process! You have been paired with [profile HPO_full_name value]. Before you can proceed, please confirm this is correct.",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00a1Gracias por completar su proceso de consentimiento! Usted ha seleccionado [profile Awardee_full_name value] como su proveedor. Antes de continuar, por favor confirme si esto es correcto."
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "SitePairingConfirmation_Awardee",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "34056",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Esto es correcto"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "ConfirmAwardee_Correct",
+                        "display": "This is correct",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Esto no es correcto"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "ConfirmAwardee_Incorrect",
+                        "display": "This is incorrect",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Thank you for completing the consent process! You have been paired with [profile Awardee_full_name value]. Before you can proceed, please confirm this is correct.",
                 "type": "choice"
             },
             {
@@ -403,7 +478,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "We want to help you find a close location to give your physical measurements and biosamples (blood and urine samples).\n\nDo you receive health care from one of these partner health systems?\n\nUniversity of Southern California\nCedars-Sinai Medical Center\nUC Health Systems including: \nUC Davis\nUCSF\nUC Irvine \nUC San Diego",
+                "text": "You are welcome to enroll in one of the California Precision Medicine Consortium (CAPMC) sites.\n\nParticipants in the CAPMC include those who receive their healthcare from provider organizations in California such as University of California Medical Centers and affiliates, University of Southern California, Cedars-Sinai Medical Center, and other healthcare organizations. Will you enroll with CAPMC?",
                 "type": "choice"
             },
             {
@@ -1687,5 +1762,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "137"
+    "version": "218"
 }

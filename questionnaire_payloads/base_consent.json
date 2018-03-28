@@ -1,5 +1,5 @@
 {
-    "date": "2018-03-14T20:36:09+00:00",
+    "date": "2018-03-28T19:11:36Z",
     "group": {
         "concept": [
             {
@@ -70,304 +70,304 @@
                 },
                 "concept": [
                     {
-                        "code": "StreetAddress_PIIState",
+                        "code": "StateOfResidence",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "9503",
+                "linkId": "34053",
                 "option": [
                     {
-                        "code": "PIIState_AL",
+                        "code": "SOR_AL",
                         "display": "Alabama",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_AK",
+                        "code": "SOR_AK",
                         "display": "Alaska",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_AS",
+                        "code": "SOR_AS",
                         "display": "American Samoa",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_AZ",
+                        "code": "SOR_AZ",
                         "display": "Arizona",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_AR",
+                        "code": "SOR_AR",
                         "display": "Arkansas",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_CA",
+                        "code": "SOR_CA",
                         "display": "California",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_CO",
+                        "code": "SOR_CO",
                         "display": "Colorado",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_CT",
+                        "code": "SOR_CT",
                         "display": "Connecticut",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_DC",
+                        "code": "SOR_DC",
                         "display": "District of Columbia",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_DE",
+                        "code": "SOR_DE",
                         "display": "Delaware",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_FM",
+                        "code": "SOR_FM",
                         "display": "Federated States of Micronesia",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_FL",
+                        "code": "SOR_FL",
                         "display": "Florida",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_GA",
+                        "code": "SOR_GA",
                         "display": "Georgia",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_GU",
+                        "code": "SOR_GU",
                         "display": "Guam",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_HI",
+                        "code": "SOR_HI",
                         "display": "Hawaii",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_ID",
+                        "code": "SOR_ID",
                         "display": "Idaho",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_IL",
+                        "code": "SOR_IL",
                         "display": "Illinois",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_IN",
+                        "code": "SOR_IN",
                         "display": "Indiana",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_IA",
+                        "code": "SOR_IA",
                         "display": "Iowa",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_KS",
+                        "code": "SOR_KS",
                         "display": "Kansas",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_KY",
+                        "code": "SOR_KY",
                         "display": "Kentucky",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_LA",
+                        "code": "SOR_LA",
                         "display": "Louisiana",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_ME",
+                        "code": "SOR_ME",
                         "display": "Maine",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_MH",
+                        "code": "SOR_MH",
                         "display": "Marshall Islands",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_MD",
+                        "code": "SOR_MD",
                         "display": "Maryland",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_MA",
+                        "code": "SOR_MA",
                         "display": "Massachusetts",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_MI",
+                        "code": "SOR_MI",
                         "display": "Michigan",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_MN",
+                        "code": "SOR_MN",
                         "display": "Minnesota",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_MS",
+                        "code": "SOR_MS",
                         "display": "Mississippi",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_MO",
+                        "code": "SOR_MO",
                         "display": "Missouri",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_MT",
+                        "code": "SOR_MT",
                         "display": "Montana",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_NE",
+                        "code": "SOR_NE",
                         "display": "Nebraska",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_NV",
+                        "code": "SOR_NV",
                         "display": "Nevada",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_NH",
+                        "code": "SOR_NH",
                         "display": "New Hampshire",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_NJ",
+                        "code": "SOR_NJ",
                         "display": "New Jersey",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_NM",
+                        "code": "SOR_NM",
                         "display": "New Mexico",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_NY",
+                        "code": "SOR_NY",
                         "display": "New York",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_NC",
+                        "code": "SOR_NC",
                         "display": "North Carolina",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_MP",
+                        "code": "SOR_MP",
                         "display": "North Marianas Islands",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_ND",
+                        "code": "SOR_ND",
                         "display": "North Dakota",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_OH",
+                        "code": "SOR_OH",
                         "display": "Ohio",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_OK",
+                        "code": "SOR_OK",
                         "display": "Oklahoma",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_OR",
+                        "code": "SOR_OR",
                         "display": "Oregon",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_PW",
+                        "code": "SOR_PW",
                         "display": "Palau",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_PA",
+                        "code": "SOR_PA",
                         "display": "Pennsylvania",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_PR",
+                        "code": "SOR_PR",
                         "display": "Puerto Rico",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_RI",
+                        "code": "SOR_RI",
                         "display": "Rhode Island",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_SC",
+                        "code": "SOR_SC",
                         "display": "South Carolina",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_SD",
+                        "code": "SOR_SD",
                         "display": "South Dakota",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_TN",
+                        "code": "SOR_TN",
                         "display": "Tennessee",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_TX",
+                        "code": "SOR_TX",
                         "display": "Texas",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_UT",
+                        "code": "SOR_UT",
                         "display": "Utah",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_VT",
+                        "code": "SOR_VT",
                         "display": "Vermont",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_VA",
+                        "code": "SOR_VA",
                         "display": "Virginia",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_VI",
+                        "code": "SOR_VI",
                         "display": "Virgin Islands",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_WA",
+                        "code": "SOR_WA",
                         "display": "Washington",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_WV",
+                        "code": "SOR_WV",
                         "display": "West Virginia",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_WI",
+                        "code": "SOR_WI",
                         "display": "Wisconsin",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_WY",
+                        "code": "SOR_WY",
                         "display": "Wyoming",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
@@ -1647,7 +1647,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "estoy listo para unirme"
+                                            "valueString": "estoy listo para registrarme"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1930,6 +1930,315 @@
                 "type": "text"
             },
             {
+                "concept": [
+                    {
+                        "code": "StreetAddress_PIIState",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "9503",
+                "option": [
+                    {
+                        "code": "PIIState_AL",
+                        "display": "Alabama",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_AK",
+                        "display": "Alaska",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_AS",
+                        "display": "American Samoa",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_AZ",
+                        "display": "Arizona",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_AR",
+                        "display": "Arkansas",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_CA",
+                        "display": "California",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_CO",
+                        "display": "Colorado",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_CT",
+                        "display": "Connecticut",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_DC",
+                        "display": "District of Columbia",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_DE",
+                        "display": "Delaware",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_FM",
+                        "display": "Federated States of Micronesia",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_FL",
+                        "display": "Florida",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_GA",
+                        "display": "Georgia",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_GU",
+                        "display": "Guam",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_HI",
+                        "display": "Hawaii",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_ID",
+                        "display": "Idaho",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_IL",
+                        "display": "Illinois",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_IN",
+                        "display": "Indiana",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_IA",
+                        "display": "Iowa",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_KS",
+                        "display": "Kansas",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_KY",
+                        "display": "Kentucky",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_LA",
+                        "display": "Louisiana",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_ME",
+                        "display": "Maine",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_MH",
+                        "display": "Marshall Islands",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_MD",
+                        "display": "Maryland",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_MA",
+                        "display": "Massachusetts",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_MI",
+                        "display": "Michigan",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_MN",
+                        "display": "Minnesota",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_MS",
+                        "display": "Mississippi",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_MO",
+                        "display": "Missouri",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_MT",
+                        "display": "Montana",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_NE",
+                        "display": "Nebraska",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_NV",
+                        "display": "Nevada",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_NH",
+                        "display": "New Hampshire",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_NJ",
+                        "display": "New Jersey",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_NM",
+                        "display": "New Mexico",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_NY",
+                        "display": "New York",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_NC",
+                        "display": "North Carolina",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_MP",
+                        "display": "North Marianas Islands",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_ND",
+                        "display": "North Dakota",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_OH",
+                        "display": "Ohio",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_OK",
+                        "display": "Oklahoma",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_OR",
+                        "display": "Oregon",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_PW",
+                        "display": "Palau",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_PA",
+                        "display": "Pennsylvania",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_PR",
+                        "display": "Puerto Rico",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_RI",
+                        "display": "Rhode Island",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_SC",
+                        "display": "South Carolina",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_SD",
+                        "display": "South Dakota",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_TN",
+                        "display": "Tennessee",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_TX",
+                        "display": "Texas",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_UT",
+                        "display": "Utah",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_VT",
+                        "display": "Vermont",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_VA",
+                        "display": "Virginia",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_VI",
+                        "display": "Virgin Islands",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_WA",
+                        "display": "Washington",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_WV",
+                        "display": "West Virginia",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_WI",
+                        "display": "Wisconsin",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "PIIState_WY",
+                        "display": "Wyoming",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "type": "choice"
+            },
+            {
                 "_text": {
                     "extension": [
                         {
@@ -2028,5 +2337,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "784"
+    "version": "1181"
 }
