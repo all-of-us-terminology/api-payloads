@@ -1,5 +1,5 @@
 {
-    "date": "2018-03-27T16:49:23Z",
+    "date": "2018-03-28T19:11:36Z",
     "group": {
         "concept": [
             {
@@ -51,6 +51,23 @@
                 "type": "text"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfCu\u00e1l es su estado de residencia?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "StateOfResidence",
@@ -220,7 +237,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "_NV",
+                        "code": "SOR_NV",
                         "display": "Nevada",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -356,7 +373,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "text": "What is your state of residence?",
                 "type": "choice"
             },
             {
@@ -2320,5 +2337,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "1179"
+    "version": "1181"
 }
