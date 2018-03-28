@@ -1,5 +1,5 @@
 {
-    "date": "2018-02-20T14:25:34+00:00",
+    "date": "2018-03-15T20:19:20+00:00",
     "group": {
         "concept": [
             {
@@ -20,7 +20,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00a1Gracias por completar su proceso de consentimiento! Usted ha seleccionado [profile HPO_full_name] como su proveedor. Antes de continuar, por favor confirme si esto es correcto."
+                                    "valueString": "\u00a1Gracias por completar su proceso de consentimiento! Usted ha seleccionado [profile HPO_full_name value] como su proveedor. Antes de continuar, por favor confirme si esto es correcto."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -81,7 +81,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Thank you for completing the consent process! You have been paired with [profile HPO_full_name]. Before you can proceed, please confirm this is correct.",
+                "text": "Thank you for completing the consent process! You have been paired with [profile HPO_full_name value]. Before you can proceed, please confirm this is correct.",
                 "type": "choice"
             },
             {
@@ -1687,5 +1687,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "133"
+    "version": "137"
 }
