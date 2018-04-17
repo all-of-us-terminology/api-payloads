@@ -1,5 +1,5 @@
 {
-    "date": "2018-03-28T19:11:36Z",
+    "date": "2018-04-17T13:57:01+00:00",
     "group": {
         "concept": [
             {
@@ -268,7 +268,7 @@
                     },
                     {
                         "code": "SOR_MP",
-                        "display": "North Marianas Islands",
+                        "display": "Northern Mariana Islands",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -413,7 +413,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -421,7 +421,7 @@
                             ]
                         },
                         "code": "18YearsofAge_18YearsYes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -435,7 +435,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -443,7 +443,7 @@
                             ]
                         },
                         "code": "18YearsofAge_18YearsNo",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -488,7 +488,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -496,7 +496,7 @@
                             ]
                         },
                         "code": "21YearsofAge_21YearsYes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -510,7 +510,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -518,7 +518,7 @@
                             ]
                         },
                         "code": "21YearsofAge_21YearsNo",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -563,7 +563,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -571,7 +571,7 @@
                             ]
                         },
                         "code": "19YearsofAge_19YearsYes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -585,7 +585,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -593,12 +593,12 @@
                             ]
                         },
                         "code": "19YearsofAge_19YearsNo",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
                 "repeats": false,
-                "text": "Because of specific laws in the territory of Alabama, you need to be 19 or older to join All of Us. Are you 19 or older? ",
+                "text": "Because of specific laws in the state of Alabama, you need to be 19 or older to join All of Us. Are you 19 or older? ",
                 "type": "choice"
             },
             {
@@ -612,7 +612,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfDonde recibe la mayor\u00eda de su atenci\u00f3n m\u00e9dica?"
+                                    "valueString": "\u00bfD\u00f3nde recibe la mayor\u00eda de su atenci\u00f3n m\u00e9dica?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -819,7 +819,7 @@
                     },
                     {
                         "code": "PIIStateCare_MP",
-                        "display": "North Marianas Islands",
+                        "display": "Northern Mariana Islands",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1106,6 +1106,35 @@
                                 },
                                 {
                                     "url": "content",
+                                    "valueString": "a_lTd1Gt2sI"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "ExtraConsent_HealthRecordVideo",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "10738",
+                "repeats": false,
+                "text": "19lPGfPc3qQ",
+                "type": "dateTime"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
                                     "valueString": "3qy3_Q-WiuA"
                                 }
                             ],
@@ -1135,7 +1164,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "ZVZTOgFuaWs"
+                                    "valueString": "TSu38x6pFC0"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1150,7 +1179,36 @@
                 ],
                 "linkId": "10736",
                 "repeats": false,
-                "text": "W_JuT9bnW7Q",
+                "text": "8wNpljp2jSQ",
+                "type": "dateTime"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "ltcuN6_T4Ss"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "ExtraConsent_DNAVideo",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "34627",
+                "repeats": false,
+                "text": "tGAAHGWOPoM",
                 "type": "dateTime"
             },
             {
@@ -1193,35 +1251,6 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "xxtXslnjAxU"
-                                }
-                            ],
-                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                        }
-                    ]
-                },
-                "concept": [
-                    {
-                        "code": "ExtraConsent_HealthRecordVideo",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    }
-                ],
-                "linkId": "10738",
-                "repeats": false,
-                "text": "FG2-5vEw-6M",
-                "type": "dateTime"
-            },
-            {
-                "_text": {
-                    "extension": [
-                        {
-                            "extension": [
-                                {
-                                    "url": "lang",
-                                    "valueCode": "es"
-                                },
-                                {
-                                    "url": "content",
                                     "valueString": "knkEA6XzTtI"
                                 }
                             ],
@@ -1251,7 +1280,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "lhewno8u34U"
+                                    "valueString": "pA4R0qsCYvQ"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1266,7 +1295,7 @@
                 ],
                 "linkId": "10740",
                 "repeats": false,
-                "text": "P_LIgAywQiE",
+                "text": "kmLQq6uZo48",
                 "type": "dateTime"
             },
             {
@@ -1280,7 +1309,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "B239QJLnWgs"
+                                    "valueString": "7sqVMMo94wM"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1295,7 +1324,7 @@
                 ],
                 "linkId": "10741",
                 "repeats": false,
-                "text": "GsaGjA4uVYc",
+                "text": "3Ah23_aa4l0",
                 "type": "dateTime"
             },
             {
@@ -1377,7 +1406,7 @@
                             ]
                         },
                         "code": "AllOfUsPurpose_HelpScientistsDiscover",
-                        "display": "To help scientists make discoveries about health.",
+                        "display": "To help researchers make discoveries about health.",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1607,7 +1636,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Using smartphones, apps, and sensors are always a potential risk to privacy. Can All of Us research guarantee your privacy?",
+                "text": "Using smartphones, apps, and sensors are always a potential risk to privacy. Can All of Us guarantee your privacy?",
                 "type": "choice"
             },
             {
@@ -2130,7 +2159,7 @@
                     },
                     {
                         "code": "PIIState_MP",
-                        "display": "North Marianas Islands",
+                        "display": "Northern Mariana Islands",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2337,5 +2366,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "1181"
+    "version": "1238"
 }

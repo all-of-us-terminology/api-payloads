@@ -1,5 +1,5 @@
 {
-    "date": "2018-03-28T17:13:56Z",
+    "date": "2018-04-17T18:50:36+00:00",
     "group": {
         "concept": [
             {
@@ -20,7 +20,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00a1Gracias por completar su proceso de consentimiento! Usted ha seleccionado [profile Awardee_full_name value] como su proveedor. Antes de continuar, por favor confirme si esto es correcto."
+                                    "valueString": "\u00a1Gracias por completar su proceso de consentimiento! Usted ha seleccionado [profile HPO_full_name value] como su proveedor. Antes de continuar, por favor confirme si esto es correcto."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -95,7 +95,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00a1Gracias por completar su proceso de consentimiento! Usted ha seleccionado [profile Awardee_full_name value] como su proveedor. Antes de continuar, por favor confirme si esto es correcto."
+                                    "valueString": "\u00a1Gracias por completar su proceso de consentimiento! Usted ha seleccionado [profile Awardee_Full_Name value] como su proveedor. Antes de continuar, por favor confirme si esto es correcto."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -156,7 +156,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Thank you for completing the consent process! You have been paired with [profile Awardee_full_name value]. Before you can proceed, please confirm this is correct.",
+                "text": "Thank you for completing the consent process! You have been paired with [profile Awardee_Full_Name value]. Before you can proceed, please confirm this is correct.",
                 "type": "choice"
             },
             {
@@ -246,23 +246,6 @@
                 "type": "choice"
             },
             {
-                "_text": {
-                    "extension": [
-                        {
-                            "extension": [
-                                {
-                                    "url": "lang",
-                                    "valueCode": "es"
-                                },
-                                {
-                                    "url": "content",
-                                    "valueString": "El Programa Cient\u00edfico All of Us est\u00e1 inscribiendo participantes en los sigiuentes sitios de atenci\u00f3n medica. \u00bfEn cual sitio quiere hacer su cita?"
-                                }
-                            ],
-                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                        }
-                    ]
-                },
                 "concept": [
                     {
                         "code": "ArizonaSitePairing_AZSitepairingLocation",
@@ -272,25 +255,23 @@
                 "linkId": "12177",
                 "option": [
                     {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "PHOENIX: Banner University Medical Center \u2013 Phoenix (formalmente conocido como Good Samaritan Hospital o Good Sam)"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "AZSitepairingLocation_Phoenix",
-                        "display": "PHOENIX: Banner University Medical Center \u2013 Phoenix (formerly known as Good Samaritan Hospital or Good Sam)",
+                        "code": "AZSitepairingLocation_CasaGrande",
+                        "display": "CASA GRANDE: Banner Casa Grande Medical Center",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "AZSitepairingLocation_Glendale",
+                        "display": "GLENDALE: Banner Thunderbird Medical Center",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "AZSitepairingLocation_Gilbert",
+                        "display": "GILBERT: Banner Gateway Medical Center ",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "AZSitepairingLocation_MesaBannerBaywood",
+                        "display": "MESA: Banner Baywood Medical Center  ",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -317,7 +298,22 @@
                     },
                     {
                         "code": "AZSitepairingLocation_Estrella",
-                        "display": "ESTRELLA: Banner Estrella Medical Center",
+                        "display": "PHOENIX: Banner Estrella Medical Center",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "AZSitepairingLocation_Phoenix",
+                        "display": "PHOENIX: Banner University Medical Center \u2013 Phoenix (formerly known as Good Samaritan Hospital or Good Sam)",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "AZSitepairingLocation_TucsonNorthCampus",
+                        "display": "TUCSON: North Campus: Banner-University Medicine North ",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "AZSitepairingLocation_AlvernonClinic",
+                        "display": "TUCSON: University of Arizona Alvernon Clinic",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -365,18 +361,13 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "AZSitepairingLocation_CasaGrande",
-                        "display": "CASA GRANDE: Banner Casa Grande Medical Center",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "code": "AZSitepairingLocation_Glendale",
-                        "display": "GLENDALE: Banner Thunderbird Medical Center",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
                         "code": "AZSitepairingLocation_SunCity",
                         "display": "SUN CITY: Banner Boswell Medical Center",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "AZSitepairingLocation_SunCityWest",
+                        "display": "SUN CITY WEST: Banner Del E Webb Medical Center ",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -390,7 +381,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "ninguna de estas opciones"
+                                            "valueString": "Ninguna de estas opciones"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -398,12 +389,53 @@
                             ]
                         },
                         "code": "AZSitepairingLocation_None",
-                        "display": "none of these",
+                        "display": "None of these",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
                 "repeats": false,
                 "text": "The All of Us Research Program is enrolling participants at the following healthcare sites. At which location do you wish to schedule your visit?",
+                "type": "choice"
+            },
+            {
+                "concept": [
+                    {
+                        "code": "ArizonaSitePairing_AZWalgreensSitepairingLocation",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "34480",
+                "option": [
+                    {
+                        "code": "AZSitepairingLocation_BannerHealth",
+                        "display": "Banner Health",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Cl\u00ednica Walgreens"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "AZSitepairingLocation_Walgreens",
+                        "display": "Walgreens Clinic",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Which will you prefer:",
                 "type": "choice"
             },
             {
@@ -478,7 +510,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "You are welcome to enroll in one of the California Precision Medicine Consortium (CAPMC) sites.\n\nParticipants in the CAPMC include those who receive their healthcare from provider organizations in California such as University of California Medical Centers and affiliates, University of Southern California, Cedars-Sinai Medical Center, and other healthcare organizations. Will you enroll with CAPMC?",
+                "text": "Are you participating through the California Precision Medicine Consortium (CAPMC)?\n\nParticipants in the CAPMC include those who receive their healthcare from provider organizations in California such as:\n\n\u00b7 University of California Medical Centers & Affiliates (eg. UCSD, UC Irvine, UCSF, UC Davis etc.)\n\n\u00b7 University of Southern California (USC)\n\n\u00b7 Cedars-Sinai Medical Center\n\nWill you enroll with CAPMC?",
                 "type": "choice"
             },
             {
@@ -492,7 +524,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfRecibe usted atenci\u00f3n m\u00e9dica de una de estas cl\u00ednicas colaboradoras?\n\n San Ysidro Health Center, Otay Family Health Center, Chula Vista Medical Plaza, Ocean View Community Health Center, Euclid Community Health Center, King Chavez Family Clinic, Paradise Hills Family Clinic, National City Family Clinic, Chaldean Middle Eastern Social Services, San Ysidro Senior Health Center, San Ysidro Mi Clinica, Maternal & Child Health Center, Southbay Family Health & Dental Center"
+                                    "valueString": "\u00bfRecibe usted atenci\u00f3n m\u00e9dica de una de las siguientes cl\u00ednicas de San Ysidro Health?\n\n San Ysidro Health Center, Otay Family Health Center, Chula Vista Medical Plaza, Ocean View Community Health Center, Euclid Community Health Center, King Chavez Family Clinic, Paradise Hills Family Clinic, National City Family Clinic, Chaldean Middle Eastern Social Services, San Ysidro Senior Health Center, San Ysidro Mi Clinica, Maternal & Child Health Center, Southbay Family Health & Dental Center"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -553,7 +585,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Do you receive medical care from one of these partner clinics?\n\nSan Ysidro Health Center\nOtay Family Health Center\nChula Vista Medical Plaza\nOcean View Community Health Center\nEuclid Community Health Center\nKing Chavez Family Clinic\nParadise Hills Family Clinic\nNational City Family Clinic\nChaldean Middle Eastern Social Services\nSan Ysidro Senior Health Center\nSan Ysidro Mi Clinica\nMaternal & Child Health Center\nSouthbay Family Health & Dental Center",
+                "text": "Do you receive medical care from one of these San Ysidro Health clinics?\n\nSan Ysidro Health Center\nOtay Family Health Center\nChula Vista Medical Plaza\nOcean View Community Health Center\nEuclid Community Health Center\nKing Chavez Family Clinic\nParadise Hills Family Clinic\nNational City Family Clinic\nChaldean Middle Eastern Social Services\nSan Ysidro Senior Health Center\nSan Ysidro Mi Clinica\nMaternal & Child Health Center\nSouthbay Family Health & Dental Center",
                 "type": "choice"
             },
             {
@@ -567,7 +599,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfActualmente es paciente de alguna de estas cl\u00ednicas o centros de salud de Eau Claire?\n\nWaverly Family Practice\nPelion Family Practice\nOtras Cl\u00ednicas de Eau Claire"
+                                    "valueString": "\u00bfActualmente es paciente de alguna de estas cl\u00ednicas o centros de salud de Eau Claire?\n\nBrookland-Cayce Medical Practice\nEastover Medical Practice\nEau Claire Internal Medicine\nEau Claire Walk-In\nHopkins Family Practice\nLake Monticello Family Practice\nPelion Family Practice\nRidgeway Family & Dental Practice\nWaverly Family Practice\nWaverly Women\u2019s Health Center\nWaverly Women\u2019s Health & Internal Medicine of Batesburg-Leesville\nWinnsboro Pediatric & Family Practice"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -628,7 +660,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Are you currently a patient at any of the following Eau Claire clinics or health centers?\n\nWaverly Family Practice\nPelion Family Practice\nOther Eau Claire Clinics",
+                "text": "Are you currently a patient at any of the following Eau Claire clinics or health centers?\n\nBrookland-Cayce Medical Practice\nEastover Medical Practice\nEau Claire Internal Medicine\nEau Claire Walk-In\nHopkins Family Practice\nLake Monticello Family Practice\nPelion Family Practice\nRidgeway Family & Dental Practice\nWaverly Family Practice\nWaverly Women\u2019s Health Center\nWaverly Women\u2019s Health & Internal Medicine of Batesburg-Leesville\nWinnsboro Pediatric & Family Practice",
                 "type": "choice"
             },
             {
@@ -700,23 +732,6 @@
                 "type": "choice"
             },
             {
-                "_text": {
-                    "extension": [
-                        {
-                            "extension": [
-                                {
-                                    "url": "lang",
-                                    "valueCode": "es"
-                                },
-                                {
-                                    "url": "content",
-                                    "valueString": "\u00bfAlguna vez a recibido atenci\u00f3n medica en el Centro de Salud Peekskill, o cualquier otro centro de salud de HRH Care?"
-                                }
-                            ],
-                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                        }
-                    ]
-                },
                 "concept": [
                     {
                         "code": "NewYorkSitePairing_HRHCare",
@@ -771,7 +786,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Have you ever received care at the Peekskill Health Center, or any other HRHCare health center?\n",
+                "text": "Have you ever received care at HRHCare?",
                 "type": "choice"
             },
             {
@@ -785,7 +800,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Indique si alguna vez ha recibido atenci\u00f3n en alguno de estos establecimientos:\nCHC Inc Middletown\nCHC Inc Meriden"
+                                    "valueString": "Indique si alguna vez ha recibido atenci\u00f3n en alguno de estos establecimientos:\n\nCHC Inc Middletown\nCHC Inc Meriden"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -846,7 +861,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Please indicate if you have received care at one of the following locations:\n\nCHC Inc Middletown\nCHC Inc Meriden",
+                "text": "Please indicate if you have received care at one of the following locations:\n\nCHC of Middletown\nCHC of Meriden",
                 "type": "choice"
             },
             {
@@ -957,7 +972,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfAlguna vez ha recibido atenci\u00f3n en un centro de Henry Ford Health System o est\u00e1 afiliado actualmente con la instituci\u00f3n? \n\nEsto puede incluir atenci\u00f3n en un hospital, centro de atenci\u00f3n de urgencia, departamento de emergencias, cl\u00ednica ambulatoria o atenci\u00f3n de empleados de HFHS."
+                                    "valueString": "\u00bfHa recibido atenci\u00f3n m\u00e9dica en alg\u00fan sitio del Henry Ford System, de un doctor afiliado con el sistema, o est\u00e1 usted afiliado con la instituci\u00f3n? \n\nEsto puede incluir recibir atenci\u00f3n en un hospital Henry Ford, atenci\u00f3n urgente, departamento de emergencia, cl\u00ednica de consulta externa, o a traves de atenci\u00f3n por empleo."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1032,7 +1047,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfAlguna vez ha recibido atenci\u00f3n medica en un centro de Spectrum Health System o est\u00e1 actualmente afiliado con esta sistema? Esto puede incluir  el recibir atenci\u00f3n en un hospital de Spectrum, centro de atenci\u00f3n de urgencia, departamento de emergencias, cl\u00ednica ambulatoria o atenci\u00f3n de empleados."
+                                    "valueString": "\u00bfHa recibido atenci\u00f3n m\u00e9dica en alg\u00fan sitio del Spectrum Health System o est\u00e1 usted afiliado con la instituci\u00f3n? Esto puede incluir recibir atenci\u00f3n en un hospital afiliado con Spectrum Health, atenci\u00f3n urgente, departamento de emergencia, cl\u00ednica de consulta externa, o a traves de atenci\u00f3n por empleo?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1093,7 +1108,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Have you ever received care at a Spectrum Health System facility or are you currently affiliated with the system? This may include receiving care in a Spectrum hospital, urgent care, emergency department, outpatient clinic or through employee health.",
+                "text": "Have you ever received care at a Spectrum Health System facility or are you currently affiliated with the system? This may include receiving care in a Spectrum Health hospital, urgent care, emergency department, outpatient clinic, integrated care center, or through employee health?",
                 "type": "choice"
             },
             {
@@ -1134,7 +1149,7 @@
                     },
                     {
                         "code": "WisconsinSitePairing_FroedertHealth",
-                        "display": "Froedtert Health, Milwaukee, Wisconsin\n",
+                        "display": "Froedtert & the Medical College of Wisconsin\n",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1464,7 +1479,7 @@
                             ]
                         },
                         "code": "CareReceived_YesPartners",
-                        "display": "yes, at a Partners organization",
+                        "display": "yes, at a Partners location",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1491,7 +1506,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Have you ever received care at any hospital, health center or clinic affiliated with Boston Medical Center (BMC) or Partners HealthCare (Partners). \n",
+                "text": "Have you ever received care at any hospital, health center or clinic affiliated with Boston Medical Center (BMC) or Partners HealthCare (Partners)?\n",
                 "type": "choice"
             },
             {
@@ -1532,7 +1547,7 @@
                     },
                     {
                         "code": "SouthernProviders_HuntsvilleHospital",
-                        "display": "Huntsville Hospital, Huntsville",
+                        "display": "Huntsville Hospital, Huntsville (opening in 2019)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1568,6 +1583,11 @@
                     {
                         "code": "SouthernProviders_UMedicalCenter",
                         "display": "The University of Alabama, Tuscaloosa\n",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "SouthernProviders_UABHuntsvilleRegionalMedical",
+                        "display": "UAB Huntsville Regional Medical Campus",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1753,7 +1773,7 @@
         ],
         "repeats": false,
         "required": true,
-        "title": "Site Pairing"
+        "title": "Find a Partner"
     },
     "identifier": [
         {
@@ -1762,5 +1782,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "218"
+    "version": "262"
 }
