@@ -1,5 +1,5 @@
 {
-    "date": "2018-05-21T17:43:56Z",
+    "date": "2018-05-21T18:38:33Z",
     "group": {
         "concept": [
             {
@@ -1031,7 +1031,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Enfermedad de crohn"
+                                            "valueString": "Enfermedad de Crohn"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1075,7 +1075,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "C\u00e1lculos biliares (Piedras en la vesicula biliar)"
+                                            "valueString": "C\u00e1lculos biliares (piedras en la vesicula biliar)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1141,7 +1141,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "\u00dalceras p\u00e9pticas (\u00falceras del est\u00f3mago o del intestino) delgado)"
+                                            "valueString": "\u00dalceras p\u00e9pticas (\u00falceras del est\u00f3mago o del intestino delgado)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1705,7 +1705,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Enfermedad de parkinson"
+                                            "valueString": "Enfermedad de Parkinson"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3191,7 +3191,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Hipertensi\u00f3n (Presi\u00f3n arterial alta)"
+                                            "valueString": "Hipertensi\u00f3n (presi\u00f3n arterial alta)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3442,7 +3442,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Enfermedad de crohn"
+                                            "valueString": "Enfermedad de Crohn"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3486,7 +3486,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "C\u00e1lculos biliares (Piedras en la vesicula biliar)"
+                                            "valueString": "C\u00e1lculos biliares (piedras en la vesicula biliar)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3984,7 +3984,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Esclerosis lateral amiotr\u00f3fica (Anfermedad de Lou Gehrig)"
+                                            "valueString": "Esclerosis lateral amiotr\u00f3fica (Enfermedad de Lou Gehrig)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4116,7 +4116,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Enfermedad de parkinson"
+                                            "valueString": "Enfermedad de Parkinson"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5619,7 +5619,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Hipertensi\u00f3n (Presi\u00f3n arterial alta)"
+                                            "valueString": "Hipertensi\u00f3n (presi\u00f3n arterial alta)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5870,7 +5870,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Enfermedad de crohn"
+                                            "valueString": "Enfermedad de Crohn"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5914,7 +5914,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "C\u00e1lculos biliares (Piedras en la vesicula biliar)"
+                                            "valueString": "C\u00e1lculos biliares (piedras en la vesicula biliar)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6527,7 +6527,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Enfermedad de parkinson"
+                                            "valueString": "Enfermedad de Parkinson"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -8079,7 +8079,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Hipertensi\u00f3n (Presi\u00f3n arterial alta)"
+                                            "valueString": "Hipertensi\u00f3n (presi\u00f3n arterial alta)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -8330,7 +8330,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Enfermedad de crohn"
+                                            "valueString": "Enfermedad de Crohn"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -8374,7 +8374,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "C\u00e1lculos biliares (Piedras en la vesicula biliar)"
+                                            "valueString": "C\u00e1lculos biliares (piedras en la vesicula biliar)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -9004,7 +9004,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Enfermedad de parkinson"
+                                            "valueString": "Enfermedad de Parkinson"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -10780,7 +10780,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Enfermedad de crohn"
+                                            "valueString": "Enfermedad de Crohn"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -10824,7 +10824,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "C\u00e1lculos biliares (Piedras en la vesicula biliar)"
+                                            "valueString": "C\u00e1lculos biliares (piedras en la vesicula biliar)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -11454,7 +11454,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Enfermedad de parkinson"
+                                            "valueString": "Enfermedad de Parkinson"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -12216,7 +12216,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "No tengo otros hijos con lazo sangu\u00edneo."
+                                            "valueString": "no tengo otros hijos con lazo sangu\u00edneo."
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -12979,7 +12979,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Hipertensi\u00f3n (Presi\u00f3n arterial alta)"
+                                            "valueString": "Hipertensi\u00f3n (presi\u00f3n arterial alta)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -13230,7 +13230,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Enfermedad de crohn"
+                                            "valueString": "Enfermedad de Crohn"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -13274,7 +13274,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "C\u00e1lculos biliares (Piedras en la vesicula biliar)"
+                                            "valueString": "C\u00e1lculos biliares (piedras en la vesicula biliar)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -13904,7 +13904,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Enfermedad de parkinson"
+                                            "valueString": "Enfermedad de Parkinson"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -14773,5 +14773,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "741"
+    "version": "742"
 }
