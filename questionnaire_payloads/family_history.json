@@ -1,5 +1,5 @@
 {
-    "date": "2018-05-21T18:38:33Z",
+    "date": "2018-05-21T20:07:43Z",
     "group": {
         "concept": [
             {
@@ -5104,7 +5104,7 @@
                                 }
                             ]
                         },
-                        "code": "SiblingCancerCondition_ Endocrine Cancer",
+                        "code": "SiblingCancerCondition_EndocrineCancer",
                         "display": "Endocrine cancer",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -5148,7 +5148,7 @@
                                 }
                             ]
                         },
-                        "code": "SiblingCancerCondition_ Esophageal Cancer",
+                        "code": "SiblingCancerCondition_EsophagealCancer",
                         "display": "Esophageal cancer",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -7449,7 +7449,7 @@
                                 }
                             ]
                         },
-                        "code": "DaughterCancerCondition_ BladderCancer",
+                        "code": "DaughterCancerCondition_BladderCancer",
                         "display": "Bladder cancer",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -7603,7 +7603,7 @@
                                 }
                             ]
                         },
-                        "code": "DaughterCancerCondition_ EndocrineCancer",
+                        "code": "DaughterCancerCondition_EndocrineCancer",
                         "display": "Endocrine cancer",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -7625,7 +7625,7 @@
                                 }
                             ]
                         },
-                        "code": "DaughterCancerCondition_ EndometrialCancer",
+                        "code": "DaughterCancerCondition_EndometrialCancer",
                         "display": "Endometrial cancer",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -7647,7 +7647,7 @@
                                 }
                             ]
                         },
-                        "code": "DaughterCancerCondition_ EsophagealCancer",
+                        "code": "DaughterCancerCondition_EsophagealCancer",
                         "display": "Esophageal cancer",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -8381,7 +8381,7 @@
                                 }
                             ]
                         },
-                        "code": "DaughterDigestiveCondition_Gall Stones",
+                        "code": "DaughterDigestiveCondition_GallStones",
                         "display": "Gall stones",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -14773,5 +14773,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "742"
+    "version": "743"
 }
