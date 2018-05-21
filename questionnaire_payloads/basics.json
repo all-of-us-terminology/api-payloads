@@ -1,5 +1,5 @@
 {
-    "date": "2017-12-27T16:17:38+00:00",
+    "date": "2018-05-21T18:27:08Z",
     "group": {
         "concept": [
             {
@@ -68,7 +68,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "otro pa\u00eds"
+                                            "valueString": "Otro pa\u00eds"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -76,7 +76,7 @@
                             ]
                         },
                         "code": "PMI_Other",
-                        "display": "other",
+                        "display": "Other",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -224,7 +224,7 @@
                             ]
                         },
                         "code": "WhatRaceEthnicity_Hispanic",
-                        "display": "Hispanic, Latino, or Spanish (For example: Columbian, Cuban, Dominican, Mexican or Mexican American, Puerto Rican, Salvadoran, etc.)",
+                        "display": "Hispanic, Latino, or Spanish (For example: Colombian, Cuban, Dominican, Mexican or Mexican American, Puerto Rican, Salvadoran, etc.)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -501,7 +501,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "ingrese otra raza u origen \u00e9tnico"
+                                    "valueString": "escriba tribu o origen tribal"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -516,7 +516,7 @@
                 ],
                 "linkId": "9795",
                 "repeats": false,
-                "text": "enter other race or ethnicity",
+                "text": "enter tribe or tribal descent",
                 "type": "text"
             },
             {
@@ -2633,7 +2633,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "ninguna de estas opciones me describe"
+                                            "valueString": "ninguna de estas opciones me describe y quiero ver opciones adicionales"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2641,7 +2641,7 @@
                             ]
                         },
                         "code": "GenderIdentity_AdditionalOptions",
-                        "display": "none of these describe me, and I want to specify",
+                        "display": "none of these describe me, and I\u2019d like to consider additional options ",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2966,7 +2966,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "heterosexual (no eres gay ni lesbiana)"
+                                            "valueString": "heterosexual (no es gay ni lesbiana)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2974,7 +2974,7 @@
                             ]
                         },
                         "code": "SexualOrientation_Straight",
-                        "display": "straight; that is, not gay or lesbian, etc",
+                        "display": "straight; that is, not gay or lesbian, etc.",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -3431,7 +3431,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "9.\u00ba a 11.\u00ba grado (Preparatoria o bachillerato incompleta)"
+                                            "valueString": "9.\u00ba a 11.\u00ba grado (Preparatoria o bachillerato incompleto)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3836,7 +3836,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "What is your current marital status?\n\n",
+                "text": "What is your current marital status?",
                 "type": "choice"
             },
             {
@@ -3879,7 +3879,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "cantidad de ni\u00f1os (number)"
+                                    "valueString": "cantidad de ni\u00f1os (n\u00famero)"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4027,7 +4027,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfQu\u00e9 tipo de seguro m\u00e9dico o plan para el cuidado de su salud tiene usted? Incluya a los que pagan solo por un tipo de servicio (enfermer\u00eda a domicilio, accidentes o atenci\u00f3n dental). Excluya los planes privados que solo proveen dinero extra durante la hospitalizaci\u00f3n. Si tiene m\u00e1s de un tipo de seguro de salud, marque todos los planes que tenga."
+                                    "valueString": "Actualmente \u00bfest\u00e1 cubierto por alg\u00fan seguro m\u00e9dico o planes de cobertura m\u00e9dica?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4036,11 +4036,11 @@
                 },
                 "concept": [
                     {
-                        "code": "HealthInsurance_HealthInsuranceType",
+                        "code": "HealthInsurance_InsuranceTypeUpdate",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "9766",
+                "linkId": "34779",
                 "option": [
                     {
                         "_display": {
@@ -4053,15 +4053,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "seguro de salud privado (incluye provistos por el empleador)"
+                                            "valueString": "Seguro a trav\u00e9s de su trabajo previo o actual o a trav\u00e9s de una asociaci\u00f3n de trabajadores (de parte de usted u otro familiar)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "HealthInsuranceType_Private",
-                        "display": "private health insurance (includes employer-based)",
+                        "code": "InsuranceTypeUpdate_Purchased",
+                        "display": "Insurance purchased directly from an insurance company (by you or another family member)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4075,15 +4075,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "MEDICARE"
+                                            "valueString": "Medicare para personas de 65 a\u00f1os o m\u00e1s o con ciertas discapacidades"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "HealthInsuranceType_Medicare",
-                        "display": "MEDICARE",
+                        "code": "InsuranceTypeUpdate_Medicare",
+                        "display": "Medicare, for people 65 and older or people with certain disabilities",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4097,15 +4097,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "MEDI-GAP"
+                                            "valueString": "Medicaid, ayuda m\u00e9dica o alg\u00fan tipo de plan de ayuda del gobierno para personas con bajos ingresos o discapacidades"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "HealthInsuranceType_MediGAP",
-                        "display": "MEDI-GAP ",
+                        "code": "InsuranceTypeUpdate_Medicaid",
+                        "display": "Medicaid, Medical Assistance, or any kind of government-assistance plan for those with low incomes or disability",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4119,15 +4119,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "MEDICAID"
+                                            "valueString": "TRICARE o alguna otra atenci\u00f3n m\u00e9dica para militares"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "HealthInsuranceType_Medicaid",
-                        "display": "MEDICAID ",
+                        "code": "InsuranceTypeUpdate_Military",
+                        "display": "TRICARE or other military health care",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4141,15 +4141,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "SCHIP (CHIP/Children's Health Insurance Program)"
+                                            "valueString": "Administraci\u00f3n de Veteranos (VA, por sus siglas en ingles) (incluye los que alguna vez han usado o se han inscrito en la atenci\u00f3n m\u00e9dica de VA)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "HealthInsuranceType_Schip",
-                        "display": "SCHIP (CHIP/Children\u2019s Health Insurance Program",
+                        "code": "InsuranceTypeUpdate_VA",
+                        "display": "Veterans Affairs (VA) (including those who have ever used or enrolled for VA health care)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4163,15 +4163,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "atenci\u00f3n m\u00e9dica militar (TRICARE/VA/CHAMP-VA)"
+                                            "valueString": "Servicio M\u00e9dico para Indios Americanos/Nativos Americanos"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "HealthInsuranceType_Military",
-                        "display": "military health care (TRICARE/VA/CHAMP-VA)",
+                        "code": "InsuranceTypeUpdate_Indian",
+                        "display": "Indian Health Service",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4185,15 +4185,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "servicio de salud ind\u00edgena"
+                                            "valueString": "Otro tipo de seguro m\u00e9dico o plan de cobertura m\u00e9dica"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "HealthInsuranceType_Indian",
-                        "display": "Indian health service",
+                        "code": "InsuranceTypeUpdate_OtherHealthPlan",
+                        "display": " Any other type of health insurance or health coverage plan",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4207,131 +4207,50 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "plan de salud patrocinado por el Estado"
+                                            "valueString": "No tengo seguro m\u00e9dico, yo pago por mi cuenta"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "HealthInsuranceType_StateSponsored",
-                        "display": "state-sponsored health plan",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "otro programa gubernamental"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "HealthInsuranceType_OtherGovernment",
-                        "display": "other government program",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "plan de servicio \u00fanico (p. ej., dental, vista, recetas)"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "HealthInsuranceType_SingleService",
-                        "display": "single service plan (e.g., dental, vision,  prescriptions)",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "ning\u00fan tipo de cobertura"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "HealthInsuranceType_NoCoverage",
-                        "display": "no coverage of any type",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "prefiero no responder"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "no s\u00e9"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "code": "InsuranceTypeUpdate_None",
+                        "display": "I don\u2019t have health insurance, self-pay",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
                 "repeats": true,
-                "text": "What kind of health insurance or health care coverage do you have?  Include those that pay for only one type of service  (nursing home care, accidents,  or dental care). Exclude private plans that only provide extra cash while hospitalized.  If you have more than one kind of health insurance, mark all plans that you have.",
+                "text": "Are you currently covered by any of the following types of health insurance or health coverage plans?",
                 "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "otro (por favor especifique)"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "OtherHealthPlan_FreeText",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "34803",
+                "repeats": false,
+                "text": "other (please specify)",
+                "type": "text"
             },
             {
                 "_text": {
@@ -4458,7 +4377,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "soy una mujer u hombre que me ocupo de tareas de la casa/ Ama de casa"
+                                            "valueString": "soy una mujer u hombre que me ocupo de tareas de la casa/ama de casa"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4524,7 +4443,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no puede trabajar (Por Discapacidad)"
+                                            "valueString": "no puede trabajar (por discapacidad)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4559,7 +4478,7 @@
                     }
                 ],
                 "repeats": true,
-                "text": "What is your current employment status?  Please select 1 or more of these categories. ",
+                "text": "What is your current employment status? Please select 1 or more of these categories. ",
                 "type": "choice"
             },
             {
@@ -4660,7 +4579,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "estado"
+                                    "valueString": "c\u00f3digo postal"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4702,10 +4621,10 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "5750",
+                "linkId": "34752",
                 "repeats": false,
                 "text": "zip code",
-                "type": "decimal"
+                "type": "text"
             },
             {
                 "_text": {
@@ -5152,28 +5071,6 @@
                         },
                         "code": "CurrentHomeOwn_OtherArrangement",
                         "display": "other arrangement",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "no s\u00e9"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_DontKnow",
-                        "display": "don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -5732,7 +5629,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "un n\u00famero de seguro social"
+                                    "valueString": "n\u00famero de seguro social"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5860,7 +5757,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "direcci\u00f3n numero 1 de la primera persona"
+                                    "valueString": "direcci\u00f3n n\u00famero 1 de la primera persona"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5889,7 +5786,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "direcci\u00f3n numero 2 de la primera persona"
+                                    "valueString": "direcci\u00f3n n\u00famero 2 de la primera persona"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6369,7 +6266,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "esposo/conyuge"
+                                            "valueString": "esposo/c\u00f3nyuge"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7092,7 +6989,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "esposo/conyuge"
+                                            "valueString": "esposo/c\u00f3nyuge"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7212,7 +7109,7 @@
         "repeats": false,
         "required": true,
         "text": "This set of items asks about your background, household, and contact information. The purpose is to gather some general information about you.",
-        "title": "the basics"
+        "title": "The Basics"
     },
     "identifier": [
         {
@@ -7221,5 +7118,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "386"
+    "version": "788"
 }
