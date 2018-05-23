@@ -1,5 +1,5 @@
 {
-    "date": "2018-04-19T21:08:29+00:00",
+    "date": "2018-05-23T18:10:30Z",
     "group": {
         "concept": [
             {
@@ -20,265 +20,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Actualmente \u00bfest\u00e1 cubierto por alg\u00fan seguro m\u00e9dico o planes de cobertura m\u00e9dica? Seleccione todo lo que corresponda de un grupo."
-                                }
-                            ],
-                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                        }
-                    ]
-                },
-                "concept": [
-                    {
-                        "code": "Insurance_InsuranceType",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    }
-                ],
-                "linkId": "4068",
-                "option": [
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "seguro a trav\u00e9s de su trabajo previo o actual o a trav\u00e9s de una asociaci\u00f3n de trabajadores (de parte de usted u otro familiar)"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "InsuranceType_EmployerOrUnion",
-                        "display": "insurance through a current or former employer or union (by you or another family member)",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "seguro comprado directamente a una compa\u00f1\u00eda de seguros (de parte de usted u otro familiar)"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "InsuranceType_PurchasedInsurance",
-                        "display": "insurance purchased directly from an insurance company (by you or another family member)",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "Medicare para personas de 65 a\u00f1os o m\u00e1s o con ciertas discapacidades"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "InsuranceType_Medicare",
-                        "display": "Medicare, for people 65 and older or people with certain disabilities",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "Medicaid, ayuda m\u00e9dica o alg\u00fan tipo de plan de ayuda del gobierno\nd.\tpara personas con bajos ingresos o discapacidades"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "InsuranceType_GovernmentAssistancePlan",
-                        "display": "Medicaid, Medical Assistance, or any kind of government-assistance plan for those with low incomes or disability",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "TRICARE o alguna otra atenci\u00f3n m\u00e9dica para militares"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "InsuranceType_TricareOrMilitary",
-                        "display": "TRICARE or other military health care",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "a.\tDepartamento de Asuntos para Veteranos Administraci\u00f3n de Veteranos (VA, por sus siglas en ingl\u00e9s) (incluye los que alguna vez ha usado o se ha inscrito para la atenci\u00f3n m\u00e9dica de VA)"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "InsuranceType_VeteranAdministration",
-                        "display": "Veteran\u2019s Affairs (VA) (including those who have ever used or enrolled for VA health care)",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "servicio M\u00e9dico para Indio Americano"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "InsuranceType_IndianHealthService",
-                        "display": "Indian Health Service",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "no tengo seguro m\u00e9dico, yo pago por mi cuenta"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "InsuranceType_SelfPayOrNone",
-                        "display": "I don\u2019t have insurance; self-pay",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "otro tipo de seguro m\u00e9dico o plan de cobertura m\u00e9dica"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "InsuranceType_OtherInsuranceType",
-                        "display": "any other type of health insurance or health coverage plan",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    }
-                ],
-                "repeats": true,
-                "text": "Are you currently covered by any of the following types of health insurance or health coverage plans? Select all that apply from one group.",
-                "type": "choice"
-            },
-            {
-                "_text": {
-                    "extension": [
-                        {
-                            "extension": [
-                                {
-                                    "url": "lang",
-                                    "valueCode": "es"
-                                },
-                                {
-                                    "url": "content",
-                                    "valueString": "Por favor, especifique"
-                                }
-                            ],
-                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                        }
-                    ]
-                },
-                "concept": [
-                    {
-                        "code": "OtherInsuranceType_FreeText",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    }
-                ],
-                "linkId": "11074",
-                "repeats": false,
-                "text": "please specify",
-                "type": "text"
-            },
-            {
-                "_text": {
-                    "extension": [
-                        {
-                            "extension": [
-                                {
-                                    "url": "lang",
-                                    "valueCode": "es"
-                                },
-                                {
-                                    "url": "content",
-                                    "valueString": "Un optometrista/oculista (alguien que proporciona recetas para lentes), un oftalm\u00f3logo, o especialista de los ojos."
+                                    "valueString": "DURANTE LOS \u00daLTIMOS 12 MESES, alg\u00fan consultorio m\u00e9dico o proveedor de atenci\u00f3n m\u00e9dica le informo que no aceptaba su plan m\u00e9dico?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -326,7 +68,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "no"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -348,7 +90,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no se"
+                                            "valueString": "no s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -454,28 +196,6 @@
                         },
                         "code": "HealthcareCoverage_AboutTheSame",
                         "display": "about the same",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -595,28 +315,6 @@
                         },
                         "code": "PlaceforHealthAdvice_MoreThanOne",
                         "display": "there is MORE THAN ONE place",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -780,28 +478,6 @@
                         },
                         "code": "WhatKindOfPlace_NoOnePlaceMostOften",
                         "display": "don't go to one place most often",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1000,28 +676,6 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
                                             "valueString": "no s\u00e9"
                                         }
                                     ],
@@ -1035,7 +689,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "About how long has it been since you last saw or talked to a doctor or other health care professional about your own health? ",
+                "text": "About how long has it been since you last saw or talked to a doctor or other health care provider about your own health? ",
                 "type": "choice"
             },
             {
@@ -1097,7 +751,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "no"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1119,7 +773,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no se"
+                                            "valueString": "no s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1146,7 +800,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfUna enfermera practicante, un asociado m\u00e9dico, o una partera."
+                                    "valueString": "\u00bfUna enfermera practicante, un asociado m\u00e9dico, o una partera?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1194,7 +848,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "no"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1216,7 +870,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no se"
+                                            "valueString": "no s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1291,7 +945,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "no"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1313,7 +967,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no se"
+                                            "valueString": "no s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1388,7 +1042,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "no"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1410,7 +1064,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no se"
+                                            "valueString": "no s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1485,7 +1139,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "no"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1507,7 +1161,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no se"
+                                            "valueString": "no s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1582,7 +1236,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "no"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1604,7 +1258,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no se"
+                                            "valueString": "no s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1679,7 +1333,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "no"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1701,7 +1355,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no se"
+                                            "valueString": "no s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1776,7 +1430,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "no"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1798,7 +1452,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no se"
+                                            "valueString": "no s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1873,7 +1527,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "no"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1895,7 +1549,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no se"
+                                            "valueString": "no s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1922,7 +1576,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfUn m\u00e9dico especializado en una enfermedad o una condici\u00f3n m\u00e9dica que no sea obstetra/ginec\u00f3logo, psiquiatra u oftalm\u00f3logo"
+                                    "valueString": "\u00bfUn m\u00e9dico especializado en una enfermedad o una condici\u00f3n m\u00e9dica que no sea obstetra/ginec\u00f3logo, psiquiatra u oftalm\u00f3logo?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1970,7 +1624,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "no"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1992,7 +1646,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no se"
+                                            "valueString": "no s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2019,7 +1673,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfSanadores (curanderos) tradicionales como los Chamanes, acupunturistas o medicina no occidental?"
+                                    "valueString": "\u00bfSanadores (curanderos) tradicionales como los chamanes, acupunturistas o medicina no occidental?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2296,7 +1950,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "16 or more"
+                                            "valueString": "16 o m\u00e1s"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2305,28 +1959,6 @@
                         },
                         "code": "GeneralDoctorVisits_16orMore",
                         "display": "16 or more",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2367,7 +1999,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "En los \u00faltimos 12 meses, \u00bfcu\u00e1ntas veces visit\u00f3 a una enfermera practicante,  un asociado m\u00e9dico o una partera?"
+                                    "valueString": "En los \u00faltimos 12 meses, \u00bfcu\u00e1ntas veces visit\u00f3 a una enfermera practicante, un asociado m\u00e9dico o una partera?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2556,28 +2188,6 @@
                         },
                         "code": "NursePractitionerVisits_16orMore",
                         "display": "16 or more",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2820,28 +2430,6 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
                                             "valueString": "no s\u00e9"
                                         }
                                     ],
@@ -2855,7 +2443,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "What is the total number visits to a doctor who specializes in women's health that you made in the last 12 months?",
+                "text": "What is the total number of visits to a doctor who specializes in women's health that you made in the last 12 months?",
                 "type": "choice"
             },
             {
@@ -2869,7 +2457,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "En los \u00faltimos 12 meses \u00bfCu\u00e1ntas veces visit\u00f3 a un profesional de la salud mental?"
+                                    "valueString": "En los \u00faltimos 12 meses \u00bfcu\u00e1ntas veces visit\u00f3 a un profesional de la salud mental?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3071,28 +2659,6 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
                                             "valueString": "no s\u00e9"
                                         }
                                     ],
@@ -3106,7 +2672,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "What is the total number visits to a mental health professional that you made in the last 12 months?",
+                "text": "What is the total number of visits to a mental health professional that you made in the last 12 months?",
                 "type": "choice"
             },
             {
@@ -3322,28 +2888,6 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
                                             "valueString": "no s\u00e9"
                                         }
                                     ],
@@ -3357,7 +2901,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "What is the total number visits to an eye doctor that you made in the last 12 months?\n",
+                "text": "What is the total number of visits to an eye doctor that you made in the last 12 months?\n",
                 "type": "choice"
             },
             {
@@ -3573,28 +3117,6 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
                                             "valueString": "no s\u00e9"
                                         }
                                     ],
@@ -3608,7 +3130,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "What is the total number visits to a foot doctor that you made in the last 12 months?",
+                "text": "What is the total number of visits to a foot doctor that you made in the last 12 months?",
                 "type": "choice"
             },
             {
@@ -3824,28 +3346,6 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
                                             "valueString": "no s\u00e9"
                                         }
                                     ],
@@ -3859,7 +3359,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "What is the total number visits to a chiropractor that you made in the last 12 months?",
+                "text": "What is the total number of visits to a chiropractor that you made in the last 12 months?",
                 "type": "choice"
             },
             {
@@ -4075,28 +3575,6 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
                                             "valueString": "no s\u00e9"
                                         }
                                     ],
@@ -4110,7 +3588,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "What is the total number visits to a physical therapist, speech therapist, respiratory therapist, audiologist, or occupational therapist that you made in the last 12 months?",
+                "text": "What is the total number of visits to a physical therapist, speech therapist, respiratory therapist, audiologist, or occupational therapist that you made in the last 12 months?",
                 "type": "choice"
             },
             {
@@ -4326,28 +3804,6 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
                                             "valueString": "no s\u00e9"
                                         }
                                     ],
@@ -4361,7 +3817,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "What is the total number visits to a dentist or orthodontist that you made in the last 12 months?",
+                "text": "What is the total number of visits to a dentist or orthodontist that you made in the last 12 months?",
                 "type": "choice"
             },
             {
@@ -4577,28 +4033,6 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
                                             "valueString": "no s\u00e9"
                                         }
                                     ],
@@ -4612,7 +4046,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "What is the total number visits to a medical doctor who specializes in a particular medical disease or problem that you made in the last 12 months?",
+                "text": "What is the total number of visits to a medical doctor who specializes in a particular medical disease or problem that you made in the last 12 months?",
                 "type": "choice"
             },
             {
@@ -4828,28 +4262,6 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
                                             "valueString": "no s\u00e9"
                                         }
                                     ],
@@ -4863,7 +4275,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "What is the total number visits to a traditional healer that you made in the last 12 months?",
+                "text": "What is the total number of visits to traditional healers that you made in the last 12 months?",
                 "type": "choice"
             },
             {
@@ -4877,7 +4289,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfCon qu\u00e9 frecuencia usted fue tratado(a) con respeto por sus m\u00e9dicos o proveedores de atenci\u00f3n m\u00e9dica? Dir\u00eda usted\u2026"
+                                    "valueString": "\u00bfCon qu\u00e9 frecuencia usted fue tratado(a) con respeto por sus m\u00e9dicos o proveedores de cuidado de salud? Dir\u00eda usted\u2026"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4991,28 +4403,6 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
                                             "valueString": "no s\u00e9"
                                         }
                                     ],
@@ -5026,7 +4416,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "How often were you treated with respect by your health care providers? Would you say\u2026",
+                "text": "How often were you treated with respect by your doctors or health care providers? Would you say\u2026",
                 "type": "choice"
             },
             {
@@ -5040,7 +4430,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfCon qu\u00e9 frecuencia sus m\u00e9dicos o proveedores de salud le preguntaron sobre su opini\u00f3n o sus creencias acerca de su atenci\u00f3n m\u00e9dica o tratamiento? Por ejemplo, que tipos de pruebas, procedimientos, o medicamentos prefiere. Dir\u00eda usted\u2026"
+                                    "valueString": "\u00bfCon qu\u00e9 frecuencia sus m\u00e9dicos o proveedores de cuidado de salud le preguntaron sobre su opini\u00f3n o sus creencias acerca de su atenci\u00f3n m\u00e9dica o tratamiento? Por ejemplo, acerca de qu\u00e9 tipos de pruebas, procedimientos, o medicamentos prefiere. Dir\u00eda usted\u2026"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5154,28 +4544,6 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
                                             "valueString": "no s\u00e9"
                                         }
                                     ],
@@ -5189,7 +4557,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "How often did your health care providers ask for your opinions or beliefs about your medical care or treatment? For example, what kind of tests, procedures, or medications you prefer. Would you say\u2026",
+                "text": "How often did your doctors or health care providers ask for your opinions or beliefs about your medical care or treatment? For example, what kind of tests, procedures, or medications you prefer. Would you say\u2026",
                 "type": "choice"
             },
             {
@@ -5203,7 +4571,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfCon qu\u00e9 frecuencia sus m\u00e9dicos o proveedores de atenci\u00f3n m\u00e9dica le ofrecieron informaci\u00f3n sobre su salud y atenci\u00f3n m\u00e9dica que le fue f\u00e1cil de entender? Dir\u00eda usted\u2026"
+                                    "valueString": "\u00bfCon qu\u00e9 frecuencia sus m\u00e9dicos o proveedores de cuidado de salud de atenci\u00f3n m\u00e9dica le ofrecieron informaci\u00f3n sobre su salud y atenci\u00f3n m\u00e9dica que le fue f\u00e1cil de entender? Dir\u00eda usted\u2026"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5317,28 +4685,6 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
                                             "valueString": "no s\u00e9"
                                         }
                                     ],
@@ -5352,7 +4698,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "How often did your health care providers tell or give you information about your health and health care that was easy to understand? Would you say\u2026 ",
+                "text": "How often did your doctors or health care providers tell or give you information about your health and health care that was easy to understand? Would you say\u2026 ",
                 "type": "choice"
             },
             {
@@ -5449,7 +4795,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Didn't have transportation",
+                "text": "Didn't have transportation.",
                 "type": "choice"
             },
             {
@@ -5546,7 +4892,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "You live in a rural area where distance to the health care provider is too far\n",
+                "text": "You live in a rural area where distance to the health care provider is too far.\n",
                 "type": "choice"
             },
             {
@@ -5643,7 +4989,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "You were nervous about seeing a health care provider\n\n",
+                "text": "You were nervous about seeing a health care provider.\n",
                 "type": "choice"
             },
             {
@@ -5934,7 +5280,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "You provide care to an adult and could not leave him/her",
+                "text": "You provide care to an adult and could not leave him/her.",
                 "type": "choice"
             },
             {
@@ -6031,7 +5377,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Couldn\u2019t afford the co-pay.",
+                "text": "Couldn\u2019t afford the copay.",
                 "type": "choice"
             },
             {
@@ -6045,7 +5391,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Tuvo/Yo tuve que pagar todo o parte del procedimiento de su"
+                                    "valueString": "Yo tuve que pagar todo o parte del procedimiento de su"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6128,7 +5474,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Deductible was too high/or could not afford the deductible.",
+                "text": "Your deductible was too high/or could not afford the deductible.",
                 "type": "choice"
             },
             {
@@ -6142,7 +5488,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Tuvo/Yo tuve que pagar todo o parte del procedimiento de su"
+                                    "valueString": "Yo tuve que pagar todo o parte del procedimiento de su."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6225,7 +5571,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "You had to pay out of pocket for some or all of the procedure",
+                "text": "You had to pay out of pocket for some or all of the procedure.",
                 "type": "choice"
             },
             {
@@ -7044,7 +6390,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Si se enferma o tiene un accidente, \u00bfqu\u00e9 tan preocupado se siente de poder pagar sus recibos m\u00e9dicos? \u00bfLe preocupa mucho, poco o nada en lo absoluto?"
+                                    "valueString": "Si se enferma o tiene un accidente, \u00bfqu\u00e9 tan preocupado se siente de poder pagar sus recibos m\u00e9dicos? \u00bfLe preocupa mucho,\u00a0poco o nada en lo absoluto?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7098,7 +6444,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": " If you get sick or have an accident, how worried are you that you will be able to pay your medical bills? Are you very worried, somewhat worried, or not at all worried? ",
+                "text": " If you get sick or have an accident, how worried are you that you will not be able to pay your medical bills? Are you very worried, somewhat worried, or not at all worried? ",
                 "type": "choice"
             },
             {
@@ -7112,7 +6458,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Usted dejo de tomar varias dosis de su medicamento para ahorrar dinero"
+                                    "valueString": "Usted dej\u00f3 de tomar varias dosis de su medicamento para ahorrar dinero"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7390,6 +6736,103 @@
                 ],
                 "repeats": false,
                 "text": "You delayed filling a prescription to save money ",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Usted le pidi\u00f3 a su m\u00e9dico un medicamento m\u00e1s barato para ahorrar dinero"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "CantAffordCare_LowerCostRxToSaveMoney",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "34852",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "si"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "LowerCostRxToSaveMoney_Yes",
+                        "display": "yes",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "no"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "LowerCostRxToSaveMoney_No",
+                        "display": "no",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "no s\u00e9"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PMI_DontKnow",
+                        "display": "don't know",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "You asked your doctor for a lower cost medication to save money",
                 "type": "choice"
             },
             {
@@ -7711,28 +7154,6 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
                                             "valueString": "no s\u00e9"
                                         }
                                     ],
@@ -7786,7 +7207,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Siempre"
+                                            "valueString": "siempre"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7861,28 +7282,6 @@
                         },
                         "code": "HowOften_NoneOfTheTime",
                         "display": "none of the time",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -8037,28 +7436,6 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
                                             "valueString": "no s\u00e9"
                                         }
                                     ],
@@ -8079,7 +7456,7 @@
         "repeats": false,
         "required": true,
         "text": "This module asks about your access to medical and dental care, and how you use it. Understanding your regular sources of care helps provide a picture of your health.",
-        "title": "Healthcare Access & Utilization"
+        "title": "Health Care Access & Utilization"
     },
     "identifier": [
         {
@@ -8088,5 +7465,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "394"
+    "version": "415"
 }
