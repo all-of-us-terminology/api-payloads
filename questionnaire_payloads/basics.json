@@ -1,5 +1,5 @@
 {
-    "date": "2018-05-21T18:27:08Z",
+    "date": "2018-06-04T16:28:08Z",
     "group": {
         "concept": [
             {
@@ -4060,6 +4060,28 @@
                                 }
                             ]
                         },
+                        "code": "InsuranceTypeUpdate_EmployerOrUnion",
+                        "display": "Insurance through a current or former employer or union (by you or another family member)",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Seguro a trav\u00e9s de su trabajo previo o actual o a trav\u00e9s de una asociaci\u00f3n de trabajadores (de parte de usted u otro familiar)"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
                         "code": "InsuranceTypeUpdate_Purchased",
                         "display": "Insurance purchased directly from an insurance company (by you or another family member)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
@@ -7118,5 +7140,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "788"
+    "version": "801"
 }
