@@ -1,5 +1,5 @@
 {
-    "date": "2018-04-17T18:50:36+00:00",
+    "date": "2018-06-18T14:36:40Z",
     "group": {
         "concept": [
             {
@@ -169,81 +169,6 @@
                 "repeats": false,
                 "text": "hidden organization reference",
                 "type": "text"
-            },
-            {
-                "_text": {
-                    "extension": [
-                        {
-                            "extension": [
-                                {
-                                    "url": "lang",
-                                    "valueCode": "es"
-                                },
-                                {
-                                    "url": "content",
-                                    "valueString": "\u00bfAlguna vez ha recibido atenci\u00f3n con un proveedor de cuidados de salud de UPMC? \n\nEsto puede incluir atenci\u00f3n en un hospital, consultorio de un m\u00e9dico, centro de atenci\u00f3n de urgencia o sala de emergencias de UPMC."
-                                }
-                            ],
-                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                        }
-                    ]
-                },
-                "concept": [
-                    {
-                        "code": "ExtraConsent_EverReceivedUPMCCare",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    }
-                ],
-                "linkId": "12168",
-                "option": [
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "s\u00ed"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "EverReceivedUPMCCare_Yes",
-                        "display": "yes",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "no"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "EverReceivedUPMCCare_No",
-                        "display": "no",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    }
-                ],
-                "repeats": false,
-                "text": "Have you ever received care at a UPMC healthcare provider? \n\nThis may include care in a UPMC hospital, physician practice, urgent care center, or emergency room.\n",
-                "type": "choice"
             },
             {
                 "concept": [
@@ -449,7 +374,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Queremos ayudarle encontrar un sitio cercano para dar sus medidas f\u00edsicas y muestras biol\u00f3gicas (sangre u orina).\n\n\u00bfRecibe usted atenci\u00f3n m\u00e9dica de una de estas organizaciones de proveedores de salud?\nUniversity of Southern California\nCedars-Sinai Medical Center\nUC Health Systems including: \nUC Davis\nUCSF\nUC Irvine \nUC San Diego"
+                                    "valueString": "Los siguientes proveedores de salud en su regi\u00f3n est\u00e1n inscribiendo personas en el Programa Cient\u00edfico All of Us.\n\n\u00bfSeleccione con cu\u00e1l organizaci\u00f3n quiere programar su cita de inscripci\u00f3n?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -458,7 +383,7 @@
                 },
                 "concept": [
                     {
-                        "code": "CaliforniaSitePairing_CaliforniaUniversityCare",
+                        "code": "CaliforniaSitePairing_CaliforniaPairing",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -475,15 +400,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "UC Davis Health"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "CaliforniaUniversityCare_CaliforniaHealthCareYes",
-                        "display": "yes",
+                        "code": "CaliforniaPairing_UCDavis",
+                        "display": "UC Davis Health",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -497,20 +422,79 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "UC Irvine Health"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "CaliforniaUniversityCare_CaliforniaHealthCareNo",
-                        "display": "no",
+                        "code": "CaliforniaPairing_UCIrvine",
+                        "display": "UC Irvine Health",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "UCSD Health (o San Diego Blood Bank si recibe atenci\u00f3n m\u00e9dica de UCSD Health o uno de sus afiliados)"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "CaliforniaPairing_UCSD",
+                        "display": "UCSD Health (or San Diego Blood Bank if you receive care at UCSD Health or affiliates)",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "CaliforniaPairing_UCSF",
+                        "display": "UCSF Health",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "CaliforniaPairing_CedarsSinai",
+                        "display": "Cedars Sinai",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "CaliforniaPairing_Keck",
+                        "display": "Keck Medicine of USC",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Ninguna de estas"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "CaliforniaPairing_None",
+                        "display": "None of these",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
                 "repeats": false,
-                "text": "Are you participating through the California Precision Medicine Consortium (CAPMC)?\n\nParticipants in the CAPMC include those who receive their healthcare from provider organizations in California such as:\n\n\u00b7 University of California Medical Centers & Affiliates (eg. UCSD, UC Irvine, UCSF, UC Davis etc.)\n\n\u00b7 University of Southern California (USC)\n\n\u00b7 Cedars-Sinai Medical Center\n\nWill you enroll with CAPMC?",
+                "text": "The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program.\n\nAt which institution do you wish to schedule an enrollment visit with?",
                 "type": "choice"
             },
             {
@@ -524,7 +508,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfRecibe usted atenci\u00f3n m\u00e9dica de una de las siguientes cl\u00ednicas de San Ysidro Health?\n\n San Ysidro Health Center, Otay Family Health Center, Chula Vista Medical Plaza, Ocean View Community Health Center, Euclid Community Health Center, King Chavez Family Clinic, Paradise Hills Family Clinic, National City Family Clinic, Chaldean Middle Eastern Social Services, San Ysidro Senior Health Center, San Ysidro Mi Clinica, Maternal & Child Health Center, Southbay Family Health & Dental Center"
+                                    "valueString": "\u00bfRecibe usted atenci\u00f3n m\u00e9dica de una de las siguientes cl\u00ednicas de San Ysidro Health?\n\nSan Ysidro Health Center\nOtay Family Health Center\nChula Vista Medical Plaza\nOcean View Community Health Center\nEuclid Community Health Center\nKing Chavez Family Clinic\nParadise Hills Family Clinic\nNational City Family Clinic\nChaldean Middle Eastern Social Services\nSan Ysidro Senior Health Center\nSan Ysidro Mi Clinica, Maternal & Child Health Center\nSouthbay Family Health & Dental Center"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -550,7 +534,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -558,7 +542,7 @@
                             ]
                         },
                         "code": "PresentlyRegisteredPatient_YesRegistered",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -572,7 +556,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -580,7 +564,7 @@
                             ]
                         },
                         "code": "PresentlyRegisteredPatient_NoRegistered",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -625,7 +609,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -633,7 +617,7 @@
                             ]
                         },
                         "code": "EauClaire_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -647,7 +631,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -655,7 +639,7 @@
                             ]
                         },
                         "code": "EauClaire_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -715,7 +699,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "ninguno de estos"
+                                            "valueString": "Ninguno de estos"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -723,7 +707,7 @@
                             ]
                         },
                         "code": "ColumbiaCare_ColumbiaCareNone",
-                        "display": "none of these",
+                        "display": "None of these",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -751,7 +735,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -759,7 +743,7 @@
                             ]
                         },
                         "code": "HRHCare_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -773,7 +757,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -781,7 +765,7 @@
                             ]
                         },
                         "code": "HRHCare_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -826,7 +810,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -834,7 +818,7 @@
                             ]
                         },
                         "code": "CHCCareatLocation_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -848,7 +832,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -856,7 +840,7 @@
                             ]
                         },
                         "code": "CHCCareatLocation_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -901,7 +885,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "este/Sudeste de Michigan (\u00e1rea metropolitana de Detroit)"
+                                            "valueString": "Este/Sudeste de Michigan (\u00e1rea metropolitana de Detroit)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -945,7 +929,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no vivo en ninguna regi\u00f3n en la lista"
+                                            "valueString": "No vivo en ninguna regi\u00f3n en la lista"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -998,7 +982,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1006,7 +990,7 @@
                             ]
                         },
                         "code": "CareAtHenryFord_YesCareAtHenryFord",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1020,7 +1004,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1028,7 +1012,7 @@
                             ]
                         },
                         "code": "CareAtHenryFord_NoCareAtHenryFord",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1073,7 +1057,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1081,7 +1065,7 @@
                             ]
                         },
                         "code": "SpectrumHealthSitePairing_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1095,7 +1079,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1103,7 +1087,7 @@
                             ]
                         },
                         "code": "SpectrumHealthSitePairing_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1163,7 +1147,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "ninguno de estos"
+                                            "valueString": "Ninguno de estos"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1171,7 +1155,7 @@
                             ]
                         },
                         "code": "WisconsinSitePairing_NoneOfThese",
-                        "display": "none of these",
+                        "display": "None of these",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1190,7 +1174,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Los siguientes proveedores de cuidados de salud en su \u00e1rea est\u00e1n registrando participantes al Programa Cient\u00edfico All of Us.\n\n\u00bfEn cual instituci\u00f3n recibe atenci\u00f3n y quiere programar una visita para registrarse? \n Escoja 1 instituci\u00f3n"
+                                    "valueString": "Los siguientes proveedores de cuidados de salud en su \u00e1rea est\u00e1n registrando participantes al Programa Cient\u00edfico All of Us.\n\n\u00bfEn cual instituci\u00f3n recibe atenci\u00f3n y quiere programar una visita para registrarse? \n\nEscoja 1 instituci\u00f3n."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1246,7 +1230,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "ninguno de estos"
+                                            "valueString": "Ninguno de estos"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1254,12 +1238,12 @@
                             ]
                         },
                         "code": "IllinoisInstitution_Noneofthese",
-                        "display": "none of these",
+                        "display": "None of these",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
                 "repeats": false,
-                "text": "The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program.\n\nAt which institution do you receive care and wish to schedule an enrollment visit with? \n\nPlease choose 1 institution",
+                "text": "The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program.\n\nAt which institution do you receive care and wish to schedule an enrollment visit with? \n\nPlease choose 1 institution.",
                 "type": "choice"
             },
             {
@@ -1273,7 +1257,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Los siguientes Proveedores de Atenci\u00f3n M\u00e9dica en su \u00e1rea est\u00e1n registrando participantes en el Programa Cient\u00edfico All of Us. En cu\u00e1l instituci\u00f3n recibe usted atenci\u00f3n m\u00e9dica y quisiera hacer una cita para registrarse con nosotros?"
+                                    "valueString": "\u00bfEs usted un paciente de Cherokee Health Systems?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1299,7 +1283,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1307,7 +1291,7 @@
                             ]
                         },
                         "code": "CherokeeHealthPatient_YesCherokeeHealthPatient",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1321,7 +1305,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1329,7 +1313,7 @@
                             ]
                         },
                         "code": "CherokeeHealthPatient_NoCherokeeHealthPatient",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1374,7 +1358,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1382,7 +1366,7 @@
                             ]
                         },
                         "code": "BaylorScott_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1396,7 +1380,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1404,7 +1388,7 @@
                             ]
                         },
                         "code": "BaylorScott_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1449,7 +1433,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed, en un centro BMC"
+                                            "valueString": "S\u00ed, en un centro BMC"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1457,7 +1441,7 @@
                             ]
                         },
                         "code": "CareReceived_YesBMC",
-                        "display": "yes, at a BMC location",
+                        "display": "Yes, at a BMC location",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1471,7 +1455,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed, en un centro Partners"
+                                            "valueString": "S\u00ed, en un centro Partners"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1479,7 +1463,7 @@
                             ]
                         },
                         "code": "CareReceived_YesPartners",
-                        "display": "yes, at a Partners location",
+                        "display": "Yes, at a Partners location",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1493,7 +1477,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1501,7 +1485,7 @@
                             ]
                         },
                         "code": "CareReceived_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1520,7 +1504,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Los siguientes cl\u00ednicas, proveedores de atenci\u00f3n m\u00e9dica y hospitales en su regi\u00f3n est\u00e1n registrando participantes en el Programa Cient\u00edfico All of Us. \u00bfEn cual recibe usted atenci\u00f3n m\u00e9dica y quiere programar una cita para registrarse?\n\nPor favor escoja una opci\u00f3n"
+                                    "valueString": "Los siguientes cl\u00ednicas, proveedores de atenci\u00f3n m\u00e9dica y hospitales en su regi\u00f3n est\u00e1n registrando participantes en el Programa Cient\u00edfico All of Us. \u00bfEn cu\u00e1l recibe usted atenci\u00f3n m\u00e9dica y quiere programar una cita para registrarse?\n\nPor favor escoja una opci\u00f3n"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1601,7 +1585,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "ninguno de estos"
+                                            "valueString": "Ninguno de estos"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1609,7 +1593,7 @@
                             ]
                         },
                         "code": "SouthernProviders_NoneOfThese",
-                        "display": "none of these",
+                        "display": "None of these",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1679,7 +1663,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "ninguno de estos"
+                                            "valueString": "Ninguno de estos"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1687,7 +1671,7 @@
                             ]
                         },
                         "code": "SEEC_NoneOfThese",
-                        "display": "none of these",
+                        "display": "None of these",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1732,7 +1716,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1740,7 +1724,7 @@
                             ]
                         },
                         "code": "JacksonHinds_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1754,7 +1738,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1762,7 +1746,7 @@
                             ]
                         },
                         "code": "JacksonHinds_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1782,5 +1766,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "262"
+    "version": "287"
 }
