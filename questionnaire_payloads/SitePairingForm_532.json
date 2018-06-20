@@ -1,5 +1,5 @@
 {
-    "date": "2018-06-18T14:36:40Z",
+    "date": "2018-06-20T21:07:36Z",
     "group": {
         "concept": [
             {
@@ -444,7 +444,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "UCSD Health (o San Diego Blood Bank si recibe atenci\u00f3n m\u00e9dica de UCSD Health o uno de sus afiliados)"
+                                            "valueString": "UCSD Health"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -452,7 +452,7 @@
                             ]
                         },
                         "code": "CaliforniaPairing_UCSD",
-                        "display": "UCSD Health (or San Diego Blood Bank if you receive care at UCSD Health or affiliates)",
+                        "display": "UCSD Health",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -468,6 +468,21 @@
                     {
                         "code": "CaliforniaPairing_Keck",
                         "display": "Keck Medicine of USC",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "CaliforniaPairing_SDBB",
+                        "display": "San Diego Blood Bank (4 sites)",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "CaliforniaPairing_SanYsidro",
+                        "display": "San Ysidro Health Center ",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "CaliforniaPairing_QTC",
+                        "display": "QTC (3 sites in Sacramento)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1766,5 +1781,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "287"
+    "version": "292"
 }
