@@ -1,5 +1,5 @@
 {
-    "date": "2018-05-21T21:13:51Z",
+    "date": "2018-06-29T17:32:07Z",
     "group": {
         "concept": [
             {
@@ -46,7 +46,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "mucho"
+                                            "valueString": "Mucho"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -54,7 +54,7 @@
                             ]
                         },
                         "code": "FamilyMedicalHistoryAware_Alot",
-                        "display": "a lot",
+                        "display": "A lot",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -68,7 +68,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "algo"
+                                            "valueString": "Algo"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -76,7 +76,7 @@
                             ]
                         },
                         "code": "FamilyMedicalHistoryAware_Some",
-                        "display": "some",
+                        "display": "Some",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -90,7 +90,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "nada"
+                                            "valueString": "Nada"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -98,7 +98,7 @@
                             ]
                         },
                         "code": "FamilyMedicalHistoryAware_None",
-                        "display": "none at all",
+                        "display": "None at all",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -561,7 +561,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "otro tipo de c\u00e1ncer"
+                                            "valueString": "Otro tipo de c\u00e1ncer"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -569,7 +569,7 @@
                             ]
                         },
                         "code": "MotherCancerCondition_OtherCancer",
-                        "display": "other cancer",
+                        "display": "Other cancer",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -607,6 +607,23 @@
                 "type": "text"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Enfermedades del coraz\u00f3n"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "DiagnosedHealthCondition_MotherCirculatoryCondition",
@@ -1304,7 +1321,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "otro tipo de diabetes conocido/desconocido"
+                                            "valueString": "Otro tipo de diabetes conocido/desconocido"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1312,7 +1329,7 @@
                             ]
                         },
                         "code": "MotherEndocrineCondition_OtherDiabetes",
-                        "display": "other/unknown diabetes",
+                        "display": "Other/unknown diabetes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1406,7 +1423,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Enfermedades de los Pulmones"
+                                    "valueString": "Enfermedades de los pulmones"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2136,6 +2153,23 @@
                 "type": "choice"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Enfermedades de los o\u00eddos y los ojos"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "DiagnosedHealthCondition_MotherVisionCondition",
@@ -2238,6 +2272,23 @@
                 "type": "choice"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Otras condiciones"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "DiagnosedHealthCondition_MotherOtherHealthCondition",
@@ -2433,73 +2484,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "ninguna de estas"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_None",
-                        "display": "none of the above",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "no s\u00e9"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_DontKnow",
-                        "display": "don't know",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "otro"
+                                            "valueString": "Otro"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2507,7 +2492,7 @@
                             ]
                         },
                         "code": "MotherOtherHealthCondition_OtherCondition",
-                        "display": "other",
+                        "display": "Other",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -2543,6 +2528,86 @@
                 "repeats": false,
                 "text": "please specify",
                 "type": "text"
+            },
+            {
+                "concept": [
+                    {
+                        "code": "DiagnosedHealthCondition_MotherNoSelection",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "35067",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Ninguna de estas"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PMI_None",
+                        "display": "None of the above ",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No s\u00e9"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PMI_DontKnow",
+                        "display": "Don't know",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Prefiero no contestar"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PMI_PreferNotToAnswer",
+                        "display": "Prefer not to answer",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Pick your answers from the following choices",
+                "type": "choice"
             },
             {
                 "_text": {
@@ -2955,7 +3020,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "otro tipo de c\u00e1ncer"
+                                            "valueString": "Otro tipo de c\u00e1ncer"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2963,7 +3028,7 @@
                             ]
                         },
                         "code": "FatherCancerCondition_OtherCancer",
-                        "display": "other cancer",
+                        "display": "Other cancer",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -3552,7 +3617,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "\u00dalceras p\u00e9pticas (\u00falceras del est\u00f3mago o del intestino) delgado)"
+                                            "valueString": "\u00dalceras p\u00e9pticas (\u00falceras del est\u00f3mago o del intestino delgado)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3715,7 +3780,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "otro tipo de diabetes de causa conocida o desconocida"
+                                            "valueString": "Otro tipo de diabetes de causa conocida o desconocida"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3723,7 +3788,7 @@
                             ]
                         },
                         "code": "FatherEndocrineCondition_OtherDiabetes",
-                        "display": "other/unknown diabetes",
+                        "display": "Other/unknown diabetes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -3817,7 +3882,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Enfermedades de los Pulmones"
+                                    "valueString": "Enfermedades de los pulmones"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3984,7 +4049,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Esclerosis lateral amiotr\u00f3fica (Enfermedad de Lou Gehrig)"
+                                            "valueString": "Enfermedad de Lou Gehrig (Esclerosis lateral amiotr\u00f3fica)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4557,7 +4622,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Afecciones de la vista"
+                                    "valueString": "Enfermedades de los o\u00eddos y los ojos"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4676,7 +4741,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Otros"
+                                    "valueString": "Otras condiciones"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4812,73 +4877,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "ninguna de estas"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_None",
-                        "display": "none of the above",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "no s\u00e9"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_DontKnow",
-                        "display": "don't know",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "otro"
+                                            "valueString": "Otro"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4886,7 +4885,7 @@
                             ]
                         },
                         "code": "FatherOtherHealthCondition_OtherCondition",
-                        "display": "other",
+                        "display": "Other",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -4895,6 +4894,23 @@
                 "type": "choice"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "especifique"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "OtherCondition_FatherFreeTextBox",
@@ -4905,6 +4921,86 @@
                 "repeats": false,
                 "text": "please specify",
                 "type": "text"
+            },
+            {
+                "concept": [
+                    {
+                        "code": "DiagnosedHealthCondition_FatherNoSelection",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "35068",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Ninguna de estas"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PMI_None",
+                        "display": "None of the above ",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No s\u00e9"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PMI_DontKnow",
+                        "display": "Don't know",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Prefiero no contestar"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PMI_PreferNotToAnswer",
+                        "display": "Prefer not to answer",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Pick your answers from the following choices",
+                "type": "choice"
             },
             {
                 "_text": {
@@ -5383,7 +5479,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "otro tipo de c\u00e1ncer"
+                                            "valueString": "Otro tipo de c\u00e1ncer"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5391,7 +5487,7 @@
                             ]
                         },
                         "code": "SiblingCancerCondition_OtherCancer",
-                        "display": "other cancer",
+                        "display": "Other cancer",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -5948,6 +6044,23 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Enfermedad hep\u00e1tica (por ejemplo, cirrosis)"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
                         "code": "SiblingDigestiveCondition_LiverCondition",
                         "display": "Liver condition (e.g., cirrhosis)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
@@ -6126,7 +6239,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "otro tipo de diabetes de causa conocida o desconocida"
+                                            "valueString": "Otro tipo de diabetes de causa conocida o desconocida"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6134,7 +6247,7 @@
                             ]
                         },
                         "code": "SiblingEndocrineCondition_OtherDiabetes",
-                        "display": "other/unknown diabetes",
+                        "display": "Other/unknown diabetes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -6228,7 +6341,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Enfermedades de los Pulmones"
+                                    "valueString": "Enfermedades de los pulmones"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6968,7 +7081,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Enfermedades de los ojos"
+                                    "valueString": "Enfermedades de los o\u00eddos y los ojos"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7087,7 +7200,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Otros"
+                                    "valueString": "Otras condiciones"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7289,95 +7402,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "ninguna de estas"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_None",
-                        "display": "none of the above ",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "no s\u00e9"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_DontKnow",
-                        "display": "don't know",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer ",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "no tengo otros hermanos o hermanas con lazo sangu\u00edneo."
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "SiblingOtherHealthCondition_NoBloodRelatedSiblings",
-                        "display": "I do not have any brothers or sisters related by blood.",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "otro"
+                                            "valueString": "Otro"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7385,7 +7410,7 @@
                             ]
                         },
                         "code": "SiblingOtherHealthCondition_OtherCondition",
-                        "display": "other",
+                        "display": "Other",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -7394,6 +7419,23 @@
                 "type": "choice"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "especifique"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "OtherCondition_SiblingFreeTextBox",
@@ -7404,6 +7446,108 @@
                 "repeats": false,
                 "text": "please specify",
                 "type": "text"
+            },
+            {
+                "concept": [
+                    {
+                        "code": "DiagnosedHealthCondition_SiblingNoSelection",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "35069",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Ninguna de estas"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PMI_None",
+                        "display": "None of the above ",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No s\u00e9"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PMI_DontKnow",
+                        "display": "Don't know",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Prefiero no contestar"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PMI_PreferNotToAnswer",
+                        "display": "Prefer not to answer",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No tengo otros hermanos o hermanas con lazo sangu\u00edneo"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "SiblingHealthCondition_NoBloodRelatedSiblings",
+                        "display": "I do not have any brothers or sisters related by blood.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Pick your answers from the following choices",
+                "type": "choice"
             },
             {
                 "_text": {
@@ -7860,7 +8004,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "otro tipo de c\u00e1ncer"
+                                            "valueString": "Otro tipo de c\u00e1ncer"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7868,7 +8012,7 @@
                             ]
                         },
                         "code": "DaughterCancerCondition_OtherCancer",
-                        "display": "other cancer",
+                        "display": "Other cancer",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -8603,7 +8747,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "otro tipo de diabetes de causa conocida o desconocida"
+                                            "valueString": "Otro tipo de diabetes de causa conocida o desconocida"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -8611,7 +8755,7 @@
                             ]
                         },
                         "code": "DaughterEndocrineCondition_OtherDiabetes",
-                        "display": "other/unknown diabetes",
+                        "display": "Other/unknown diabetes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -8705,7 +8849,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Enfermedades de los Pulmones"
+                                    "valueString": "Enfermedades de los pulmones"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -9445,7 +9589,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Enfermedades de los ojos"
+                                    "valueString": "Enfermedades de los o\u00eddos y los ojos"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -9564,7 +9708,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Otros"
+                                    "valueString": "Otras condiciones"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -9766,95 +9910,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "No tengo otras hijas con lazo sangu\u00edneo"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "DaughterOtherHealthCondition_NoDaughtersRelated",
-                        "display": "I do not have any daughters related by blood.",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "ninguna de estas"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_None",
-                        "display": "none of the above",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "no s\u00e9"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_DontKnow",
-                        "display": "don't know",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "otro"
+                                            "valueString": "Otro"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -9862,7 +9918,7 @@
                             ]
                         },
                         "code": "DaughterOtherHealthCondition_OtherCondition",
-                        "display": "other",
+                        "display": "Other",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -9871,6 +9927,23 @@
                 "type": "choice"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "especifique"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "OtherCondition_DaughterFreeTextBox",
@@ -9881,6 +9954,108 @@
                 "repeats": false,
                 "text": "please specify",
                 "type": "text"
+            },
+            {
+                "concept": [
+                    {
+                        "code": "DiagnosedHealthCondition_DaughterNoSelection",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "35070",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Ninguna de estas"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PMI_None",
+                        "display": "None of the above ",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No s\u00e9"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PMI_DontKnow",
+                        "display": "Don't know",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Prefiero no contestar"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PMI_PreferNotToAnswer",
+                        "display": "Prefer not to answer",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No tengo otros hijos con lazo sangu\u00edneo."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "DaughterHealthCondition_NoDaughtersRelated",
+                        "display": "I do not have any daughters related by blood.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Pick your answers from the following choices",
+                "type": "choice"
             },
             {
                 "_text": {
@@ -10293,7 +10468,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "otro tipo de c\u00e1ncer"
+                                            "valueString": "Otro tipo de c\u00e1ncer"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -10301,7 +10476,7 @@
                             ]
                         },
                         "code": "SonCancerCondition_OtherCancer",
-                        "display": "other cancer",
+                        "display": "Other cancer",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -11053,7 +11228,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "otro tipo de diabetes de causa conocida o desconocida"
+                                            "valueString": "Otro tipo de diabetes de causa conocida o desconocida"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -11061,7 +11236,7 @@
                             ]
                         },
                         "code": "SonEndocrineCondition_OtherDiabetes",
-                        "display": "other/unknown diabetes",
+                        "display": "Other/unknown diabetes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -11155,7 +11330,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Enfermedades de los Pulmones"
+                                    "valueString": "Enfermedades de los pulmones"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -11895,7 +12070,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Enfermedades de los ojos"
+                                    "valueString": "Enfermedades de los o\u00eddos y los ojos"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -12014,7 +12189,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Otros"
+                                    "valueString": "Otras condiciones"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -12150,95 +12325,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "ninguna de estas"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_None",
-                        "display": "none of the above",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "no s\u00e9"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_DontKnow",
-                        "display": "don't know",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "no tengo otros hijos con lazo sangu\u00edneo."
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "SonOtherHealthCondition_NoSonsRelatedBlood",
-                        "display": "I do not have any sons related by blood.",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "otro"
+                                            "valueString": "Otro"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -12246,7 +12333,7 @@
                             ]
                         },
                         "code": "SonOtherHealthCondition_OtherCondition",
-                        "display": "other",
+                        "display": "Other",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -12255,6 +12342,23 @@
                 "type": "choice"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "especifique"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "OtherCondition_SonFreeTextBox",
@@ -12265,6 +12369,108 @@
                 "repeats": false,
                 "text": "please specify",
                 "type": "text"
+            },
+            {
+                "concept": [
+                    {
+                        "code": "DiagnosedHealthCondition_SonNoSelection",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "35071",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Ninguna de estas"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PMI_None",
+                        "display": "None of the above ",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No s\u00e9"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PMI_DontKnow",
+                        "display": "Don't know",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Prefiero no contestar"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PMI_PreferNotToAnswer",
+                        "display": "Prefer not to answer",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No tengo otros hijos con lazo sangu\u00edneo."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "SonOtherHealthCondition_NoSonsRelated",
+                        "display": "I do not have any sons related by blood.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Pick your answers from the following choices",
+                "type": "choice"
             },
             {
                 "_text": {
@@ -12743,7 +12949,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "otro tipo de c\u00e1ncer"
+                                            "valueString": "Otro tipo de c\u00e1ncer"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -12751,7 +12957,7 @@
                             ]
                         },
                         "code": "GrandparentCancerCondition_OtherCancer",
-                        "display": "other cancer",
+                        "display": "Other cancer",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -13503,7 +13709,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "otro tipo de diabetes de causa conocida o desconocida"
+                                            "valueString": "Otro tipo de diabetes de causa conocida o desconocida"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -13511,7 +13717,7 @@
                             ]
                         },
                         "code": "GrandparentEndocrineCondition_OtherDiabetes",
-                        "display": "other/unknown diabetes",
+                        "display": "Other/unknown diabetes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -13605,7 +13811,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Enfermedades de los Pulmones"
+                                    "valueString": "Enfermedades de los pulmones"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -14345,7 +14551,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Enfermedades de los ojos"
+                                    "valueString": "Enfermedades de los o\u00eddos y los ojos"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -14464,7 +14670,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Otros"
+                                    "valueString": "Otras condiciones"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -14666,73 +14872,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "ninguna de estas"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_None",
-                        "display": "none of the above",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "no s\u00e9"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_DontKnow",
-                        "display": "don't know",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "prefiero no contestar"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "otro"
+                                            "valueString": "Otro"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -14740,7 +14880,7 @@
                             ]
                         },
                         "code": "GrandparentOtherHealthCondition_OtherCondition",
-                        "display": "other",
+                        "display": "Other",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -14749,6 +14889,23 @@
                 "type": "choice"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "especifique"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "OtherCondition_GrandparentFreeTextBox",
@@ -14759,12 +14916,92 @@
                 "repeats": false,
                 "text": "please specify",
                 "type": "text"
+            },
+            {
+                "concept": [
+                    {
+                        "code": "DiagnosedHealthCondition_GrandparentNoSelection",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "35072",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Ninguna de estas"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PMI_None",
+                        "display": "None of the above ",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No s\u00e9"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PMI_DontKnow",
+                        "display": "Don't know",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Prefiero no contestar"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "PMI_PreferNotToAnswer",
+                        "display": "Prefer not to answer",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Pick your answers from the following choices",
+                "type": "choice"
             }
         ],
         "repeats": false,
         "required": true,
         "text": "This module asks about your family\u2019s medical history. Understanding these medical issues can tell us a lot about what kinds of medical issues might be related to your genetics.",
-        "title": "family history"
+        "title": "Family History"
     },
     "identifier": [
         {
@@ -14773,5 +15010,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "746"
+    "version": "776"
 }

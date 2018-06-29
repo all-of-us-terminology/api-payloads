@@ -1,5 +1,5 @@
 {
-    "date": "2018-04-17T19:59:53+00:00",
+    "date": "2018-06-29T15:29:03Z",
     "group": {
         "concept": [
             {
@@ -537,7 +537,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Debido a leyes espec\u00edficas en Alabama, necesita tener por lo menos 19 a\u00f1os para participar en All of Us. \u00bfTiene usted 19 a\u00f1os or m\u00e1s?"
+                                    "valueString": "Debido a leyes espec\u00edficas en Alabama, necesita tener por lo menos 19 a\u00f1os para participar en All of Us. \u00bfTiene usted 19 a\u00f1os o m\u00e1s?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -949,6 +949,35 @@
                                 },
                                 {
                                     "url": "content",
+                                    "valueString": "a_lTd1Gt2sI"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "ExtraConsent_HealthRecordVideo",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "10738",
+                "repeats": false,
+                "text": "19lPGfPc3qQ",
+                "type": "dateTime"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
                                     "valueString": "Si usted est\u00e1 usando una computadora, use el mouse para firmar abajo. Si usted est\u00e1 usando un aparato m\u00f3vil (celular, tableta), por favor firme con su dedo."
                                 }
                             ],
@@ -999,7 +1028,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1007,7 +1036,7 @@
                             ]
                         },
                         "code": "VeteransHealthAdministration_CareYes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1021,7 +1050,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1029,7 +1058,7 @@
                             ]
                         },
                         "code": "VeteransHealthAdministration_CareNo",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1093,35 +1122,6 @@
                 "linkId": "10734",
                 "repeats": false,
                 "text": "sSy1dRg_V_I",
-                "type": "dateTime"
-            },
-            {
-                "_text": {
-                    "extension": [
-                        {
-                            "extension": [
-                                {
-                                    "url": "lang",
-                                    "valueCode": "es"
-                                },
-                                {
-                                    "url": "content",
-                                    "valueString": "a_lTd1Gt2sI"
-                                }
-                            ],
-                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                        }
-                    ]
-                },
-                "concept": [
-                    {
-                        "code": "ExtraConsent_HealthRecordVideo",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    }
-                ],
-                "linkId": "10738",
-                "repeats": false,
-                "text": "19lPGfPc3qQ",
                 "type": "dateTime"
             },
             {
@@ -1650,7 +1650,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Respondi\u00f3 correctamente 4 preguntas de un total de 4. \nT\u00f3mese el tiempo necesario para decidir si desea formar parte de All of Us. Estamos aqu\u00ed para responder cualquier pregunta que tenga."
+                                    "valueString": "Respondi\u00f3 correctamente 4 preguntas de un total de 4. \n\nT\u00f3mese el tiempo necesario para decidir si desea formar parte de All of Us. Estamos aqu\u00ed para responder cualquier pregunta que tenga."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1676,7 +1676,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "estoy listo para registrarme"
+                                            "valueString": "Estoy listo para registrarme"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1698,7 +1698,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "consiga alguna ayuda"
+                                            "valueString": "Consiga alguna ayuda"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1706,12 +1706,12 @@
                             ]
                         },
                         "code": "ReadyOrNeedHelp_NeedHelp",
-                        "display": "get some help",
+                        "display": "Get some help",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
                 "repeats": false,
-                "text": "You got 4 of 4 questions correct.\nTake the time you need to decide about joining All of Us. We are here to answer any questions you have.",
+                "text": "You got 4 of 4 questions correct.\n\nTake the time you need to decide about joining All of Us. We are here to answer any questions you have.",
                 "type": "choice"
             },
             {
@@ -1737,7 +1737,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Si usted est\u00e1 usando una computadora, use el mouse para firmar abajo. Si usted est\u00e1 usando un aparato m\u00f3vil (celular, tableta), por favor firme con su dedo."
+                                    "valueString": "Si usted est\u00e1 usando una computadora, use el mouse para firmar abajo. Si usted est\u00e1 usando un aparato m\u00f3vil (celular, tableta), por favor firme con su dedo. Si usted prefiere, puede usar el teclado para escribir su nombre."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1752,7 +1752,7 @@
                 ],
                 "linkId": "6779",
                 "repeats": false,
-                "text": "If you're using a computer please use your mouse to sign below. If you are using a mobile device please use your finger to sign.",
+                "text": "If you're using a computer please use your mouse to sign below. If you are using a mobile device please use your finger to sign. If you\u2019d rather, you can type your name instead.",
                 "type": "attachment"
             },
             {
@@ -1766,7 +1766,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Fecha de Hoy"
+                                    "valueString": "Fecha de hoy"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1783,6 +1783,110 @@
                 "repeats": false,
                 "text": "Today's date",
                 "type": "date"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfAlguien de All of Us le ayud\u00f3 a completar el proceso de su consentimiento?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "ConsentPII_HelpWithConsent",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "35065",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "S\u00ed"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "HelpWithConsent_Yes",
+                        "display": "Yes",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "HelpWithConsent_No",
+                        "display": "No",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Did someone from All of Us help you with the consent process?",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Nombre de la persona que le ayud\u00f3:"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "ConsentPII_HelpWithConsentSignature",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "35078",
+                "repeats": false,
+                "text": "Name of the person who helped you:",
+                "type": "text"
             },
             {
                 "_text": {
@@ -2336,7 +2440,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "por favor escriba su fecha de nacimiento"
+                                    "valueString": "Por favor escriba su fecha de nacimiento"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2351,7 +2455,7 @@
                 ],
                 "linkId": "9469",
                 "repeats": false,
-                "text": "please enter your birthdate",
+                "text": "Please enter your birthdate",
                 "type": "date"
             }
         ],
@@ -2366,5 +2470,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "1241"
+    "version": "1356"
 }
