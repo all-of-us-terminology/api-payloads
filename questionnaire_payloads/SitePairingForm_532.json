@@ -1,5 +1,5 @@
 {
-    "date": "2018-06-20T21:07:36Z",
+    "date": "2018-07-23T16:16:37Z",
     "group": {
         "concept": [
             {
@@ -232,6 +232,28 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "PHOENIX: Unidad m\u00f3vil de salud"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "AZSitepairingLocation_PhoenixMobile",
+                        "display": "PHOENIX: Mobile health unit",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
                         "code": "AZSitepairingLocation_TucsonNorthCampus",
                         "display": "TUCSON: North Campus: Banner-University Medicine North ",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
@@ -283,6 +305,28 @@
                         },
                         "code": "AZSitepairingLocation_TuscsonSouthCampus",
                         "display": "TUCSON: South Campus: Banner University Medical Center \u2013 South (formerly known as Kino Hospital)",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "TUSCON: Unidad m\u00f3vil de salud"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "AZSitepairingLocation_TucsonMobile",
+                        "display": "TUCSON: Mobile health unit",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -471,6 +515,23 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "San Diego Blood Bank (4 sitios)"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
                         "code": "CaliforniaPairing_SDBB",
                         "display": "San Diego Blood Bank (4 sites)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
@@ -481,6 +542,23 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "QTC (3 sitios en Sacramento)"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
                         "code": "CaliforniaPairing_QTC",
                         "display": "QTC (3 sites in Sacramento)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
@@ -1121,7 +1199,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Los siguientes Proveedores de Atenci\u00f3n M\u00e9dica en su \u00e1rea est\u00e1n registrando participantes en el Programa Cient\u00edfico All of Us. En cu\u00e1l instituci\u00f3n recibe usted atenci\u00f3n m\u00e9dica y quisiera hacer una cita para registrarse con nosotros?"
+                                    "valueString": "Los siguientes proveedores de servicios de salud en su regi\u00f3n est\u00e1n inscribiendo personas en el Programa Cient\u00edfico All of Us. \u00bfEn cual sitio quiere programar una cita?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1175,7 +1253,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program. At which institution do you receive care and wish to schedule an enrollment visit with?",
+                "text": "The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program. At which institution do you wish to schedule an enrollment visit with?",
                 "type": "choice"
             },
             {
@@ -1781,5 +1859,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "292"
+    "version": "299"
 }
