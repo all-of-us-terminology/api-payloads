@@ -1,5 +1,5 @@
 {
-    "date": "2018-08-10T17:26:38Z",
+    "date": "2018-08-15T15:03:59Z",
     "group": {
         "concept": [
             {
@@ -29,7 +29,7 @@
                 },
                 "concept": [
                     {
-                        "code": "TBD",
+                        "code": "Insurance_InsuranceType",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -53,7 +53,7 @@
                                 }
                             ]
                         },
-                        "code": "tbd1",
+                        "code": "InsuranceType_EmployerOrUnion",
                         "display": "Insurance through a current or former employer or union (by you or another family member)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -75,7 +75,7 @@
                                 }
                             ]
                         },
-                        "code": "tbd2",
+                        "code": "InsuranceType_PurchasedInsurace",
                         "display": "Insurance purchased directly from an insurance company (by you or another family member)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -97,7 +97,7 @@
                                 }
                             ]
                         },
-                        "code": "tbd3",
+                        "code": "InsuranceType_Medicare",
                         "display": "Medicare, for people 65 and older or people with certain disabilities",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -119,7 +119,7 @@
                                 }
                             ]
                         },
-                        "code": "tbd4",
+                        "code": "InsuranceType_TricareOrMilitary",
                         "display": "TRICARE or other military health care",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -141,7 +141,7 @@
                                 }
                             ]
                         },
-                        "code": "tbd5",
+                        "code": "InsuranceType_VeteranAdministration",
                         "display": "Veterans Affairs (VA) (including those who have ever used or enrolled for VA health care)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -163,7 +163,7 @@
                                 }
                             ]
                         },
-                        "code": "tbd6",
+                        "code": "InsuranceType_IndianHealthService",
                         "display": "Indian Health Service",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -185,7 +185,7 @@
                                 }
                             ]
                         },
-                        "code": "tbd7",
+                        "code": "InsuraceType_OtherInsuranceType",
                         "display": "Any other type of health insurance or health coverage plan",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -207,12 +207,12 @@
                                 }
                             ]
                         },
-                        "code": "tbd8",
+                        "code": "InsuranceType_SelfPayOrNone",
                         "display": "I don\u2019t have health insurance, self-pay",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "repeats": false,
+                "repeats": true,
                 "text": "Are you currently covered by any of the following types of health insurance or health coverage plans?",
                 "type": "choice"
             },
@@ -236,6 +236,7 @@
                 },
                 "concept": [
                     {
+                        "code": "OtherInsuranceType_FreeText",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -7751,5 +7752,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "436"
+    "version": "437"
 }
