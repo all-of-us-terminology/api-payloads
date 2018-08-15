@@ -5,7 +5,9 @@ jobs:
     machine: true
     steps:
       - checkout
-      - run: pip install requests
       - run:
-          name: validate
+          name: install python imports
+          command: pip install requests
+      - run:
+          name: validate forms against codebook
           command: cd validation && python2.7 validate.py
