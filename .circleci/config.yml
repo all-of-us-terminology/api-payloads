@@ -6,6 +6,9 @@ jobs:
     steps:
       - run: pip install requests
       - run: pwd
+      - run: ls
+      - run: cd .. && ls
+      - run: cd .. && ls
       - run:
           name: validate
-          command: cd validation && python2.7 validate.py
+          command: cd ../../validation && python2.7 validate.py
