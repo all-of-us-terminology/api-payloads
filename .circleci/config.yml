@@ -4,6 +4,7 @@ jobs:
   build:
     machine: true
     steps:
+      - checkout
       - run: pip install requests
       - run: pwd
       - run: ls
