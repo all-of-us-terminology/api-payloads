@@ -2,6 +2,7 @@ version: 2
 
 jobs:
   build:
+    machine: true
     steps:
       - run: pip install requests
       - run:
