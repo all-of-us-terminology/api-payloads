@@ -1,5 +1,5 @@
 {
-    "date": "2018-05-23T18:10:30Z",
+    "date": "2018-08-15T15:03:59Z",
     "group": {
         "concept": [
             {
@@ -20,7 +20,243 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "DURANTE LOS \u00daLTIMOS 12 MESES, alg\u00fan consultorio m\u00e9dico o proveedor de atenci\u00f3n m\u00e9dica le informo que no aceptaba su plan m\u00e9dico?"
+                                    "valueString": "Actualmente \u00bfest\u00e1 cubierto por alg\u00fan seguro m\u00e9dico o planes de cobertura m\u00e9dica?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "Insurance_InsuranceType",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "35402",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Seguro a trav\u00e9s de su trabajo previo o actual o a trav\u00e9s de una asociaci\u00f3n de trabajadores (de parte de usted u otro familiar)"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "InsuranceType_EmployerOrUnion",
+                        "display": "Insurance through a current or former employer or union (by you or another family member)",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Seguro comprado directamente de una compa\u00f1\u00eda de seguros (de parte de usted u otro familiar)"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "InsuranceType_PurchasedInsurace",
+                        "display": "Insurance purchased directly from an insurance company (by you or another family member)",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Medicare para personas de 65 a\u00f1os o m\u00e1s o con ciertas discapacidades"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "InsuranceType_Medicare",
+                        "display": "Medicare, for people 65 and older or people with certain disabilities",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "TRICARE o alguna otra atenci\u00f3n m\u00e9dica para militares"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "InsuranceType_TricareOrMilitary",
+                        "display": "TRICARE or other military health care",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Departamento de Asuntos de los Veteranos  (VA, por sus siglas en ingl\u00e9s) (incluye los que alguna vez han usado o se han inscrito en la atenci\u00f3n m\u00e9dica de VA)"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "InsuranceType_VeteranAdministration",
+                        "display": "Veterans Affairs (VA) (including those who have ever used or enrolled for VA health care)",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Servicio M\u00e9dico para Indios Americanos/Nativos Americanos"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "InsuranceType_IndianHealthService",
+                        "display": "Indian Health Service",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Otro tipo de seguro m\u00e9dico o plan de cobertura m\u00e9dica"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "InsuraceType_OtherInsuranceType",
+                        "display": "Any other type of health insurance or health coverage plan",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No tengo seguro m\u00e9dico, yo pago por mi cuenta"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "InsuranceType_SelfPayOrNone",
+                        "display": "I don\u2019t have health insurance, self-pay",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": true,
+                "text": "Are you currently covered by any of the following types of health insurance or health coverage plans?",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "otro (por favor especifique)"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "OtherInsuranceType_FreeText",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "35403",
+                "repeats": false,
+                "text": "other (please specify)",
+                "type": "text"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "DURANTE LOS \u00daLTIMOS 12 MESES, alg\u00fan consultorio m\u00e9dico o proveedor de atenci\u00f3n m\u00e9dica le inform\u00f3 que no aceptaba su plan m\u00e9dico?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -46,7 +282,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -54,7 +290,7 @@
                             ]
                         },
                         "code": "InsuranceAccepted_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -68,7 +304,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -76,7 +312,7 @@
                             ]
                         },
                         "code": "InsuranceAccepted_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -90,7 +326,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -98,7 +334,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -117,7 +353,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfC\u00f3mo comparar\u00eda el seguro m\u00e9dico o plan m\u00e9dico que tiene ahora con el que ten\u00eda hace un a\u00f1o? \u00bfEs mejor, peor o igual?"
+                                    "valueString": "Actualmente \u00bfest\u00e1 cubierto por alg\u00fan seguro m\u00e9dico o planes de cobertura m\u00e9dica?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -143,7 +379,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "mejor"
+                                            "valueString": "Seguro a trav\u00e9s de su trabajo previo o actual o a trav\u00e9s de una asociaci\u00f3n de trabajadores (de parte de usted u otro familiar)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -151,7 +387,7 @@
                             ]
                         },
                         "code": "HealthcareCoverage_Better",
-                        "display": "better",
+                        "display": "Better",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -165,7 +401,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "peor"
+                                            "valueString": "Seguro comprado directamente de una compa\u00f1\u00eda de seguros (de parte de usted u otro familiar)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -173,7 +409,7 @@
                             ]
                         },
                         "code": "HealthcareCoverage_Worse",
-                        "display": "worse",
+                        "display": "Worse",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -187,7 +423,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "casi igual"
+                                            "valueString": "Medicare para personas de 65 a\u00f1os o m\u00e1s o con ciertas discapacidades"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -195,7 +431,7 @@
                             ]
                         },
                         "code": "HealthcareCoverage_AboutTheSame",
-                        "display": "about the same",
+                        "display": "About the same",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -209,7 +445,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -217,7 +453,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -262,7 +498,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -270,7 +506,7 @@
                             ]
                         },
                         "code": "PlaceforHealthAdvice_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -284,7 +520,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "NO hay un lugar"
+                                            "valueString": "No hay un lugar"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -292,7 +528,7 @@
                             ]
                         },
                         "code": "PlaceforHealthAdvice_No",
-                        "display": "there is NO place",
+                        "display": "There is NO place",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -306,7 +542,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "hay mas de un lugar"
+                                            "valueString": "Hay mas de un lugar"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -314,7 +550,7 @@
                             ]
                         },
                         "code": "PlaceforHealthAdvice_MoreThanOne",
-                        "display": "there is MORE THAN ONE place",
+                        "display": "There is MORE THAN ONE place",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -328,7 +564,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -336,7 +572,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -381,7 +617,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "consultorio m\u00e9dico, cl\u00ednica o centro de salud"
+                                            "valueString": "Consultorio m\u00e9dico, cl\u00ednica o centro de salud"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -389,7 +625,7 @@
                             ]
                         },
                         "code": "WhatKindOfPlace_DoctorsOffice",
-                        "display": "doctor\u2019s office, clinic or health center",
+                        "display": "Doctor\u2019s office, clinic or health center",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -403,7 +639,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "servicio de urgencias o cl\u00ednica de atenci\u00f3n r\u00e1pida (minute clinic)"
+                                            "valueString": "Servicio de urgencias o cl\u00ednica de atenci\u00f3n r\u00e1pida (minute clinic)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -411,7 +647,7 @@
                             ]
                         },
                         "code": "WhatKindOfPlace_UrgentCare",
-                        "display": "urgent care or minute clinic",
+                        "display": "Urgent care or minute clinic",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -425,7 +661,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "sala de emergencia de un hospital"
+                                            "valueString": "Sala de emergencia de un hospital"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -433,7 +669,7 @@
                             ]
                         },
                         "code": "WhatKindOfPlace_EmergencyRoom",
-                        "display": "hospital emergency room",
+                        "display": "Hospital emergency room",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -447,7 +683,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "otro lugar"
+                                            "valueString": "Otro lugar"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -455,7 +691,7 @@
                             ]
                         },
                         "code": "WhatKindOfPlace_SomeOtherPlace",
-                        "display": "some other place",
+                        "display": "Some other place",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -469,7 +705,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no voy con frecuencia a un solo lugar"
+                                            "valueString": "No voy con frecuencia a un solo lugar"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -477,7 +713,7 @@
                             ]
                         },
                         "code": "WhatKindOfPlace_NoOnePlaceMostOften",
-                        "display": "don't go to one place most often",
+                        "display": "Don't go to one place most often",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -491,7 +727,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -499,7 +735,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -544,7 +780,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "nunca"
+                                            "valueString": "Nunca"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -552,7 +788,7 @@
                             ]
                         },
                         "code": "SpokenToProfessional_Never",
-                        "display": "never",
+                        "display": "Never",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -588,7 +824,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "m\u00e1s de 6 meses, pero no m\u00e1s de 1 a\u00f1o"
+                                            "valueString": "M\u00e1s de 6 meses, pero no m\u00e1s de 1 a\u00f1o"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -596,7 +832,7 @@
                             ]
                         },
                         "code": "SpokenToProfessional_6MoTo1YearAgo",
-                        "display": "more than 6 mos, but not more than 1 yr ago",
+                        "display": "More than 6 mos, but not more than 1 yr ago",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -610,7 +846,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "m\u00e1s de 1 a\u00f1o, pero no m\u00e1s de 2 a\u00f1os"
+                                            "valueString": "M\u00e1s de 1 a\u00f1o, pero no m\u00e1s de 2 a\u00f1os"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -618,7 +854,7 @@
                             ]
                         },
                         "code": "SpokenToProfessional_1To2YearsAgo",
-                        "display": "more than 1 yr, but not more than 2 yrs ago",
+                        "display": "More than 1 yr, but not more than 2 yrs ago",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -632,7 +868,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "m\u00e1s de 2 a\u00f1os, pero no m\u00e1s de 5 a\u00f1os"
+                                            "valueString": "M\u00e1s de 2 a\u00f1os, pero no m\u00e1s de 5 a\u00f1os"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -640,7 +876,7 @@
                             ]
                         },
                         "code": "SpokenToProfessional_2To5YearsAgo",
-                        "display": "more than 2 yrs, but not more than 5 yrs ago",
+                        "display": "More than 2 yrs, but not more than 5 yrs ago",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -654,7 +890,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "m\u00e1s de 5 a\u00f1os"
+                                            "valueString": "M\u00e1s de 5 a\u00f1os"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -662,7 +898,7 @@
                             ]
                         },
                         "code": "SpokenToProfessional_MoreThan5YearsAgo",
-                        "display": "more than 5 years ago",
+                        "display": "More than 5 years ago",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -676,7 +912,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -684,7 +920,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -729,7 +965,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -737,7 +973,7 @@
                             ]
                         },
                         "code": "SpokenToGeneralDoctor_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -751,7 +987,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -759,7 +995,7 @@
                             ]
                         },
                         "code": "SpokenToGeneralDoctor_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -773,7 +1009,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -781,7 +1017,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -826,7 +1062,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -834,7 +1070,7 @@
                             ]
                         },
                         "code": "SpokenToNursePractitioner_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -848,7 +1084,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -856,7 +1092,7 @@
                             ]
                         },
                         "code": "SpokenToNursePractitioner_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -870,7 +1106,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -878,7 +1114,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -923,7 +1159,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -931,7 +1167,7 @@
                             ]
                         },
                         "code": "SpokenToOBGYN_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -945,7 +1181,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -953,7 +1189,7 @@
                             ]
                         },
                         "code": "SpokenToOBGYN_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -967,7 +1203,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -975,7 +1211,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1020,7 +1256,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1028,7 +1264,7 @@
                             ]
                         },
                         "code": "SpokenToMentalHealthProfessional_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1042,7 +1278,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1050,7 +1286,7 @@
                             ]
                         },
                         "code": "SpokenToMentalHealthProfessional_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1064,7 +1300,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1072,7 +1308,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1117,7 +1353,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1125,7 +1361,7 @@
                             ]
                         },
                         "code": "SpokenToEyeDoctor_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1139,7 +1375,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1147,7 +1383,7 @@
                             ]
                         },
                         "code": "SpokenToEyeDoctor_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1161,7 +1397,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1169,7 +1405,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1214,7 +1450,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1222,7 +1458,7 @@
                             ]
                         },
                         "code": "SpokenToPodiatrist_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1236,7 +1472,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1244,7 +1480,7 @@
                             ]
                         },
                         "code": "SpokenToPodiatrist_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1258,7 +1494,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1266,7 +1502,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1311,7 +1547,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1319,7 +1555,7 @@
                             ]
                         },
                         "code": "SpokenToChiropractor_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1333,7 +1569,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1341,7 +1577,7 @@
                             ]
                         },
                         "code": "SpokenToChiropractor_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1355,7 +1591,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1363,7 +1599,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1408,7 +1644,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1416,7 +1652,7 @@
                             ]
                         },
                         "code": "SpokenToPhysicalTherapist_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1430,7 +1666,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1438,7 +1674,7 @@
                             ]
                         },
                         "code": "SpokenToPhysicalTherapist_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1452,7 +1688,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1460,7 +1696,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1505,7 +1741,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1513,7 +1749,7 @@
                             ]
                         },
                         "code": "SpokenToDentist_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1527,7 +1763,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1535,7 +1771,7 @@
                             ]
                         },
                         "code": "SpokenToDentist_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1549,7 +1785,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1557,7 +1793,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1602,7 +1838,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1610,7 +1846,7 @@
                             ]
                         },
                         "code": "SpokenToMedicalSpecialist_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1624,7 +1860,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1632,7 +1868,7 @@
                             ]
                         },
                         "code": "SpokenToMedicalSpecialist_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1646,7 +1882,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1654,7 +1890,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1699,7 +1935,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1707,7 +1943,7 @@
                             ]
                         },
                         "code": "SpokenToTraditionalHealer_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1721,7 +1957,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1729,7 +1965,7 @@
                             ]
                         },
                         "code": "SpokenToTraditionalHealer_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1743,7 +1979,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no se"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1751,7 +1987,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1972,7 +2208,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1980,7 +2216,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -2201,7 +2437,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2209,7 +2445,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -2430,7 +2666,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2438,7 +2674,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -2659,7 +2895,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2667,7 +2903,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -2888,7 +3124,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2896,7 +3132,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -3117,7 +3353,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3125,7 +3361,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -3346,7 +3582,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3354,7 +3590,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -3575,7 +3811,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3583,7 +3819,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -3804,7 +4040,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3812,7 +4048,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -4033,7 +4269,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4041,7 +4277,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -4262,7 +4498,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4270,7 +4506,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -4289,7 +4525,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfCon qu\u00e9 frecuencia usted fue tratado(a) con respeto por sus m\u00e9dicos o proveedores de cuidado de salud? Dir\u00eda usted\u2026"
+                                    "valueString": "\u00bfCon qu\u00e9 frecuencia usted fue tratado(a) con respeto por sus m\u00e9dicos o proveedores de salud? Dir\u00eda usted\u2026"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4315,7 +4551,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "siempre"
+                                            "valueString": "Siempre"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4323,7 +4559,7 @@
                             ]
                         },
                         "code": "RespectedByProvider_Always",
-                        "display": "always",
+                        "display": "Always",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4337,7 +4573,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "la mayor\u00eda de las veces"
+                                            "valueString": "La mayor\u00eda de las veces"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4345,7 +4581,7 @@
                             ]
                         },
                         "code": "RespectedByProvider_MostOfTheTime",
-                        "display": "most of the time",
+                        "display": "Most of the time",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4359,7 +4595,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "algunas veces"
+                                            "valueString": "Algunas veces"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4367,7 +4603,7 @@
                             ]
                         },
                         "code": "RespectedByProvider_SomeOfTheTime",
-                        "display": "some of the time",
+                        "display": "Some of the time",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4381,7 +4617,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "nunca"
+                                            "valueString": "Nunca"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4389,7 +4625,7 @@
                             ]
                         },
                         "code": "RespectedByProvider_NoneOfTheTime",
-                        "display": "none of the time",
+                        "display": "None of the time",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4403,7 +4639,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4411,7 +4647,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -4456,7 +4692,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "siempre"
+                                            "valueString": "Siempre"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4464,7 +4700,7 @@
                             ]
                         },
                         "code": "AskedForOpinion_Always",
-                        "display": "always",
+                        "display": "Always",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4478,7 +4714,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "la mayor\u00eda de las veces"
+                                            "valueString": "La mayor\u00eda de las veces"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4486,7 +4722,7 @@
                             ]
                         },
                         "code": "AskedForOpinion_MostOfTheTime",
-                        "display": "most of the time",
+                        "display": "Most of the time",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4500,7 +4736,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "algunas veces"
+                                            "valueString": "Algunas veces"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4508,7 +4744,7 @@
                             ]
                         },
                         "code": "AskedForOpinion_SomeOfTheTime",
-                        "display": "some of the time",
+                        "display": "Some of the time",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4522,7 +4758,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "nunca"
+                                            "valueString": "Nunca"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4530,7 +4766,7 @@
                             ]
                         },
                         "code": "AskedForOpinion_NoneOfTheTime",
-                        "display": "none of the time",
+                        "display": "None of the time",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4544,7 +4780,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4552,7 +4788,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -4597,7 +4833,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "siempre"
+                                            "valueString": "Siempre"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4605,7 +4841,7 @@
                             ]
                         },
                         "code": "EaseofUnderstanding_Always",
-                        "display": "always",
+                        "display": "Always",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4619,7 +4855,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "la mayor\u00eda de las veces"
+                                            "valueString": "La mayor\u00eda de las veces"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4627,7 +4863,7 @@
                             ]
                         },
                         "code": "EaseofUnderstanding_MostOfTheTime",
-                        "display": "most of the time",
+                        "display": "Most of the time",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4641,7 +4877,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "algunas veces"
+                                            "valueString": "Algunas veces"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4649,7 +4885,7 @@
                             ]
                         },
                         "code": "EaseofUnderstanding_SomeOfTheTime",
-                        "display": "some of the time",
+                        "display": "Some of the time",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4663,7 +4899,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "nunca"
+                                            "valueString": "Nunca"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4671,7 +4907,7 @@
                             ]
                         },
                         "code": "EaseofUnderstanding_NoneOfTheTime",
-                        "display": "none of the time",
+                        "display": "None of the time",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4685,7 +4921,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4693,7 +4929,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -4738,7 +4974,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "Si"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4746,7 +4982,7 @@
                             ]
                         },
                         "code": "Transportation_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4760,7 +4996,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4768,7 +5004,7 @@
                             ]
                         },
                         "code": "Transportation_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4782,7 +5018,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4790,7 +5026,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -4835,7 +5071,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "Si"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4843,7 +5079,7 @@
                             ]
                         },
                         "code": "RuralArea_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4857,7 +5093,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4865,7 +5101,7 @@
                             ]
                         },
                         "code": "RuralArea_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4879,7 +5115,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4887,7 +5123,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -4932,7 +5168,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "Si"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4940,7 +5176,7 @@
                             ]
                         },
                         "code": "Nervous_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4954,7 +5190,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4962,7 +5198,7 @@
                             ]
                         },
                         "code": "Nervous_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4976,7 +5212,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4984,7 +5220,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -5029,7 +5265,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "Si"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5037,7 +5273,7 @@
                             ]
                         },
                         "code": "TimeOffWork_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -5051,7 +5287,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5059,7 +5295,7 @@
                             ]
                         },
                         "code": "TimeOffWork_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -5073,7 +5309,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5081,7 +5317,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -5126,7 +5362,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "Si"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5134,7 +5370,7 @@
                             ]
                         },
                         "code": "ChildCare_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -5148,7 +5384,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5156,7 +5392,7 @@
                             ]
                         },
                         "code": "ChildCare_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -5170,7 +5406,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5178,7 +5414,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -5223,7 +5459,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "Si"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5231,7 +5467,7 @@
                             ]
                         },
                         "code": "ElderlyCare_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -5245,7 +5481,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5253,7 +5489,7 @@
                             ]
                         },
                         "code": "ElderlyCare_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -5267,7 +5503,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5275,7 +5511,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -5320,7 +5556,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "Si"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5328,7 +5564,7 @@
                             ]
                         },
                         "code": "CantAffordCoPay_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -5342,7 +5578,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5350,7 +5586,7 @@
                             ]
                         },
                         "code": "CantAffordCoPay_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -5364,7 +5600,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5372,7 +5608,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -5391,7 +5627,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Yo tuve que pagar todo o parte del procedimiento de su"
+                                    "valueString": "Su deducible era muy alto/ o no pod\u00eda pagarlo"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5417,7 +5653,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "Si"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5425,7 +5661,7 @@
                             ]
                         },
                         "code": "DeductibleTooHigh_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -5439,7 +5675,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5447,7 +5683,7 @@
                             ]
                         },
                         "code": "DeductibleTooHigh_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -5461,7 +5697,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5469,7 +5705,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -5488,7 +5724,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Yo tuve que pagar todo o parte del procedimiento de su."
+                                    "valueString": "Yo tuve que pagar todo o parte del procedimiento de mi propio bolsillo."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5514,7 +5750,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "Si"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5522,7 +5758,7 @@
                             ]
                         },
                         "code": "HadToPayOutOfPocket_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -5536,7 +5772,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5544,7 +5780,7 @@
                             ]
                         },
                         "code": "HadToPayOutOfPocket_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -5558,7 +5794,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5566,7 +5802,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -5640,7 +5876,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "Si"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5648,7 +5884,7 @@
                             ]
                         },
                         "code": "PrescriptionMedicines_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -5662,7 +5898,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5670,7 +5906,7 @@
                             ]
                         },
                         "code": "PrescriptionMedicines_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -5684,7 +5920,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5692,7 +5928,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -5737,7 +5973,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "Si"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5745,7 +5981,7 @@
                             ]
                         },
                         "code": "MentalHealthCounseling_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -5759,7 +5995,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5767,7 +6003,7 @@
                             ]
                         },
                         "code": "MentalHealthCounseling_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -5781,7 +6017,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5789,7 +6025,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -5834,7 +6070,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "Si"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5842,7 +6078,7 @@
                             ]
                         },
                         "code": "EmergencyCare_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -5856,7 +6092,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5864,7 +6100,7 @@
                             ]
                         },
                         "code": "EmergencyCare_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -5878,7 +6114,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5886,7 +6122,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -5931,7 +6167,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "Si"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5939,7 +6175,7 @@
                             ]
                         },
                         "code": "DentalCare_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -5953,7 +6189,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5961,7 +6197,7 @@
                             ]
                         },
                         "code": "DentalCare_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -5975,7 +6211,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5983,7 +6219,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -6028,7 +6264,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "Si"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6036,7 +6272,7 @@
                             ]
                         },
                         "code": "Eyeglasses_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -6050,7 +6286,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6058,7 +6294,7 @@
                             ]
                         },
                         "code": "Eyeglasses_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -6072,7 +6308,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6080,7 +6316,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -6125,7 +6361,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "Si"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6133,7 +6369,7 @@
                             ]
                         },
                         "code": "HealthcareProvider_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -6147,7 +6383,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6155,7 +6391,7 @@
                             ]
                         },
                         "code": "HealthcareProvider_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -6169,7 +6405,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6177,7 +6413,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -6222,7 +6458,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "Si"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6230,7 +6466,7 @@
                             ]
                         },
                         "code": "Specialist_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -6244,7 +6480,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6252,7 +6488,7 @@
                             ]
                         },
                         "code": "Specialist_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -6266,7 +6502,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6274,7 +6510,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -6319,7 +6555,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "Si"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6327,7 +6563,7 @@
                             ]
                         },
                         "code": "FollowupCare_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -6341,7 +6577,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6349,7 +6585,7 @@
                             ]
                         },
                         "code": "FollowupCare_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -6363,7 +6599,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6371,7 +6607,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -6406,18 +6642,25 @@
                 "linkId": "34362",
                 "option": [
                     {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Me preocupa mucho"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
                         "code": "WorriedAboutPaying_VeryWorried",
-                        "display": "very worried",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "code": "WorriedAboutPaying_SomewhatWorried",
-                        "display": "somewhat worried",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "code": "WorriedAboutPaying_NotAtAllWorried",
-                        "display": "not at all worried",
+                        "display": "Very worried",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -6431,7 +6674,51 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "Me preocupa un poco"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "WorriedAboutPaying_SomewhatWorried",
+                        "display": "Somewhat worried",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No me preocupa en lo absoluto"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "WorriedAboutPaying_NotAtAllWorried",
+                        "display": "Not at all worried",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6439,12 +6726,12 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
                 "repeats": false,
-                "text": " If you get sick or have an accident, how worried are you that you will not be able to pay your medical bills? Are you very worried, somewhat worried, or not at all worried? ",
+                "text": " If you get sick or have an accident, how worried are you that you will be able to pay your medical bills? Are you very worried, somewhat worried, or not at all worried? ",
                 "type": "choice"
             },
             {
@@ -6484,7 +6771,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "Si"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6492,7 +6779,7 @@
                             ]
                         },
                         "code": "SkippedMedToSaveMoney_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -6506,7 +6793,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6514,7 +6801,7 @@
                             ]
                         },
                         "code": "SkippedMedToSaveMoney_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -6528,7 +6815,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6536,7 +6823,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -6581,7 +6868,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "Si"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6589,7 +6876,7 @@
                             ]
                         },
                         "code": "TookLessMedToSaveMoney_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -6603,7 +6890,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6611,7 +6898,7 @@
                             ]
                         },
                         "code": "TookLessMedToSaveMoney_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -6625,7 +6912,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6633,7 +6920,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -6652,7 +6939,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Usted tardo en comprar su receta medica para ahorrar dinero"
+                                    "valueString": "Usted tard\u00f3 en comprar su receta medica para ahorrar dinero"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6678,7 +6965,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "Si"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6686,7 +6973,7 @@
                             ]
                         },
                         "code": "DelayedFillingRxToSaveMoney_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -6700,7 +6987,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6708,7 +6995,7 @@
                             ]
                         },
                         "code": "DelayedFillingRxToSaveMoney_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -6722,7 +7009,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6730,7 +7017,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -6775,7 +7062,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "Si"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6783,7 +7070,7 @@
                             ]
                         },
                         "code": "LowerCostRxToSaveMoney_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -6797,7 +7084,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6805,7 +7092,7 @@
                             ]
                         },
                         "code": "LowerCostRxToSaveMoney_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -6819,7 +7106,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6827,7 +7114,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -6872,7 +7159,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "Si"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6880,7 +7167,7 @@
                             ]
                         },
                         "code": "BoughtRxFromOtherCountry_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -6894,7 +7181,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6902,7 +7189,7 @@
                             ]
                         },
                         "code": "BoughtRxFromOtherCountry_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -6916,7 +7203,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6924,7 +7211,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -6969,7 +7256,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "Si"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6977,7 +7264,7 @@
                             ]
                         },
                         "code": "AlternativeTherapies_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -6991,7 +7278,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6999,7 +7286,7 @@
                             ]
                         },
                         "code": "AlternativeTherapies_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -7013,7 +7300,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7021,7 +7308,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -7040,7 +7327,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Qu\u00e9 tan importante es para usted que sus m\u00e9dicos o proveedores de la salud le entiendan o que sean parecidos a usted en cualquier de estas maneras? Usted dir\u00eda que es\u2026"
+                                    "valueString": "\u00bfQu\u00e9 tan importante es para usted que sus m\u00e9dicos o proveedores de salud le entiendan o que sean parecidos a usted en cualquier de estas maneras? Usted dir\u00eda que es\u2026"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7066,7 +7353,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "muy importante"
+                                            "valueString": "Muy importante"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7074,7 +7361,7 @@
                             ]
                         },
                         "code": "HowImportant_VeryImportant",
-                        "display": "very important",
+                        "display": "Very important",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -7088,7 +7375,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "poco importante"
+                                            "valueString": "Poco importante"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7096,7 +7383,7 @@
                             ]
                         },
                         "code": "HowImportant_SomewhatImportant",
-                        "display": "somewhat important",
+                        "display": "Somewhat important",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -7110,7 +7397,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "casi nada importante"
+                                            "valueString": "Casi nada importante"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7118,7 +7405,7 @@
                             ]
                         },
                         "code": "HowImportant_SlightlyImportant",
-                        "display": "slightly important",
+                        "display": "Slightly important",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -7132,7 +7419,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no es importante en lo absoluto"
+                                            "valueString": "No es importante en lo absoluto"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7140,7 +7427,7 @@
                             ]
                         },
                         "code": "HowImportant_NotImportant",
-                        "display": "not important at all",
+                        "display": "Not important at all",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -7154,7 +7441,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7162,7 +7449,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -7207,7 +7494,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "siempre"
+                                            "valueString": "Siempre"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7215,7 +7502,7 @@
                             ]
                         },
                         "code": "HowOften_Always",
-                        "display": "always",
+                        "display": "Always",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -7229,7 +7516,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "la mayor\u00eda de las veces"
+                                            "valueString": "La mayor\u00eda de las veces"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7237,7 +7524,7 @@
                             ]
                         },
                         "code": "HowOften_MostOfTheTime",
-                        "display": "most of the time",
+                        "display": "Most of the time",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -7251,7 +7538,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "algunas veces"
+                                            "valueString": "Algunas veces"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7259,7 +7546,7 @@
                             ]
                         },
                         "code": "HowOften_SomeOfTheTime",
-                        "display": "some of the time",
+                        "display": "Some of the time",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -7273,7 +7560,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "nunca"
+                                            "valueString": "Nunca"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7281,7 +7568,7 @@
                             ]
                         },
                         "code": "HowOften_NoneOfTheTime",
-                        "display": "none of the time",
+                        "display": "None of the time",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -7295,7 +7582,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7303,7 +7590,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -7348,7 +7635,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "siempre"
+                                            "valueString": "Siempre"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7356,7 +7643,7 @@
                             ]
                         },
                         "code": "DelayedOrNoCare_Always",
-                        "display": "always",
+                        "display": "Always",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -7370,7 +7657,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "la mayor\u00eda de las veces"
+                                            "valueString": "La mayor\u00eda de las veces"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7378,7 +7665,7 @@
                             ]
                         },
                         "code": "DelayedOrNoCare_MostOfTheTime",
-                        "display": "most of the time",
+                        "display": "Most of the time",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -7392,7 +7679,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "algunas veces"
+                                            "valueString": "Algunas veces"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7400,7 +7687,7 @@
                             ]
                         },
                         "code": "DelayedOrNoCare_SomeOfTheTime",
-                        "display": "some of the time",
+                        "display": "Some of the time",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -7414,7 +7701,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "nunca"
+                                            "valueString": "Nunca"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7422,7 +7709,7 @@
                             ]
                         },
                         "code": "DelayedOrNoCare_NoneOfTheTime",
-                        "display": "none of the time",
+                        "display": "None of the time",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -7436,7 +7723,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7444,7 +7731,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -7465,5 +7752,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "415"
+    "version": "437"
 }
