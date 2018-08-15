@@ -5,6 +5,7 @@ jobs:
     machine: true
     steps:
       - run: pip install requests
+      - run: pwd
       - run:
           name: validate
           command: cd validation && python2.7 validate.py
