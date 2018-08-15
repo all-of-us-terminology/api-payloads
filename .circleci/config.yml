@@ -1,7 +1,9 @@
 version: 2
 
-steps:
-  - run: pip install requests
-  - run:
-      name: validate
-      command: cd validation && python2.7 validate.py
+jobs:
+  build:
+    steps:
+      - run: pip install requests
+      - run:
+          name: validate
+          command: cd validation && python2.7 validate.py
