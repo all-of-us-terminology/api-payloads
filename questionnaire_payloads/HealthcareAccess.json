@@ -1,5 +1,5 @@
 {
-    "date": "2018-08-15T15:03:59Z",
+    "date": "2018-08-16T20:17:13Z",
     "group": {
         "concept": [
             {
@@ -99,6 +99,28 @@
                         },
                         "code": "InsuranceType_Medicare",
                         "display": "Medicare, for people 65 and older or people with certain disabilities",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Medicaid, ayuda m\u00e9dica o alg\u00fan tipo de plan de ayuda del gobierno para personas con bajos ingresos o discapacidades"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "InsuranceType_GovernmentAssistancePlan",
+                        "display": "Medicaid, Medical Assistance, or any kind of government-assistance plan for those with low incomes or disability",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -353,7 +375,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Actualmente \u00bfest\u00e1 cubierto por alg\u00fan seguro m\u00e9dico o planes de cobertura m\u00e9dica?"
+                                    "valueString": "\u00bfC\u00f3mo comparar\u00eda el seguro m\u00e9dico o plan m\u00e9dico que tiene ahora con el que ten\u00eda hace un a\u00f1o? \u00bfEs mejor, peor o igual?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -379,7 +401,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Seguro a trav\u00e9s de su trabajo previo o actual o a trav\u00e9s de una asociaci\u00f3n de trabajadores (de parte de usted u otro familiar)"
+                                            "valueString": "Mejor"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -401,7 +423,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Seguro comprado directamente de una compa\u00f1\u00eda de seguros (de parte de usted u otro familiar)"
+                                            "valueString": "Peor"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -423,7 +445,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Medicare para personas de 65 a\u00f1os o m\u00e1s o con ciertas discapacidades"
+                                            "valueString": "Casi igual"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7752,5 +7774,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "437"
+    "version": "439"
 }
