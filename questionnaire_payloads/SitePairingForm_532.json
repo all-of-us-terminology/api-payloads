@@ -1,5 +1,5 @@
 {
-    "date": "2018-07-23T16:16:37Z",
+    "date": "2018-09-24T21:05:02Z",
     "group": {
         "concept": [
             {
@@ -20,7 +20,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00a1Gracias por completar su proceso de consentimiento! Usted ha seleccionado [profile HPO_full_name value] como su proveedor. Antes de continuar, por favor confirme si esto es correcto."
+                                    "valueString": "\u00a1Gracias por completar su proceso de consentimiento! Usted ha seleccionado [profile organization_full_name value] como su proveedor. Antes de continuar, por favor confirme si esto es correcto."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -81,7 +81,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Thank you for completing the consent process! You have been paired with [profile HPO_full_name value]. Before you can proceed, please confirm this is correct.",
+                "text": "Thank you for completing the consent process! You have been paired with [profile organization_full_name value]. Before you can proceed, please confirm this is correct.",
                 "type": "choice"
             },
             {
@@ -179,11 +179,6 @@
                 ],
                 "linkId": "12177",
                 "option": [
-                    {
-                        "code": "AZSitepairingLocation_CasaGrande",
-                        "display": "CASA GRANDE: Banner Casa Grande Medical Center",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
                     {
                         "code": "AZSitepairingLocation_Glendale",
                         "display": "GLENDALE: Banner Thunderbird Medical Center",
@@ -1230,6 +1225,11 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
+                        "code": "WisconsinSitePairing_EssentiaHealth",
+                        "display": "Essentia Health",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
                         "_display": {
                             "extension": [
                                 {
@@ -1253,7 +1253,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program. At which institution do you wish to schedule an enrollment visit with?",
+                "text": "The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program. At which institution do you receive care and wish to schedule an enrollment visit with?",
                 "type": "choice"
             },
             {
@@ -1500,7 +1500,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfAlguna vez ha recibido atenci\u00f3n en alg\u00fan hospital, centro de salud o cl\u00ednica afiliada a Boston Medical Center (BMC) o Partners HealthCare (Partners)?"
+                                    "valueString": "Los siguientes proveedores de salud en su \u00e1rea est\u00e1n inscribiendo participantes en el Programa Cient\u00edfico All of Us. \u00bfQuisiera hacer su cita de inscripci\u00f3n con uno de los siguientes proveedores?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1516,25 +1516,8 @@
                 "linkId": "12234",
                 "option": [
                     {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "S\u00ed, en un centro BMC"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
                         "code": "CareReceived_YesBMC",
-                        "display": "Yes, at a BMC location",
+                        "display": "Boston Medical Center",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1548,7 +1531,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "S\u00ed, en un centro Partners"
+                                            "valueString": "Partners HealthCare (incluyendo Brigham and Women\u2019s Hospital, Massachusetts General Hospital y muchos m\u00e1s hospitales y centros de salud)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1556,7 +1539,29 @@
                             ]
                         },
                         "code": "CareReceived_YesPartners",
-                        "display": "Yes, at a Partners location",
+                        "display": "Partners HealthCare (including Brigham and Women\u2019s Hospital, Massachusetts General Hospital, and many affiliated hospitals and health centers)",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Reliant Medical Group (m\u00faltiples ubicaciones de Metrowest y Central Massachusetts)"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "CareReceived_Reliant",
+                        "display": "Reliant Medical Group (multiple Metrowest and Central Massachusetts locations)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1583,7 +1588,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Have you ever received care at any hospital, health center or clinic affiliated with Boston Medical Center (BMC) or Partners HealthCare (Partners)?\n",
+                "text": "The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program. Would you like to complete your enrollment visit at a site affiliated with one of the following organizations?  \n",
                 "type": "choice"
             },
             {
@@ -1742,7 +1747,7 @@
                     },
                     {
                         "code": "SEEC_MorehouseSchoolOfMed",
-                        "display": "Morehouse School of Medicine - Westview",
+                        "display": "Morehouse School of Medicine \u2013 Morehouse Healthcare",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1773,6 +1778,30 @@
                 "type": "choice"
             },
             {
+                "concept": [
+                    {
+                        "code": "MississippiSitePairing_JacksonHinds",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "12247",
+                "option": [
+                    {
+                        "code": "JacksonHinds_Yes",
+                        "display": "Yes",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "JacksonHinds_No",
+                        "display": "No",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Have you ever received care from a health provider at the Jackson-Hinds Comprehensive Health Center's Main Site (James Anderson Clinic) or the Copiah Clinic?",
+                "type": "choice"
+            },
+            {
                 "_text": {
                     "extension": [
                         {
@@ -1783,7 +1812,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfAlguna vez ha recibido atenci\u00f3n con un proveedor de cuidados de salud en el centro principal de Jackson-Hinds Comprehensive Health Center (James Anderson Clinic) o Copiah Clinic?"
+                                    "valueString": "Los siguientes centros de salud en su \u00e1rea est\u00e1n inscribiendo participantes en el Programa Cient\u00edfico All of Us. \u00bfCon cu\u00e1l proveedor le gustar\u00eda programar su cita?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1792,59 +1821,25 @@
                 },
                 "concept": [
                     {
-                        "code": "MississippiSitePairing_JacksonHinds",
+                        "code": "MinnesotaNorthDakotaSitePairing_Essentia",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "12247",
+                "linkId": "37973",
                 "option": [
                     {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "S\u00ed"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "JacksonHinds_Yes",
-                        "display": "Yes",
+                        "code": "EssentiaHealth_Yes",
+                        "display": "Essentia Health",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "No"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "JacksonHinds_No",
-                        "display": "No",
+                        "code": "EssentiaHealth_No",
+                        "display": "None of the above",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
                 "repeats": false,
-                "text": "Have you ever received care from a health provider at the Jackson-Hinds Comprehensive Health Center's Main Site (James Anderson Clinic) or the Copiah Clinic?",
+                "text": "The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program. At which institution do you wish to schedule an enrollment visit with?",
                 "type": "choice"
             }
         ],
@@ -1859,5 +1854,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "299"
+    "version": "313"
 }
