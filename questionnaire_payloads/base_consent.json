@@ -1,5 +1,5 @@
 {
-    "date": "2018-06-29T15:29:03Z",
+    "date": "2018-09-20T19:36:32Z",
     "group": {
         "concept": [
             {
@@ -117,13 +117,13 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "SOR_DC",
-                        "display": "District of Columbia",
+                        "code": "SOR_DE",
+                        "display": "Delaware",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "SOR_DE",
-                        "display": "Delaware",
+                        "code": "SOR_DC",
+                        "display": "District of Columbia",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -267,13 +267,13 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "SOR_MP",
-                        "display": "Northern Mariana Islands",
+                        "code": "SOR_ND",
+                        "display": "North Dakota",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "SOR_ND",
-                        "display": "North Dakota",
+                        "code": "SOR_MP",
+                        "display": "Northern Mariana Islands",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -342,13 +342,13 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "SOR_VA",
-                        "display": "Virginia",
+                        "code": "SOR_VI",
+                        "display": "Virgin Islands",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "SOR_VI",
-                        "display": "Virgin Islands",
+                        "code": "SOR_VA",
+                        "display": "Virginia",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -668,13 +668,13 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIStateCare_DC",
-                        "display": "District of Columbia",
+                        "code": "PIIStateCare_DE",
+                        "display": "Delaware",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIStateCare_DE",
-                        "display": "Delaware",
+                        "code": "PIIStateCare_DC",
+                        "display": "District of Columbia",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -818,13 +818,13 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIStateCare_MP",
-                        "display": "Northern Mariana Islands",
+                        "code": "PIIStateCare_ND",
+                        "display": "North Dakota",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIStateCare_ND",
-                        "display": "North Dakota",
+                        "code": "PIIStateCare_MP",
+                        "display": "Northern Mariana Islands",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -893,13 +893,13 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIStateCare_VA",
-                        "display": "Virginia",
+                        "code": "PIIStateCare_VI",
+                        "display": "Virgin Islands",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIStateCare_VI",
-                        "display": "Virgin Islands",
+                        "code": "PIIStateCare_VA",
+                        "display": "Virginia",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1870,7 +1870,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Nombre de la persona que le ayud\u00f3:"
+                                    "valueString": "Nombre de la persona que le ayud\u00f3"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1885,7 +1885,7 @@
                 ],
                 "linkId": "35078",
                 "repeats": false,
-                "text": "Name of the person who helped you:",
+                "text": "Name of the person who helped you",
                 "type": "text"
             },
             {
@@ -2015,7 +2015,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "direcci\u00f3n"
+                                    "valueString": "n\u00famero de apartamento/unidad"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2112,13 +2112,13 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_DC",
-                        "display": "District of Columbia",
+                        "code": "PIIState_DE",
+                        "display": "Delaware",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_DE",
-                        "display": "Delaware",
+                        "code": "PIIState_DC",
+                        "display": "District of Columbia",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2262,13 +2262,13 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_MP",
-                        "display": "Northern Mariana Islands",
+                        "code": "PIIState_ND",
+                        "display": "North Dakota",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_ND",
-                        "display": "North Dakota",
+                        "code": "PIIState_MP",
+                        "display": "Northern Mariana Islands",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2337,13 +2337,13 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_VA",
-                        "display": "Virginia",
+                        "code": "PIIState_VI",
+                        "display": "Virgin Islands",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "code": "PIIState_VI",
-                        "display": "Virgin Islands",
+                        "code": "PIIState_VA",
+                        "display": "Virginia",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2470,5 +2470,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "1356"
+    "version": "1386"
 }
