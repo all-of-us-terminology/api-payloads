@@ -1,5 +1,5 @@
 {
-    "date": "2018-09-24T21:05:02Z",
+    "date": "2018-11-19T18:13:12Z",
     "group": {
         "concept": [
             {
@@ -214,6 +214,11 @@
                         },
                         "code": "AZSitepairingLocation_Mesa",
                         "display": "MESA: Banner Desert Medical Center (formerly known as Desert Samaritan)",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "AZSitepairingLocation_Nogales",
+                        "display": "NOGALES: Mariposa Community Health Center",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1267,7 +1272,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Los siguientes proveedores de cuidados de salud en su \u00e1rea est\u00e1n registrando participantes al Programa Cient\u00edfico All of Us.\n\n\u00bfEn cual instituci\u00f3n recibe atenci\u00f3n y quiere programar una visita para registrarse? \n\nEscoja 1 instituci\u00f3n."
+                                    "valueString": "Los siguientes proveedores de cuidados de salud en su \u00e1rea est\u00e1n registrando participantes al Programa Cient\u00edfico All of Us.\n\n\u00bfEn cual instituci\u00f3n recibe atenci\u00f3n y quiere programar una visita para registrarse? \n\nSi usted no recibe atenci\u00f3n m\u00e9dica de alguno de nuestros sitios colaboradores en la lista, todav\u00eda puede elegir uno para participar en el programa.\n\nEscoja 1 instituci\u00f3n."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1284,32 +1289,7 @@
                 "option": [
                     {
                         "code": "IllinoisInstitution_MileSquare",
-                        "display": "Mile Square Health Center",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "code": "IllinoisInstitution_NorthShoreU",
-                        "display": "NorthShore University HealthSystem",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "code": "IllinoisInstitution_Northwestern",
-                        "display": "Northwestern Medicine",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "code": "IllinoisInstitution_UChicagoMed",
-                        "display": "University of Chicago Medicine",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "code": "IllinoisInstitution_RushU",
-                        "display": "Rush University Medical Center",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "code": "IllinoisInstitution_UIllinoisHealth",
-                        "display": "University of Illinois (UI) Health",
+                        "display": "Mile Square Health Center, Chicago  ",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1323,7 +1303,76 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Ninguno de estos"
+                                            "valueString": "NorthShore University HealthSystem, Evanston o Gurnee"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "IllinoisInstitution_NorthShoreU",
+                        "display": "NorthShore University HealthSystem, Evanston or Gurnee  ",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Northwestern Medicine, Chicago, Geneva o Vernon Hills"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "IllinoisInstitution_Northwestern",
+                        "display": "Northwestern Medicine, Chicago, Geneva or Vernon Hills",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "IllinoisInstitution_UChicagoMed",
+                        "display": "University of Chicago Medicine, Chicago",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "IllinoisInstitution_RushU",
+                        "display": "Rush University Medical Center, Chicago",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "IllinoisInstitution_UIllinoisHealth",
+                        "display": "University of Illinois (UI) Health , Chicago",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "IllinoisInstitution_UnityPoint",
+                        "display": "UnityPoint Health, Peoria",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "IllinoisInstitution_CookCounty",
+                        "display": "Cook County Health, Chicago",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Ninguno de estos,Quiero escoger un sitio colaborador basado en ubicaci\u00f3n."
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1331,12 +1380,12 @@
                             ]
                         },
                         "code": "IllinoisInstitution_Noneofthese",
-                        "display": "None of these",
+                        "display": "None of these, I\u2019d like to choose a partner based on location.",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
                 "repeats": false,
-                "text": "The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program.\n\nAt which institution do you receive care and wish to schedule an enrollment visit with? \n\nPlease choose 1 institution.",
+                "text": "The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program.\n\nAt which institution do you receive care and wish to schedule an enrollment visit with?  If you do not receive care at any of the partners listed, you can still choose one to participate in the program.\n \nPlease choose 1 institution.",
                 "type": "choice"
             },
             {
@@ -1854,5 +1903,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "313"
+    "version": "322"
 }
