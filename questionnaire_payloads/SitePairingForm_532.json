@@ -1,5 +1,5 @@
 {
-    "date": "2018-11-19T18:13:12Z",
+    "date": "2019-01-03T15:26:01Z",
     "group": {
         "concept": [
             {
@@ -171,6 +171,23 @@
                 "type": "text"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "El Programa Cient\u00edfico All of Us est\u00e1 inscribiendo a participantes en los siguientes sitios de atenci\u00f3n m\u00e9dica. \u00bfEn cu\u00e1l ubicaci\u00f3n quisiera programar su visita?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "ArizonaSitePairing_AZSitepairingLocation",
@@ -185,6 +202,23 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Ninguna de estas"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
                         "code": "AZSitepairingLocation_Gilbert",
                         "display": "GILBERT: Banner Gateway Medical Center ",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
@@ -367,6 +401,64 @@
                 "type": "choice"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "El Programa Cient\u00edfico All of Us est\u00e1 inscribiendo a participantes en los siguientes sitios de atenci\u00f3n m\u00e9dica. \u00bfEn cu\u00e1l ubicaci\u00f3n quisiera programar su visita?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "ColoradoSitePairing_COSitepairingLocation",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "41224",
+                "option": [
+                    {
+                        "code": "COSitepairingLocation_Greeley",
+                        "display": "GREELEY: Banner North Colorado Medical Center",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Ninguna de estas"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "COSitepairingLocation_None",
+                        "display": "None of these",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "The All of Us Research Program is enrolling participants at the following healthcare sites. At which location do you wish to schedule your visit?",
+                "type": "choice"
+            },
+            {
                 "concept": [
                     {
                         "code": "ArizonaSitePairing_AZWalgreensSitepairingLocation",
@@ -525,7 +617,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "San Diego Blood Bank (4 sitios)"
+                                            "valueString": "San Diego Blood Bank (6 sitios)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -533,7 +625,7 @@
                             ]
                         },
                         "code": "CaliforniaPairing_SDBB",
-                        "display": "San Diego Blood Bank (4 sites)",
+                        "display": "San Diego Blood Bank (6 sites)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1903,5 +1995,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "322"
+    "version": "347"
 }
