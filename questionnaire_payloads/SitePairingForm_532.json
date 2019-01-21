@@ -1,5 +1,5 @@
 {
-    "date": "2019-01-03T15:26:01Z",
+    "date": "2019-01-21T20:31:33Z",
     "group": {
         "concept": [
             {
@@ -768,7 +768,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfActualmente es paciente de alguna de estas cl\u00ednicas o centros de salud de Eau Claire?\n\nBrookland-Cayce Medical Practice\nEastover Medical Practice\nEau Claire Internal Medicine\nEau Claire Walk-In\nHopkins Family Practice\nLake Monticello Family Practice\nPelion Family Practice\nRidgeway Family & Dental Practice\nWaverly Family Practice\nWaverly Women\u2019s Health Center\nWaverly Women\u2019s Health & Internal Medicine of Batesburg-Leesville\nWinnsboro Pediatric & Family Practice"
+                                    "valueString": "\u00bfEst\u00e1 usted actualmente un paciente en uno de los siguientes centros de salud?\n\nBrookland-Cayce Medical Practice\nEastover Medical Practice\nEau Claire Internal Medicine\nEau Claire Walk-In\nHopkins Family Practice\nLake Monticello Family Practice\nPelion Family Practice\nRidgeway Family & Dental Practice\nWaverly Family Practice\nWaverly Women\u2019s Health Center\nWaverly Women\u2019s Health & Internal Medicine of Batesburg-Leesville\nWinnsboro Pediatric & Family Practice"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -829,7 +829,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Are you currently a patient at any of the following Eau Claire clinics or health centers?\n\nBrookland-Cayce Medical Practice\nEastover Medical Practice\nEau Claire Internal Medicine\nEau Claire Walk-In\nHopkins Family Practice\nLake Monticello Family Practice\nPelion Family Practice\nRidgeway Family & Dental Practice\nWaverly Family Practice\nWaverly Women\u2019s Health Center\nWaverly Women\u2019s Health & Internal Medicine of Batesburg-Leesville\nWinnsboro Pediatric & Family Practice",
+                "text": "Are you currently a patient at any of the following health centers?\n\nBrookland-Cayce Medical Practice\nEastover Medical Practice\nEau Claire Internal Medicine\nEau Claire Walk-In\nHopkins Family Practice\nLake Monticello Family Practice\nPelion Family Practice\nRidgeway Family & Dental Practice\nWaverly Family Practice\nWaverly Women\u2019s Health Center\nWaverly Women\u2019s Health & Internal Medicine of Batesburg-Leesville\nWinnsboro Pediatric & Family Practice",
                 "type": "choice"
             },
             {
@@ -1070,7 +1070,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Este/Sudeste de Michigan (\u00e1rea metropolitana de Detroit)"
+                                            "valueString": "Este/Sureste de Michigan (\u00c1rea de Metro Detroit)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1078,7 +1078,7 @@
                             ]
                         },
                         "code": "LiveInFollowingAreas_LiveInEastSouthEastMichigan",
-                        "display": "East/Southeast Michigan (Metropolitan Detroit area)",
+                        "display": "East/Southeast Michigan (Metro Detroit area) ",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1104,25 +1104,8 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "No vivo en ninguna regi\u00f3n en la lista"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "LiveInFollowingAreas_DoNotLiveInListedAreas",
-                        "display": "I do not live in any listed area",
+                        "code": "LiveInFollowingAreas_NorthUpperPeninsula",
+                        "display": "Northern /Upper Peninsula ",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1131,30 +1114,13 @@
                 "type": "choice"
             },
             {
-                "_text": {
-                    "extension": [
-                        {
-                            "extension": [
-                                {
-                                    "url": "lang",
-                                    "valueCode": "es"
-                                },
-                                {
-                                    "url": "content",
-                                    "valueString": "\u00bfHa recibido atenci\u00f3n m\u00e9dica en alg\u00fan sitio del Henry Ford System, de un doctor afiliado con el sistema, o est\u00e1 usted afiliado con la instituci\u00f3n? \n\nEsto puede incluir recibir atenci\u00f3n en un hospital Henry Ford, atenci\u00f3n urgente, departamento de emergencia, cl\u00ednica de consulta externa, o a traves de atenci\u00f3n por empleo."
-                                }
-                            ],
-                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                        }
-                    ]
-                },
                 "concept": [
                     {
-                        "code": "EastSoutheastMichigan_CareAtHenryFord",
+                        "code": "NorthernMichigan",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "12213",
+                "linkId": "41652",
                 "option": [
                     {
                         "_display": {
@@ -1167,15 +1133,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "S\u00ed"
+                                            "valueString": "Henry Ford Health System"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "CareAtHenryFord_YesCareAtHenryFord",
-                        "display": "Yes",
+                        "code": "NorthMichigan_CareAtHenryFord_YesCareAtHenryFord",
+                        "display": "Henry Ford Health System",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1189,68 +1155,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "No"
+                                            "valueString": "Spectrum Health"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "CareAtHenryFord_NoCareAtHenryFord",
-                        "display": "No",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    }
-                ],
-                "repeats": false,
-                "text": "Have you ever received care at a Henry Ford Health System facility or are you currently affiliated with the institution? \n\nThis may include receiving care in a HFHS hospital, urgent care, emergency department, outpatient clinic or through HFHS employee health.",
-                "type": "choice"
-            },
-            {
-                "_text": {
-                    "extension": [
-                        {
-                            "extension": [
-                                {
-                                    "url": "lang",
-                                    "valueCode": "es"
-                                },
-                                {
-                                    "url": "content",
-                                    "valueString": "\u00bfHa recibido atenci\u00f3n m\u00e9dica en alg\u00fan sitio del Spectrum Health System o est\u00e1 usted afiliado con la instituci\u00f3n? Esto puede incluir recibir atenci\u00f3n en un hospital afiliado con Spectrum Health, atenci\u00f3n urgente, departamento de emergencia, cl\u00ednica de consulta externa, o a traves de atenci\u00f3n por empleo?"
-                                }
-                            ],
-                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                        }
-                    ]
-                },
-                "concept": [
-                    {
-                        "code": "WesternMichiganSitePairing_SpectrumHealthSitePairing",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    }
-                ],
-                "linkId": "12216",
-                "option": [
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "S\u00ed"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "SpectrumHealthSitePairing_Yes",
-                        "display": "Yes",
+                        "code": "NorthMichigan_SpectrumHealthSitePairing_Yes",
+                        "display": "Spectrum Health",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1264,20 +1177,20 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "No"
+                                            "valueString": "Essentia Health"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "SpectrumHealthSitePairing_No",
-                        "display": "No",
+                        "code": "NorthMichigan_EssentiaHealthSitePairing_Yes",
+                        "display": "Essentia Health",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
                 "repeats": false,
-                "text": "Have you ever received care at a Spectrum Health System facility or are you currently affiliated with the system? This may include receiving care in a Spectrum Health hospital, urgent care, emergency department, outpatient clinic, integrated care center, or through employee health?",
+                "text": "The following Healthcare Providers in your area are enrolling participants into the All of Us Research Program. \n\nWhich institution might be closest to schedule an enrollment visit with? \n\nPlease choose 1 institution ",
                 "type": "choice"
             },
             {
@@ -1308,7 +1221,7 @@
                 "option": [
                     {
                         "code": "WisconsinSitePairing_Marshfield",
-                        "display": "Marshfield Clinic or Family Health Center of Marshfield, Marshfield, Wisconsin",
+                        "display": "Marshfield Clinic Health System or Family Health Center of Marshfield",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1995,5 +1908,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "347"
+    "version": "370"
 }
