@@ -1,5 +1,5 @@
 {
-    "date": "2019-01-21T20:31:33Z",
+    "date": "2019-03-08T18:15:46Z",
     "group": {
         "concept": [
             {
@@ -212,7 +212,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Ninguna de estas"
+                                            "valueString": "GILBERT: Banner Gateway Medical Center"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -427,6 +427,23 @@
                 "linkId": "41224",
                 "option": [
                     {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "GREELEY: Banner North Colorado Medical Center"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
                         "code": "COSitepairingLocation_Greeley",
                         "display": "GREELEY: Banner North Colorado Medical Center",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
@@ -969,7 +986,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Indique si alguna vez ha recibido atenci\u00f3n en alguno de estos establecimientos:\n\nCHC Inc Middletown\nCHC Inc Meriden"
+                                    "valueString": "Indique si alguna vez ha recibido atenci\u00f3n en alguno de estos establecimientos:\n\nCHC of Middletown\nCHC of Meriden\nCHC of New Britain"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1030,7 +1047,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Please indicate if you have received care at one of the following locations:\n\nCHC of Middletown\nCHC of Meriden",
+                "text": "Please indicate if you have received care at one of the following locations:\n\nCHC of Middletown\nCHC of Meriden\nCHC of New Britain",
                 "type": "choice"
             },
             {
@@ -1092,7 +1109,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Michigan Occidental"
+                                            "valueString": "Regi\u00f3n oeste de Michigan (\u00c1rea de Grand Rapids)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1100,12 +1117,29 @@
                             ]
                         },
                         "code": "LiveInFollowingAreas_LiveInWesternMichigan",
-                        "display": "Western Michigan",
+                        "display": "Western Michigan (Greater Grand Rapids Area)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Pen\u00ednsula Norte/Superior"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
                         "code": "LiveInFollowingAreas_NorthUpperPeninsula",
-                        "display": "Northern /Upper Peninsula ",
+                        "display": "Northern/Upper Peninsula ",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1364,6 +1398,16 @@
                     {
                         "code": "IllinoisInstitution_CookCounty",
                         "display": "Cook County Health, Chicago",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "IllinoisInstitution_NearNorth",
+                        "display": "Near North Health Services Corporation, Chicago",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "IllinoisInstitution_SwedishAmerican",
+                        "display": "SwedishAmerican\u2013A Division of UW Health, Rockford \n",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1908,5 +1952,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "370"
+    "version": "402"
 }
