@@ -1,5 +1,5 @@
 {
-    "date": "2018-03-02T19:44:59+00:00",
+    "date": "2019-04-02T16:51:15Z",
     "group": {
         "concept": [
             {
@@ -46,7 +46,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "extremadamente"
+                                            "valueString": "Extremadamente"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -54,7 +54,7 @@
                             ]
                         },
                         "code": "MedicalFormConfidence_Extremely",
-                        "display": "extremely",
+                        "display": "Extremely",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -68,7 +68,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "bastante"
+                                            "valueString": "Bastante"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -76,7 +76,7 @@
                             ]
                         },
                         "code": "MedicalFormConfidence_QuiteABit",
-                        "display": "quite a bit",
+                        "display": "Quite a bit",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -90,7 +90,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "algo"
+                                            "valueString": "Algo"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -98,7 +98,7 @@
                             ]
                         },
                         "code": "MedicalFormConfidence_Somewhat",
-                        "display": "somewhat",
+                        "display": "Somewhat",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -112,7 +112,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "un poco"
+                                            "valueString": "Un poco"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -120,7 +120,7 @@
                             ]
                         },
                         "code": "MedicalFormConfidence_ALittleBit",
-                        "display": "a little bit",
+                        "display": "A little bit",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -134,7 +134,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "nada"
+                                            "valueString": "Nada"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -142,7 +142,7 @@
                             ]
                         },
                         "code": "MedicalFormConfidence_NotAtAll",
-                        "display": "not at all",
+                        "display": "Not at all",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -161,7 +161,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfQu\u00e9 tan frecuente usted tiene a alguien que lo ayuda a leer informaci\u00f3n (documentos) relacionados con su salud?"
+                                    "valueString": "\u00bfQu\u00e9 tan frecuente usted tiene a alguien que lo ayuda a leer informaci\u00f3n (documentos) relacionada con su salud?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -187,7 +187,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "siempre"
+                                            "valueString": "Siempre"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -195,7 +195,7 @@
                             ]
                         },
                         "code": "HealthMaterialAssistance_Always",
-                        "display": "always",
+                        "display": "Always",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -209,7 +209,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "a menudo"
+                                            "valueString": "A menudo"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -217,7 +217,7 @@
                             ]
                         },
                         "code": "HealthMaterialAssistance_Often",
-                        "display": "often",
+                        "display": "Often",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -231,7 +231,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "a veces"
+                                            "valueString": "A veces"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -239,7 +239,7 @@
                             ]
                         },
                         "code": "HealthMaterialAssistance_Sometimes",
-                        "display": "sometimes",
+                        "display": "Sometimes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -253,7 +253,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "de vez en cuando"
+                                            "valueString": "De vez en cuando"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -261,7 +261,7 @@
                             ]
                         },
                         "code": "HealthMaterialAssistance_Occasionally",
-                        "display": "occasionally",
+                        "display": "Occasionally",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -275,7 +275,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "nunca"
+                                            "valueString": "Nunca"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -283,7 +283,7 @@
                             ]
                         },
                         "code": "HealthMaterialAssistance_Never",
-                        "display": "never",
+                        "display": "Never",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -328,7 +328,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "siempre"
+                                            "valueString": "Siempre"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -336,7 +336,7 @@
                             ]
                         },
                         "code": "DifficultUnderstandInfo_Always",
-                        "display": "always",
+                        "display": "Always",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -350,7 +350,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "a menudo"
+                                            "valueString": "A menudo"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -358,7 +358,7 @@
                             ]
                         },
                         "code": "DifficultUnderstandInfo_Often",
-                        "display": "often",
+                        "display": "Often",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -372,7 +372,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "a veces"
+                                            "valueString": "A veces"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -380,7 +380,7 @@
                             ]
                         },
                         "code": "DifficultUnderstandInfo_Sometimes",
-                        "display": "sometimes",
+                        "display": "Sometimes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -394,7 +394,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "de vez en cuando"
+                                            "valueString": "De vez en cuando"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -402,7 +402,7 @@
                             ]
                         },
                         "code": "DifficultUnderstandInfo_Occasionally",
-                        "display": "occasionally",
+                        "display": "Occasionally",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -416,7 +416,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "nunca"
+                                            "valueString": "Nunca"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -424,7 +424,7 @@
                             ]
                         },
                         "code": "DifficultUnderstandInfo_Never",
-                        "display": "never",
+                        "display": "Never",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -469,7 +469,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "excelente"
+                                            "valueString": "Excelente"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -477,7 +477,7 @@
                             ]
                         },
                         "code": "GeneralHealth_Excellent",
-                        "display": "excellent",
+                        "display": "Excellent",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -491,7 +491,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "muy buena"
+                                            "valueString": "Muy buena"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -499,7 +499,7 @@
                             ]
                         },
                         "code": "GeneralHealth_VeryGood",
-                        "display": "very good",
+                        "display": "Very good",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -513,7 +513,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "buena"
+                                            "valueString": "Buena"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -521,7 +521,7 @@
                             ]
                         },
                         "code": "GeneralHealth_Good",
-                        "display": "good",
+                        "display": "Good",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -535,7 +535,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "pasable"
+                                            "valueString": "Pasable"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -543,7 +543,7 @@
                             ]
                         },
                         "code": "GeneralHealth_Fair",
-                        "display": "fair",
+                        "display": "Fair",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -557,7 +557,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "mala"
+                                            "valueString": "Mala"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -565,7 +565,7 @@
                             ]
                         },
                         "code": "GeneralHealth_Poor",
-                        "display": "poor",
+                        "display": "Poor",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -610,7 +610,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "excelente"
+                                            "valueString": "Excelente"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -618,7 +618,7 @@
                             ]
                         },
                         "code": "GeneralQuality_Excellent",
-                        "display": "excellent",
+                        "display": "Excellent",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -632,7 +632,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "muy buena"
+                                            "valueString": "Muy buena"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -640,7 +640,7 @@
                             ]
                         },
                         "code": "GeneralQuality_VeryGood",
-                        "display": "very good",
+                        "display": "Very good",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -654,7 +654,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "buena"
+                                            "valueString": "Buena"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -662,7 +662,7 @@
                             ]
                         },
                         "code": "GeneralQuality_Good",
-                        "display": "good",
+                        "display": "Good",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -676,7 +676,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "pasable"
+                                            "valueString": "Pasable"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -684,7 +684,7 @@
                             ]
                         },
                         "code": "GeneralQuality_Fair",
-                        "display": "fair",
+                        "display": "Fair",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -698,7 +698,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "mala"
+                                            "valueString": "Mala"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -706,7 +706,7 @@
                             ]
                         },
                         "code": "GeneralQuality_Poor",
-                        "display": "poor",
+                        "display": "Poor",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -751,7 +751,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "excelente"
+                                            "valueString": "Excelente"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -759,7 +759,7 @@
                             ]
                         },
                         "code": "GeneralPhysicalHealth_Excellent",
-                        "display": "excellent",
+                        "display": "Excellent",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -773,7 +773,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "muy buena"
+                                            "valueString": "Muy buena"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -781,7 +781,7 @@
                             ]
                         },
                         "code": "GeneralPhysicalHealth_VeryGood",
-                        "display": "very good",
+                        "display": "Very good",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -795,7 +795,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "buena"
+                                            "valueString": "Buena"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -803,7 +803,7 @@
                             ]
                         },
                         "code": "GeneralPhysicalHealth_Good",
-                        "display": "good",
+                        "display": "Good",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -817,7 +817,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "pasable"
+                                            "valueString": "Pasable"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -825,7 +825,7 @@
                             ]
                         },
                         "code": "GeneralPhysicalHealth_Fair",
-                        "display": "fair",
+                        "display": "Fair",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -839,7 +839,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "mala"
+                                            "valueString": "Mala"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -847,7 +847,7 @@
                             ]
                         },
                         "code": "GeneralPhysicalHealth_Poor",
-                        "display": "poor",
+                        "display": "Poor",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -892,15 +892,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "excelente"
+                                            "valueString": "Excelente"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "GeneralMentalHealth_Excllent",
-                        "display": "excellent",
+                        "code": "GeneralMentalHealth_Excellent",
+                        "display": "Excellent",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -914,7 +914,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "muy buena"
+                                            "valueString": "Muy buena"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -922,7 +922,7 @@
                             ]
                         },
                         "code": "GeneralMentalHealth_VeryGood",
-                        "display": "very good",
+                        "display": "Very good",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -936,7 +936,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "buena"
+                                            "valueString": "Buena"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -944,7 +944,7 @@
                             ]
                         },
                         "code": "GeneralMentalHealth_Good",
-                        "display": "good",
+                        "display": "Good",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -958,7 +958,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "pasable"
+                                            "valueString": "Pasable"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -966,7 +966,7 @@
                             ]
                         },
                         "code": "GeneralMentalHealth_Fair",
-                        "display": "fair",
+                        "display": "Fair",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -980,7 +980,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "mala"
+                                            "valueString": "Mala"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -988,7 +988,7 @@
                             ]
                         },
                         "code": "GeneralMentalHealth_Poor",
-                        "display": "poor",
+                        "display": "Poor",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1033,7 +1033,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "excelente"
+                                            "valueString": "Excelente"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1041,7 +1041,7 @@
                             ]
                         },
                         "code": "SocialSatisfaction_Excellent",
-                        "display": "excellent",
+                        "display": "Excellent",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1055,7 +1055,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "muy buena"
+                                            "valueString": "Muy buena"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1063,7 +1063,7 @@
                             ]
                         },
                         "code": "SocialSatisfaction_VeryGood",
-                        "display": "very good",
+                        "display": "Very good",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1077,7 +1077,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "buena"
+                                            "valueString": "Buena"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1085,7 +1085,7 @@
                             ]
                         },
                         "code": "SocialSatisfaction_Good",
-                        "display": "good",
+                        "display": "Good",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1099,7 +1099,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "pasable"
+                                            "valueString": "Pasable"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1107,7 +1107,7 @@
                             ]
                         },
                         "code": "SocialSatisfaction_Fair",
-                        "display": "fair",
+                        "display": "Fair",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1121,7 +1121,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "mala"
+                                            "valueString": "Mala"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1129,7 +1129,7 @@
                             ]
                         },
                         "code": "SocialSatisfaction_Poor",
-                        "display": "poor",
+                        "display": "Poor",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1174,7 +1174,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "totalmente"
+                                            "valueString": "Totalmente"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1182,7 +1182,7 @@
                             ]
                         },
                         "code": "EverydayActivities_Completely",
-                        "display": "completely",
+                        "display": "Completely",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1196,7 +1196,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "en su mayor\u00eda"
+                                            "valueString": "En su mayor\u00eda"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1204,7 +1204,7 @@
                             ]
                         },
                         "code": "EverydayActivities_Mostly",
-                        "display": "mostly",
+                        "display": "Mostly",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1218,7 +1218,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "moderadamente"
+                                            "valueString": "Moderadamente"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1226,7 +1226,7 @@
                             ]
                         },
                         "code": "EverydayActivities_Moderately",
-                        "display": "moderately",
+                        "display": "Moderately",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1240,7 +1240,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "un poco"
+                                            "valueString": "Un poco"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1248,7 +1248,7 @@
                             ]
                         },
                         "code": "EverydayActivities_ALittle",
-                        "display": "a little",
+                        "display": "A little",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1262,7 +1262,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "para nada"
+                                            "valueString": "Para nada"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1270,7 +1270,7 @@
                             ]
                         },
                         "code": "EverydayActivities_NotAtAll",
-                        "display": "not at all",
+                        "display": "Not at all",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1344,7 +1344,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "ninguno"
+                                            "valueString": "Ninguno"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1352,7 +1352,7 @@
                             ]
                         },
                         "code": "AverageFatigue7Days_None",
-                        "display": "none",
+                        "display": "None",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1366,7 +1366,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "leve"
+                                            "valueString": "Leve"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1374,7 +1374,7 @@
                             ]
                         },
                         "code": "AverageFatigue7Days_Mild",
-                        "display": "mild",
+                        "display": "Mild",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1388,7 +1388,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "moderado"
+                                            "valueString": "Moderado"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1396,7 +1396,7 @@
                             ]
                         },
                         "code": "AverageFatigue7Days_Moderate",
-                        "display": "moderate",
+                        "display": "Moderate",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1410,7 +1410,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "intenso"
+                                            "valueString": "Intenso"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1418,7 +1418,7 @@
                             ]
                         },
                         "code": "AverageFatigue7Days_Severe",
-                        "display": "severe",
+                        "display": "Severe",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1432,7 +1432,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "muy intenso"
+                                            "valueString": "Muy intenso"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1440,7 +1440,7 @@
                             ]
                         },
                         "code": "AverageFatigue7Days_VerySevere",
-                        "display": "very severe",
+                        "display": "Very severe",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1485,7 +1485,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "excelente"
+                                            "valueString": "Excelente"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1493,7 +1493,7 @@
                             ]
                         },
                         "code": "GeneralSocial_Excellent",
-                        "display": "excellent",
+                        "display": "Excellent",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1507,7 +1507,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "muy buena"
+                                            "valueString": "Muy buena"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1515,7 +1515,7 @@
                             ]
                         },
                         "code": "GeneralSocial_VeryGood",
-                        "display": "very good",
+                        "display": "Very good",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1529,7 +1529,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "buena"
+                                            "valueString": "Buena"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1537,7 +1537,7 @@
                             ]
                         },
                         "code": "GeneralSocial_Good",
-                        "display": "good",
+                        "display": "Good",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1551,7 +1551,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "pasable"
+                                            "valueString": "Pasable"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1559,7 +1559,7 @@
                             ]
                         },
                         "code": "GeneralSocial_Fair",
-                        "display": "fair",
+                        "display": "Fair",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1573,7 +1573,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "mala"
+                                            "valueString": "Mala"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1581,7 +1581,7 @@
                             ]
                         },
                         "code": "GeneralSocial_Poor",
-                        "display": "poor",
+                        "display": "Poor",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1600,7 +1600,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "En los \u00faltimos 7 d\u00edas\u2026 \u00bfCon qu\u00e9 frecuencia le han afectado problemas emocionales como sentir ansiedad, depresi\u00f3n o irritabilidad?"
+                                    "valueString": "En los \u00faltimos 7 d\u00edas, \u00bfCon qu\u00e9 frecuencia le han afectado problemas emocionales como sentir ansiedad, depresi\u00f3n o irritabilidad?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1626,7 +1626,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "nunca"
+                                            "valueString": "Nunca"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1634,7 +1634,7 @@
                             ]
                         },
                         "code": "EmotionalProblem7Days_Never",
-                        "display": "never",
+                        "display": "Never",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1648,7 +1648,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "rara vez"
+                                            "valueString": "Rara vez"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1656,7 +1656,7 @@
                             ]
                         },
                         "code": "EmotionalProblem7Days_Rarely",
-                        "display": "rarely",
+                        "display": "Rarely",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1670,7 +1670,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "algunas veces"
+                                            "valueString": "Algunas veces"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1678,7 +1678,7 @@
                             ]
                         },
                         "code": "EmotionalProblem7Days_Sometimes",
-                        "display": "sometimes",
+                        "display": "Sometimes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1692,7 +1692,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "a menudo"
+                                            "valueString": "A menudo"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1700,7 +1700,7 @@
                             ]
                         },
                         "code": "EmotionalProblem7Days_Often",
-                        "display": "often",
+                        "display": "Often",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1714,7 +1714,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "siempre"
+                                            "valueString": "Siempre"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1722,7 +1722,7 @@
                             ]
                         },
                         "code": "EmotionalProblem7Days_Always",
-                        "display": "always",
+                        "display": "Always",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1767,7 +1767,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1775,7 +1775,7 @@
                             ]
                         },
                         "code": "MenstrualStopped_PeriodsHaventStopped",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1789,7 +1789,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed, no tengo periodos menstruales"
+                                            "valueString": "S\u00ed, no tengo periodos menstruales"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1797,7 +1797,7 @@
                             ]
                         },
                         "code": "MenstrualStopped_YesNone",
-                        "display": "yes, I have no menstrual periods",
+                        "display": "Yes, I have no menstrual periods",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1811,7 +1811,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed, tengo per\u00edodos menstruales, pero inducidos (provocados) por hormonas"
+                                            "valueString": "S\u00ed, tengo periodos menstruales, pero inducidos (provocados) por hormonas"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1819,7 +1819,7 @@
                             ]
                         },
                         "code": "MenstrualStopped_YesButHormone",
-                        "display": "yes, but I have periods induced by hormones",
+                        "display": "Yes, but I have periods induced by hormones",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1833,7 +1833,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no estoy segura"
+                                            "valueString": "No estoy segura"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1841,7 +1841,7 @@
                             ]
                         },
                         "code": "MenstrualStopped_NotSureMenstrualStopped",
-                        "display": "not sure",
+                        "display": "Not sure",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1855,7 +1855,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "prefiero no responder"
+                                            "valueString": "Prefiero no responder"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1863,7 +1863,7 @@
                             ]
                         },
                         "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
+                        "display": "Prefer not to answer",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1908,29 +1908,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "1PregnancyStatus_Yes",
-                        "display": "yes",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1938,7 +1916,7 @@
                             ]
                         },
                         "code": "1PregnancyStatus_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1952,7 +1930,29 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no estoy segura"
+                                            "valueString": "S\u00ed"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "1PregnancyStatus_Yes",
+                        "display": "Yes",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No estoy segura"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1960,7 +1960,7 @@
                             ]
                         },
                         "code": "1PregnancyStatus_DontKnow",
-                        "display": "not sure",
+                        "display": "Not sure",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1974,7 +1974,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "prefiero no responder"
+                                            "valueString": "Prefiero no responder"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1982,7 +1982,7 @@
                             ]
                         },
                         "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
+                        "display": "Prefer not to answer",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -2027,7 +2027,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "menopausia natural (cambio de vida)"
+                                            "valueString": "Menopausia natural (cambio de vida)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2035,7 +2035,7 @@
                             ]
                         },
                         "code": "MenstrualStoppedReason_NaturalMenopause",
-                        "display": "natural menopause (change of life)",
+                        "display": "Natural menopause (change of life)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2049,7 +2049,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "cirug\u00eda (una histerectom\u00eda para quitar el \u00fatero/matriz o una ooforectom\u00eda para quitar los ovarios)"
+                                            "valueString": "Cirug\u00eda (una histerectom\u00eda para quitar el \u00fatero/matriz o una ooforectom\u00eda para quitar los ovarios)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2057,7 +2057,7 @@
                             ]
                         },
                         "code": "MenstrualStoppedReason_Surgery",
-                        "display": "surgery (a hysterectomy to remove your uterus and/or an oophorectomy to remove your ovaries) ",
+                        "display": "Surgery (a hysterectomy to remove your uterus and/or an oophorectomy to remove your ovaries) ",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2071,7 +2071,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "ablaci\u00f3n endometrial (quitar capa interna del utero/matriz)"
+                                            "valueString": "Ablaci\u00f3n endometrial (quitar capa interna del \u00fatero/matriz)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2079,7 +2079,7 @@
                             ]
                         },
                         "code": "MenstrualStoppedReason_EndometrialAblation",
-                        "display": "endometrial ablation (removal of the lining of the uterus) ",
+                        "display": "Endometrial ablation (removal of the lining of the uterus) ",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2093,7 +2093,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "medicaci\u00f3n, quimioterapia o radiaci\u00f3n"
+                                            "valueString": "Medicaci\u00f3n, quimioterapia o radiaci\u00f3n"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2101,7 +2101,7 @@
                             ]
                         },
                         "code": "MenstrualStoppedReason_MedicationTherapy",
-                        "display": "medication, chemotherapy, or radiation",
+                        "display": "Medication, chemotherapy, or radiation",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2115,7 +2115,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "otro"
+                                            "valueString": "Otro"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2123,7 +2123,7 @@
                             ]
                         },
                         "code": "PMI_Other",
-                        "display": "other",
+                        "display": "Other",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2137,7 +2137,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no estoy segura"
+                                            "valueString": "No estoy segura"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2145,7 +2145,7 @@
                             ]
                         },
                         "code": "PMI_NotSure",
-                        "display": "not sure",
+                        "display": "Not sure",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2159,7 +2159,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "prefiero no responder"
+                                            "valueString": "Prefiero no responder"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2167,7 +2167,7 @@
                             ]
                         },
                         "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
+                        "display": "Prefer not to answer",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -2212,7 +2212,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2220,7 +2220,7 @@
                             ]
                         },
                         "code": "HysterectomyHistory_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2234,7 +2234,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2242,7 +2242,7 @@
                             ]
                         },
                         "code": "HysterectomyHistory_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2256,7 +2256,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no estoy segura"
+                                            "valueString": "No estoy segura"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2264,7 +2264,7 @@
                             ]
                         },
                         "code": "HysterectomyHistory_NotSure",
-                        "display": "not sure  ",
+                        "display": "Not sure  ",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2278,7 +2278,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "prefiero no responder"
+                                            "valueString": "Prefiero no responder"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2286,7 +2286,7 @@
                             ]
                         },
                         "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
+                        "display": "Prefer not to answer",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -2360,7 +2360,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2368,7 +2368,7 @@
                             ]
                         },
                         "code": "OvaryRemovalHistory_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2382,7 +2382,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed, pero solo un ovario o parte de un ovario"
+                                            "valueString": "S\u00ed, pero solo un ovario o parte de un ovario"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2390,7 +2390,7 @@
                             ]
                         },
                         "code": "OvaryRemovalHistory_YesSectioned",
-                        "display": "yes, but only one ovary or part of one ovary",
+                        "display": "Yes, but only one ovary or part of one ovary",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2404,7 +2404,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed, ambos ovarios"
+                                            "valueString": "S\u00ed, ambos ovarios"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2412,7 +2412,7 @@
                             ]
                         },
                         "code": "OvaryRemovalHistory_YesBoth",
-                        "display": "yes, both ovaries ",
+                        "display": "Yes, both ovaries ",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2426,7 +2426,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed, pero no s\u00e9 si uno o ambos ovarios"
+                                            "valueString": "S\u00ed, pero no s\u00e9 si uno o ambos ovarios"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2434,7 +2434,7 @@
                             ]
                         },
                         "code": "OvaryRemovalHistory_YesUnsure",
-                        "display": "yes, but don\u2019t know whether one or both ovaries",
+                        "display": "Yes, but don\u2019t know whether one or both ovaries",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2448,7 +2448,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no estoy segura"
+                                            "valueString": "No estoy segura"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2456,7 +2456,7 @@
                             ]
                         },
                         "code": "OvaryRemovalHistory_NotSure",
-                        "display": "not sure  ",
+                        "display": "Not sure  ",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2470,7 +2470,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "prefiero no responder"
+                                            "valueString": "Prefiero no responder"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2478,7 +2478,7 @@
                             ]
                         },
                         "code": "PMI_PreferNotToAnswer",
-                        "display": "prefer not to answer",
+                        "display": "Prefer not to answer",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -2535,7 +2535,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2543,7 +2543,7 @@
                             ]
                         },
                         "code": "OrganTransplant_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2557,7 +2557,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2565,7 +2565,7 @@
                             ]
                         },
                         "code": "OrganTransplant_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2579,7 +2579,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2587,7 +2587,7 @@
                             ]
                         },
                         "code": "PMI_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -2632,7 +2632,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "corazon"
+                                            "valueString": "Coraz\u00f3n"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2640,7 +2640,7 @@
                             ]
                         },
                         "code": "OrganTransplantDescription_Heart",
-                        "display": "heart",
+                        "display": "Heart",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2654,7 +2654,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "ri\u00f1on"
+                                            "valueString": "Ri\u00f1on"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2662,7 +2662,7 @@
                             ]
                         },
                         "code": "OrganTransplantDescription_Kidney",
-                        "display": "kidney",
+                        "display": "Kidney",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2676,7 +2676,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "higado"
+                                            "valueString": "H\u00edgado"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2684,7 +2684,7 @@
                             ]
                         },
                         "code": "OrganTransplantDescription_Liver",
-                        "display": "liver",
+                        "display": "Liver",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2698,7 +2698,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "pulmon"
+                                            "valueString": "Pulm\u00f3n"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2706,7 +2706,7 @@
                             ]
                         },
                         "code": "OrganTransplantDescription_Lung",
-                        "display": "lung",
+                        "display": "Lung",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2720,7 +2720,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "pancreas"
+                                            "valueString": "P\u00e1ncreas"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2728,7 +2728,7 @@
                             ]
                         },
                         "code": "OrganTransplantDescription_Pancreas",
-                        "display": "pancreas",
+                        "display": "Pancreas",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2742,7 +2742,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "intestino"
+                                            "valueString": "Intestino"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2764,7 +2764,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "otro organo"
+                                            "valueString": "Otro \u00f3rgano"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2772,7 +2772,7 @@
                             ]
                         },
                         "code": "OrganTransplantDescription_OtherOrgan",
-                        "display": "other organ",
+                        "display": "Other organ",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2786,7 +2786,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "cornea"
+                                            "valueString": "Cornea"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2794,7 +2794,7 @@
                             ]
                         },
                         "code": "OrganTransplantDescription_Cornea",
-                        "display": "cornea",
+                        "display": "Cornea",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2808,7 +2808,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "hueso"
+                                            "valueString": "Hueso"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2816,7 +2816,7 @@
                             ]
                         },
                         "code": "OrganTransplantDescription_Bone",
-                        "display": "bone",
+                        "display": "Bone",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2830,7 +2830,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "v\u00e1lvula"
+                                            "valueString": "V\u00e1lvula"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2838,7 +2838,7 @@
                             ]
                         },
                         "code": "OrganTransplantDescription_Valve",
-                        "display": "valve",
+                        "display": "Valve",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2852,7 +2852,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "piel"
+                                            "valueString": "Piel"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2860,7 +2860,7 @@
                             ]
                         },
                         "code": "OrganTransplantDescription_Skin",
-                        "display": "skin",
+                        "display": "Skin",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2874,7 +2874,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "vasos sanguineos"
+                                            "valueString": "Vasos sangu\u00edneos"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2882,7 +2882,7 @@
                             ]
                         },
                         "code": "OrganTransplantDescription_BloodVessels",
-                        "display": "blood vessels",
+                        "display": "Blood vessels",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2896,7 +2896,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "otro tejido"
+                                            "valueString": "Otro tejido"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2904,7 +2904,7 @@
                             ]
                         },
                         "code": "OrganTransplantDescription_OtherTissue",
-                        "display": "other tissues",
+                        "display": "Other tissues",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -2923,7 +2923,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Fecha del trasplante"
+                                    "valueString": "Fecha del transplante de ri\u00f1on"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2932,13 +2932,361 @@
                 },
                 "concept": [
                     {
-                        "code": "OrganTransplant_Date",
+                        "code": "HeartTransplant_Date",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "10411",
+                "linkId": "42855",
                 "repeats": false,
-                "text": "Date of transplant",
+                "text": "Date of heart transplant",
+                "type": "date"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Fecha del transplante de ri\u00f1on"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "KidneyTransplant_Date",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "42857",
+                "repeats": false,
+                "text": "Date of kidney transplant",
+                "type": "date"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Fecha del transplante de ri\u00f1on"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "LiverTransplant_Date",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "42859",
+                "repeats": false,
+                "text": "Date of heart transplant",
+                "type": "date"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Fecha del transplante de ri\u00f1on"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "LungTransplant_Date",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "42863",
+                "repeats": false,
+                "text": "Date of heart transplant",
+                "type": "date"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Fecha del transplante de ri\u00f1on"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "PancreasTransplant_Date",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "42865",
+                "repeats": false,
+                "text": "Date of heart transplant",
+                "type": "date"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Fecha del transplante de ri\u00f1on"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "IntestineTransplant_Date",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "42867",
+                "repeats": false,
+                "text": "Date of heart transplant",
+                "type": "date"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Fecha del transplante de ri\u00f1on"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "OtherOrganTransplant_Date",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "42869",
+                "repeats": false,
+                "text": "Date of heart transplant",
+                "type": "date"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Fecha del transplante de ri\u00f1on"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "CorneaTransplant_Date",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "42893",
+                "repeats": false,
+                "text": "Date of heart transplant",
+                "type": "date"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Fecha del transplante de ri\u00f1on"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "BoneTransplant_Date",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "42873",
+                "repeats": false,
+                "text": "Date of heart transplant",
+                "type": "date"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Fecha del transplante de ri\u00f1on"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "ValveTransplant_Date",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "42875",
+                "repeats": false,
+                "text": "Date of valve transplant",
+                "type": "date"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Fecha del transplante de ri\u00f1on"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "SkinTransplant_Date",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "42877",
+                "repeats": false,
+                "text": "Date of heart transplant",
+                "type": "date"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Fecha del transplante de ri\u00f1on"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "BloodVesselTransplant_Date",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "42879",
+                "repeats": false,
+                "text": "Date of heart transplant",
+                "type": "date"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Fecha del transplante de ri\u00f1on"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "OtherTissueTransplant_Date",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "42881",
+                "repeats": false,
+                "text": "Date of heart transplant",
                 "type": "date"
             },
             {
@@ -2978,7 +3326,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2986,7 +3334,7 @@
                             ]
                         },
                         "code": "OutsideTravel6Month_Yes",
-                        "display": "yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -3000,7 +3348,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3008,7 +3356,7 @@
                             ]
                         },
                         "code": "OutsideTravel6Month_No",
-                        "display": "no",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -3022,7 +3370,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no s\u00e9"
+                                            "valueString": "No s\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3030,7 +3378,7 @@
                             ]
                         },
                         "code": "OutsideTravel6Month_DontKnow",
-                        "display": "don't know",
+                        "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -3109,5 +3457,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "242"
+    "version": "424"
 }
