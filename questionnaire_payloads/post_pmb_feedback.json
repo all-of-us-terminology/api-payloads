@@ -1,180 +1,744 @@
 {
-	"resourceType": "Questionnaire",
-	"identifier": [{
-		"value": "Vibrent_FORM_ID_520"
-	}],
-	"version": "4",
-	"status": "published",
-	"date": "2017-10-30T16:41:24+00:00",
-	"group": {
-		"linkId": "root_group",
-		"title": "post pm&b feedback",
-		"concept": [{
-			"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-			"code": "PostPMBFeedback"
-		}],
-		"required": true,
-		"repeats": false,
-		"question": [{
-			"linkId": "11837",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "PostPMBFeedback_SatisfactionWithSite"
-			}],
-			"text": "How satisfied are you with your visit at the site where your blood was drawn?",
-			"type": "choice",
-			"repeats": true,
-			"option": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "SatisfactionWithSite_VeryUnsatisfied",
-				"display": "very unsatisfied"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "SatisfactionWithSite_SomewhatUnsatisfied",
-				"display": "somewhat unsatisfied"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "SatisfactionWithSite_Neutral",
-				"display": "neither satisfied nor unsatisfied"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "SatisfactionWithSite_SomewhatSatisfied",
-				"display": "somewhat satisfied"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "SatisfactionWithSite_VerySatisfied",
-				"display": "very satisfied"
-			}]
-		}, {
-			"linkId": "11841",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "PostPMBFeedback_SatisfactionWithStaff"
-			}],
-			"text": "How satisfied are you with how the staff treated you during your visit?",
-			"type": "choice",
-			"repeats": true,
-			"option": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "SatisfactionWithStaff_VeryUnsatisfied",
-				"display": "very unsatisfied"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "SatisfactionWithStaff_SomewhatUnsatisfied",
-				"display": "somewhat unsatisfied"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "SatisfactionWithStaff_Neutral",
-				"display": "neither satisfied nor unsatisfied"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "SatisfactionWithStaff_SomewhatSatisfied",
-				"display": "somewhat satisfied"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "SatisfactionWithStaff_VerySatisfied",
-				"display": "very satisfied"
-			}]
-		}, {
-			"linkId": "11845",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "PostPMBFeedback_RespectOfStaff"
-			}],
-			"text": "Would you say that the study staff, overall, have been respectful or disrespectful when they have interacted with you?",
-			"type": "choice",
-			"repeats": true,
-			"option": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "RespectOfStaff_VeryUnsatisfied",
-				"display": "very disrespectful"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "RespectOfStaff_SomewhatUnsatisfied",
-				"display": "somewhat disrespectful"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "RespectOfStaff_Neutral",
-				"display": "no opinion"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "RespectOfStaff_SomewhatSatisfied",
-				"display": "somewhat satisfied"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "RespectOfStaff_VerySatisfied",
-				"display": "very satisfied"
-			}]
-		}, {
-			"linkId": "11849",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "PostPMBFeedback_TimeToComplete"
-			}],
-			"text": "Did your visit take less or more time than you thought it would, from start to finish? This includes finding parking, finding the location, being greeted, etc? ",
-			"type": "choice",
-			"repeats": true,
-			"option": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "TimeToComplete_MuchLessTime",
-				"display": "much less time than i thought"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "TimeToComplete_SlightlyLessTime",
-				"display": "slightly less time than i thought"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "TimeToComplete_NoOpinion",
-				"display": "no opinion"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "TimeToComplete_SlightlyMoreTime",
-				"display": "slightly more time than i thought"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "TimeToComplete_MuchMoreTime",
-				"display": "much more time than i thought"
-			}]
-		}, {
-			"linkId": "11854",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "PostPMBFeedback_ProblemsComingToVisit"
-			}],
-			"text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
-			"type": "text",
-			"repeats": false
-		}, {
-			"linkId": "11858",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "PostPMBFeedback_RecommendJoiningAoU"
-			}],
-			"text": "Would you recommend to your friends to join the All of Us Research Program? \n",
-			"type": "choice",
-			"repeats": false,
-			"option": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "RecommendJoiningAoU_Yes",
-				"display": "yes"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "RecommendJoiningAoU_Unsure",
-				"display": "unsure"
-			}, {
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "RecommendJoiningAoU_No",
-				"display": "no"
-			}]
-		}, {
-			"linkId": "11863",
-			"concept": [{
-				"system": "http://terminology.pmi-ops.org/CodeSystem/ppi",
-				"code": "PostPMBFeedback_LikedDislikedAboutVisit"
-			}],
-			"text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
-			"type": "text",
-			"repeats": false
-		}]
-	}
+    "date": "2019-04-25T19:56:21Z",
+    "group": {
+        "concept": [
+            {
+                "code": "PostPMBFeedback",
+                "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }
+        ],
+        "linkId": "root_group",
+        "question": [
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfQu\u00e9 tan satisfecho est\u00e1 con su visita en el lugar donde le tomaron la muestra de sangre?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "PostPMBFeedback_SatisfactionWithSite",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "11837",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Muy insatisfecho"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "SatisfactionWithSite_VeryUnsatisfied",
+                        "display": "Very unsatisfied",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Algo insatisfecho"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "SatisfactionWithSite_SomewhatUnsatisfied",
+                        "display": "Somewhat unsatisfied",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Neutral"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "SatisfactionWithSite_Neutral",
+                        "display": "Neither satisfied nor unsatisfied",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Algo satisfecho"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "SatisfactionWithSite_SomewhatSatisfied",
+                        "display": "Somewhat satisfied",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Muy satisfecho"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "SatisfactionWithSite_VerySatisfied",
+                        "display": "Very satisfied",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "How satisfied are you with your visit at the site where your blood was drawn?",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfQu\u00e9 tan satisfecho est\u00e1 con el trato que le dio el personal durante su visita?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "PostPMBFeedback_SatisfactionWithStaff",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "11841",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Muy insatisfecho"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "SatisfactionWithStaff_VeryUnsatisfied",
+                        "display": "Very unsatisfied",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Algo insatisfecho"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "SatisfactionWithStaff_SomewhatUnsatisfied",
+                        "display": "Somewhat unsatisfied",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Neutral"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "SatisfactionWithStaff_Neutral",
+                        "display": "Neither satisfied nor unsatisfied",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Algo satisfecho"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "SatisfactionWithStaff_SomewhatSatisfied",
+                        "display": "Somewhat satisfied",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Muy satisfecho"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "SatisfactionWithStaff_VerySatisfied",
+                        "display": "Very satisfied",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "How satisfied are you with how the staff treated you during your visit?",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfEn general, dir\u00eda usted que el personal del estudio fue respetuoso o irrespetuoso  cuando fue atendido?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "PostPMBFeedback_RespectOfStaff",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "11845",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Muy irrespetuoso"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "RespectOfStaff_VeryUnsatisfied",
+                        "display": "Very disrespectful",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Algo irrespetuoso"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "RespectOfStaff_SomewhatUnsatisfied",
+                        "display": "Somewhat disrespectful",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No tengo una opini\u00f3n"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "RespectOfStaff_Neutral",
+                        "display": "No opinion",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Algo respetuoso"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "RespectOfStaff_SomewhatSatisfied",
+                        "display": "Somewhat respectful",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Muy respetuoso"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "RespectOfStaff_VerySatisfied",
+                        "display": "Very respectful",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": true,
+                "text": "Would you say that the study staff, overall, have been respectful or disrespectful when they have interacted with you?",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfDe principio a fin, su visita tom\u00f3 menos o m\u00e1s tiempo del que pens\u00f3? Esto incluye encontrar estacionamiento, encontrar el lugar, el proceso de recepci\u00f3n, etc"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "PostPMBFeedback_TimeToComplete",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "11849",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Mucho menos tiempo del que pens\u00e9"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "TimeToComplete_MuchLessTime",
+                        "display": "Much less time than I thought",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Un poco menos de tiempo del que pens\u00e9"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "TimeToComplete_SlightlyLessTime",
+                        "display": "Slightly less time than I thought",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No tengo una opini\u00f3n"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "TimeToComplete_NoOpinion",
+                        "display": "No opinion",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "M\u00e1s tiempo del que pens\u00e9"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "TimeToComplete_SlightlyMoreTime",
+                        "display": "Slightly more time than I thought",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Mucho m\u00e1s tiempo del que pens\u00e9"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "TimeToComplete_MuchMoreTime",
+                        "display": "Much more time than I thought",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": true,
+                "text": "Did your visit take less or more time than you thought it would, from start to finish? This includes finding parking, finding the location, being greeted, etc? ",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "respuesta abierta"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "PostPMBFeedback_ProblemsComingToVisit",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "11854",
+                "repeats": false,
+                "text": "please add text below",
+                "type": "text"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfRecomendar\u00eda a sus amigos que participen en el Programa de Investigaci\u00f3n All of Us?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "PostPMBFeedback_RecommendJoiningAoU",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "11858",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "S\u00ed"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "RecommendJoiningAoU_Yes",
+                        "display": "Yes",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No estoy seguro"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "RecommendJoiningAoU_Unsure",
+                        "display": "Unsure",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "RecommendJoiningAoU_No",
+                        "display": "No",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Would you recommend to your friends to join the All of Us Research Program? \n",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "respuesta abierta"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "PostPMBFeedback_LikedDislikedAboutVisit",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "11863",
+                "repeats": false,
+                "text": "please add text below",
+                "type": "text"
+            }
+        ],
+        "repeats": false,
+        "required": true,
+        "title": "post PM&B feedback"
+    },
+    "identifier": [
+        {
+            "value": "Vibrent_FORM_ID_520"
+        }
+    ],
+    "resourceType": "Questionnaire",
+    "status": "published",
+    "version": "29"
 }
