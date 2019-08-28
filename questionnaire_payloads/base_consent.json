@@ -1,5 +1,5 @@
 {
-    "date": "2019-08-27T19:52:17+00:00",
+    "date": "2019-08-28T18:07:10+00:00",
     "group": {
         "concept": [
             {
@@ -29,7 +29,7 @@
                 },
                 "concept": [
                     {
-                        "code": "Welcome Video",
+                        "code": "ExtraConsent_WelcomeVideo",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -970,7 +970,7 @@
                 },
                 "concept": [
                     {
-                        "code": "Health Record Video",
+                        "code": "ExtraConsent_HealthRecordVideo",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -999,7 +999,7 @@
                 },
                 "concept": [
                     {
-                        "code": "CABoR Signature",
+                        "code": "ExtraConsent_CABoRSignature",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1011,7 +1011,7 @@
             {
                 "concept": [
                     {
-                        "code": "CABoR Today's Date",
+                        "code": "ExtraConsent__CABoRTodaysDate",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1040,7 +1040,7 @@
                 },
                 "concept": [
                     {
-                        "code": "Keeping in Touch Video",
+                        "code": "ExtraConsent_KeepinginTouchVideo",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1069,7 +1069,7 @@
                 },
                 "concept": [
                     {
-                        "code": "Health Data Video",
+                        "code": "ExtraConsent_HealthDataVideo",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1126,7 +1126,7 @@
                 },
                 "concept": [
                     {
-                        "code": "Samples Video",
+                        "code": "ExtraConsent_SamplesVideo",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1184,7 +1184,7 @@
                 },
                 "concept": [
                     {
-                        "code": "Fitness Tracker Video",
+                        "code": "ExtraConsent_FitnessTrackerVideo",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1242,7 +1242,7 @@
                 },
                 "concept": [
                     {
-                        "code": "Data Sharing Video",
+                        "code": "ExtraConsent_DataSharingVideo",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1283,7 +1283,7 @@
             {
                 "concept": [
                     {
-                        "code": "Email a copy to me",
+                        "code": "ExtraConsent_EmailACopyToMe",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
