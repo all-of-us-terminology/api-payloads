@@ -1,38 +1,14 @@
 {
-    "date": "2017-12-22T18:21:40+00:00",
+    "date": "2019-08-27T16:58:51+00:00",
     "group": {
         "concept": [
             {
-                "code": "RefresherConsent",
+                "code": "SNAP_CAFFEINEFEEL_092019",
                 "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
             }
         ],
         "linkId": "root_group",
         "question": [
-            {
-                "concept": [
-                    {
-                        "code": "RefresherConsent_PhysicalMeasurements",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    }
-                ],
-                "linkId": "10804",
-                "repeats": false,
-                "text": "RefresherConsent_PhysicalMeasurements",
-                "type": "dateTime"
-            },
-            {
-                "concept": [
-                    {
-                        "code": "RefresherConsent_SamplesVideo",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    }
-                ],
-                "linkId": "10805",
-                "repeats": false,
-                "text": "RefresherConsent_SamplesVideo",
-                "type": "dateTime"
-            },
             {
                 "_text": {
                     "extension": [
@@ -44,7 +20,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Permitir que All of Us tenga acceso a su EHR es voluntario. Su decisi\u00f3n no le impedir\u00e1 participar en All of Us. Esto no afectar\u00e1 su atenci\u00f3n m\u00e9dica."
+                                    "valueString": "En general, prefiero sentir ____."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -53,11 +29,11 @@
                 },
                 "concept": [
                     {
-                        "code": "RefresherConsent_VoluntaryParticipation",
+                        "code": "Snap_CaffeineFeel",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "9752",
+                "linkId": "44248",
                 "option": [
                     {
                         "_display": {
@@ -70,15 +46,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "No quiero que se me tomen mis medidas f\u00edsicas"
+                                            "valueString": "inquieto(a)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "VoluntaryParticipation_DoNotWantToHaveMeasurements",
-                        "display": "I don't want to have measurements",
+                        "code": "CaffeineFeel_Jittery",
+                        "display": "jittery",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -92,15 +68,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "No quiero dar muestras biol\u00f3gicas"
+                                            "valueString": "despierto(a)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "VoluntaryParticipation_DoNotWantToGiveSamples",
-                        "display": "I don't want to give samples",
+                        "code": "CaffeineFeel_Awake",
+                        "display": "awake",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -114,33 +90,32 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Estoy listo para participar"
+                                            "valueString": "nada o no bebo cafe\u00edna"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "VoluntaryParticipation_IAmReadyToParticipate",
-                        "display": "I am ready to participate",
+                        "code": "CaffeineFeel_Nothing",
+                        "display": "nothing or I don\u2019t drink caffeine",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
                 "repeats": false,
-                "text": "Participation is voluntary. You do not have to have measurements taken or give samples.",
+                "text": "Drinking caffeine makes me feel ____.",
                 "type": "choice"
             }
         ],
         "repeats": false,
         "required": true,
-        "title": "refresher consent"
+        "title": "September Snap Questions 2"
     },
     "identifier": [
         {
-            "value": "Vibrent_FORM_ID_491"
+            "value": "Vibrent_FORM_ID_1365"
         }
     ],
     "resourceType": "Questionnaire",
-    "status": "published",
-    "version": "41"
+    "status": "published"
 }

@@ -1,9 +1,9 @@
 {
-    "date": "2018-02-20T16:54:59+00:00",
+    "date": "2019-08-27T17:00:10+00:00",
     "group": {
         "concept": [
             {
-                "code": "EauClaire_Additional_Scheduling_Information",
+                "code": "SNAP_NOCAFFEINE_092019",
                 "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
             }
         ],
@@ -20,7 +20,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfYa ha fijado una cita con el equipo del Programa Cient\u00edfico, All of Us?"
+                                    "valueString": "Cuando no tomo algo con cafe\u00edna, ______."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -29,11 +29,11 @@
                 },
                 "concept": [
                     {
-                        "code": "SouthCarolinaSitePairing_EC",
+                        "code": "Snap_NoCaffeine",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "21245",
+                "linkId": "44253",
                 "option": [
                     {
                         "_display": {
@@ -46,15 +46,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "siento dolor de cabeza"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "EauClaire_Yes_New",
-                        "display": "yes",
+                        "code": "NoCaffiene_Headache",
+                        "display": "get a headache",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -68,33 +68,54 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "me siento cansado(a) y de mal humor"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "EauClaire_No_New",
-                        "display": "no",
+                        "code": "NoCaffiene_TiredCranky",
+                        "display": "am tired and cranky",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "no siento nada diferente"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "NoCaffiene_NoDifference",
+                        "display": "don\u2019t feel any different",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
                 "repeats": false,
-                "text": "Have you already scheduled an appointment with the All of Us Research Program team?",
+                "text": "\nWhen I don\u2019t drink something with caffeine, I ______.",
                 "type": "choice"
             }
         ],
         "repeats": false,
         "required": true,
-        "title": "Eau Claire Scheduling Information"
+        "title": "September Snap Questions 3"
     },
     "identifier": [
         {
-            "value": "Vibrent_FORM_ID_499"
+            "value": "Vibrent_FORM_ID_1366"
         }
     ],
     "resourceType": "Questionnaire",
-    "status": "published",
-    "version": "23"
+    "status": "published"
 }

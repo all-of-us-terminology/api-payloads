@@ -1,9 +1,9 @@
 {
-    "date": "2018-02-20T16:53:31+00:00",
+    "date": "2019-08-27T16:56:24+00:00",
     "group": {
         "concept": [
             {
-                "code": "JacksonHindsScheduling",
+                "code": "SNAP_STARTDAYCOFFEE_092019",
                 "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
             }
         ],
@@ -20,7 +20,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfYa program\u00f3 una cita para el Programa Cient\u00edfico All of Us en el centro principal de Jackson-Hinds Comprehensive Health Center (James Anderson Clinic) o Copiah Clinic?"
+                                    "valueString": "Me gusta comenzar el d\u00eda con _____."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -29,11 +29,11 @@
                 },
                 "concept": [
                     {
-                        "code": "MississippiSitePairing_JH",
+                        "code": "Snap_StartDayCoffee",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "21018",
+                "linkId": "44243",
                 "option": [
                     {
                         "_display": {
@@ -46,15 +46,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "un caf\u00e9 o t\u00e9"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "JacksonHinds_Yes_New",
-                        "display": "yes",
+                        "code": "StartDayCoffee_CoffeeTea",
+                        "display": "coffee or tea",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -68,33 +68,54 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "un batido (licuado)"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "JacksonHinds_No_New",
-                        "display": "no",
+                        "code": "StartDayCoffee_Smoothie",
+                        "display": "a smoothie",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "otro tipo de bebida"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "StartDayCoffee_OtherDrink",
+                        "display": "some other drink",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
                 "repeats": false,
-                "text": "Have you already scheduled an All of Us research appointment at the Jackson-Hinds Comprehensive Health Center's Main Site (James Anderson Clinic) or the Copiah Clinic?",
+                "text": "I like to start my day with _____.",
                 "type": "choice"
             }
         ],
         "repeats": false,
         "required": true,
-        "title": "Jackson-Hinds Comprehensive Health Center"
+        "title": "September Snap Questions 1"
     },
     "identifier": [
         {
-            "value": "Vibrent_FORM_ID_836"
+            "value": "Vibrent_FORM_ID_1364"
         }
     ],
     "resourceType": "Questionnaire",
-    "status": "published",
-    "version": "9"
+    "status": "published"
 }
