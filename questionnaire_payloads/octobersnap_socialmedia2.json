@@ -1,0 +1,122 @@
+{
+    "date": "2019-09-20T20:07:22+00:00",
+    "group": {
+        "concept": [
+            {
+                "code": "SNAP_SOCIALMEDIAUSE_102019",
+                "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }
+        ],
+        "linkId": "root_group",
+        "question": [
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Principalmente uso las redes sociales para ____."
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "Snap_SocialMediaUse",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "44285",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "seguir a mis amigos y familiares"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "SocialMediaUse_FollFam",
+                        "display": "follow friends and family",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "seguir las noticias o los deportes"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "SocialMediaUse_FollNews",
+                        "display": "follow the news/sports",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "no uso las redes sociales"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "SocialMediaUse_NoUse",
+                        "display": "I don\u2019t use social media",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "I mainly use social media to ____.",
+                "type": "choice"
+            }
+        ],
+        "repeats": false,
+        "required": true,
+        "title": "October Snap Questions 2"
+    },
+    "identifier": [
+        {
+            "value": "Vibrent_FORM_ID_1369"
+        }
+    ],
+    "resourceType": "Questionnaire",
+    "status": "published",
+    "version": "10072019"
+}

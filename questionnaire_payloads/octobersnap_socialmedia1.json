@@ -1,0 +1,122 @@
+{
+    "date": "2019-09-26T18:48:51+00:00",
+    "group": {
+        "concept": [
+            {
+                "code": "SNAP_SOCIALPLATFORM_102019",
+                "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }
+        ],
+        "linkId": "root_group",
+        "question": [
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfCu\u00e1ntas plataformas de redes sociales usa? (p. ej. diferentes cuentas de Facebook, Twitter, Instagram, etc.)"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "Snap_SocialPlatform",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "44270",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "tantas que perd\u00ed la cuenta"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "SocialPlatform_SoMany",
+                        "display": "So many I've lost count",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "solo 1 o 2"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "SocialPlatform_JustOne",
+                        "display": "Just 1 or 2",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "\u00bfqu\u00e9 son las redes sociales?"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "SocialPlatform_WhatMedia",
+                        "display": "What's social media?",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "How many social media platforms do you use?",
+                "type": "choice"
+            }
+        ],
+        "repeats": false,
+        "required": true,
+        "title": "October Snap Questions 1"
+    },
+    "identifier": [
+        {
+            "value": "Vibrent_FORM_ID_1368"
+        }
+    ],
+    "resourceType": "Questionnaire",
+    "status": "published",
+    "version": "10072019"
+}
