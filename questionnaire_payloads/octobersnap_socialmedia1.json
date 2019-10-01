@@ -1,38 +1,14 @@
 {
-    "date": "2017-12-22T18:21:40+00:00",
+    "date": "2019-09-26T18:48:51+00:00",
     "group": {
         "concept": [
             {
-                "code": "RefresherConsent",
+                "code": "SNAP_SOCIALPLATFORM_102019",
                 "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
             }
         ],
         "linkId": "root_group",
         "question": [
-            {
-                "concept": [
-                    {
-                        "code": "RefresherConsent_PhysicalMeasurements",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    }
-                ],
-                "linkId": "10804",
-                "repeats": false,
-                "text": "RefresherConsent_PhysicalMeasurements",
-                "type": "dateTime"
-            },
-            {
-                "concept": [
-                    {
-                        "code": "RefresherConsent_SamplesVideo",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    }
-                ],
-                "linkId": "10805",
-                "repeats": false,
-                "text": "RefresherConsent_SamplesVideo",
-                "type": "dateTime"
-            },
             {
                 "_text": {
                     "extension": [
@@ -44,7 +20,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Permitir que All of Us tenga acceso a su EHR es voluntario. Su decisi\u00f3n no le impedir\u00e1 participar en All of Us. Esto no afectar\u00e1 su atenci\u00f3n m\u00e9dica."
+                                    "valueString": "\u00bfCu\u00e1ntas plataformas de redes sociales usa? (p. ej. diferentes cuentas de Facebook, Twitter, Instagram, etc.)"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -53,11 +29,11 @@
                 },
                 "concept": [
                     {
-                        "code": "RefresherConsent_VoluntaryParticipation",
+                        "code": "Snap_SocialPlatform",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "9752",
+                "linkId": "44270",
                 "option": [
                     {
                         "_display": {
@@ -70,15 +46,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "No quiero que se me tomen mis medidas f\u00edsicas"
+                                            "valueString": "tantas que perd\u00ed la cuenta"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "VoluntaryParticipation_DoNotWantToHaveMeasurements",
-                        "display": "I don't want to have measurements",
+                        "code": "SocialPlatform_SoMany",
+                        "display": "So many I've lost count",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -92,15 +68,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "No quiero dar muestras biol\u00f3gicas"
+                                            "valueString": "solo 1 o 2"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "VoluntaryParticipation_DoNotWantToGiveSamples",
-                        "display": "I don't want to give samples",
+                        "code": "SocialPlatform_JustOne",
+                        "display": "Just 1 or 2",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -114,33 +90,33 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Estoy listo para participar"
+                                            "valueString": "\u00bfqu\u00e9 son las redes sociales?"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "VoluntaryParticipation_IAmReadyToParticipate",
-                        "display": "I am ready to participate",
+                        "code": "SocialPlatform_WhatMedia",
+                        "display": "What's social media?",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
                 "repeats": false,
-                "text": "Participation is voluntary. You do not have to have measurements taken or give samples.",
+                "text": "How many social media platforms do you use?",
                 "type": "choice"
             }
         ],
         "repeats": false,
         "required": true,
-        "title": "refresher consent"
+        "title": "October Snap Questions 1"
     },
     "identifier": [
         {
-            "value": "Vibrent_FORM_ID_491"
+            "value": "Vibrent_FORM_ID_1368"
         }
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "41"
+    "version": "10072019"
 }

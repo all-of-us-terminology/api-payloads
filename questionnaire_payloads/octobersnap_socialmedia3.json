@@ -1,9 +1,9 @@
 {
-    "date": "2018-02-20T16:51:13+00:00",
+    "date": "2019-09-20T20:45:10+00:00",
     "group": {
         "concept": [
             {
-                "code": "UPMC",
+                "code": "SNAP_SOCIALACCOUNT_102019",
                 "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
             }
         ],
@@ -20,7 +20,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfAlguna vez program\u00f3 una cita con su equipo local de All of Us Pennsylvania para tomarse mediciones f\u00edsicas o obtener una muestra biol\u00f3gica?"
+                                    "valueString": "Generalmente, reviso mis cuentas en las redes sociales _____."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -29,11 +29,11 @@
                 },
                 "concept": [
                     {
-                        "code": "ScheduledWithPACares",
+                        "code": "Snap_SocialAccount",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "21011",
+                "linkId": "44290",
                 "option": [
                     {
                         "_display": {
@@ -46,15 +46,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "s\u00ed"
+                                            "valueString": "todo el tiempo, siento p\u00e1nico de perderme de algo"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "ScheduledWithPACares_Yes_New",
-                        "display": "yes",
+                        "code": "SocialAccount_AllTime",
+                        "display": "all the time",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -68,33 +68,55 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no"
+                                            "valueString": "una vez al d\u00eda"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "ScheduledWithPACares_No_New",
-                        "display": "no",
+                        "code": "SocialAccount_Once",
+                        "display": "once a day",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "nunca"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "SocialAccount_Never",
+                        "display": "never",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
                 "repeats": false,
-                "text": "Have you already scheduled an appointment with your local All of Us Pennsylvania team for physical measurements and biosample collection?",
+                "text": "I usually check my social media accounts _____.",
                 "type": "choice"
             }
         ],
         "repeats": false,
         "required": true,
-        "title": "All of Us PA Scheduling Information"
+        "title": "October Snap Questions 3"
     },
     "identifier": [
         {
-            "value": "Vibrent_FORM_ID_835"
+            "value": "Vibrent_FORM_ID_1370"
         }
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "15"
+    "version": "10072019"
 }
