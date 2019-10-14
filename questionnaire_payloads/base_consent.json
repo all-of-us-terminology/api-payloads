@@ -1,5 +1,5 @@
 {
-    "date": "2019-03-11T15:37:11Z",
+    "date": "2019-08-28T20:55:36+00:00",
     "group": {
         "concept": [
             {
@@ -1021,64 +1021,6 @@
                 "type": "date"
             },
             {
-                "concept": [
-                    {
-                        "code": "VeteransHealthAdministration",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    }
-                ],
-                "linkId": "21112",
-                "option": [
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "S\u00ed"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "VeteransHealthAdministration_CareYes",
-                        "display": "Yes",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "No"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "VeteransHealthAdministration_CareNo",
-                        "display": "No",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    }
-                ],
-                "repeats": false,
-                "text": "Have you received care at the Veterans Health Administration? ",
-                "type": "choice"
-            },
-            {
                 "_text": {
                     "extension": [
                         {
@@ -1156,7 +1098,6 @@
                 },
                 "concept": [
                     {
-                        "code": "ExtraConsent_PhysicalMeausrementsVideo",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1471,7 +1412,7 @@
                             ]
                         },
                         "code": "TakePartAllOfUs_TakingPartIsVoluntary",
-                        "display": "Taking part is voluntary. I get to choose if I want to do it. ",
+                        "display": "Taking part is voluntary. I get to choose if I want to do it.",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2510,6 +2451,5 @@
         }
     ],
     "resourceType": "Questionnaire",
-    "status": "published",
-    "version": "1419"
+    "status": "published"
 }
