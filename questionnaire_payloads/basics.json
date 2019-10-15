@@ -1,5 +1,5 @@
 {
-    "date": "2019-10-14T21:00:29+00:00",
+    "date": "2019-10-15T16:40:08+00:00",
     "group": {
         "concept": [
             {
@@ -3040,7 +3040,7 @@
                             ]
                         },
                         "code": "SexualOrientation_None",
-                        "display": "None of these describe me, and I\u2019d like to see additional options  ",
+                        "display": "None of these describe me, and I\u2019d like to see additional options",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -3320,6 +3320,35 @@
                 "repeats": false,
                 "text": "Are any of these a closer description of how you think of yourself?",
                 "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "por favor especifique"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "SomethingElse_SexualitySomethingElseTextBox",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "44370",
+                "repeats": false,
+                "text": "please specify",
+                "type": "text"
             },
             {
                 "_text": {
