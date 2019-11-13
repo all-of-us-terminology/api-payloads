@@ -1,5 +1,5 @@
 {
-    "date": "2019-08-28T20:55:36+00:00",
+    "date": "2019-11-12T15:44:53+00:00",
     "group": {
         "concept": [
             {
@@ -10,23 +10,6 @@
         "linkId": "root_group",
         "question": [
             {
-                "_text": {
-                    "extension": [
-                        {
-                            "extension": [
-                                {
-                                    "url": "lang",
-                                    "valueCode": "es"
-                                },
-                                {
-                                    "url": "content",
-                                    "valueString": "DP91_a9wlxs"
-                                }
-                            ],
-                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                        }
-                    ]
-                },
                 "concept": [
                     {
                         "code": "ExtraConsent_WelcomeVideo",
@@ -35,7 +18,7 @@
                 ],
                 "linkId": "10732",
                 "repeats": false,
-                "text": "kDQfJhk0cjU",
+                "text": "362393064",
                 "type": "dateTime"
             },
             {
@@ -60,6 +43,35 @@
                 "linkId": "41194",
                 "repeats": false,
                 "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "type": "text"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "escriba el c\u00f3digo"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "ConsentPII_VAValidationCode",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "44383",
+                "repeats": false,
+                "text": "enter the code",
                 "type": "text"
             },
             {
@@ -961,7 +973,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "a_lTd1Gt2sI"
+                                    "valueString": "363340576"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -976,7 +988,7 @@
                 ],
                 "linkId": "10738",
                 "repeats": false,
-                "text": "19lPGfPc3qQ",
+                "text": "363304126",
                 "type": "dateTime"
             },
             {
@@ -1031,7 +1043,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "zzvNkCfygZU"
+                                    "valueString": "363337743"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1046,7 +1058,7 @@
                 ],
                 "linkId": "10733",
                 "repeats": false,
-                "text": "CxmmeUYIbL0",
+                "text": "363303444",
                 "type": "dateTime"
             },
             {
@@ -1060,7 +1072,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "-BbW0btnN4Q"
+                                    "valueString": "363339369"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1075,7 +1087,7 @@
                 ],
                 "linkId": "10734",
                 "repeats": false,
-                "text": "sSy1dRg_V_I",
+                "text": "363303511",
                 "type": "dateTime"
             },
             {
@@ -1089,7 +1101,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "3qy3_Q-WiuA"
+                                    "valueString": "363345545"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1098,12 +1110,13 @@
                 },
                 "concept": [
                     {
+                        "code": "ExtraConsent_PhysicalMeasurements",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
                 "linkId": "10735",
                 "repeats": false,
-                "text": "fkXvqjYw-_c",
+                "text": "363303577",
                 "type": "dateTime"
             },
             {
@@ -1117,7 +1130,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "TSu38x6pFC0"
+                                    "valueString": "363346377"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1132,7 +1145,7 @@
                 ],
                 "linkId": "10736",
                 "repeats": false,
-                "text": "8wNpljp2jSQ",
+                "text": "363363171",
                 "type": "dateTime"
             },
             {
@@ -1146,7 +1159,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "ltcuN6_T4Ss"
+                                    "valueString": "363348406"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1161,7 +1174,7 @@
                 ],
                 "linkId": "34627",
                 "repeats": false,
-                "text": "tGAAHGWOPoM",
+                "text": "363304296",
                 "type": "dateTime"
             },
             {
@@ -1175,7 +1188,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "2q38iMhBTo4"
+                                    "valueString": "363349651"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1190,7 +1203,7 @@
                 ],
                 "linkId": "10737",
                 "repeats": false,
-                "text": "Goe5uKFGAaE",
+                "text": "363303635",
                 "type": "dateTime"
             },
             {
@@ -1204,7 +1217,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "knkEA6XzTtI"
+                                    "valueString": "363350487"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1219,7 +1232,7 @@
                 ],
                 "linkId": "10739",
                 "repeats": false,
-                "text": "ZwlqLxdo8LY",
+                "text": "363303691",
                 "type": "dateTime"
             },
             {
@@ -1233,7 +1246,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "pA4R0qsCYvQ"
+                                    "valueString": "363359477"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1248,7 +1261,7 @@
                 ],
                 "linkId": "10740",
                 "repeats": false,
-                "text": "kmLQq6uZo48",
+                "text": "363304210",
                 "type": "dateTime"
             },
             {
@@ -1262,7 +1275,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "7sqVMMo94wM"
+                                    "valueString": "363360535"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1277,7 +1290,7 @@
                 ],
                 "linkId": "10741",
                 "repeats": false,
-                "text": "3Ah23_aa4l0",
+                "text": "363367625",
                 "type": "dateTime"
             },
             {
@@ -1288,6 +1301,18 @@
                     }
                 ],
                 "linkId": "6770",
+                "repeats": false,
+                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "type": "boolean"
+            },
+            {
+                "concept": [
+                    {
+                        "code": "VAExtraConsent_EmailACopyToMe",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45152",
                 "repeats": false,
                 "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
                 "type": "boolean"
@@ -2451,5 +2476,6 @@
         }
     ],
     "resourceType": "Questionnaire",
-    "status": "published"
+    "status": "published",
+    "version": "v2019.10.22"
 }
