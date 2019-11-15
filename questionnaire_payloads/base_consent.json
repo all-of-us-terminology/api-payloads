@@ -1,5 +1,5 @@
 {
-    "date": "2019-11-12T15:44:53+00:00",
+    "date": "2019-11-14T10:25:21+00:00",
     "group": {
         "concept": [
             {
@@ -10,6 +10,23 @@
         "linkId": "root_group",
         "question": [
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "363334718"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
                         "code": "ExtraConsent_WelcomeVideo",
