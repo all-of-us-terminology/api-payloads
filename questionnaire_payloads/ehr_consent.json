@@ -1,5 +1,5 @@
 {
-    "date": "2018-06-28T20:56:45Z",
+    "date": "2019-11-18T11:24:38+00:00",
     "group": {
         "concept": [
             {
@@ -167,6 +167,66 @@
                     }
                 ],
                 "linkId": "6987",
+                "repeats": false,
+                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "type": "boolean"
+            },
+            {
+                "concept": [
+                    {
+                        "code": "VAEHRConsentPII_EmailCopy",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45142",
+                "repeats": false,
+                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "type": "boolean"
+            },
+            {
+                "concept": [
+                    {
+                        "code": "ExpiryEHRConsentPII_EmailCopy",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45144",
+                "repeats": false,
+                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "type": "boolean"
+            },
+            {
+                "concept": [
+                    {
+                        "code": "12MoEHRConsentPII_EmailCopy",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45146",
+                "repeats": false,
+                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "type": "boolean"
+            },
+            {
+                "concept": [
+                    {
+                        "code": "30MoEHRConsentPII_EmailCopy",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45148",
+                "repeats": false,
+                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "type": "boolean"
+            },
+            {
+                "concept": [
+                    {
+                        "code": "ILEHRConsentPII_EmailCopy",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45150",
                 "repeats": false,
                 "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
                 "type": "boolean"
@@ -796,7 +856,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Nombre de la persona que le ayud\u00f3:"
+                                    "valueString": "Nombre de la persona que le ayud\u00f3"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -811,7 +871,7 @@
                 ],
                 "linkId": "35077",
                 "repeats": false,
-                "text": "Name of the person who helped you:",
+                "text": "Name of the person who helped you",
                 "type": "text"
             },
             {
@@ -908,5 +968,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "784"
+    "version": "V2019.10.22"
 }

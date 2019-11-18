@@ -1,5 +1,5 @@
 {
-    "date": "2019-04-02T18:40:16Z",
+    "date": "2019-11-15T20:41:29+00:00",
     "group": {
         "concept": [
             {
@@ -2923,6 +2923,64 @@
                                 },
                                 {
                                     "url": "content",
+                                    "valueString": "Otro \u00f3rgano"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "OtherOrgan_FreeTextBox",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45177",
+                "repeats": false,
+                "text": "Other organ",
+                "type": "text"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Otro tejido"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "OtherTissue_FreeTextBox",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45178",
+                "repeats": false,
+                "text": "Other tissues",
+                "type": "text"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
                                     "valueString": "Fecha del transplante de ri\u00f1on"
                                 }
                             ],
@@ -2981,7 +3039,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Fecha del transplante de ri\u00f1on"
+                                    "valueString": "Fecha del transplante de higado"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2996,7 +3054,7 @@
                 ],
                 "linkId": "42859",
                 "repeats": false,
-                "text": "Date of heart transplant",
+                "text": "Date of liver transplant",
                 "type": "date"
             },
             {
@@ -3010,7 +3068,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Fecha del transplante de ri\u00f1on"
+                                    "valueString": "Fecha del transplante de pulm\u00f3n"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3025,7 +3083,7 @@
                 ],
                 "linkId": "42863",
                 "repeats": false,
-                "text": "Date of heart transplant",
+                "text": "Date of lung transplant",
                 "type": "date"
             },
             {
@@ -3039,7 +3097,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Fecha del transplante de ri\u00f1on"
+                                    "valueString": "Fecha del transplante de p\u00e1ncreas"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3054,7 +3112,7 @@
                 ],
                 "linkId": "42865",
                 "repeats": false,
-                "text": "Date of heart transplant",
+                "text": "Date of pancreas transplant",
                 "type": "date"
             },
             {
@@ -3068,7 +3126,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Fecha del transplante de ri\u00f1on"
+                                    "valueString": "Fecha del transplante de intestino"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3083,7 +3141,7 @@
                 ],
                 "linkId": "42867",
                 "repeats": false,
-                "text": "Date of heart transplant",
+                "text": "Date of intestine transplant",
                 "type": "date"
             },
             {
@@ -3097,7 +3155,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Fecha del transplante de ri\u00f1on"
+                                    "valueString": "Fecha del transplante de otro \u00f3rgano"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3112,7 +3170,7 @@
                 ],
                 "linkId": "42869",
                 "repeats": false,
-                "text": "Date of heart transplant",
+                "text": "Date of other organ transplant",
                 "type": "date"
             },
             {
@@ -3126,7 +3184,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Fecha del transplante de ri\u00f1on"
+                                    "valueString": "Fecha del transplante de cornea"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3141,7 +3199,7 @@
                 ],
                 "linkId": "42893",
                 "repeats": false,
-                "text": "Date of heart transplant",
+                "text": "Date of cornea transplant",
                 "type": "date"
             },
             {
@@ -3155,7 +3213,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Fecha del transplante de ri\u00f1on"
+                                    "valueString": "Fecha del transplante de hueso"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3170,7 +3228,7 @@
                 ],
                 "linkId": "42873",
                 "repeats": false,
-                "text": "Date of heart transplant",
+                "text": "Date of bone transplant",
                 "type": "date"
             },
             {
@@ -3184,7 +3242,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Fecha del transplante de ri\u00f1on"
+                                    "valueString": "Fecha del transplante de v\u00e1lvula"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3213,7 +3271,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Fecha del transplante de ri\u00f1on"
+                                    "valueString": "Fecha del transplante de hueso"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3242,7 +3300,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Fecha del transplante de ri\u00f1on"
+                                    "valueString": "Fecha del transplante de vaso sangu\u00edneo"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3255,9 +3313,9 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "42879",
+                "linkId": "42999",
                 "repeats": false,
-                "text": "Date of heart transplant",
+                "text": "Date of blood vessel transplant",
                 "type": "date"
             },
             {
@@ -3271,7 +3329,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Fecha del transplante de ri\u00f1on"
+                                    "valueString": "Fecha del transplante de otro tejido"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -3286,7 +3344,7 @@
                 ],
                 "linkId": "42881",
                 "repeats": false,
-                "text": "Date of heart transplant",
+                "text": "Date of other tissue transplant",
                 "type": "date"
             },
             {
@@ -3447,7 +3505,6 @@
         ],
         "repeats": false,
         "required": true,
-        "text": "This set of questions asks you to rate your health and how well you manage in several different areas.",
         "title": "Overall Health"
     },
     "identifier": [
@@ -3457,5 +3514,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "426"
+    "version": "v2019.10.07"
 }
