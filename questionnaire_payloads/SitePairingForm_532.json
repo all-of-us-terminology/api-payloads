@@ -1,5 +1,5 @@
 {
-    "date": "2019-04-25T21:22:26Z",
+    "date": "2019-12-10T19:37:38+00:00",
     "group": {
         "concept": [
             {
@@ -702,47 +702,6 @@
                 ],
                 "repeats": false,
                 "text": "The All of Us Research Program is enrolling participants at the following healthcare sites. At which location do you wish to schedule your visit?",
-                "type": "choice"
-            },
-            {
-                "concept": [
-                    {
-                        "code": "ArizonaSitePairing_AZWalgreensSitepairingLocation",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    }
-                ],
-                "linkId": "34480",
-                "option": [
-                    {
-                        "code": "AZSitepairingLocation_BannerHealth",
-                        "display": "Banner Health",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "Cl\u00ednica Walgreens"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "AZSitepairingLocation_Walgreens",
-                        "display": "Walgreens Clinic",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    }
-                ],
-                "repeats": false,
-                "text": "Which will you prefer:",
                 "type": "choice"
             },
             {
@@ -1508,6 +1467,11 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
+                        "code": "WisconsinSitePairing_CommunityEngagement",
+                        "display": "Center for Community Engagement and Health Partnerships",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
                         "_display": {
                             "extension": [
                                 {
@@ -1598,7 +1562,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Northwestern Medicine, Chicago, Geneva o Vernon Hills"
+                                            "valueString": "Northwestern Medicine, Chicago or Geneva"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1606,7 +1570,7 @@
                             ]
                         },
                         "code": "IllinoisInstitution_Northwestern",
-                        "display": "Northwestern Medicine, Chicago, Geneva or Vernon Hills",
+                        "display": "Northwestern Medicine, Chicago or Geneva",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -2191,5 +2155,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "447"
+    "version": "V2019.12.06"
 }
