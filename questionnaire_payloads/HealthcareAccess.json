@@ -1,5 +1,5 @@
 {
-    "date": "2018-08-16T20:17:13Z",
+    "date": "2020-01-16T19:23:04+00:00",
     "group": {
         "concept": [
             {
@@ -29,7 +29,7 @@
                 },
                 "concept": [
                     {
-                        "code": "Insurance_InsuranceType",
+                        "code": "Insurance_TypeOfInsurance",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -53,7 +53,7 @@
                                 }
                             ]
                         },
-                        "code": "InsuranceType_EmployerOrUnion",
+                        "code": "TypeOfInsurance_EmployerOrUnion",
                         "display": "Insurance through a current or former employer or union (by you or another family member)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -75,7 +75,7 @@
                                 }
                             ]
                         },
-                        "code": "InsuranceType_PurchasedInsurace",
+                        "code": "TypeOfInsurance_PurchasedInsurace",
                         "display": "Insurance purchased directly from an insurance company (by you or another family member)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -97,7 +97,7 @@
                                 }
                             ]
                         },
-                        "code": "InsuranceType_Medicare",
+                        "code": "TypeOfInsurance_Medicare",
                         "display": "Medicare, for people 65 and older or people with certain disabilities",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -119,7 +119,7 @@
                                 }
                             ]
                         },
-                        "code": "InsuranceType_GovernmentAssistancePlan",
+                        "code": "TypeOfInsurance_GovernmentAssistancePlan",
                         "display": "Medicaid, Medical Assistance, or any kind of government-assistance plan for those with low incomes or disability",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -141,7 +141,7 @@
                                 }
                             ]
                         },
-                        "code": "InsuranceType_TricareOrMilitary",
+                        "code": "TypeOfInsurance_TricareOrMilitary",
                         "display": "TRICARE or other military health care",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -163,7 +163,7 @@
                                 }
                             ]
                         },
-                        "code": "InsuranceType_VeteranAdministration",
+                        "code": "TypeOfInsurance_VeteranAdministration",
                         "display": "Veterans Affairs (VA) (including those who have ever used or enrolled for VA health care)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -185,7 +185,7 @@
                                 }
                             ]
                         },
-                        "code": "InsuranceType_IndianHealthService",
+                        "code": "TypeOfInsurance_IndianHealthService",
                         "display": "Indian Health Service",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -207,7 +207,7 @@
                                 }
                             ]
                         },
-                        "code": "InsuraceType_OtherInsuranceType",
+                        "code": "TypeOfInsurance_OtherInsuranceType",
                         "display": "Any other type of health insurance or health coverage plan",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -229,7 +229,7 @@
                                 }
                             ]
                         },
-                        "code": "InsuranceType_SelfPayOrNone",
+                        "code": "TypeOfInsurance_SelfPayOrNone",
                         "display": "I don\u2019t have health insurance, self-pay",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
@@ -4688,7 +4688,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfCon qu\u00e9 frecuencia sus m\u00e9dicos o proveedores de cuidado de salud le preguntaron sobre su opini\u00f3n o sus creencias acerca de su atenci\u00f3n m\u00e9dica o tratamiento? Por ejemplo, acerca de qu\u00e9 tipos de pruebas, procedimientos, o medicamentos prefiere. Dir\u00eda usted\u2026"
+                                    "valueString": "\u00bfCon qu\u00e9 frecuencia sus m\u00e9dicos o proveedores de salud le preguntaron sobre su opini\u00f3n o sus creencias acerca de su atenci\u00f3n m\u00e9dica o tratamiento? Por ejemplo, acerca de qu\u00e9 tipos de pruebas, procedimientos, o medicamentos prefiere. Dir\u00eda usted\u2026"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4829,7 +4829,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfCon qu\u00e9 frecuencia sus m\u00e9dicos o proveedores de cuidado de salud de atenci\u00f3n m\u00e9dica le ofrecieron informaci\u00f3n sobre su salud y atenci\u00f3n m\u00e9dica que le fue f\u00e1cil de entender? Dir\u00eda usted\u2026"
+                                    "valueString": "\u00bfCon qu\u00e9 frecuencia sus m\u00e9dicos o proveedores de salud de atenci\u00f3n m\u00e9dica le ofrecieron informaci\u00f3n sobre su salud y atenci\u00f3n m\u00e9dica que le fue f\u00e1cil de entender? Dir\u00eda usted\u2026"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4996,7 +4996,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5093,7 +5093,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5190,7 +5190,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5287,7 +5287,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5384,7 +5384,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5481,7 +5481,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5578,7 +5578,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5649,7 +5649,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Su deducible era muy alto/ o no pod\u00eda pagarlo"
+                                    "valueString": "Mi deducible era muy alto y no pod\u00eda pagarlo"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5675,7 +5675,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5772,7 +5772,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5898,7 +5898,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -5995,7 +5995,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6092,7 +6092,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6189,7 +6189,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6286,7 +6286,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6383,7 +6383,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6480,7 +6480,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6577,7 +6577,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6793,7 +6793,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6890,7 +6890,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -6987,7 +6987,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7084,7 +7084,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7181,7 +7181,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7278,7 +7278,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7349,7 +7349,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfQu\u00e9 tan importante es para usted que sus m\u00e9dicos o proveedores de salud le entiendan o que sean parecidos a usted en cualquier de estas maneras? Usted dir\u00eda que es\u2026"
+                                    "valueString": "\u00bfQu\u00e9 tan importante es para usted que sus m\u00e9dicos o proveedores de salud le entiendan o que sean parecidos a usted en cualquiera de estas categor\u00edas? Usted dir\u00eda que es\u2026\u2026"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7490,7 +7490,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfCon que frecuencia visit\u00f3 a m\u00e9dicos o proveedores de salud que fueron similares a usted en cualquier de estas maneras? Usted dir\u00eda que\u2026"
+                                    "valueString": "\u00bfCon que frecuencia usted visit\u00f3 a m\u00e9dicos o proveedores de salud que fueron similares a usted en cualquiera de estas categor\u00edas? Usted dir\u00eda que\u2026"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7631,7 +7631,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfCon qu\u00e9 frecuencia se tard\u00f3 o decidi\u00f3 no ir a consultar con m\u00e9dicos o proveedores de salud porque fueron diferentes a usted en cualquier de estas maneras?"
+                                    "valueString": "\u00bfCon qu\u00e9 frecuencia usted decidi\u00f3 posponer o no ir a consulta con m\u00e9dicos o proveedores de salud porque eran diferentes a usted en cualquiera de estas categor\u00edas?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7764,7 +7764,6 @@
         ],
         "repeats": false,
         "required": true,
-        "text": "This module asks about your access to medical and dental care, and how you use it. Understanding your regular sources of care helps provide a picture of your health.",
         "title": "Health Care Access & Utilization"
     },
     "identifier": [
@@ -7774,5 +7773,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "439"
+    "version": "V2019.03.11"
 }
