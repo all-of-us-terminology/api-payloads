@@ -1,5 +1,5 @@
 {
-    "date": "2019-12-10T19:37:38+00:00",
+    "date": "2020-02-18T16:14:47+00:00",
     "group": {
         "concept": [
             {
@@ -1472,6 +1472,11 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
+                        "code": "WisconsinSitePairing_Gundersen",
+                        "display": "Gundersen Health System",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
                         "_display": {
                             "extension": [
                                 {
@@ -2134,6 +2139,11 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
+                        "code": "HealthPartners_Institute",
+                        "display": "HealthPartners Institute",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
                         "code": "EssentiaHealth_No",
                         "display": "None of the above",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
@@ -2146,6 +2156,7 @@
         ],
         "repeats": false,
         "required": true,
+        "text": "Add HealthPartners Institute to the Minnesota Site Pairing screen",
         "title": "Find a Partner"
     },
     "identifier": [
@@ -2155,5 +2166,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "V2019.12.06"
+    "version": "V2020.02.21"
 }
