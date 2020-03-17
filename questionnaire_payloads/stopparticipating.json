@@ -1,5 +1,5 @@
 {
-    "date": "2020-03-17T18:15:07+00:00",
+    "date": "2020-03-17T19:58:35+00:00",
     "group": {
         "concept": [
             {
@@ -87,7 +87,7 @@
             {
                 "concept": [
                     {
-                        "code": "Boolean selector",
+                        "code": "Settings_Boolean",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -99,6 +99,7 @@
             {
                 "concept": [
                     {
+                        "code": "DeactivatedLogin2_Boolean",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -110,7 +111,6 @@
         ],
         "repeats": false,
         "required": true,
-        "text": "Added Cancel button for Stop Participation from Settings tab",
         "title": "Stop Participating"
     },
     "identifier": [
