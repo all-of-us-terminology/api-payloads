@@ -1,0 +1,124 @@
+{
+    "date": "2020-03-17T18:15:07+00:00",
+    "group": {
+        "concept": [
+            {
+                "code": "StopParticipating",
+                "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }
+        ],
+        "linkId": "root_group",
+        "question": [
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Por favor decida qu\u00e9 desea hacer con la informaci\u00f3n que ya ha compartido:"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "StoppingMeans_StopOptions",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45828",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Permitir que la informaci\u00f3n y las muestras que usted ha dado se utilicen en nuevos estudios."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "StopOptions_AllowInformation",
+                        "display": "Allow your information and any samples you gave to be used in new studies.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No permitir que la informaci\u00f3n y las muestras que usted ha dado se utilicen en nuevos estudios."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "StopOptions_NotAllowInformation",
+                        "display": "Not allow your information and samples you gave to be used in new studies.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Please decide what you want to do with the information you have already shared:",
+                "type": "choice"
+            },
+            {
+                "concept": [
+                    {
+                        "code": "Boolean selector",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "46371",
+                "repeats": false,
+                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "type": "boolean"
+            },
+            {
+                "concept": [
+                    {
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "46374",
+                "repeats": false,
+                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "type": "boolean"
+            }
+        ],
+        "repeats": false,
+        "required": true,
+        "text": "Added Cancel button for Stop Participation from Settings tab",
+        "title": "Stop Participating"
+    },
+    "identifier": [
+        {
+            "value": "Vibrent_FORM_ID_1404"
+        }
+    ],
+    "resourceType": "Questionnaire",
+    "status": "published",
+    "version": "v2020.03.20"
+}
