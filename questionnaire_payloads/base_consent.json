@@ -1,5 +1,5 @@
 {
-    "date": "2019-11-14T10:25:21+00:00",
+    "date": "2020-04-15T16:20:01+00:00",
     "group": {
         "concept": [
             {
@@ -990,35 +990,6 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "363340576"
-                                }
-                            ],
-                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                        }
-                    ]
-                },
-                "concept": [
-                    {
-                        "code": "ExtraConsent_HealthRecordVideo",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    }
-                ],
-                "linkId": "10738",
-                "repeats": false,
-                "text": "363304126",
-                "type": "dateTime"
-            },
-            {
-                "_text": {
-                    "extension": [
-                        {
-                            "extension": [
-                                {
-                                    "url": "lang",
-                                    "valueCode": "es"
-                                },
-                                {
-                                    "url": "content",
                                     "valueString": "Si usted est\u00e1 usando una computadora, use el mouse para firmar abajo. Si usted est\u00e1 usando un aparato m\u00f3vil (celular, tableta), por favor firme con su dedo."
                                 }
                             ],
@@ -1118,6 +1089,35 @@
                                 },
                                 {
                                     "url": "content",
+                                    "valueString": "363340576"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "ExtraConsent_HealthRecordVideo",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "10738",
+                "repeats": false,
+                "text": "363304126",
+                "type": "dateTime"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
                                     "valueString": "363345545"
                                 }
                             ],
@@ -1163,35 +1163,6 @@
                 "linkId": "10736",
                 "repeats": false,
                 "text": "363363171",
-                "type": "dateTime"
-            },
-            {
-                "_text": {
-                    "extension": [
-                        {
-                            "extension": [
-                                {
-                                    "url": "lang",
-                                    "valueCode": "es"
-                                },
-                                {
-                                    "url": "content",
-                                    "valueString": "363348406"
-                                }
-                            ],
-                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                        }
-                    ]
-                },
-                "concept": [
-                    {
-                        "code": "ExtraConsent_DNAVideo",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    }
-                ],
-                "linkId": "34627",
-                "repeats": false,
-                "text": "363304296",
                 "type": "dateTime"
             },
             {
@@ -1263,7 +1234,36 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "363359477"
+                                    "valueString": "406654339"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "ExtraConsent_WhatWeWillDoVideo",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45899",
+                "repeats": false,
+                "text": "389293211",
+                "type": "dateTime"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "406654175"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1278,7 +1278,7 @@
                 ],
                 "linkId": "10740",
                 "repeats": false,
-                "text": "363304210",
+                "text": "389293262",
                 "type": "dateTime"
             },
             {
@@ -1292,7 +1292,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "363360535"
+                                    "valueString": "406654245"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1301,38 +1301,72 @@
                 },
                 "concept": [
                     {
-                        "code": "ExtraConsent_RisktoPrivacyVideo",
+                        "code": "ExtraConsent_PotentialRisksVideo",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
                 "linkId": "10741",
                 "repeats": false,
-                "text": "363367625",
+                "text": "389293303",
                 "type": "dateTime"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "406654278"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
-                        "code": "ExtraConsent_EmailACopyToMe",
+                        "code": "ExtraConsent_ResearchResultsVideo",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "6770",
+                "linkId": "45905",
                 "repeats": false,
-                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
-                "type": "boolean"
+                "text": "389293364",
+                "type": "dateTime"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "406654308"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
-                        "code": "VAExtraConsent_EmailACopyToMe",
+                        "code": "ExtraConsent_SeeingYourDataVideo",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "45152",
+                "linkId": "45912",
                 "repeats": false,
-                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
-                "type": "boolean"
+                "text": "389293358",
+                "type": "dateTime"
             },
             {
                 "_text": {
@@ -1521,7 +1555,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Si. Puedo dejar de participar en cualquier momento."
+                                            "valueString": "Puedo dejar de participar en cualquier momento."
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1529,7 +1563,7 @@
                             ]
                         },
                         "code": "CanIWithdraw_ICanWithdraw",
-                        "display": "I can withdraw at any time.",
+                        "display": "I can stop participating at any time.",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -1543,7 +1577,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "No puedo dejar de participar nunca."
+                                            "valueString": "No puedo dejar de participar jam\u00e1s."
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1551,12 +1585,12 @@
                             ]
                         },
                         "code": "CanIWithdraw_ICannotWithdraw",
-                        "display": "I can\u2019t withdraw ever.",
+                        "display": "I can never stop participating.",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
                 "repeats": false,
-                "text": "If I join, can I withdraw (\u201cquit\u201d)?\n",
+                "text": "If I join, can I stop participating?\n",
                 "type": "choice"
             },
             {
@@ -1570,7 +1604,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "El uso de tel\u00e9fonos celulares inteligentes (smartphones), aplicaciones y sensores siempre constituye un posible riesgo a su privacidad. \u00bfPuede All of Us garantizar su privacidad?"
+                                    "valueString": "El uso de tel\u00e9fonos celulares inteligentes (smartphones), aplicaciones y sensores siempre constituye un posible riesgo para su privacidad. \u00bfPuede All of Us garantizar su privacidad?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1631,7 +1665,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Using smartphones, apps, and sensors are always a potential risk to privacy. Can All of Us guarantee your privacy?",
+                "text": "Using smartphones, apps, and sensors are always a potential risk to privacy. Can All of Us guarantee my privacy?",
                 "type": "choice"
             },
             {
@@ -1645,7 +1679,82 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Respondi\u00f3 correctamente 4 preguntas de un total de 4. \n\nT\u00f3mese el tiempo necesario para decidir si desea formar parte de All of Us. Estamos aqu\u00ed para responder cualquier pregunta que tenga."
+                                    "valueString": "\u00bfTengo que completar otro documento si quiero ver los resultados de ADN de All of Us?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "ExtraConsent_DNAQuestion",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "47281",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "S\u00ed, tendr\u00e9 que completar otro documento si quiero ver los resultados de ADN de All of Us."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "DNAQuestion_YesCompleteAnotherForm",
+                        "display": "Yes, I will have to complete another form if I want to see my All of Us DNA Results.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No, All of Us me entregar\u00e1 mis resultados de ADN si solo completo este documento."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "DNAQuestion_NoCompleteAnotherForm",
+                        "display": "No, All of Us will tell me my DNA results if I fill out this form.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Do I have to complete another form if I want to see my All of Us DNA results?",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Respondi\u00f3 correctamente 5 preguntas de un total de 5. \n\nT\u00f3mese el tiempo necesario para decidir si desea formar parte de All of Us. Estamos aqu\u00ed para responder cualquier pregunta que tenga."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1706,8 +1815,32 @@
                     }
                 ],
                 "repeats": false,
-                "text": "You got 4 of 4 questions correct.\n\nTake the time you need to decide about joining All of Us. We are here to answer any questions you have.",
+                "text": "You got 5 of 5 questions correct.\n\nTake the time you need to decide about joining All of Us. We are here to answer any questions you have.",
                 "type": "choice"
+            },
+            {
+                "concept": [
+                    {
+                        "code": "ExtraConsent_EmailACopyToMe",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "6770",
+                "repeats": false,
+                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "type": "boolean"
+            },
+            {
+                "concept": [
+                    {
+                        "code": "VAExtraConsent_EmailACopyToMe",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45152",
+                "repeats": false,
+                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "type": "boolean"
             },
             {
                 "concept": [
@@ -2494,5 +2627,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "v2019.10.22"
+    "version": "V2020.04.20"
 }
