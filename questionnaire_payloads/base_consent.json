@@ -1,5 +1,5 @@
 {
-    "date": "2020-04-15T05:37:09+00:00",
+    "date": "2020-04-15T16:20:01+00:00",
     "group": {
         "concept": [
             {
@@ -1301,7 +1301,7 @@
                 },
                 "concept": [
                     {
-                        "code": "ExtraConsent_RisktoPrivacyVideo",
+                        "code": "ExtraConsent_PotentialRisksVideo",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1330,7 +1330,7 @@
                 },
                 "concept": [
                     {
-                        "code": "ExtraConsent_RisktoPrivacyVideo",
+                        "code": "ExtraConsent_ResearchResultsVideo",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -1359,7 +1359,7 @@
                 },
                 "concept": [
                     {
-                        "code": "ExtraConsent_RisktoPrivacyVideo",
+                        "code": "ExtraConsent_SeeingYourDataVideo",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -2618,7 +2618,6 @@
         ],
         "repeats": false,
         "required": true,
-        "text": "https://agile.vignetcorp.com:8085/jira/browse/AIM-2223",
         "title": "Primary Consent"
     },
     "identifier": [
