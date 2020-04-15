@@ -1,0 +1,1592 @@
+{
+    "date": "2020-04-15T13:12:41+00:00",
+    "group": {
+        "concept": [
+            {
+                "code": "GROR",
+                "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }
+        ],
+        "linkId": "root_group",
+        "question": [
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "394476042"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "ConsentVideo_DNAChanges",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45732",
+                "repeats": false,
+                "text": "389343011",
+                "type": "dateTime"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "394496415"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "ConsentVideo_HowLong",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45919",
+                "repeats": false,
+                "text": "388575956",
+                "type": "dateTime"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "394496731"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "ConsentVideo_CheckForWhat",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45925",
+                "repeats": false,
+                "text": "389342925",
+                "type": "dateTime"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "394497199"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "ConsentVideo_TellMeWhat",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45931",
+                "repeats": false,
+                "text": "388575828",
+                "type": "dateTime"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "394473289"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "ConsentVideo_HelpMe",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45939",
+                "repeats": false,
+                "text": "388575659",
+                "type": "dateTime"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "394498563"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "ConsentVideo_Risks",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45945",
+                "repeats": false,
+                "text": "389342934",
+                "type": "dateTime"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfSe analizar\u00e1 mi ADN para buscar variaciones inmediatamente?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "DNAQuiz_CheckChangesSoon",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45718",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "S\u00ed, mi ADN se analizar\u00e1 de inmediato."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "CheckChangesSoon_Yes",
+                        "display": "Yes, my DNA will be checked right away.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No. Analizar mi ADN e informarme de los resultados tomar\u00e1 tiempo."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "CheckChangesSoon_No",
+                        "display": "No, it will take time to check my DNA and return my results.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Will my DNA be checked for changes right away?",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Si All of Us no encuentra variaciones de ADN que afectan a la salud, \u00bftodav\u00eda podr\u00eda tener riesgos de padecer problemas de salud?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "DNAQuiz_ResultsRequired",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45867",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "S\u00ed, debo conocer todos mis resultados de ADN."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "ResultsRequired_Yes",
+                        "display": "Yes, I have to learn about all of my DNA results.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No, podr\u00e9 elegir cuales resultados de ADN quiero conocer."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "ResultsRequired_No",
+                        "display": "No, I will get to choose which DNA results I want to learn about.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "If I say yes to this consent, do I have to learn about all of my DNA results?",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Si All of Us no encuentra variaciones de ADN que afectan a la salud, \u00bftodav\u00eda podr\u00eda tener riesgos de padecer problemas de salud?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "DNAQuiz_AtRisk",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45874",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "S\u00ed, todav\u00eda podr\u00eda tener riesgos de padecer problemas de salud, aunque All of Us no encuentre variaciones en mi ADN que afectan la salud."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "AtRisk_Yes",
+                        "display": "Yes, I could still be at risk for health conditions even if All of Us does not find any health-related changes in my DNA.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No, no hay riesgo de padecer problemas de salud si All of Us no encuentra variaciones en mi ADN que afectan la salud."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "AtRisk_No",
+                        "display": "No, I am not at risk of health conditions if All of Us does not find any health-related DNA changes.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "If All of Us does not find any health-related DNA changes, am I still at risk for health conditions?",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfPueden las compa\u00f1\u00edas de seguros de discapacidad, de vida y de cuidado a largo plazo pedir mi informaci\u00f3n de ADN?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "DNAQuiz_DifficultToReceiveCare",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45881",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "S\u00ed. En la mayor\u00eda de los lugares, estas aseguradoras pueden pedir mi informaci\u00f3n de ADN. Ellos pueden usar esa informaci\u00f3n para decidir si me cubrir\u00e1n y cu\u00e1nto me cobrar\u00e1n."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "DifficultToReceiveCare_Yes",
+                        "display": "Yes, in most places, these insurers can ask for my DNA information. They can use this information to decide if they will cover me and how much they will charge.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No. estas aseguradoras nunca pueden pedir mi informaci\u00f3n de ADN. Ellos no pueden usar esa informaci\u00f3n para decidir si me cubrir\u00e1n y cu\u00e1nto me cobrar\u00e1n."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "DifficultToReceiveCare_No",
+                        "display": "No, these insurers can never ask for my DNA information. They cannot use this information to decide if they will cover me and how much they will charge.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "In most places, can disability, life, and long-term care insurers ask for my DNA information?",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfExisten leyes que me protejan si decido conocer mis resultados de ADN?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "DNAQuiz_LawsProtectMe",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45888",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "S\u00ed. Existen leyes que protegen a la mayor\u00eda de las personas de recibir un trato diferente debido a su informaci\u00f3n de ADN."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "LawsProtectMe_Yes",
+                        "display": "Yes. There are laws that protect most people from being treated differently because of their DNA information.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No. No existen leyes que protejan a las personas de recibir un trato diferente debido a su informaci\u00f3n de ADN."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "LawsProtectMe_No",
+                        "display": "No. There are no laws that protect people from being treated differently because of their DNA information.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Are there any laws that will protect me if I find out my DNA results?",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfLe gustar\u00eda que le ayudemos a clasificar las ventajas y desventajas?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "DecideReceiveResults_HelpSortOut",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "47279",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "S\u00ed, por favor ay\u00fadenme a clasificar."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "HelpSortOut_Yes",
+                        "display": "Yes. Please help me sort it out.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No, gracias. Ya tom\u00e9 mi decisi\u00f3n."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "HelpSortOut_No",
+                        "display": "No, thanks. I\u2019ve already made my decision.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Would you like us to help you sort out the pros and cons?",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Puedo aprender que tengo un mayor riesgo de padecer ciertos problemas de salud."
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "DecideReceiveResults_Increased",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "46305",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No quiero saber cosas sobre mi salud antes de que sea necesario."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "Increased_NotKnow",
+                        "display": "I don\u2019t want to know things about my health earlier than I need to.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Me gustar\u00eda conocer mis resultados, incluso si no me afectan ahora."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "Increased_LearnResults",
+                        "display": "I would like to learn my results even if they don\u2019t affect me now",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "I may learn that I am at increased risk for some health conditions.",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Pueden ayudar a mi proveedor de salud a darme mejores tratamientos."
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "DecideReceiveResults_BetterCareOfMe",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "46319",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No quiero saber cosas sobre mi salud antes de que sea necesario."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "BetterCareOfMe_NotLearnEarly",
+                        "display": "I don\u2019t want to know things about my health earlier than I need to.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Me gustar\u00eda conocer mis resultados en caso de que me ayuden a obtener una mejor atenci\u00f3n m\u00e9dica."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "BetterCareOfMe_GetBetterCare",
+                        "display": "I would like to learn my results in case it helps me get better care",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "It may help my healthcare provider take better care of me.",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Pueden ayudar a mi proveedor de salud a tomar decisiones sobre mis medicamentos."
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "DecideReceiveResults_HelpProviders",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "46320",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No quiero saber cosas sobre mi salud antes de que sea necesario."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "HelpProviders_NotLearnEarly",
+                        "display": "I don\u2019t want to know things about my health earlier than I need to.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Me gustar\u00eda conocer mis resultados en caso de que me ayuden a obtener una mejor atenci\u00f3n m\u00e9dica."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "HelpProviders_GetResults",
+                        "display": "I would like to learn my results in case it helps me get better care",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "It may help my healthcare provider make decisions about my medicines.",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Es posible que requiera atenci\u00f3n m\u00e9dica m\u00e1s costosa."
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "DecideReceiveResults_MoreExpensiveHealthcare",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "46330",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Esto me preocupa."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "MoreExpensiveHealthcare_Worried",
+                        "display": "I am worried about this",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Aun quiero conocer mis resultados."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "MoreExpensiveHealthcare_LearnResults",
+                        "display": "I would still like to learn my results",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "I may need more expensive health care.",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Puede ser m\u00e1s dif\u00edcil o costoso obtener un seguro de discapacidad, de vida o de cuidado a largo plazo."
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "DecideReceiveResults_HardToGetInsurance",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "46331",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Esto me preocupa."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "HardToGetInsurance_Worried",
+                        "display": "I am worried about this",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Aun quiero conocer mis resultados."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "HardToGetInsurance_LearnResults",
+                        "display": "I would still like to learn my results",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "It might be harder or more expensive to get disability, life, and long-term care insurance.",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Puedo sentir confusi\u00f3n o preocupaci\u00f3n por mis resultados."
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "DecideReceiveResults_ConfusedWorried",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "46332",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Esto me preocupa."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "ConfusedWorried_Worried",
+                        "display": "I am worried about this",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Aun quiero conocer mis resultados."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "ConfusedWorried_LearnResults",
+                        "display": "I would still like to learn my results",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "I may feel confusion or worry about my results.",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Mis familiares de sangre tambi\u00e9n pueden descubrir cosas sobre su salud."
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "DecideReceiveResults_RelativesHealth",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "46333",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Esto me preocupa."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "RelativesHealth_Worried",
+                        "display": "I am worried about this",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Aun quiero conocer mis resultados."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "RelativesHealth_LearnResults",
+                        "display": "I would still like to learn my results",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "My blood relatives may find out things about their health, too.",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Es posible que necesite ausentarme del trabajo para cuidar mi salud."
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "DecideReceiveResults_TimeOffWork",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "46334",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Esto me preocupa."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "TimeOffWork_Worried",
+                        "display": "I am worried about this",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Aun quiero conocer mis resultados."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "TimeOffWork_LearnResults",
+                        "display": "I would still like to learn my results",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "I may need to take time off work to care for my health.",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Puede que no aprenda nada \u00fatil."
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "DecideReceiveResults_NotUseful",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "46335",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Esto me preocupa."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "NotUseful_Worried",
+                        "display": "I am worried about this",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Aun quiero conocer mis resultados."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "NotUseful_LearnResults",
+                        "display": "I would still like to learn my results",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "I may not find out anything useful.",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Puedo descubrir que mi relaci\u00f3n sangu\u00ednea con algunos miembros de mi familia es distinta a lo que pensaba."
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "DecideReceiveResults_NotRelated",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "46336",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Esto me preocupa."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "NotRelated_Worried",
+                        "display": "I am worried about this",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Aun quiero conocer mis resultados."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "NotRelated_LearnResults",
+                        "display": "I would still like to learn my results",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "I may realize I\u2019m not related to some family members in the way I thought I was.",
+                "type": "choice"
+            },
+            {
+                "concept": [
+                    {
+                        "code": "ResultsConsent_EmailMeCopy",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "46322",
+                "repeats": false,
+                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "type": "boolean"
+            },
+            {
+                "concept": [
+                    {
+                        "code": "ResultsConsent_FloridaEmailMeCopy",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "46610",
+                "repeats": false,
+                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "type": "boolean"
+            },
+            {
+                "concept": [
+                    {
+                        "code": "CheckDNA_Yes",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45847",
+                "repeats": false,
+                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "type": "boolean"
+            },
+            {
+                "concept": [
+                    {
+                        "code": "CheckDNA_No",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45849",
+                "repeats": false,
+                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "type": "boolean"
+            },
+            {
+                "concept": [
+                    {
+                        "code": "CheckDNA_NotSure",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "45851",
+                "repeats": false,
+                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "type": "boolean"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Si usted est\u00e1 usando una computadora, use el mouse para firmar abajo. Si usted est\u00e1 usando un aparato m\u00f3vil (celular, tableta), por favor firme con su dedo. Si usted prefiere, puede usar el teclado para escribir su nombre."
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "ResultsConsent_Signature",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "46600",
+                "repeats": false,
+                "text": "If you are using a computer, please use your mouse to sign below. If you are using a mobile device, please use your finger to sign. If you would rather, you can type your name instead.",
+                "type": "attachment"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfAlguien le ayud\u00f3 a completar el proceso de consentimiento de\u00a0All of Us?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "ResultsConsent_HelpMeWithConsent",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "47761",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "S\u00ed"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "HelpMeWithConsent_Yes",
+                        "display": "Yes",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "HelpMeWithConsent_No",
+                        "display": "No",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Did someone from\u00a0All of Us\u00a0help you with this consent process?",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Nombre de la persona que le ayud\u00f3"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "HelpMeWithConsent_Name",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "46605",
+                "repeats": false,
+                "text": "Name of the person who helped you",
+                "type": "text"
+            }
+        ],
+        "repeats": false,
+        "required": true,
+        "title": "Consent to Get DNA Results"
+    },
+    "identifier": [
+        {
+            "value": "Vibrent_FORM_ID_1402"
+        }
+    ],
+    "resourceType": "Questionnaire",
+    "status": "published",
+    "version": "V2020.04.20"
+}
