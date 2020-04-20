@@ -1,5 +1,5 @@
 {
-    "date": "2020-04-15T13:12:41+00:00",
+    "date": "2020-04-20T22:39:37+00:00",
     "group": {
         "concept": [
             {
@@ -269,7 +269,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Si All of Us no encuentra variaciones de ADN que afectan a la salud, \u00bftodav\u00eda podr\u00eda tener riesgos de padecer problemas de salud?"
+                                    "valueString": "Si doy mi consentimiento, \u00bfdebo conocer todos mis resultados de ADN?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -1392,7 +1392,7 @@
                 ],
                 "linkId": "46322",
                 "repeats": false,
-                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "text": "ResultsConsent_EmailMeCopy",
                 "type": "boolean"
             },
             {
@@ -1404,7 +1404,7 @@
                 ],
                 "linkId": "46610",
                 "repeats": false,
-                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "text": "ResultsConsent_FloridaEmailMeCopy",
                 "type": "boolean"
             },
             {
@@ -1416,7 +1416,7 @@
                 ],
                 "linkId": "45847",
                 "repeats": false,
-                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "text": "CheckDNA_Yes",
                 "type": "boolean"
             },
             {
@@ -1428,7 +1428,7 @@
                 ],
                 "linkId": "45849",
                 "repeats": false,
-                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "text": "CheckDNA_No",
                 "type": "boolean"
             },
             {
@@ -1440,7 +1440,7 @@
                 ],
                 "linkId": "45851",
                 "repeats": false,
-                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "text": "CheckDNA_NotSure",
                 "type": "boolean"
             },
             {
@@ -1588,5 +1588,5 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "V2020.04.20"
+    "version": "V2020.04.21"
 }
