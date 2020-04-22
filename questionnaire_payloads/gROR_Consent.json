@@ -1,5 +1,5 @@
 {
-    "date": "2020-04-20T23:19:35+00:00",
+    "date": "2020-04-22T03:25:34+00:00",
     "group": {
         "concept": [
             {
@@ -1408,40 +1408,101 @@
                 "type": "boolean"
             },
             {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfQuiere que analicemos su ADN y le informemos sobre lo que encontremos?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
                 "concept": [
                     {
+                        "code": "ResultsConsent_CheckDNA",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "47770",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "S\u00ed, quiero saber algunos o todos mis resultados de ADN."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
                         "code": "CheckDNA_Yes",
+                        "display": "Yes, I want to learn some or all of my DNA results.",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    }
-                ],
-                "linkId": "45847",
-                "repeats": false,
-                "text": "CheckDNA_Yes",
-                "type": "boolean"
-            },
-            {
-                "concept": [
+                    },
                     {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No, no quiero saber mis resultados de ADN."
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
                         "code": "CheckDNA_No",
+                        "display": "No, I do not want to learn about any DNA results.",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    }
-                ],
-                "linkId": "45849",
-                "repeats": false,
-                "text": "CheckDNA_No",
-                "type": "boolean"
-            },
-            {
-                "concept": [
+                    },
                     {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No estoy seguro en este momento"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
                         "code": "CheckDNA_NotSure",
+                        "display": "I\u2019m not sure right now.",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "45851",
                 "repeats": false,
-                "text": "CheckDNA_NotSure",
-                "type": "boolean"
+                "text": "Would you like us to check your DNA and tell you what we find?",
+                "type": "choice"
             },
             {
                 "_text": {
