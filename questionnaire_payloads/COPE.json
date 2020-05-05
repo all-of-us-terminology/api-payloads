@@ -1,5 +1,5 @@
 {
-    "date": "2020-05-04T22:19:58+00:00",
+    "date": "2020-05-05T03:33:36+00:00",
     "group": {
         "concept": [
             {
@@ -1413,7 +1413,7 @@
                 },
                 "concept": [
                     {
-                        "code": "Approximate date of onset",
+                        "code": "cdc_covid_19_7_xx22_date",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -2694,7 +2694,7 @@
                 },
                 "concept": [
                     {
-                        "code": "Please specify.",
+                        "code": "cope_a_126",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -5293,7 +5293,7 @@
                 },
                 "concept": [
                     {
-                        "code": "Please specify.",
+                        "code": "cope_a_204",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -5899,7 +5899,7 @@
                 },
                 "concept": [
                     {
-                        "code": "Please specify.",
+                        "code": "basics_11a_cope_a_33",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
