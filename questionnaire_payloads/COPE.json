@@ -1,5 +1,5 @@
 {
-    "date": "2020-05-05T03:33:36+00:00",
+    "date": "2020-05-05T13:50:04+00:00",
     "group": {
         "concept": [
             {
@@ -5293,7 +5293,7 @@
                 },
                 "concept": [
                     {
-                        "code": "cope_a_204",
+                        "code": "cu_covid_cope_a_204",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
@@ -13228,7 +13228,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "En el \u00faltimo mes:\r\n\u00bfCu\u00e1ntas bebidas alcoh\u00f3licas toma en un d\u00eda com\u00fan? "
+                                    "valueString": "\u00bfCu\u00e1ntas bebidas alcoh\u00f3licas toma en un d\u00eda com\u00fan?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -13355,7 +13355,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "In the past month:\r\nHow many standard drinks containing alcohol do you have on a typical day?",
+                "text": "How many standard drinks containing alcohol do you have on a typical day?",
                 "type": "choice"
             },
             {
@@ -13369,7 +13369,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "En el \u00faltimo mes:\r\n\u00bfCon qu\u00e9 frecuencia toma seis o m\u00e1s bebidas en una ocasi\u00f3n? "
+                                    "valueString": "\u00bfCon qu\u00e9 frecuencia toma seis o m\u00e1s bebidas en una ocasi\u00f3n?"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -13496,7 +13496,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "In the past month:\r\nHow often do you have six or more drinks containing alcohol on one occasion?",
+                "text": "How often do you have six or more drinks containing alcohol on one occasion?",
                 "type": "choice"
             },
             {
