@@ -1,5 +1,7 @@
 {
+
     "date": "2020-05-28T16:13:57+00:00",
+
     "group": {
         "concept": [
             {
@@ -20,7 +22,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Esta encuesta le tomar\u00e1 de 20 a 30 minutos aproximadamente para completarla."
+                                    "valueString": "Esta encuesta le tomar\u00e1 de 15 a 20 minutos aproximadamente para completarla."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -103,7 +105,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "This survey will take approximately 20 to 30 minutes to complete.",
+                "text": "This survey will take approximately 15 to 20 minutes to complete.",
                 "type": "choice"
             },
             {
@@ -2180,23 +2182,6 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "No s\u00e9"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
                         "code": "COPE_A_14",
                         "display": "Unknown",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
@@ -11625,23 +11610,6 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "No s\u00e9"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
                         "code": "COPE_A_202",
                         "display": "Don't know",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
@@ -19417,7 +19385,9 @@
         ],
         "repeats": false,
         "required": true,
+
         "title": "June-COvid-19 Participant Experience (COPE) Survey"
+
     },
     "identifier": [
         {
@@ -19426,5 +19396,7 @@
     ],
     "resourceType": "Questionnaire",
     "status": "published",
+
     "version": "V2020.06.02"
+
 }
