@@ -1,5 +1,5 @@
 {
-    "date": "2020-07-01T14:54:36+00:00",
+    "date": "2020-07-01T16:23:26+00:00",
     "group": {
         "concept": [
             {
@@ -9198,7 +9198,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "En las \u00faltimas 2 semanas, \u00bfcon qu\u00e9 frecuencia le ha molestado el siguiente problema?\n\nSe ha sentido deca\u00eddo(a), deprimido(a) o sin esperanzas."
+                                    "valueString": "Se ha sentido deca\u00eddo(a), deprimido(a) o sin esperanzas."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -9303,7 +9303,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "In the past 2 weeks, how often have you been bothered by:\nFeeling down, depressed, or hopeless",
+                "text": "Feeling down, depressed, or hopeless",
                 "type": "choice"
             },
             {
@@ -9317,7 +9317,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "En las \u00faltimas 2 semanas, \u00bfcon qu\u00e9 frecuencia le ha molestado el siguiente problema?\n\nHa tenido dificultad para quedarse o permanecer dormido(a), o ha dormido demasiado."
+                                    "valueString": "Ha tenido dificultad para quedarse o permanecer dormido(a), o ha dormido demasiado."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -9422,7 +9422,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "In the past 2 weeks, how often have you been bothered by:\nTrouble falling or staying asleep, or sleeping too much",
+                "text": "Trouble falling or staying asleep, or sleeping too much",
                 "type": "choice"
             },
             {
@@ -9436,7 +9436,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "En las \u00faltimas 2 semanas, \u00bfcon qu\u00e9 frecuencia le ha molestado el siguiente problema?\n\nSe ha sentido cansado(a) o con poca energ\u00eda."
+                                    "valueString": "Se ha sentido cansado(a) o con poca energ\u00eda."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -9541,7 +9541,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "In the past 2 weeks, how often have you been bothered by:\nFeeling tired or having little energy",
+                "text": "Feeling tired or having little energy",
                 "type": "choice"
             },
             {
@@ -17938,7 +17938,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Seleccione la respuesta que mejor refleja su comportamiento en el \u00faltimo mes.\nA pesar de lo que me pasa, yo creo que puedo controlar mi reacci\u00f3n."
+                                    "valueString": "A pesar de lo que me pasa, yo creo que puedo controlar mi reacci\u00f3n."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -18065,7 +18065,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Please select the response that best reflects your behavior in the past month.\nRegardless of what happens to me, I believe I can control my reaction to it.",
+                "text": "Regardless of what happens to me, I believe I can control my reaction to it.",
                 "type": "choice"
             },
             {
@@ -18079,7 +18079,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Seleccione la respuesta que mejor refleja su comportamiento en el \u00faltimo mes.\nCreo que puedo crecer de manera positiva al enfrentar situaciones dif\u00edciles."
+                                    "valueString": "Creo que puedo crecer de manera positiva al enfrentar situaciones dif\u00edciles."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -18206,7 +18206,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Please select the response that best reflects your behavior in the past month.\nI believe I can grow in positive ways by dealing with difficult situations.",
+                "text": "I believe I can grow in positive ways by dealing with difficult situations.",
                 "type": "choice"
             },
             {
@@ -18220,7 +18220,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Seleccione la respuesta que mejor refleja su comportamiento en el \u00faltimo mes.\nBusco de forma activa maneras para reemplazar las p\u00e9rdidas en mi vida."
+                                    "valueString": "Busco de forma activa maneras para reemplazar las p\u00e9rdidas en mi vida."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -18347,7 +18347,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Please select the response that best reflects your behavior in the past month.\nI actively look for ways to replace the losses I encounter in life.",
+                "text": "I actively look for ways to replace the losses I encounter in life.",
                 "type": "choice"
             },
             {
