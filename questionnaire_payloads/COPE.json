@@ -1,5 +1,5 @@
 {
-    "date": "2020-07-01T12:36:13+00:00",
+    "date": "2020-07-01T14:38:44+00:00",
     "group": {
         "concept": [
             {
@@ -4157,7 +4157,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "En el \u00faltimo mes, \u00bfha realizado alguna de las siguientes actividades para afrontar el distanciamiento social y el aislamiento?\n\nElija todas las opciones que correspondan."
+                                    "valueString": "En el \u00faltimo mes, \u00bfha realizado alguna de las siguientes actividades para afrontar el distanciamiento social y el aislamiento?\n\nElija todas las opciones que correspondan.(deslice hacia abajo para ver las opciones)"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
