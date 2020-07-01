@@ -1,5 +1,5 @@
 {
-    "date": "2020-05-28T16:13:57+00:00",
+    "date": "2020-07-01T12:36:13+00:00",
     "group": {
         "concept": [
             {
@@ -33,7 +33,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48192",
+                "linkId": "49548",
                 "option": [
                     {
                         "_display": {
@@ -46,7 +46,7 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "S\u00ed, todav\u00eda quiero participar en la encuesta."
+                                            "valueString": "S\u00ed, estoy listo(a) para completar la encuesta."
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -54,7 +54,7 @@
                             ]
                         },
                         "code": "COPE_A_44",
-                        "display": "Yes, I still want to take the survey. ",
+                        "display": "Yes, I'm ready to take the survey now.",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -130,7 +130,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48195",
+                "linkId": "49551",
                 "option": [
                     {
                         "_display": {
@@ -249,7 +249,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48197",
+                "linkId": "49553",
                 "option": [
                     {
                         "_display": {
@@ -368,7 +368,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48199",
+                "linkId": "49555",
                 "option": [
                     {
                         "_display": {
@@ -487,7 +487,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48201",
+                "linkId": "49557",
                 "option": [
                     {
                         "_display": {
@@ -606,7 +606,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48203",
+                "linkId": "49559",
                 "option": [
                     {
                         "_display": {
@@ -725,7 +725,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48205",
+                "linkId": "49561",
                 "option": [
                     {
                         "_display": {
@@ -844,7 +844,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48207",
+                "linkId": "49563",
                 "option": [
                     {
                         "_display": {
@@ -963,7 +963,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48209",
+                "linkId": "49565",
                 "option": [
                     {
                         "_display": {
@@ -1104,7 +1104,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48210",
+                "linkId": "49566",
                 "option": [
                     {
                         "_display": {
@@ -1245,7 +1245,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48212",
+                "linkId": "49568",
                 "option": [
                     {
                         "_display": {
@@ -1364,7 +1364,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48214",
+                "linkId": "49570",
                 "option": [
                     {
                         "_display": {
@@ -1439,7 +1439,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48215",
+                "linkId": "49571",
                 "repeats": false,
                 "text": "Approximate date of onset",
                 "type": "date"
@@ -1468,7 +1468,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48216",
+                "linkId": "49572",
                 "option": [
                     {
                         "_display": {
@@ -1939,7 +1939,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48217",
+                "linkId": "49573",
                 "option": [
                     {
                         "_display": {
@@ -2036,7 +2036,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48218",
+                "linkId": "49574",
                 "option": [
                     {
                         "_display": {
@@ -2133,7 +2133,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48220",
+                "linkId": "49576",
                 "option": [
                     {
                         "_display": {
@@ -2207,6 +2207,18 @@
                 "type": "choice"
             },
             {
+                "concept": [
+                    {
+                        "code": "cdc_covid_19_n_a2",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "50014",
+                "repeats": false,
+                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "type": "text"
+            },
+            {
                 "_text": {
                     "extension": [
                         {
@@ -2230,7 +2242,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48221",
+                "linkId": "49577",
                 "option": [
                     {
                         "_display": {
@@ -2349,7 +2361,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48222",
+                "linkId": "49578",
                 "option": [
                     {
                         "_display": {
@@ -2433,103 +2445,6 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "En el \u00faltimo mes, \u00bfse le hizo la prueba de influenza (gripe)?"
-                                }
-                            ],
-                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                        }
-                    ]
-                },
-                "concept": [
-                    {
-                        "code": "cdc_covid_19_9b",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    }
-                ],
-                "linkId": "48223",
-                "option": [
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "S\u00ed "
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "COPE_A_44",
-                        "display": "Yes ",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "No "
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "COPE_A_13",
-                        "display": "No ",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    },
-                    {
-                        "_display": {
-                            "extension": [
-                                {
-                                    "extension": [
-                                        {
-                                            "url": "lang",
-                                            "valueCode": "es"
-                                        },
-                                        {
-                                            "url": "content",
-                                            "valueString": "No s\u00e9"
-                                        }
-                                    ],
-                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
-                                }
-                            ]
-                        },
-                        "code": "COPE_A_14",
-                        "display": "Unknown",
-                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
-                    }
-                ],
-                "repeats": false,
-                "text": "Were you tested for influenza (flu) in the past month?",
-                "type": "choice"
-            },
-            {
-                "_text": {
-                    "extension": [
-                        {
-                            "extension": [
-                                {
-                                    "url": "lang",
-                                    "valueCode": "es"
-                                },
-                                {
-                                    "url": "content",
                                     "valueString": "Las siguientes preguntas son acerca de tratamientos que podr\u00eda haber recibido en el \u00faltimo mes y que est\u00e1n relacionados al coronavirus (COVID-19).\n\nSi se enferm\u00f3 y present\u00f3 s\u00edntomas de coronavirus (COVID-19) en el \u00faltimo mes, \u00bfc\u00f3mo recibi\u00f3 su tratamiento? \n\nElija todas las opciones que correspondan."
                                 }
                             ],
@@ -2543,7 +2458,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48225",
+                "linkId": "49581",
                 "option": [
                     {
                         "_display": {
@@ -2662,7 +2577,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48226",
+                "linkId": "49582",
                 "option": [
                     {
                         "_display": {
@@ -2803,7 +2718,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48227",
+                "linkId": "49583",
                 "repeats": false,
                 "text": "Please specify.",
                 "type": "text"
@@ -2819,7 +2734,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Indique cu\u00e1nto ha sentido cada una de las siguientes cosas en el transcurso de la semana pasada. Elija las respuestas que mejor correspondan a su situaci\u00f3n en los \u00faltimos 7 d\u00edas.\n\nEn los \u00faltimos 7 d\u00edas, he pensado en el coronavirus (COVID-19) cuando no quer\u00eda hacerlo:"
+                                    "valueString": "Indique cu\u00e1nto ha sentido cada una de las siguientes cosas en el transcurso de la semana pasada. Elija las respuestas que mejor correspondan a su situaci\u00f3n.\n\nEn los \u00faltimos 7 d\u00edas, he pensado en el coronavirus (COVID-19) cuando no quer\u00eda hacerlo:"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -2832,7 +2747,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48229",
+                "linkId": "49585",
                 "option": [
                     {
                         "_display": {
@@ -2946,7 +2861,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Please indicate how much you felt each of the following within the last week. Please choose the answer that best applies to your situation within the past 7 days.\n\nIn the past 7 days, I thought about COVID-19 when I didn't mean to.",
+                "text": "Please indicate how much you felt each of the following within the last week. Please choose the answer that best applies to your situation.\n\nIn the past 7 days, I thought about COVID-19 when I didn't mean to.",
                 "type": "choice"
             },
             {
@@ -2973,7 +2888,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48230",
+                "linkId": "49586",
                 "option": [
                     {
                         "_display": {
@@ -3114,7 +3029,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48231",
+                "linkId": "49587",
                 "option": [
                     {
                         "_display": {
@@ -3255,7 +3170,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48232",
+                "linkId": "49588",
                 "option": [
                     {
                         "_display": {
@@ -3396,7 +3311,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48233",
+                "linkId": "49589",
                 "option": [
                     {
                         "_display": {
@@ -3537,7 +3452,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48234",
+                "linkId": "49590",
                 "option": [
                     {
                         "_display": {
@@ -3678,7 +3593,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48235",
+                "linkId": "49591",
                 "option": [
                     {
                         "_display": {
@@ -3973,7 +3888,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48236",
+                "linkId": "49592",
                 "option": [
                     {
                         "_display": {
@@ -4136,7 +4051,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48237",
+                "linkId": "49593",
                 "option": [
                     {
                         "_display": {
@@ -4255,7 +4170,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48238",
+                "linkId": "49594",
                 "option": [
                     {
                         "_display": {
@@ -4409,6 +4324,28 @@
                         },
                         "code": "COPE_A_182",
                         "display": "Contacting a healthcare provider ",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Tard\u00f3 en buscar atenci\u00f3n m\u00e9dica para un problema de salud no relacionado al coronavirus (COVID19)"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "COPE_A_184",
+                        "display": "Delaying medical care for conditions other than COVID-19",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -4669,7 +4606,340 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Nos gustar\u00eda saber c\u00f3mo se siente sobre las cosas en general. Elija la respuesta que mejor describe c\u00f3mo se ha sentido en el \u00faltimo mes\n\nEn momentos de duda, normalmente espero lo mejor."
+                                    "valueString": "\u00bfConoce usted personalmente a alguien que haya muerto a causa del coronavirus (COVID-19)?"
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "nhs_covid_fhc17a",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "50015",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "S\u00ed"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "COPE_A_44",
+                        "display": "Yes",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "COPE_A_13",
+                        "display": "No",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "Do you personally know someone who has died of COVID-19?",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "\u00bfA qui\u00e9n conoce que haya muerto a causa del coronavirus (COVID-19)? Seleccione todas las opciones que correspondan."
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "nhs_covid_fhc17b",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "50016",
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Esposo(a), pareja, novio(a)"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "COPE_A_242",
+                        "display": "Spouse, partner, boyfriend, girlfriend",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Padre o madre"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "COPE_A_243",
+                        "display": "Parent",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Abuelo(a)"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "COPE_A_244",
+                        "display": "Grandparent",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Hijo(a)"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "COPE_A_245",
+                        "display": "Child",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Compa\u00f1ero de trabajo"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "COPE_A_246",
+                        "display": "Sibling (brother or sister)",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Hermano(a)"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "COPE_A_247",
+                        "display": "Co-worker",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Amigo"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "COPE_A_248",
+                        "display": "Friend",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Vecino"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "COPE_A_249",
+                        "display": "Neighbor",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "Otro"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "COPE_A_226",
+                        "display": "Other",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": true,
+                "text": "Who do you know who has died? Check all that apply.",
+                "type": "choice"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Por favor, especifique."
+                                }
+                            ],
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                },
+                "concept": [
+                    {
+                        "code": "nhs_covid_fhc17b_cope_a_226",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "50017",
+                "repeats": false,
+                "text": "Please specify.",
+                "type": "text"
+            },
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang",
+                                    "valueCode": "es"
+                                },
+                                {
+                                    "url": "content",
+                                    "valueString": "Nos gustar\u00eda saber c\u00f3mo se siente sobre las cosas en general.\n\nElija la respuesta que mejor describe c\u00f3mo se ha sentido en el \u00faltimo mes\nEn momentos de duda, normalmente espero lo mejor."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -4682,7 +4952,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48240",
+                "linkId": "49596",
                 "option": [
                     {
                         "_display": {
@@ -4796,7 +5066,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "We would like to know how you feel about things in general. Choose the answer that best describes how you feel in the past month.\n\nIn uncertain times, I usually expect the best.",
+                "text": "We would like to know how you feel about things in general. Choose the answer that best describes how you felt in the past month.\n\nChoose the answer that best describes how you felt in the past month.\nIn uncertain times, I usually expect the best.",
                 "type": "choice"
             },
             {
@@ -4823,7 +5093,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48241",
+                "linkId": "49597",
                 "option": [
                     {
                         "_display": {
@@ -5030,7 +5300,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48242",
+                "linkId": "49598",
                 "option": [
                     {
                         "_display": {
@@ -5198,7 +5468,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48244",
+                "linkId": "49600",
                 "repeats": false,
                 "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
                 "type": "decimal"
@@ -5210,7 +5480,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48246",
+                "linkId": "49602",
                 "repeats": false,
                 "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
                 "type": "decimal"
@@ -5239,7 +5509,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48247",
+                "linkId": "49603",
                 "option": [
                     {
                         "_display": {
@@ -5490,7 +5760,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48248",
+                "linkId": "49604",
                 "repeats": false,
                 "text": "Please specify.",
                 "type": "text"
@@ -5519,7 +5789,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48249",
+                "linkId": "49605",
                 "option": [
                     {
                         "_display": {
@@ -5748,7 +6018,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48250",
+                "linkId": "49606",
                 "option": [
                     {
                         "_display": {
@@ -5867,7 +6137,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48251",
+                "linkId": "49607",
                 "option": [
                     {
                         "_display": {
@@ -6096,7 +6366,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48252",
+                "linkId": "49608",
                 "repeats": false,
                 "text": "Please specify.",
                 "type": "text"
@@ -6125,7 +6395,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48253",
+                "linkId": "49609",
                 "option": [
                     {
                         "_display": {
@@ -6200,7 +6470,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48254",
+                "linkId": "49610",
                 "option": [
                     {
                         "_display": {
@@ -6275,7 +6545,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48255",
+                "linkId": "49611",
                 "option": [
                     {
                         "_display": {
@@ -6460,7 +6730,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48256",
+                "linkId": "49612",
                 "option": [
                     {
                         "_display": {
@@ -6579,7 +6849,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48258",
+                "linkId": "49614",
                 "option": [
                     {
                         "_display": {
@@ -6720,7 +6990,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48260",
+                "linkId": "49616",
                 "option": [
                     {
                         "_display": {
@@ -6861,7 +7131,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48262",
+                "linkId": "49618",
                 "option": [
                     {
                         "_display": {
@@ -7002,7 +7272,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48264",
+                "linkId": "49620",
                 "option": [
                     {
                         "_display": {
@@ -7143,7 +7413,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48266",
+                "linkId": "49622",
                 "option": [
                     {
                         "_display": {
@@ -7284,7 +7554,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48268",
+                "linkId": "49624",
                 "option": [
                     {
                         "_display": {
@@ -7425,7 +7695,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48270",
+                "linkId": "49626",
                 "option": [
                     {
                         "_display": {
@@ -7566,7 +7836,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48272",
+                "linkId": "49628",
                 "option": [
                     {
                         "_display": {
@@ -7707,7 +7977,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48274",
+                "linkId": "49630",
                 "option": [
                     {
                         "_display": {
@@ -7848,7 +8118,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48276",
+                "linkId": "49632",
                 "option": [
                     {
                         "_display": {
@@ -7976,7 +8246,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Se ha sentido nervioso(a), ansioso(a) o con los nervios de punta"
+                                    "valueString": "Las siguientes preguntas son sobre la frecuencia con que le preocupan las cosas\n\nEn las \u00faltimas 2 semanas, \u00bfcon qu\u00e9 frecuencia le ha molestado el siguiente problema?\n\nSe ha sentido nervioso(a), ansioso(a) o con los nervios de punta"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -7989,7 +8259,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48278",
+                "linkId": "49634",
                 "option": [
                     {
                         "_display": {
@@ -8081,7 +8351,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Feeling nervous, anxious, or on edge",
+                "text": "The next questions ask about worrying.\n\nIn the past 2 weeks, how often have you been bothered by the following problem?\n\nFeeling nervous, anxious, or on edge",
                 "type": "choice"
             },
             {
@@ -8108,7 +8378,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48280",
+                "linkId": "49636",
                 "option": [
                     {
                         "_display": {
@@ -8227,7 +8497,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48282",
+                "linkId": "49638",
                 "option": [
                     {
                         "_display": {
@@ -8346,7 +8616,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48284",
+                "linkId": "49640",
                 "option": [
                     {
                         "_display": {
@@ -8465,7 +8735,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48286",
+                "linkId": "49642",
                 "option": [
                     {
                         "_display": {
@@ -8584,7 +8854,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48288",
+                "linkId": "49644",
                 "option": [
                     {
                         "_display": {
@@ -8703,7 +8973,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48290",
+                "linkId": "49646",
                 "option": [
                     {
                         "_display": {
@@ -8809,7 +9079,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Poco inter\u00e9s o placer al hacer cosas."
+                                    "valueString": "En las \u00faltimas 2 semanas, \u00bfcon qu\u00e9 frecuencia le ha molestado el siguiente problema?\n\nPoco inter\u00e9s o placer al hacer cosas."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -8822,7 +9092,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48292",
+                "linkId": "49648",
                 "option": [
                     {
                         "_display": {
@@ -8914,7 +9184,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Little interest or pleasure in doing things",
+                "text": "In the past 2 weeks, how often have you been bothered by:\nLittle interest or pleasure in doing things",
                 "type": "choice"
             },
             {
@@ -8928,7 +9198,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Se ha sentido deca\u00eddo(a), deprimido(a) o sin esperanzas."
+                                    "valueString": "En las \u00faltimas 2 semanas, \u00bfcon qu\u00e9 frecuencia le ha molestado el siguiente problema?\n\nSe ha sentido deca\u00eddo(a), deprimido(a) o sin esperanzas."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -8941,7 +9211,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48294",
+                "linkId": "49650",
                 "option": [
                     {
                         "_display": {
@@ -9033,7 +9303,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Feeling down, depressed, or hopeless",
+                "text": "In the past 2 weeks, how often have you been bothered by:\nFeeling down, depressed, or hopeless",
                 "type": "choice"
             },
             {
@@ -9047,7 +9317,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Ha tenido dificultad para quedarse o permanecer dormido(a), o ha dormido demasiado."
+                                    "valueString": "En las \u00faltimas 2 semanas, \u00bfcon qu\u00e9 frecuencia le ha molestado el siguiente problema?\n\nHa tenido dificultad para quedarse o permanecer dormido(a), o ha dormido demasiado."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -9060,7 +9330,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48296",
+                "linkId": "49652",
                 "option": [
                     {
                         "_display": {
@@ -9152,7 +9422,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Trouble falling or staying asleep, or sleeping too much",
+                "text": "In the past 2 weeks, how often have you been bothered by:\nTrouble falling or staying asleep, or sleeping too much",
                 "type": "choice"
             },
             {
@@ -9166,7 +9436,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Se ha sentido cansado(a) o con poca energ\u00eda."
+                                    "valueString": "En las \u00faltimas 2 semanas, \u00bfcon qu\u00e9 frecuencia le ha molestado el siguiente problema?\n\nSe ha sentido cansado(a) o con poca energ\u00eda."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -9179,7 +9449,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48298",
+                "linkId": "49654",
                 "option": [
                     {
                         "_display": {
@@ -9271,7 +9541,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Feeling tired or having little energy",
+                "text": "In the past 2 weeks, how often have you been bothered by:\nFeeling tired or having little energy",
                 "type": "choice"
             },
             {
@@ -9298,7 +9568,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48300",
+                "linkId": "49656",
                 "option": [
                     {
                         "_display": {
@@ -9417,7 +9687,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48302",
+                "linkId": "49658",
                 "option": [
                     {
                         "_display": {
@@ -9536,7 +9806,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48304",
+                "linkId": "49660",
                 "option": [
                     {
                         "_display": {
@@ -9655,7 +9925,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48306",
+                "linkId": "49662",
                 "option": [
                     {
                         "_display": {
@@ -9774,7 +10044,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48308",
+                "linkId": "49664",
                 "option": [
                     {
                         "_display": {
@@ -9893,7 +10163,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48311",
+                "linkId": "49667",
                 "option": [
                     {
                         "_display": {
@@ -10034,7 +10304,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48312",
+                "linkId": "49668",
                 "option": [
                     {
                         "_display": {
@@ -10175,7 +10445,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48313",
+                "linkId": "49669",
                 "option": [
                     {
                         "_display": {
@@ -10316,7 +10586,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48314",
+                "linkId": "49670",
                 "option": [
                     {
                         "_display": {
@@ -10457,7 +10727,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48315",
+                "linkId": "49671",
                 "option": [
                     {
                         "_display": {
@@ -10598,7 +10868,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48316",
+                "linkId": "49672",
                 "option": [
                     {
                         "_display": {
@@ -10739,7 +11009,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48317",
+                "linkId": "49673",
                 "option": [
                     {
                         "_display": {
@@ -10880,7 +11150,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48318",
+                "linkId": "49674",
                 "option": [
                     {
                         "_display": {
@@ -11021,7 +11291,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48319",
+                "linkId": "49675",
                 "option": [
                     {
                         "_display": {
@@ -11162,7 +11432,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48320",
+                "linkId": "49676",
                 "option": [
                     {
                         "_display": {
@@ -11303,7 +11573,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48322",
+                "linkId": "49679",
                 "option": [
                     {
                         "_display": {
@@ -11361,7 +11631,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48324",
+                "linkId": "49681",
                 "repeats": false,
                 "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
                 "type": "text"
@@ -11373,7 +11643,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48326",
+                "linkId": "49683",
                 "repeats": false,
                 "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
                 "type": "text"
@@ -11402,7 +11672,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48327",
+                "linkId": "49685",
                 "option": [
                     {
                         "_display": {
@@ -11460,7 +11730,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48329",
+                "linkId": "49687",
                 "repeats": false,
                 "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
                 "type": "text"
@@ -11472,7 +11742,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48331",
+                "linkId": "49689",
                 "repeats": false,
                 "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
                 "type": "text"
@@ -11501,7 +11771,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48332",
+                "linkId": "49691",
                 "option": [
                     {
                         "_display": {
@@ -11559,7 +11829,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48334",
+                "linkId": "49693",
                 "repeats": false,
                 "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
                 "type": "text"
@@ -11571,7 +11841,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48336",
+                "linkId": "49695",
                 "repeats": false,
                 "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
                 "type": "text"
@@ -11600,7 +11870,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48337",
+                "linkId": "49697",
                 "option": [
                     {
                         "_display": {
@@ -11613,15 +11883,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Escriba la cantidad de tiempo "
+                                            "valueString": "Escriba una respuesta en horas"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "COPE_A_213",
-                        "display": "Enter the amount of time ",
+                        "code": "COPE_A_213_1",
+                        "display": "Enter a response in hours",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -11635,7 +11905,29 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "No s\u00e9"
+                                            "valueString": "Escriba una respuesta en minutos"
+                                        }
+                                    ],
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        },
+                        "code": "COPE_A_213_2",
+                        "display": "Enter a response in minutes",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang",
+                                            "valueCode": "es"
+                                        },
+                                        {
+                                            "url": "content",
+                                            "valueString": "No sabe"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -11654,11 +11946,11 @@
             {
                 "concept": [
                     {
-                        "code": "COPE_A_213_1",
+                        "code": "cope_a_160",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48339",
+                "linkId": "49699",
                 "repeats": false,
                 "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
                 "type": "text"
@@ -11666,11 +11958,11 @@
             {
                 "concept": [
                     {
-                        "code": "COPE_A_213_2",
+                        "code": "cope_a_85",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48341",
+                "linkId": "49701",
                 "repeats": false,
                 "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
                 "type": "text"
@@ -11699,7 +11991,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48343",
+                "linkId": "49703",
                 "option": [
                     {
                         "_display": {
@@ -11818,7 +12110,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48345",
+                "linkId": "49705",
                 "option": [
                     {
                         "_display": {
@@ -11937,7 +12229,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48347",
+                "linkId": "49707",
                 "option": [
                     {
                         "_display": {
@@ -12056,7 +12348,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48349",
+                "linkId": "49709",
                 "option": [
                     {
                         "_display": {
@@ -12175,7 +12467,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48351",
+                "linkId": "49711",
                 "option": [
                     {
                         "_display": {
@@ -12294,7 +12586,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48353",
+                "linkId": "49713",
                 "option": [
                     {
                         "_display": {
@@ -12413,7 +12705,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48355",
+                "linkId": "49715",
                 "option": [
                     {
                         "_display": {
@@ -12532,7 +12824,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48357",
+                "linkId": "49717",
                 "option": [
                     {
                         "_display": {
@@ -12651,7 +12943,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48359",
+                "linkId": "49719",
                 "option": [
                     {
                         "_display": {
@@ -12770,7 +13062,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48360",
+                "linkId": "49720",
                 "option": [
                     {
                         "_display": {
@@ -12850,7 +13142,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48362",
+                "linkId": "49722",
                 "repeats": false,
                 "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
                 "type": "text"
@@ -12862,7 +13154,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48364",
+                "linkId": "49724",
                 "repeats": false,
                 "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
                 "type": "text"
@@ -12874,7 +13166,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48366",
+                "linkId": "49726",
                 "repeats": false,
                 "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
                 "type": "text"
@@ -12903,7 +13195,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48368",
+                "linkId": "49728",
                 "option": [
                     {
                         "_display": {
@@ -13022,7 +13314,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48370",
+                "linkId": "49730",
                 "option": [
                     {
                         "_display": {
@@ -13141,7 +13433,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48371",
+                "linkId": "49731",
                 "option": [
                     {
                         "_display": {
@@ -13221,7 +13513,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48373",
+                "linkId": "49733",
                 "repeats": false,
                 "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
                 "type": "text"
@@ -13233,7 +13525,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48375",
+                "linkId": "49735",
                 "repeats": false,
                 "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
                 "type": "text"
@@ -13245,7 +13537,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48377",
+                "linkId": "49737",
                 "repeats": false,
                 "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
                 "type": "text"
@@ -13274,7 +13566,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48379",
+                "linkId": "49739",
                 "option": [
                     {
                         "_display": {
@@ -13415,7 +13707,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48381",
+                "linkId": "49741",
                 "option": [
                     {
                         "_display": {
@@ -13556,7 +13848,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48383",
+                "linkId": "49743",
                 "option": [
                     {
                         "_display": {
@@ -13697,7 +13989,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48384",
+                "linkId": "49744",
                 "option": [
                     {
                         "_display": {
@@ -14014,7 +14306,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48385",
+                "linkId": "49745",
                 "option": [
                     {
                         "_display": {
@@ -14133,7 +14425,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48386",
+                "linkId": "49746",
                 "option": [
                     {
                         "_display": {
@@ -14208,7 +14500,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48387",
+                "linkId": "49747",
                 "option": [
                     {
                         "_display": {
@@ -14305,7 +14597,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48388",
+                "linkId": "49748",
                 "option": [
                     {
                         "_display": {
@@ -14424,7 +14716,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48389",
+                "linkId": "49749",
                 "option": [
                     {
                         "_display": {
@@ -14499,7 +14791,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48390",
+                "linkId": "49750",
                 "option": [
                     {
                         "_display": {
@@ -14596,7 +14888,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48391",
+                "linkId": "49751",
                 "option": [
                     {
                         "_display": {
@@ -14715,7 +15007,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48392",
+                "linkId": "49752",
                 "option": [
                     {
                         "_display": {
@@ -14790,7 +15082,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48393",
+                "linkId": "49753",
                 "option": [
                     {
                         "_display": {
@@ -14887,7 +15179,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48394",
+                "linkId": "49754",
                 "option": [
                     {
                         "_display": {
@@ -15006,7 +15298,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48395",
+                "linkId": "49755",
                 "option": [
                     {
                         "_display": {
@@ -15081,7 +15373,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48396",
+                "linkId": "49756",
                 "option": [
                     {
                         "_display": {
@@ -15178,7 +15470,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48397",
+                "linkId": "49757",
                 "option": [
                     {
                         "_display": {
@@ -15297,7 +15589,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48398",
+                "linkId": "49758",
                 "option": [
                     {
                         "_display": {
@@ -15372,7 +15664,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48399",
+                "linkId": "49759",
                 "option": [
                     {
                         "_display": {
@@ -15469,7 +15761,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48400",
+                "linkId": "49760",
                 "option": [
                     {
                         "_display": {
@@ -15588,7 +15880,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48401",
+                "linkId": "49761",
                 "option": [
                     {
                         "_display": {
@@ -15663,7 +15955,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48402",
+                "linkId": "49762",
                 "option": [
                     {
                         "_display": {
@@ -15760,7 +16052,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48403",
+                "linkId": "49763",
                 "option": [
                     {
                         "_display": {
@@ -15879,7 +16171,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48404",
+                "linkId": "49764",
                 "option": [
                     {
                         "_display": {
@@ -15976,7 +16268,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48405",
+                "linkId": "49765",
                 "option": [
                     {
                         "_display": {
@@ -16095,7 +16387,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48406",
+                "linkId": "49766",
                 "option": [
                     {
                         "_display": {
@@ -16170,7 +16462,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48407",
+                "linkId": "49767",
                 "option": [
                     {
                         "_display": {
@@ -16267,7 +16559,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48408",
+                "linkId": "49768",
                 "option": [
                     {
                         "_display": {
@@ -16386,7 +16678,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48409",
+                "linkId": "49769",
                 "option": [
                     {
                         "_display": {
@@ -16461,7 +16753,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48410",
+                "linkId": "49770",
                 "option": [
                     {
                         "_display": {
@@ -16558,7 +16850,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48411",
+                "linkId": "49771",
                 "option": [
                     {
                         "_display": {
@@ -16677,7 +16969,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48412",
+                "linkId": "49772",
                 "option": [
                     {
                         "_display": {
@@ -16752,7 +17044,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48413",
+                "linkId": "49773",
                 "option": [
                     {
                         "_display": {
@@ -16849,7 +17141,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48414",
+                "linkId": "49774",
                 "option": [
                     {
                         "_display": {
@@ -16924,7 +17216,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48415",
+                "linkId": "49775",
                 "option": [
                     {
                         "_display": {
@@ -17043,7 +17335,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48416",
+                "linkId": "49776",
                 "option": [
                     {
                         "_display": {
@@ -17118,7 +17410,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48417",
+                "linkId": "49777",
                 "option": [
                     {
                         "_display": {
@@ -17198,7 +17490,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48419",
+                "linkId": "49779",
                 "repeats": false,
                 "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
                 "type": "text"
@@ -17227,7 +17519,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48420",
+                "linkId": "49780",
                 "option": [
                     {
                         "_display": {
@@ -17346,7 +17638,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48421",
+                "linkId": "49781",
                 "option": [
                     {
                         "_display": {
@@ -17421,7 +17713,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48422",
+                "linkId": "49782",
                 "option": [
                     {
                         "_display": {
@@ -17505,7 +17797,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Busco maneras creativas para cambiar situaciones dif\u00edciles."
+                                    "valueString": "Seleccione la respuesta que mejor refleja su comportamiento en el \u00faltimo mes.\nBusco maneras creativas para cambiar situaciones dif\u00edciles."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -17518,7 +17810,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48424",
+                "linkId": "49784",
                 "option": [
                     {
                         "_display": {
@@ -17632,7 +17924,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "I look for creative ways to alter difficult situations.",
+                "text": "Please select the response that best reflects your behavior in the past month.\nI look for creative ways to alter difficult situations.",
                 "type": "choice"
             },
             {
@@ -17646,7 +17938,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "A pesar de lo que me pasa, yo creo que puedo controlar mi reacci\u00f3n."
+                                    "valueString": "Seleccione la respuesta que mejor refleja su comportamiento en el \u00faltimo mes.\nA pesar de lo que me pasa, yo creo que puedo controlar mi reacci\u00f3n."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -17659,7 +17951,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48426",
+                "linkId": "49786",
                 "option": [
                     {
                         "_display": {
@@ -17773,7 +18065,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "Regardless of what happens to me, I believe I can control my reaction to it.",
+                "text": "Please select the response that best reflects your behavior in the past month.\nRegardless of what happens to me, I believe I can control my reaction to it.",
                 "type": "choice"
             },
             {
@@ -17787,7 +18079,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Creo que puedo crecer de manera positiva al enfrentar situaciones dif\u00edciles."
+                                    "valueString": "Seleccione la respuesta que mejor refleja su comportamiento en el \u00faltimo mes.\nCreo que puedo crecer de manera positiva al enfrentar situaciones dif\u00edciles."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -17800,7 +18092,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48428",
+                "linkId": "49788",
                 "option": [
                     {
                         "_display": {
@@ -17914,7 +18206,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "I believe I can grow in positive ways by dealing with difficult situations.",
+                "text": "Please select the response that best reflects your behavior in the past month.\nI believe I can grow in positive ways by dealing with difficult situations.",
                 "type": "choice"
             },
             {
@@ -17928,7 +18220,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Busco de forma activa maneras para reemplazar las p\u00e9rdidas en mi vida."
+                                    "valueString": "Seleccione la respuesta que mejor refleja su comportamiento en el \u00faltimo mes.\nBusco de forma activa maneras para reemplazar las p\u00e9rdidas en mi vida."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -17941,7 +18233,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48430",
+                "linkId": "49790",
                 "option": [
                     {
                         "_display": {
@@ -18055,7 +18347,7 @@
                     }
                 ],
                 "repeats": false,
-                "text": "I actively look for ways to replace the losses I encounter in life.",
+                "text": "Please select the response that best reflects your behavior in the past month.\nI actively look for ways to replace the losses I encounter in life.",
                 "type": "choice"
             },
             {
@@ -18082,7 +18374,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48433",
+                "linkId": "49793",
                 "option": [
                     {
                         "_display": {
@@ -18201,7 +18493,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48436",
+                "linkId": "49796",
                 "option": [
                     {
                         "_display": {
@@ -18320,7 +18612,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48439",
+                "linkId": "49799",
                 "option": [
                     {
                         "_display": {
@@ -18439,7 +18731,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48442",
+                "linkId": "49802",
                 "option": [
                     {
                         "_display": {
@@ -18558,7 +18850,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48445",
+                "linkId": "49805",
                 "option": [
                     {
                         "_display": {
@@ -18677,7 +18969,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48448",
+                "linkId": "49808",
                 "option": [
                     {
                         "_display": {
@@ -18796,7 +19088,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48451",
+                "linkId": "49811",
                 "option": [
                     {
                         "_display": {
@@ -18915,7 +19207,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48454",
+                "linkId": "49814",
                 "option": [
                     {
                         "_display": {
@@ -19034,7 +19326,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48457",
+                "linkId": "49817",
                 "option": [
                     {
                         "_display": {
@@ -19153,7 +19445,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48458",
+                "linkId": "49818",
                 "option": [
                     {
                         "_display": {
@@ -19409,7 +19701,7 @@
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48460",
+                "linkId": "49820",
                 "repeats": false,
                 "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
                 "type": "text"
@@ -19417,14 +19709,14 @@
         ],
         "repeats": false,
         "required": true,
-        "title": "June-COvid-19 Participant Experience (COPE) Survey"
+        "title": "July-COvid-19 Participant Experience (COPE) Survey"
     },
     "identifier": [
         {
-            "value": "Vibrent_FORM_ID_1416"
+            "value": "Vibrent_FORM_ID_1424"
         }
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "V2020.06.02"
+    "version": "V2020.07.07"
 }
