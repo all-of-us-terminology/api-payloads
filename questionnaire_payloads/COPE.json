@@ -1,5 +1,5 @@
 {
-    "date": "2020-07-01T16:23:26+00:00",
+    "date": "2020-07-06T19:39:40+00:00",
     "group": {
         "concept": [
             {
@@ -4697,7 +4697,7 @@
                                 }
                             ]
                         },
-                        "code": "COPE_A_242",
+                        "code": "cope_a_242",
                         "display": "Spouse, partner, boyfriend, girlfriend",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -4719,7 +4719,7 @@
                                 }
                             ]
                         },
-                        "code": "COPE_A_243",
+                        "code": "cope_a_243",
                         "display": "Parent",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -4741,7 +4741,7 @@
                                 }
                             ]
                         },
-                        "code": "COPE_A_244",
+                        "code": "cope_a_244",
                         "display": "Grandparent",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -4763,7 +4763,7 @@
                                 }
                             ]
                         },
-                        "code": "COPE_A_245",
+                        "code": "cope_a_245",
                         "display": "Child",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -4785,7 +4785,7 @@
                                 }
                             ]
                         },
-                        "code": "COPE_A_246",
+                        "code": "cope_a_246",
                         "display": "Sibling (brother or sister)",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -4807,7 +4807,7 @@
                                 }
                             ]
                         },
-                        "code": "COPE_A_247",
+                        "code": "cope_a_247",
                         "display": "Co-worker",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -4829,7 +4829,7 @@
                                 }
                             ]
                         },
-                        "code": "COPE_A_248",
+                        "code": "cope_a_248",
                         "display": "Friend",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -4851,7 +4851,7 @@
                                 }
                             ]
                         },
-                        "code": "COPE_A_249",
+                        "code": "cope_a_249",
                         "display": "Neighbor",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
@@ -19692,7 +19692,7 @@
         ],
         "repeats": false,
         "required": true,
-        "title": "July-COvid-19 Participant Experience (COPE) Survey"
+        "title": "July-COVID-19 Participant Experience (COPE) Survey"
     },
     "identifier": [
         {
