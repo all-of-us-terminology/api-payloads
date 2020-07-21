@@ -1,0 +1,431 @@
+{
+    "date": "2020-07-20T23:11:06+00:00", 
+    "group": {
+        "concept": [
+            {
+                "code": "PrimaryConsentUpdate", 
+                "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }
+        ], 
+        "linkId": "root_group", 
+        "question": [
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang", 
+                                    "valueCode": "es"
+                                }, 
+                                {
+                                    "url": "content", 
+                                    "valueString": "415360651"
+                                }
+                            ], 
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                }, 
+                "concept": [
+                    {
+                        "code": "Reconsent_WhatWeWillDoVideo", 
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ], 
+                "linkId": "50331", 
+                "repeats": false, 
+                "text": "415316714", 
+                "type": "dateTime"
+            }, 
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang", 
+                                    "valueCode": "es"
+                                }, 
+                                {
+                                    "url": "content", 
+                                    "valueString": "415573675"
+                                }
+                            ], 
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                }, 
+                "concept": [
+                    {
+                        "code": "Reconsent_DataSharingVideo", 
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ], 
+                "linkId": "50337", 
+                "repeats": false, 
+                "text": "415560809", 
+                "type": "dateTime"
+            }, 
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang", 
+                                    "valueCode": "es"
+                                }, 
+                                {
+                                    "url": "content", 
+                                    "valueString": "415624017"
+                                }
+                            ], 
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                }, 
+                "concept": [
+                    {
+                        "code": "Reconsent_PotentialRisksVideo", 
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ], 
+                "linkId": "50345", 
+                "repeats": false, 
+                "text": "415582694", 
+                "type": "dateTime"
+            }, 
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang", 
+                                    "valueCode": "es"
+                                }, 
+                                {
+                                    "url": "content", 
+                                    "valueString": "415651106"
+                                }
+                            ], 
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                }, 
+                "concept": [
+                    {
+                        "code": "Reconsent_ResearchResultsVideo", 
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ], 
+                "linkId": "50351", 
+                "repeats": false, 
+                "text": "415630365", 
+                "type": "dateTime"
+            }, 
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang", 
+                                    "valueCode": "es"
+                                }, 
+                                {
+                                    "url": "content", 
+                                    "valueString": "415639122"
+                                }
+                            ], 
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                }, 
+                "concept": [
+                    {
+                        "code": "Reconsent_SeeingYourDataVideo", 
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ], 
+                "linkId": "50357", 
+                "repeats": false, 
+                "text": "415644070", 
+                "type": "dateTime"
+            }, 
+            {
+                "concept": [
+                    {
+                        "code": "Reconsent_EmailACopyToMe", 
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ], 
+                "linkId": "50421", 
+                "repeats": false, 
+                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR", 
+                "type": "boolean"
+            }, 
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang", 
+                                    "valueCode": "es"
+                                }, 
+                                {
+                                    "url": "content", 
+                                    "valueString": "\u00bfEst\u00e1 de acuerdo en que los investigadores cient\u00edficos usen su ADN para realizar investigaciones cient\u00edficas?"
+                                }
+                            ], 
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                }, 
+                "concept": [
+                    {
+                        "code": "Reconsent_ReviewConsentAgree", 
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ], 
+                "linkId": "50469", 
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang", 
+                                            "valueCode": "es"
+                                        }, 
+                                        {
+                                            "url": "content", 
+                                            "valueString": "S\u00ed, estoy de acuerdo en que los investigadores cient\u00edficos usen mi ADN para realizar investigaciones cient\u00edficas. Entiendo que:"
+                                        }
+                                    ], 
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        }, 
+                        "code": "ReviewConsentAgree_Yes", 
+                        "display": "Yes, I agree to let researchers use my DNA for research. I understand that:", 
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }, 
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang", 
+                                            "valueCode": "es"
+                                        }, 
+                                        {
+                                            "url": "content", 
+                                            "valueString": "No, no estoy de acuerdo en que los investigadores cient\u00edficos usen mi ADN para realizar investigaciones cient\u00edficas. Entiendo que:"
+                                        }
+                                    ], 
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        }, 
+                        "code": "ReviewConsentAgree_No", 
+                        "display": "No, I do not agree to let researchers use my DNA for research. I understand that:", 
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ], 
+                "repeats": false, 
+                "text": "Do you agree to let researchers use your DNA for research?", 
+                "type": "choice"
+            }, 
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang", 
+                                    "valueCode": "es"
+                                }, 
+                                {
+                                    "url": "content", 
+                                    "valueString": "Si usted est\u00e1 usando una computadora, use el mouse para firmar abajo. Si usted est\u00e1 usando un aparato m\u00f3vil (celular, tableta), por favor firme con su dedo. Si usted prefiere, puede usar el teclado para escribir su nombre."
+                                }
+                            ], 
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                }, 
+                "concept": [
+                    {
+                        "code": "Reconsent_Signature", 
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ], 
+                "linkId": "50427", 
+                "repeats": false, 
+                "text": "If you're using a computer please use your mouse to sign below. If you are using a mobile device please use your finger to sign. If you\u2019d rather, you can type your name instead.", 
+                "type": "attachment"
+            }, 
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang", 
+                                    "valueCode": "es"
+                                }, 
+                                {
+                                    "url": "content", 
+                                    "valueString": "Fecha de hoy"
+                                }
+                            ], 
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                }, 
+                "concept": [
+                    {
+                        "code": "Reconsent_TodaysDate", 
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ], 
+                "linkId": "50428", 
+                "repeats": false, 
+                "text": "Today's date", 
+                "type": "date"
+            }, 
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang", 
+                                    "valueCode": "es"
+                                }, 
+                                {
+                                    "url": "content", 
+                                    "valueString": "\u00bfAlguien de All of Us le ayud\u00f3 a completar el proceso de su consentimiento?"
+                                }
+                            ], 
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                }, 
+                "concept": [
+                    {
+                        "code": "Reconsent_HelpWithReviewConsent", 
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ], 
+                "linkId": "50430", 
+                "option": [
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang", 
+                                            "valueCode": "es"
+                                        }, 
+                                        {
+                                            "url": "content", 
+                                            "valueString": "S\u00ed"
+                                        }
+                                    ], 
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        }, 
+                        "code": "HelpWithReviewConsent_Yes", 
+                        "display": "Yes", 
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }, 
+                    {
+                        "_display": {
+                            "extension": [
+                                {
+                                    "extension": [
+                                        {
+                                            "url": "lang", 
+                                            "valueCode": "es"
+                                        }, 
+                                        {
+                                            "url": "content", 
+                                            "valueString": "No"
+                                        }
+                                    ], 
+                                    "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                                }
+                            ]
+                        }, 
+                        "code": "HelpWithReviewConsent_No", 
+                        "display": "No", 
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ], 
+                "repeats": false, 
+                "text": "Did someone from All of Us help you with the consent process?", 
+                "type": "choice"
+            }, 
+            {
+                "_text": {
+                    "extension": [
+                        {
+                            "extension": [
+                                {
+                                    "url": "lang", 
+                                    "valueCode": "es"
+                                }, 
+                                {
+                                    "url": "content", 
+                                    "valueString": "Nombre de la persona que le ayud\u00f3"
+                                }
+                            ], 
+                            "url": "http://hl7.org/fhir/StructureDefinition/translation"
+                        }
+                    ]
+                }, 
+                "concept": [
+                    {
+                        "code": "Reconsent_HelpWithConsentSignature", 
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ], 
+                "linkId": "50432", 
+                "repeats": false, 
+                "text": "Name of the person who helped you", 
+                "type": "text"
+            }, 
+            {
+                "concept": [
+                    {
+                        "code": "ReviewConsent_CohortGroup", 
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ], 
+                "linkId": "50482", 
+                "repeats": false, 
+                "text": "hint text", 
+                "type": "text"
+            }
+        ], 
+        "repeats": false, 
+        "required": true, 
+        "title": "Primary Consent Update"
+    }, 
+    "identifier": [
+        {
+            "value": "Vibrent_FORM_ID_1431"
+        }
+    ], 
+    "resourceType": "Questionnaire", 
+    "status": "published", 
+    "version": "V2020.07.27"
+}
