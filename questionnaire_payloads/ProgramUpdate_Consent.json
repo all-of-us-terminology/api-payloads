@@ -1,13 +1,13 @@
 {
-    "date": "2020-06-24T14:45:07+00:00",
+    "date": "2020-07-20T21:33:46+00:00", 
     "group": {
         "concept": [
             {
-                "code": "ProgramUpdate",
+                "code": "ProgramUpdate", 
                 "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
             }
-        ],
-        "linkId": "root_group",
+        ], 
+        "linkId": "root_group", 
         "question": [
             {
                 "_text": {
@@ -15,156 +15,168 @@
                         {
                             "extension": [
                                 {
-                                    "url": "lang",
+                                    "url": "lang", 
                                     "valueCode": "es"
-                                },
+                                }, 
                                 {
-                                    "url": "content",
+                                    "url": "content", 
                                     "valueString": "415360651"
                                 }
-                            ],
+                            ], 
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
                         }
                     ]
-                },
+                }, 
                 "concept": [
                     {
-                        "code": "ReviewConsent_WhatWeWillDoVideo",
+                        "code": "ReviewConsent_WhatWeWillDoVideo", 
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
-                ],
-                "linkId": "49413",
-                "repeats": false,
-                "text": "415316714",
+                ], 
+                "linkId": "49413", 
+                "repeats": false, 
+                "text": "415316714", 
                 "type": "dateTime"
-            },
+            }, 
             {
                 "_text": {
                     "extension": [
                         {
                             "extension": [
                                 {
-                                    "url": "lang",
+                                    "url": "lang", 
                                     "valueCode": "es"
-                                },
+                                }, 
                                 {
-                                    "url": "content",
+                                    "url": "content", 
                                     "valueString": "415573675"
                                 }
-                            ],
+                            ], 
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
                         }
                     ]
-                },
+                }, 
                 "concept": [
                     {
-                        "code": "ReviewConsent_DataSharingVideo",
+                        "code": "ReviewConsent_DataSharingVideo", 
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
-                ],
-                "linkId": "49419",
-                "repeats": false,
-                "text": "415560809",
+                ], 
+                "linkId": "49419", 
+                "repeats": false, 
+                "text": "415560809", 
                 "type": "dateTime"
-            },
+            }, 
             {
                 "_text": {
                     "extension": [
                         {
                             "extension": [
                                 {
-                                    "url": "lang",
+                                    "url": "lang", 
                                     "valueCode": "es"
-                                },
+                                }, 
                                 {
-                                    "url": "content",
+                                    "url": "content", 
                                     "valueString": "415624017"
                                 }
-                            ],
+                            ], 
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
                         }
                     ]
-                },
+                }, 
                 "concept": [
                     {
-                        "code": "ReviewConsent_PotentialRisksVideo",
+                        "code": "ReviewConsent_PotentialRisksVideo", 
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
-                ],
-                "linkId": "49427",
-                "repeats": false,
-                "text": "415582694",
+                ], 
+                "linkId": "49427", 
+                "repeats": false, 
+                "text": "415582694", 
                 "type": "dateTime"
-            },
+            }, 
             {
                 "_text": {
                     "extension": [
                         {
                             "extension": [
                                 {
-                                    "url": "lang",
+                                    "url": "lang", 
                                     "valueCode": "es"
-                                },
+                                }, 
                                 {
-                                    "url": "content",
+                                    "url": "content", 
                                     "valueString": "415651106"
                                 }
-                            ],
+                            ], 
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
                         }
                     ]
-                },
+                }, 
                 "concept": [
                     {
-                        "code": "ReviewConsent_ResearchResultsVideo",
+                        "code": "ReviewConsent_ResearchResultsVideo", 
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
-                ],
-                "linkId": "49433",
-                "repeats": false,
-                "text": "415630365",
+                ], 
+                "linkId": "49433", 
+                "repeats": false, 
+                "text": "415630365", 
                 "type": "dateTime"
-            },
+            }, 
             {
                 "_text": {
                     "extension": [
                         {
                             "extension": [
                                 {
-                                    "url": "lang",
+                                    "url": "lang", 
                                     "valueCode": "es"
-                                },
+                                }, 
                                 {
-                                    "url": "content",
+                                    "url": "content", 
                                     "valueString": "415639122"
                                 }
-                            ],
+                            ], 
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
                         }
                     ]
-                },
+                }, 
                 "concept": [
                     {
-                        "code": "ReviewConsent_SeeingYourDataVideo",
+                        "code": "ReviewConsent_SeeingYourDataVideo", 
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
-                ],
-                "linkId": "49439",
-                "repeats": false,
-                "text": "415644070",
+                ], 
+                "linkId": "49439", 
+                "repeats": false, 
+                "text": "415644070", 
                 "type": "dateTime"
+            }, 
+            {
+                "concept": [
+                    {
+                        "code": "ReviewConsent_CohortGroup", 
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ], 
+                "linkId": "50477", 
+                "repeats": false, 
+                "text": "hint text", 
+                "type": "text"
             }
-        ],
-        "repeats": false,
-        "required": true,
+        ], 
+        "repeats": false, 
+        "required": true, 
         "title": "Program Update on DNA"
-    },
+    }, 
     "identifier": [
         {
             "value": "Vibrent_FORM_ID_1423"
         }
-    ],
-    "resourceType": "Questionnaire",
-    "status": "published",
-    "version": "V2020.06.29"
+    ], 
+    "resourceType": "Questionnaire", 
+    "status": "published", 
+    "version": "V2020.07.27"
 }
