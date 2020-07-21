@@ -1,5 +1,5 @@
 {
-    "date": "2020-07-20T23:11:06+00:00", 
+    "date": "2020-07-21T15:52:49+00:00", 
     "group": {
         "concept": [
             {
@@ -406,7 +406,7 @@
             {
                 "concept": [
                     {
-                        "code": "ReviewConsent_CohortGroup", 
+                        "code": "PrimaryConsentUpdate_CohortGroup", 
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ], 
