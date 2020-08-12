@@ -1,0 +1,54 @@
+{
+    "date": "2020-08-12T16:07:40+00:00",
+    "group": {
+        "concept": [
+            {
+                "code": "GeneticAncestry",
+                "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+            }
+        ],
+        "linkId": "root_group",
+        "question": [
+            {
+                "concept": [
+                    {
+                        "code": "GeneticAncestry_ConsentAncestryTraits",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "linkId": "50513",
+                "option": [
+                    {
+                        "code": "ConsentAncestryTraits_Yes",
+                        "display": "Yes, I want my genetic ancestry and trait results.\nI understand I will be able to see my trait results as soon as they are ready, but I will need to review additional information before I can see my genetic ancestry results.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "ConsentAncestryTraits_No",
+                        "display": "No, I do not want my genetic ancestry and trait results.\nI know this means I can change my mind later.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    },
+                    {
+                        "code": "ConsentAncestryTraits_NotSure",
+                        "display": "I\u2019m not sure right now.\nI know this means I can change my mind later.",
+                        "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
+                    }
+                ],
+                "repeats": false,
+                "text": "QUESTION LABEL WAS NOT DEFINED, PLEASE CONTACT ADMINISTRATOR",
+                "type": "choice"
+            }
+        ],
+        "repeats": false,
+        "required": true,
+        "title": "Genetic Ancestry & Trait Results"
+    },
+    "identifier": [
+        {
+            "value": "Vibrent_FORM_ID_1433"
+        }
+    ],
+    "resourceType": "Questionnaire",
+    "status": "published",
+    "version": "V2020.08.28"
+}
