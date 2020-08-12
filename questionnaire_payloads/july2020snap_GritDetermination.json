@@ -1,9 +1,9 @@
 {
-    "date": "2020-05-26T21:20:00+00:00",
+    "date": "2020-07-01T04:44:15+00:00",
     "group": {
         "concept": [
             {
-                "code": "SNAP_SELFCOMPASSION_062020",
+                "code": "JULY_SNAP3_20200622",
                 "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
             }
         ],
@@ -20,7 +20,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "Cuando cometo un error, es m\u00e1s probable que yo____."
+                                    "valueString": "He alcanzado una meta que me llev\u00f3 a\u00f1os de trabajo."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -29,11 +29,11 @@
                 },
                 "concept": [
                     {
-                        "code": "Snap_SelfCompassion",
+                        "code": "Snap_GritDetermination",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48468",
+                "linkId": "50008",
                 "option": [
                     {
                         "_display": {
@@ -46,15 +46,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "sea duro/a conmigo mismo/a"
+                                            "valueString": "S\u00ed"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "SelfCompassion_ToughOnMyself",
-                        "display": "Be tough on myself",
+                        "code": "GritDetermination_Yes",
+                        "display": "Yes",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -68,15 +68,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "sea compasivo conmigo mismo/a"
+                                            "valueString": "No estoy seguro/a"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "SelfCompassion_KindToMyself",
-                        "display": "Be kind to myself",
+                        "code": "GritDetermination_Unsure",
+                        "display": "Unsure",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -90,33 +90,33 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "no lo tomo muy en serio"
+                                            "valueString": "No"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "SelfCompassion_ShakeItOff",
-                        "display": "Shake it off",
+                        "code": "GritDetermination_No",
+                        "display": "No",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
                 "repeats": false,
-                "text": " When I make a mistake, I am more likely to ______.",
+                "text": "I have achieved a goal that took years of work.",
                 "type": "choice"
             }
         ],
         "repeats": false,
         "required": true,
-        "title": "June Snap Questions 2 - Self-compassion"
+        "title": "Grit/Determination"
     },
     "identifier": [
         {
-            "value": "Vibrent_FORM_ID_1417"
+            "value": "Vibrent_FORM_ID_1427"
         }
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "V2020.06.02"
+    "version": "V2020.06.22"
 }

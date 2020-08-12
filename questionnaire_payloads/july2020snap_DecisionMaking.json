@@ -1,9 +1,9 @@
 {
-    "date": "2020-05-26T21:16:33+00:00",
+    "date": "2020-06-29T16:23:29+00:00",
     "group": {
         "concept": [
             {
-                "code": "SNAP_RESILIENCE_062020",
+                "code": "JULY_SNAP2_20200622",
                 "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
             }
         ],
@@ -20,7 +20,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "En \u00e9pocas dif\u00edciles, yo tiendo a:"
+                                    "valueString": "Cuando tomo decisiones, tiendo a_____."
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -29,11 +29,11 @@
                 },
                 "concept": [
                     {
-                        "code": "Snap_Resilience",
+                        "code": "Snap_DecisionMaking",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48182",
+                "linkId": "50003",
                 "option": [
                     {
                         "_display": {
@@ -46,15 +46,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Recuperarme con mucha facilidad."
+                                            "valueString": "Decidir muy r\u00e1pido"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "Resilience_BounceBack",
-                        "display": "Bounce back quickly",
+                        "code": "DecisionMaking_makeupmind",
+                        "display": "Make up my mind very quickly",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -68,33 +68,33 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Tardo mucho en recuperarme."
+                                            "valueString": "Tomarme el tiempo para analizar todas mis opciones"
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "Resilience_TakeTime",
-                        "display": "Take some time to recover",
+                        "code": "DecisionMaking_weighoptions",
+                        "display": "Take time to weigh all my options",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
                 "repeats": false,
-                "text": "During hard times, I tend to",
+                "text": "When making decisions, I tend to_____.",
                 "type": "choice"
             }
         ],
         "repeats": false,
         "required": true,
-        "title": "June Snap Questions 1 - Resilience"
+        "title": "Decision Making"
     },
     "identifier": [
         {
-            "value": "Vibrent_FORM_ID_1415"
+            "value": "Vibrent_FORM_ID_1426"
         }
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "V2020.06.02"
+    "version": "V2020.06.22"
 }

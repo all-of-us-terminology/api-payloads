@@ -1,9 +1,9 @@
 {
-    "date": "2020-05-27T15:35:02+00:00",
+    "date": "2020-06-29T16:22:51+00:00",
     "group": {
         "concept": [
             {
-                "code": "SNAP_WELLBEING_062020",
+                "code": "JULY_SNAP1_20200622",
                 "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
             }
         ],
@@ -20,7 +20,7 @@
                                 },
                                 {
                                     "url": "content",
-                                    "valueString": "\u00bfCu\u00e1l es el tipo de bienestar m\u00e1s importante para usted?"
+                                    "valueString": "La manera en la que practico comportamientos positivos es:"
                                 }
                             ],
                             "url": "http://hl7.org/fhir/StructureDefinition/translation"
@@ -29,11 +29,11 @@
                 },
                 "concept": [
                     {
-                        "code": "Snap_WellBeing",
+                        "code": "Snap_HopeandOptimism",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
-                "linkId": "48473",
+                "linkId": "49998",
                 "option": [
                     {
                         "_display": {
@@ -46,15 +46,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Bienestar f\u00edsico (tener un cuerpo saludable y en forma)"
+                                            "valueString": "Sonriendo, riendo."
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "WellBeing_Physical",
-                        "display": "Physical well-being (having a fit and healthy body)",
+                        "code": "HopeandOptimism_Smiling",
+                        "display": "Smiling and laughing",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -68,15 +68,15 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Bienestar econ\u00f3mico (tener seguridad financiera)"
+                                            "valueString": "Haciendo ejercicio."
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "WellBeing_Economic",
-                        "display": "Economic well-being (being financially comfortable)",
+                        "code": "HopeandOptimism_Exercising",
+                        "display": "Exercising",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     },
                     {
@@ -90,33 +90,33 @@
                                         },
                                         {
                                             "url": "content",
-                                            "valueString": "Bienestar emocional (sentirme feliz y contento)"
+                                            "valueString": "Rode\u00e1ndome de gente positiva."
                                         }
                                     ],
                                     "url": "http://hl7.org/fhir/StructureDefinition/translation"
                                 }
                             ]
                         },
-                        "code": "WellBeing_Emotional",
-                        "display": "Emotional well-being (feeling happy and content)",
+                        "code": "HopeandOptimism_Positive",
+                        "display": "Surrounding myself with positive people",
                         "system": "http://terminology.pmi-ops.org/CodeSystem/ppi"
                     }
                 ],
                 "repeats": false,
-                "text": "Which is the most important type of well-being to you?",
+                "text": "When practicing positive behaviors, ________, is most important to me.",
                 "type": "choice"
             }
         ],
         "repeats": false,
         "required": true,
-        "title": "June Snap Questions 3 - General Well-Being"
+        "title": "Hope and Optimism"
     },
     "identifier": [
         {
-            "value": "Vibrent_FORM_ID_1418"
+            "value": "Vibrent_FORM_ID_1425"
         }
     ],
     "resourceType": "Questionnaire",
     "status": "published",
-    "version": "V2020.06.02"
+    "version": "V2020.06.22"
 }
